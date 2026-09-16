@@ -1,0 +1,66 @@
+:root {
+  --guide-accent: #3d5a80;
+  --guide-soft: #f5f7fa;
+}
+
+.callout-note, .callout-tip, .callout-warning {
+  border-radius: 8px;
+}
+
+.last-checked {
+  display: inline-block;
+  padding: 0.15rem 0.45rem;
+  border: 1px solid #ccd3db;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  background: var(--guide-soft);
+}
+
+.task-card {
+  border: 1px solid #d9dee5;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 0.75rem 0;
+}
+
+.product-meta {
+  font-size: 0.9rem;
+  color: #5d6670;
+}
+
+
+/* v0.10 preview polish */
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+}
+
+main.content {
+  max-width: 860px;
+}
+
+p, li {
+  line-height: 1.75;
+}
+
+table {
+  font-size: 0.95rem;
+}
+
+blockquote {
+  border-left: 4px solid var(--guide-accent);
+  padding-left: 1rem;
+  color: #4b5563;
+}
+
+.task-card {
+  background: #fff;
+}
+
+@media (max-width: 768px) {
+  .table-responsive, table {
+    font-size: 0.9rem;
+  }
+  main.content {
+    max-width: 100%;
+  }
+}

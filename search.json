@@ -1,0 +1,1832 @@
+[
+  {
+    "objectID": "docs/versioning.html",
+    "href": "docs/versioning.html",
+    "title": "版本与更新机制",
+    "section": "",
+    "text": "任务选择、API 基本概念、Harness、权限、核验、科研边界。\n\n\n\n产品名称、入口、项目记忆、免费层、API 价格、模型版本、Code Agent 权限、支付与地区限制。",
+    "crumbs": [
+      "首页",
+      "附录",
+      "版本与更新机制"
+    ]
+  },
+  {
+    "objectID": "docs/versioning.html#两层内容",
+    "href": "docs/versioning.html#两层内容",
+    "title": "版本与更新机制",
+    "section": "",
+    "text": "任务选择、API 基本概念、Harness、权限、核验、科研边界。\n\n\n\n产品名称、入口、项目记忆、免费层、API 价格、模型版本、Code Agent 权限、支付与地区限制。",
+    "crumbs": [
+      "首页",
+      "附录",
+      "版本与更新机制"
+    ]
+  },
+  {
+    "objectID": "docs/versioning.html#更新规则",
+    "href": "docs/versioning.html#更新规则",
+    "title": "版本与更新机制",
+    "section": "更新规则",
+    "text": "更新规则\n每项动态信息记录：\n\n核查日期；\n官方来源；\n当前状态；\n触发下一次复核的条件。\n\n版本建议：\n\nv0.x：结构与教程仍在形成；\nv1.0：首个公开稳定版；\n月度/季度不强制更新，产品发生实质变化时更新动态层。",
+    "crumbs": [
+      "首页",
+      "附录",
+      "版本与更新机制"
+    ]
+  },
+  {
+    "objectID": "products/workbuddy.html",
+    "href": "products/workbuddy.html",
+    "title": "腾讯 WorkBuddy",
+    "section": "",
+    "text": "最后核查：2026-09-16 · 第一轮官方资料审计",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "腾讯 WorkBuddy"
+    ]
+  },
+  {
+    "objectID": "products/workbuddy.html#它是什么",
+    "href": "products/workbuddy.html#它是什么",
+    "title": "腾讯 WorkBuddy",
+    "section": "它是什么",
+    "text": "它是什么\n国内桌面 Work Agent / AI 工作台，重点能力是授权本地文件、多步骤办公任务和项目空间。",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "腾讯 WorkBuddy"
+    ]
+  },
+  {
+    "objectID": "products/workbuddy.html#什么时候值得打开",
+    "href": "products/workbuddy.html#什么时候值得打开",
+    "title": "腾讯 WorkBuddy",
+    "section": "什么时候值得打开",
+    "text": "什么时候值得打开\n\n任务需要读取一批本地文件；\n需要跨文档、网页或工具连续执行；\n想让 AI 维护文件地图、比较版本或整理公开资料；\n普通聊天已经因为“搬文件”而变得低效。",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "腾讯 WorkBuddy"
+    ]
+  },
+  {
+    "objectID": "products/workbuddy.html#它和-api-harness-的关系",
+    "href": "products/workbuddy.html#它和-api-harness-的关系",
+    "title": "腾讯 WorkBuddy",
+    "section": "它和 API / Harness 的关系",
+    "text": "它和 API / Harness 的关系\nWorkBuddy 本身就是工作型 Harness：模型只是其中一层，真正重要的是它获得的文件、工具和执行权限。企业版还进一步涉及 Managed Agents / API 等能力。\n\n\n\n能力\n本册当前判断\n\n\n\n\n普通任务入口\n✓\n\n\n本地文件读取/批处理\n✓\n\n\nProject / Workspace\n✓\n\n\n深度调研\n✓\n\n\nWork Agent\n✓ 核心定位\n\n\n中国大陆直接可用性\n✓\n\n\n免费/付费路径\n动态，使用前核查",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "腾讯 WorkBuddy"
+    ]
+  },
+  {
+    "objectID": "products/workbuddy.html#第一次推荐任务",
+    "href": "products/workbuddy.html#第一次推荐任务",
+    "title": "腾讯 WorkBuddy",
+    "section": "第一次推荐任务",
+    "text": "第一次推荐任务\n只授权一个专门的教学文件夹，让 WorkBuddy 生成文件地图和分类建议；明确不允许删除、覆盖或移动原件。",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "腾讯 WorkBuddy"
+    ]
+  },
+  {
+    "objectID": "products/workbuddy.html#最重要的限制",
+    "href": "products/workbuddy.html#最重要的限制",
+    "title": "腾讯 WorkBuddy",
+    "section": "最重要的限制",
+    "text": "最重要的限制\n“能读写本地文件”意味着权限扩大，并不意味着结果更可靠。第一次使用时应明确授权目录、允许动作、停止条件和恢复方式。",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "腾讯 WorkBuddy"
+    ]
+  },
+  {
+    "objectID": "products/workbuddy.html#官方来源",
+    "href": "products/workbuddy.html#官方来源",
+    "title": "腾讯 WorkBuddy",
+    "section": "官方来源",
+    "text": "官方来源\n\nWorkBuddy product\nWorkBuddy product intro\nWorkBuddy Enterprise overview",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "腾讯 WorkBuddy"
+    ]
+  },
+  {
+    "objectID": "products/kimi.html",
+    "href": "products/kimi.html",
+    "title": "Kimi",
+    "section": "",
+    "text": "最后核查：2026-09-16 · 第一轮官方资料审计",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "Kimi"
+    ]
+  },
+  {
+    "objectID": "products/kimi.html#它是什么",
+    "href": "products/kimi.html#它是什么",
+    "title": "Kimi",
+    "section": "它是什么",
+    "text": "它是什么\n国内通用对话、Deep Research、工作 Agent 与 Kimi Code 组成的完整生态。",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "Kimi"
+    ]
+  },
+  {
+    "objectID": "products/kimi.html#什么时候值得打开",
+    "href": "products/kimi.html#什么时候值得打开",
+    "title": "Kimi",
+    "section": "什么时候值得打开",
+    "text": "什么时候值得打开\n\n国内环境下做通用对话和联网研究；\n做陌生领域的 Deep Research；\n尝试办公/工作型 Agent；\n进入 Kimi Code 或第三方 Coding Agent。",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "Kimi"
+    ]
+  },
+  {
+    "objectID": "products/kimi.html#它和-api-harness-的关系",
+    "href": "products/kimi.html#它和-api-harness-的关系",
+    "title": "Kimi",
+    "section": "它和 API / Harness 的关系",
+    "text": "它和 API / Harness 的关系\nKimi 不只是聊天产品。产品端、Deep Research、Agent、Kimi Code 和 API/第三方 Agent 接入属于不同层次，适合按任务选择。\n\n\n\n能力\n本册当前判断\n\n\n\n\n普通对话\n✓\n\n\nDeep Research\n✓\n\n\nAPI\n✓\n\n\nCode Agent\n✓ Kimi Code\n\n\nWork Agent\n✓\n\n\n中国大陆直接可用性\n✓\n\n\n具体免费额度 / 付费门槛\n动态，使用前核查",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "Kimi"
+    ]
+  },
+  {
+    "objectID": "products/kimi.html#第一次推荐任务",
+    "href": "products/kimi.html#第一次推荐任务",
+    "title": "Kimi",
+    "section": "第一次推荐任务",
+    "text": "第一次推荐任务\n用 Kimi Deep Research 做一个范围明确的陌生领域检索，然后只挑 3 条关键结论回到原始来源核对。",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "Kimi"
+    ]
+  },
+  {
+    "objectID": "products/kimi.html#最重要的限制",
+    "href": "products/kimi.html#最重要的限制",
+    "title": "Kimi",
+    "section": "最重要的限制",
+    "text": "最重要的限制\n不要再把 Kimi 简化成“长文本聊天工具”。不同入口拥有不同权限和数据来源，Deep Research 报告也仍然需要回到关键原始来源。",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "Kimi"
+    ]
+  },
+  {
+    "objectID": "products/kimi.html#官方来源",
+    "href": "products/kimi.html#官方来源",
+    "title": "Kimi",
+    "section": "官方来源",
+    "text": "官方来源\n\nKimi Deep Research\nKimi Agent\nKimi Code in third-party agents\nKimi New User Guide",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "Kimi"
+    ]
+  },
+  {
+    "objectID": "products/glm.html",
+    "href": "products/glm.html",
+    "title": "GLM / 智谱",
+    "section": "",
+    "text": "最后核查：2026-09-16 · 第一轮官方资料审计",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "GLM / 智谱"
+    ]
+  },
+  {
+    "objectID": "products/glm.html#它是什么",
+    "href": "products/glm.html#它是什么",
+    "title": "GLM / 智谱",
+    "section": "它是什么",
+    "text": "它是什么\n国内模型/API 平台，同时提供面向 Coding Agent 的 Coding Plan。它很适合解释：按量 API 与订阅式 Coding Plan 是两套产品逻辑。",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "GLM / 智谱"
+    ]
+  },
+  {
+    "objectID": "products/glm.html#什么时候值得打开",
+    "href": "products/glm.html#什么时候值得打开",
+    "title": "GLM / 智谱",
+    "section": "什么时候值得打开",
+    "text": "什么时候值得打开\n\n需要国内模型 API；\n想把模型接入 Claude Code、Cline、OpenCode、Cursor 等工具；\n想理解“模型 Provider”和“Code Harness”可以分开选择。",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "GLM / 智谱"
+    ]
+  },
+  {
+    "objectID": "products/glm.html#它和-api-harness-的关系",
+    "href": "products/glm.html#它和-api-harness-的关系",
+    "title": "GLM / 智谱",
+    "section": "它和 API / Harness 的关系",
+    "text": "它和 API / Harness 的关系\nGLM 提供模型与 API；Claude Code、Cline、OpenCode、Cursor 等承担 Harness。Coding Plan 是针对这类开发工作流设计的独立计费路径。\n\n\n\n能力\n本册当前判断\n\n\n\n\n普通对话\n✓\n\n\nAPI\n✓\n\n\nCoding Plan / 第三方 Code Harness\n✓\n\n\n中国大陆直接可用性\n✓\n\n\n普通 API 与 Coding Plan\n分开理解、分开配置",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "GLM / 智谱"
+    ]
+  },
+  {
+    "objectID": "products/glm.html#第一次推荐任务",
+    "href": "products/glm.html#第一次推荐任务",
+    "title": "GLM / 智谱",
+    "section": "第一次推荐任务",
+    "text": "第一次推荐任务\n不用真的跑代码，先看一次 Coding Plan 的配置说明：确认 Key、Base URL、支持工具和计费通道为什么不能与普通 API 混用。",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "GLM / 智谱"
+    ]
+  },
+  {
+    "objectID": "products/glm.html#最重要的限制",
+    "href": "products/glm.html#最重要的限制",
+    "title": "GLM / 智谱",
+    "section": "最重要的限制",
+    "text": "最重要的限制\n“拿到一个 API Key”不代表它适用于所有入口。不同套餐、接口和 Harness 的兼容关系属于动态事实，配置前应回官方文档核查。",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "GLM / 智谱"
+    ]
+  },
+  {
+    "objectID": "products/glm.html#官方来源",
+    "href": "products/glm.html#官方来源",
+    "title": "GLM / 智谱",
+    "section": "官方来源",
+    "text": "官方来源\n\nGLM Coding Plan overview\nGLM Coding Plan quick start",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "GLM / 智谱"
+    ]
+  },
+  {
+    "objectID": "products/deepseek.html",
+    "href": "products/deepseek.html",
+    "title": "DeepSeek",
+    "section": "",
+    "text": "最后核查：2026-09-16 · 官方资料 + 中国大陆控制台实测",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "DeepSeek"
+    ]
+  },
+  {
+    "objectID": "products/deepseek.html#一句话定位",
+    "href": "products/deepseek.html#一句话定位",
+    "title": "DeepSeek",
+    "section": "一句话定位",
+    "text": "一句话定位\n国内模型/API 生态；很适合用来理解“聊天产品、API、模型与 Harness 是不同层次”。",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "DeepSeek"
+    ]
+  },
+  {
+    "objectID": "products/deepseek.html#当前能力卡",
+    "href": "products/deepseek.html#当前能力卡",
+    "title": "DeepSeek",
+    "section": "当前能力卡",
+    "text": "当前能力卡\n\n\n\n\n\n\n\n\n维度\n状态\n说明\n\n\n\n\n普通对话\n✓\n网页/App；与 API 余额分开\n\n\n文件读取\n待二审\n本轮未把网页端文件能力写成稳定事实\n\n\nProject / Workspace\n待二审\n不据产品印象补写\n\n\n联网 / Deep Research\n待二审\n不据产品印象补写\n\n\nAPI\n✓\nOpenAI / Anthropic 兼容接口\n\n\nCode Agent / Harness\n有限\n可接 Claude Code、OpenCode 等；DeepSeek Harness 为开发者预览\n\n\nWork Agent / 本地文件\n有限\n主要通过第三方 Harness 获得执行环境\n\n\n中国大陆直接可用性\n✓\n国内官方产品/API；控制台实测可登录和创建 Key\n\n\nAPI 支付\n✓\n实测有支付宝、微信支付、对公汇款；另有自定义金额\n\n\n免费路径\n✓ / 分层\n网页/App 对话与 API 充值明确分开；API 按用量扣费\n\n\n\n\n说明： “待二审”不是否定能力，而是本册不把尚未经过当前官网或现实操作确认的信息写成事实。",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "DeepSeek"
+    ]
+  },
+  {
+    "objectID": "products/deepseek.html#当前-api-起步参数",
+    "href": "products/deepseek.html#当前-api-起步参数",
+    "title": "DeepSeek",
+    "section": "当前 API 起步参数",
+    "text": "当前 API 起步参数\n截至 2026-09-16，官方文档当前推荐：\nBase URL: https://api.deepseek.com\nModel:    deepseek-flash\ndeepseek-flash 当前对应 DeepSeek-V4.1-Flash。",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "DeepSeek"
+    ]
+  },
+  {
+    "objectID": "products/deepseek.html#充值与-key已实测",
+    "href": "products/deepseek.html#充值与-key已实测",
+    "title": "DeepSeek",
+    "section": "充值与 Key：已实测",
+    "text": "充值与 Key：已实测\n控制台已实测：\n\n可创建独立 API Key；完整 Key 只在创建时展示一次；\n预设充值档位从 ¥10 起，同时提供自定义金额；\n支持支付宝、微信支付和对公汇款；\n用量页可以看到请求次数、Token、消费金额，并可按模型/API Key 查看；\n充值页明确提示：API 充值与网页/App 对话是不同的计费通道。\n\n注意：因为存在“自定义金额”，本册暂不声称 ¥10 是绝对最低充值额。",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "DeepSeek"
+    ]
+  },
+  {
+    "objectID": "products/deepseek.html#第一次推荐任务",
+    "href": "products/deepseek.html#第一次推荐任务",
+    "title": "DeepSeek",
+    "section": "第一次推荐任务",
+    "text": "第一次推荐任务\n不写代码：创建一个教程专用 API Key，把 DeepSeek 接入沉浸式翻译，翻译一个公开网页，然后回到控制台确认请求量和 Token 变化。\n这样可以一次理解：\n\n插件是界面 → API Key 是授权凭证 → DeepSeek 是 API 服务商 → 用量在 DeepSeek 账户结算。",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "DeepSeek"
+    ]
+  },
+  {
+    "objectID": "products/deepseek.html#不要误解成",
+    "href": "products/deepseek.html#不要误解成",
+    "title": "DeepSeek",
+    "section": "不要误解成",
+    "text": "不要误解成\n\nDeepSeek 不等于一个聊天网页。模型还可以通过 API 成为 Claude Code、OpenCode 等 Harness 的后端。",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "DeepSeek"
+    ]
+  },
+  {
+    "objectID": "products/deepseek.html#官方来源",
+    "href": "products/deepseek.html#官方来源",
+    "title": "DeepSeek",
+    "section": "官方来源",
+    "text": "官方来源\n\n首次调用 API\n模型与价格\n接入 Agent 工具\n更新日志",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "DeepSeek"
+    ]
+  },
+  {
+    "objectID": "products/deepseek.html#动态说明",
+    "href": "products/deepseek.html#动态说明",
+    "title": "DeepSeek",
+    "section": "动态说明",
+    "text": "动态说明\nDeepSeek 的模型名、价格、Harness 接入方式会变化较快。本页只保留当前稳定起步路径；具体产品变化以官方文档和本站核查日期为准。",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "DeepSeek"
+    ]
+  },
+  {
+    "objectID": "products/chatgpt.html",
+    "href": "products/chatgpt.html",
+    "title": "ChatGPT",
+    "section": "",
+    "text": "最后核查：2026-09-16 · 第一轮官方资料审计",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "ChatGPT"
+    ]
+  },
+  {
+    "objectID": "products/chatgpt.html#它是什么",
+    "href": "products/chatgpt.html#它是什么",
+    "title": "ChatGPT",
+    "section": "它是什么",
+    "text": "它是什么\n一个从普通聊天延伸到 Projects、Deep Research、Codex 和 Work 的通用 AI 产品生态。",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "ChatGPT"
+    ]
+  },
+  {
+    "objectID": "products/chatgpt.html#什么时候值得打开",
+    "href": "products/chatgpt.html#什么时候值得打开",
+    "title": "ChatGPT",
+    "section": "什么时候值得打开",
+    "text": "什么时候值得打开\n\n日常问答、写作和文件讨论；\n想把同一研究材料放进持续 Project；\n需要联网检索并生成带来源报告；\n需要 Code Agent 或更长的工作型任务。",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "ChatGPT"
+    ]
+  },
+  {
+    "objectID": "products/chatgpt.html#它和-api-harness-的关系",
+    "href": "products/chatgpt.html#它和-api-harness-的关系",
+    "title": "ChatGPT",
+    "section": "它和 API / Harness 的关系",
+    "text": "它和 API / Harness 的关系\nChatGPT 是面向人的产品界面；OpenAI API 是独立开发者入口；Codex 和 Work 则提供更强的执行环境。ChatGPT 订阅与 API 计费不是同一件事。\n\n\n\n能力\n本册当前判断\n\n\n\n\n普通对话 / 文件\n✓\n\n\nProject / Workspace\n✓\n\n\nDeep Research\n✓\n\n\nAPI\n✓\n\n\nCode Agent\n✓ Codex\n\n\nWork Agent\n✓ Work\n\n\n中国大陆现实可用性\n需按当时账号、网络与支付条件核查",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "ChatGPT"
+    ]
+  },
+  {
+    "objectID": "products/chatgpt.html#第一次推荐任务",
+    "href": "products/chatgpt.html#第一次推荐任务",
+    "title": "ChatGPT",
+    "section": "第一次推荐任务",
+    "text": "第一次推荐任务\n把 3—5 份当前研究材料放进一个 Project，只要求生成“材料地图 + 冲突项 + 待确认项”，先不要让它改研究内容。",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "ChatGPT"
+    ]
+  },
+  {
+    "objectID": "products/chatgpt.html#最重要的限制",
+    "href": "products/chatgpt.html#最重要的限制",
+    "title": "ChatGPT",
+    "section": "最重要的限制",
+    "text": "最重要的限制\nProjects 不等于“自动知道整个项目历史”。项目材料、聊天、记忆和工具权限仍有边界；涉及未公开稿件、被试数据或受限材料时，先看本册的隐私页。",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "ChatGPT"
+    ]
+  },
+  {
+    "objectID": "products/chatgpt.html#官方来源",
+    "href": "products/chatgpt.html#官方来源",
+    "title": "ChatGPT",
+    "section": "官方来源",
+    "text": "官方来源\n\nProjects in ChatGPT\nDeep research in ChatGPT\nChatGPT Work and Codex",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "ChatGPT"
+    ]
+  },
+  {
+    "objectID": "chapters/12-privacy.html",
+    "href": "chapters/12-privacy.html",
+    "title": "上传之前：数据、隐私与未公开研究",
+    "section": "",
+    "text": "AI 工具越来越容易读取文件、网页、代码库和本地目录，因此“能不能上传”不应等到点击上传按钮以后再想。",
+    "crumbs": [
+      "首页",
+      "04｜安全与第一次完整上手",
+      "上传之前：数据、隐私与未公开研究"
+    ]
+  },
+  {
+    "objectID": "chapters/12-privacy.html#先把材料分成四类",
+    "href": "chapters/12-privacy.html#先把材料分成四类",
+    "title": "上传之前：数据、隐私与未公开研究",
+    "section": "先把材料分成四类",
+    "text": "先把材料分成四类\n\n\n\n\n\n\n\n材料\n默认态度\n\n\n\n\n已公开论文、公开网页、公开代码\n通常风险较低，但仍注意版权与来源\n\n\n自己的工作材料、未公开草稿\n先看账户、机构和合作约定\n\n\n被试数据、访谈原文、身份信息\n高风险；优先脱敏、最小化或不用外部服务\n\n\nAPI Key、密码、访问令牌\n不上传、不截图公开、不写进仓库",
+    "crumbs": [
+      "首页",
+      "04｜安全与第一次完整上手",
+      "上传之前：数据、隐私与未公开研究"
+    ]
+  },
+  {
+    "objectID": "chapters/12-privacy.html#上传前问五个问题",
+    "href": "chapters/12-privacy.html#上传前问五个问题",
+    "title": "上传之前：数据、隐私与未公开研究",
+    "section": "上传前问五个问题",
+    "text": "上传前问五个问题\n\n这是公开材料、自己的工作材料，还是包含他人数据？\n是否含被试数据、访谈原文、未公开稿件、API Key 或受版权保护全文？\n当前账户、机构、伦理审批或数据协议是否允许把材料交给该服务？\n是否真的需要上传原文，还是可以只提供脱敏摘录、字段说明、合成示例或副本？\n如果上传错误，能否删除、撤销访问并恢复？",
+    "crumbs": [
+      "首页",
+      "04｜安全与第一次完整上手",
+      "上传之前：数据、隐私与未公开研究"
+    ]
+  },
+  {
+    "objectID": "chapters/12-privacy.html#本地-agent也不等于没有隐私问题",
+    "href": "chapters/12-privacy.html#本地-agent也不等于没有隐私问题",
+    "title": "上传之前：数据、隐私与未公开研究",
+    "section": "“本地 Agent”也不等于没有隐私问题",
+    "text": "“本地 Agent”也不等于没有隐私问题\n即使 Agent 在你的电脑上工作，模型请求仍可能发送到云端 Provider；反过来，有些任务可能完全在本地模型中完成。判断数据流时，不要只看界面是不是桌面 App，要问：\n\n文件在哪里？请求发到哪里？谁保留什么？",
+    "crumbs": [
+      "首页",
+      "04｜安全与第一次完整上手",
+      "上传之前：数据、隐私与未公开研究"
+    ]
+  },
+  {
+    "objectID": "chapters/12-privacy.html#对科研材料的最低建议",
+    "href": "chapters/12-privacy.html#对科研材料的最低建议",
+    "title": "上传之前：数据、隐私与未公开研究",
+    "section": "对科研材料的最低建议",
+    "text": "对科研材料的最低建议\n\n原始数据保留受保护副本；\n能用变量说明就不要上传完整身份信息；\n能用合成数据测试工作流，就先用合成数据；\n未公开稿件进入外部服务前，先看期刊、审稿或合作协议；\nAPI Key 使用环境变量或密钥管理方式，不进入 Git；\nWork Agent 第一次只授权一个教学/副本目录。\n\n\n\n\n\n\n\n警告\n\n\n\n产品隐私政策、训练选项、地区规则和机构要求都是动态事实。本页只提供决策框架；真实项目必须按当时服务条款、伦理审批和机构规定核查。\n\n\n如果这些边界已经清楚，回到 30 分钟 Start Checklist 检查第一次任务是否真正形成了可继续状态。",
+    "crumbs": [
+      "首页",
+      "04｜安全与第一次完整上手",
+      "上传之前：数据、隐私与未公开研究"
+    ]
+  },
+  {
+    "objectID": "chapters/10-code-agent.html",
+    "href": "chapters/10-code-agent.html",
+    "title": "第一次让 Code Agent 看研究项目",
+    "section": "",
+    "text": "API 让脚本可以调用模型；Code Agent 则进一步让模型进入一个能够读取文件、运行命令、修改代码和检查结果的工作环境。",
+    "crumbs": [
+      "首页",
+      "03｜Harness 与 Agent",
+      "第一次让 Code Agent 看研究项目"
+    ]
+  },
+  {
+    "objectID": "chapters/10-code-agent.html#聊天写代码-vs-code-agent",
+    "href": "chapters/10-code-agent.html#聊天写代码-vs-code-agent",
+    "title": "第一次让 Code Agent 看研究项目",
+    "section": "聊天写代码 vs Code Agent",
+    "text": "聊天写代码 vs Code Agent\n关键差异不是“更会写代码”，而是权限和环境。\n普通聊天通常只能根据你贴进去的片段回答；Code Agent 可以在授权范围内直接查看代码库、执行测试、比较文件和修改副本。这就是 Harness 开始变得重要的地方。",
+    "crumbs": [
+      "首页",
+      "03｜Harness 与 Agent",
+      "第一次让 Code Agent 看研究项目"
+    ]
+  },
+  {
+    "objectID": "chapters/10-code-agent.html#第一次统一只做只读审查",
+    "href": "chapters/10-code-agent.html#第一次统一只做只读审查",
+    "title": "第一次让 Code Agent 看研究项目",
+    "section": "第一次统一只做只读审查",
+    "text": "第一次统一只做只读审查\n不要一上来要求“帮我把分析修好”。先要求它说明：\n\n读取了什么文件；\n样本如何筛选；\n变量如何构造；\n模型公式是什么；\n会生成哪些输出；\n哪些地方与分析规格不一致或无法确认。\n\n如果这些解释与你的研究意图都对不上，直接修改代码只会把错误自动化。",
+    "crumbs": [
+      "首页",
+      "03｜Harness 与 Agent",
+      "第一次让 Code Agent 看研究项目"
+    ]
+  },
+  {
+    "objectID": "chapters/10-code-agent.html#第一次授权的原则",
+    "href": "chapters/10-code-agent.html#第一次授权的原则",
+    "title": "第一次让 Code Agent 看研究项目",
+    "section": "第一次授权的原则",
+    "text": "第一次授权的原则\n优先：\n\n项目副本，而不是唯一原件；\n只读检查，而不是立即写入；\n明确允许修改的目录；\n每次改动都能通过版本差异检查；\n能运行的测试或规格检查优先于“看起来没问题”。\n\n确认后再允许它修改副本，并检查实际 diff 和运行结果。",
+    "crumbs": [
+      "首页",
+      "03｜Harness 与 Agent",
+      "第一次让 Code Agent 看研究项目"
+    ]
+  },
+  {
+    "objectID": "chapters/10-code-agent.html#什么时候还不需要-code-agent",
+    "href": "chapters/10-code-agent.html#什么时候还不需要-code-agent",
+    "title": "第一次让 Code Agent 看研究项目",
+    "section": "什么时候还不需要 Code Agent",
+    "text": "什么时候还不需要 Code Agent\n如果你只是想解释 20 行 R 代码，把代码贴进普通聊天通常更简单。Code Agent 的价值来自项目级上下文 + 工具执行 + 可检查改动，不是因为它属于更高级的产品。\n如果任务已经跨出代码库，需要同时碰文件、网页或其他应用，再看：Work Agent / 桌面 Agent。",
+    "crumbs": [
+      "首页",
+      "03｜Harness 与 Agent",
+      "第一次让 Code Agent 看研究项目"
+    ]
+  },
+  {
+    "objectID": "chapters/08-api-costs.html",
+    "href": "chapters/08-api-costs.html",
+    "title": "API 为什么这样计费：学会看价格表",
+    "section": "",
+    "text": "第一次看到 API 价格表时，最容易困惑的是：为什么同一个模型会同时出现 Input、Output、Cached input、Batch，甚至搜索、代码执行等额外费用？",
+    "crumbs": [
+      "首页",
+      "02｜API：从使用 AI 到调用 AI",
+      "API 为什么这样计费：学会看价格表"
+    ]
+  },
+  {
+    "objectID": "chapters/08-api-costs.html#最基础的理解",
+    "href": "chapters/08-api-costs.html#最基础的理解",
+    "title": "API 为什么这样计费：学会看价格表",
+    "section": "最基础的理解",
+    "text": "最基础的理解\n大多数文本 API 都可以先用这个近似式理解：\n费用 ≈ 输入 tokens × 输入单价 + 输出 tokens × 输出单价 + 额外工具费用\n这里的 token 是模型处理文本的计量单位，不严格等于“一个汉字”或“一个单词”。你不需要先学会精确估算 token；更重要的是看懂账单由哪些部分组成。",
+    "crumbs": [
+      "首页",
+      "02｜API：从使用 AI 到调用 AI",
+      "API 为什么这样计费：学会看价格表"
+    ]
+  },
+  {
+    "objectID": "chapters/08-api-costs.html#为什么输入和输出价格不同",
+    "href": "chapters/08-api-costs.html#为什么输入和输出价格不同",
+    "title": "API 为什么这样计费：学会看价格表",
+    "section": "为什么输入和输出价格不同",
+    "text": "为什么输入和输出价格不同\n模型既要“读”你的输入，也要“生成”输出。很多 Provider 会给这两部分设置不同单价，因此长材料和长回答的成本结构也不同。",
+    "crumbs": [
+      "首页",
+      "02｜API：从使用 AI 到调用 AI",
+      "API 为什么这样计费：学会看价格表"
+    ]
+  },
+  {
+    "objectID": "chapters/08-api-costs.html#cached-input-是什么",
+    "href": "chapters/08-api-costs.html#cached-input-是什么",
+    "title": "API 为什么这样计费：学会看价格表",
+    "section": "Cached input 是什么",
+    "text": "Cached input 是什么\n当大量请求重复使用同一段系统提示、长文档或固定上下文时，一些 Provider 可以复用已经处理过的部分，并以更低价格计算。这也是为什么批量任务里，固定 prompt 和稳定结构有时不只是为了可复核，也可能影响成本。",
+    "crumbs": [
+      "首页",
+      "02｜API：从使用 AI 到调用 AI",
+      "API 为什么这样计费：学会看价格表"
+    ]
+  },
+  {
+    "objectID": "chapters/08-api-costs.html#batch-又是什么",
+    "href": "chapters/08-api-costs.html#batch-又是什么",
+    "title": "API 为什么这样计费：学会看价格表",
+    "section": "Batch 又是什么",
+    "text": "Batch 又是什么\n如果任务不要求立即返回，一些服务会提供批处理或异步接口，用较低价格换取更长等待时间。它适合大批量离线任务，不适合即时聊天。",
+    "crumbs": [
+      "首页",
+      "02｜API：从使用 AI 到调用 AI",
+      "API 为什么这样计费：学会看价格表"
+    ]
+  },
+  {
+    "objectID": "chapters/08-api-costs.html#coding-plan-为什么看起来又不一样",
+    "href": "chapters/08-api-costs.html#coding-plan-为什么看起来又不一样",
+    "title": "API 为什么这样计费：学会看价格表",
+    "section": "Coding Plan 为什么看起来又不一样",
+    "text": "Coding Plan 为什么看起来又不一样\n有些厂商不是按每次 API token 结算，而是为 Coding Agent 提供订阅式套餐或专用额度。它和普通 API 可能使用不同 Key、Base URL、模型范围和限额。\n所以看到“月费 Coding Plan”时，不要默认它就是“API 包月”。",
+    "crumbs": [
+      "首页",
+      "02｜API：从使用 AI 到调用 AI",
+      "API 为什么这样计费：学会看价格表"
+    ]
+  },
+  {
+    "objectID": "chapters/08-api-costs.html#本册为什么不保存固定价格",
+    "href": "chapters/08-api-costs.html#本册为什么不保存固定价格",
+    "title": "API 为什么这样计费：学会看价格表",
+    "section": "本册为什么不保存固定价格",
+    "text": "本册为什么不保存固定价格\n价格、免费额度、峰谷时段和套餐经常变化。本站把这些当作动态事实，只在 data/providers.yml 和产品审计页中记录核查日期，而不把某个具体价格写成长期教程。\n真正需要学会的是：\n\n分清输入与输出；\n看有没有缓存或批处理；\n看额外工具是否单独收费；\n确认当前使用的是按量 API，还是另一个订阅套餐；\n正式项目用独立 Key 或项目标签追踪成本。\n\n如果你只是偶尔调用插件，成本可能很低；如果是大规模 LLM simulation、长上下文或高价模型，成本可以迅速放大。API 的优势是可计量，不是天然便宜。\n下一步如果你想看 API 为什么对研究者真正有用，直接进入：一个最小批量脚本。",
+    "crumbs": [
+      "首页",
+      "02｜API：从使用 AI 到调用 AI",
+      "API 为什么这样计费：学会看价格表"
+    ]
+  },
+  {
+    "objectID": "chapters/06-api-basics.html",
+    "href": "chapters/06-api-basics.html",
+    "title": "API 是什么：从‘我使用 AI’到‘我的工具调用 AI’",
+    "section": "",
+    "text": "到这里为止，你一直是在“打开一个 AI 产品”。API 改变的是这件事：你不再必须亲自待在厂商提供的聊天界面里。",
+    "crumbs": [
+      "首页",
+      "02｜API：从使用 AI 到调用 AI",
+      "API 是什么：从‘我使用 AI’到‘我的工具调用 AI’"
+    ]
+  },
+  {
+    "objectID": "chapters/06-api-basics.html#一句话理解",
+    "href": "chapters/06-api-basics.html#一句话理解",
+    "title": "API 是什么：从‘我使用 AI’到‘我的工具调用 AI’",
+    "section": "一句话理解",
+    "text": "一句话理解\n产品界面是人直接与模型交互；API 是软件与模型交互的程序化入口。\n人 → Chat / App → 模型\n软件 / 插件 / 脚本 → API → 模型\n例如，你在沉浸式翻译里点击“翻译”时，可以由浏览器插件替你向 DeepSeek API 发出请求。你看到的界面属于插件，模型服务和账单属于 DeepSeek。",
+    "crumbs": [
+      "首页",
+      "02｜API：从使用 AI 到调用 AI",
+      "API 是什么：从‘我使用 AI’到‘我的工具调用 AI’"
+    ]
+  },
+  {
+    "objectID": "chapters/06-api-basics.html#为什么已经订阅产品还需要-api",
+    "href": "chapters/06-api-basics.html#为什么已经订阅产品还需要-api",
+    "title": "API 是什么：从‘我使用 AI’到‘我的工具调用 AI’",
+    "section": "为什么已经订阅产品还需要 API",
+    "text": "为什么已经订阅产品还需要 API\nAPI 的价值通常不在于“回答更聪明”，而在于：\n\n把模型接入翻译、阅读、知识管理、代码等工具；\n批量处理重复任务；\n固定参数并保存结构化结果；\n自动记录、重试和统计成本；\n在同一个 Harness 中替换不同模型服务。",
+    "crumbs": [
+      "首页",
+      "02｜API：从使用 AI 到调用 AI",
+      "API 是什么：从‘我使用 AI’到‘我的工具调用 AI’"
+    ]
+  },
+  {
+    "objectID": "chapters/06-api-basics.html#为什么通常单独计费",
+    "href": "chapters/06-api-basics.html#为什么通常单独计费",
+    "title": "API 是什么：从‘我使用 AI’到‘我的工具调用 AI’",
+    "section": "为什么通常单独计费",
+    "text": "为什么通常单独计费\n产品订阅与 API 往往属于不同计费系统。你购买一个聊天产品的月费，并不自动等于拥有同厂商的 API 余额。\nAPI 常按实际使用量计费，因此你会看到输入 token、输出 token、缓存、批处理、工具调用等不同字段。具体怎么读价格表，见 API 为什么这样计费。",
+    "crumbs": [
+      "首页",
+      "02｜API：从使用 AI 到调用 AI",
+      "API 是什么：从‘我使用 AI’到‘我的工具调用 AI’"
+    ]
+  },
+  {
+    "objectID": "chapters/06-api-basics.html#api-key-是什么",
+    "href": "chapters/06-api-basics.html#api-key-是什么",
+    "title": "API 是什么：从‘我使用 AI’到‘我的工具调用 AI’",
+    "section": "API Key 是什么",
+    "text": "API Key 是什么\nAPI Key 是软件代表你的账户调用 API 时使用的授权凭证。对个人用户可以先把它理解成一种会产生费用的密码。\n因此：\n\n不贴进聊天截图；\n不提交 GitHub；\n不写死在公开脚本；\n不同正式项目尽量使用不同 Key；\n怀疑泄露时立即撤销并重新生成。",
+    "crumbs": [
+      "首页",
+      "02｜API：从使用 AI 到调用 AI",
+      "API 是什么：从‘我使用 AI’到‘我的工具调用 AI’"
+    ]
+  },
+  {
+    "objectID": "chapters/06-api-basics.html#什么时候完全不需要-api",
+    "href": "chapters/06-api-basics.html#什么时候完全不需要-api",
+    "title": "API 是什么：从‘我使用 AI’到‘我的工具调用 AI’",
+    "section": "什么时候完全不需要 API",
+    "text": "什么时候完全不需要 API\n如果你只是：\n\n每天和一个聊天产品交流；\n偶尔读几篇论文；\n临时让 AI 改一段文字；\n没有批量处理或工具接入需求；\n\n那么继续使用产品界面通常更简单。\nAPI 只有在重复、规模、自动保存、第三方工具接入开始带来明显价值时，才值得学习。",
+    "crumbs": [
+      "首页",
+      "02｜API：从使用 AI 到调用 AI",
+      "API 是什么：从‘我使用 AI’到‘我的工具调用 AI’"
+    ]
+  },
+  {
+    "objectID": "chapters/06-api-basics.html#接下来怎么学",
+    "href": "chapters/06-api-basics.html#接下来怎么学",
+    "title": "API 是什么：从‘我使用 AI’到‘我的工具调用 AI’",
+    "section": "接下来怎么学",
+    "text": "接下来怎么学\n不要一上来写 Python。先看一个无需编程的例子：第一次配置自己的 API。\n当你已经理解“工具—API Key—Provider—模型—账单”的关系，再看 API 真正对研究者有用的地方。",
+    "crumbs": [
+      "首页",
+      "02｜API：从使用 AI 到调用 AI",
+      "API 是什么：从‘我使用 AI’到‘我的工具调用 AI’"
+    ]
+  },
+  {
+    "objectID": "chapters/04-reading-papers.html",
+    "href": "chapters/04-reading-papers.html",
+    "title": "第一次让 AI 帮你读一批论文",
+    "section": "",
+    "text": "当你已经拿到论文全文时，最有价值的不是让 AI 再“搜索一下相关研究”，而是让它围绕这批明确来源做结构化阅读。",
+    "crumbs": [
+      "首页",
+      "01｜让 AI 进入真实研究",
+      "第一次让 AI 帮你读一批论文"
+    ]
+  },
+  {
+    "objectID": "chapters/04-reading-papers.html#适合的第一次任务",
+    "href": "chapters/04-reading-papers.html#适合的第一次任务",
+    "title": "第一次让 AI 帮你读一批论文",
+    "section": "适合的第一次任务",
+    "text": "适合的第一次任务\n把 5 篇已获得全文的论文整理为：\n\n研究问题；\n样本；\n研究设计；\n核心测量；\n主要结果；\n作者解释；\n局限；\n原文定位。\n\n这里最重要的是把论文实际报告的结果和作者自己的解释分开。",
+    "crumbs": [
+      "首页",
+      "01｜让 AI 进入真实研究",
+      "第一次让 AI 帮你读一批论文"
+    ]
+  },
+  {
+    "objectID": "chapters/04-reading-papers.html#推荐环境",
+    "href": "chapters/04-reading-papers.html#推荐环境",
+    "title": "第一次让 AI 帮你读一批论文",
+    "section": "推荐环境",
+    "text": "推荐环境\n来源型阅读工具优先；普通聊天在文件量较小时也完全可以。\n你真正需要的能力不是“总结得像不像”，而是：\n\n我能不能从一句总结快速回到它来自哪篇论文、哪一段原文？",
+    "crumbs": [
+      "首页",
+      "01｜让 AI 进入真实研究",
+      "第一次让 AI 帮你读一批论文"
+    ]
+  },
+  {
+    "objectID": "chapters/04-reading-papers.html#不允许跳过",
+    "href": "chapters/04-reading-papers.html#不允许跳过",
+    "title": "第一次让 AI 帮你读一批论文",
+    "section": "不允许跳过",
+    "text": "不允许跳过\n\n书目信息核对；\n原文位置；\n主张支持层级；\n重要数字和方法细节。\n\nAI 的整理结果适合作为阅读导航，不适合作为新的“二手原文”。",
+    "crumbs": [
+      "首页",
+      "01｜让 AI 进入真实研究",
+      "第一次让 AI 帮你读一批论文"
+    ]
+  },
+  {
+    "objectID": "chapters/04-reading-papers.html#什么时候该换成-deep-research",
+    "href": "chapters/04-reading-papers.html#什么时候该换成-deep-research",
+    "title": "第一次让 AI 帮你读一批论文",
+    "section": "什么时候该换成 Deep Research",
+    "text": "什么时候该换成 Deep Research\n如果你的问题从：\n\n“这 5 篇论文分别做了什么？”\n\n变成：\n\n“这个领域还有哪些重要研究？这个方法现在怎么用？最近两年发生了什么？”\n\n你已经从来源内阅读进入来源发现。这时继续往聊天里塞更多 PDF 往往不是最好的办法，下一步看：第一次做 Deep Research。",
+    "crumbs": [
+      "首页",
+      "01｜让 AI 进入真实研究",
+      "第一次让 AI 帮你读一批论文"
+    ]
+  },
+  {
+    "objectID": "chapters/02-chat-first-task.html",
+    "href": "chapters/02-chat-first-task.html",
+    "title": "第一次使用普通聊天",
+    "section": "",
+    "text": "普通聊天仍然是最好的起点。很多科研任务根本不需要 Project、API 或 Agent。",
+    "crumbs": [
+      "首页",
+      "00｜现在就开始",
+      "第一次使用普通聊天"
+    ]
+  },
+  {
+    "objectID": "chapters/02-chat-first-task.html#什么时候用",
+    "href": "chapters/02-chat-first-task.html#什么时候用",
+    "title": "第一次使用普通聊天",
+    "section": "什么时候用",
+    "text": "什么时候用\n适合解释概念、比较少量材料、局部写作、形成候选、读一小段统计输出，或者帮你把一个模糊任务先说清楚。",
+    "crumbs": [
+      "首页",
+      "00｜现在就开始",
+      "第一次使用普通聊天"
+    ]
+  },
+  {
+    "objectID": "chapters/02-chat-first-task.html#第一次怎么做",
+    "href": "chapters/02-chat-first-task.html#第一次怎么做",
+    "title": "第一次使用普通聊天",
+    "section": "第一次怎么做",
+    "text": "第一次怎么做\n直接使用上一页的五项任务说明：目标—输入—输出—禁止项—检查依据。\n例如，你可以让 AI：\n\n解释一段 R 输出，但明确“不推断未显示的检验”；\n比较三篇已上传论文，但明确“只使用这三篇”；\n修改一段方法部分，但要求“不要改变统计含义和数字”；\n根据一页项目说明，列出仍需确认的问题。",
+    "crumbs": [
+      "首页",
+      "00｜现在就开始",
+      "第一次使用普通聊天"
+    ]
+  },
+  {
+    "objectID": "chapters/02-chat-first-task.html#输出检查",
+    "href": "chapters/02-chat-first-task.html#输出检查",
+    "title": "第一次使用普通聊天",
+    "section": "输出检查",
+    "text": "输出检查\n\n它是否只使用了你允许的材料？\n是否把候选推断写成了事实？\n数字、文献、方法判断能否返回原始依据？\n你真正采用的内容，是否已经保存到项目文件，而不是只留在聊天里？",
+    "crumbs": [
+      "首页",
+      "00｜现在就开始",
+      "第一次使用普通聊天"
+    ]
+  },
+  {
+    "objectID": "chapters/02-chat-first-task.html#什么时候继续停在聊天里",
+    "href": "chapters/02-chat-first-task.html#什么时候继续停在聊天里",
+    "title": "第一次使用普通聊天",
+    "section": "什么时候继续停在聊天里",
+    "text": "什么时候继续停在聊天里\n如果任务短、材料少、上下文每次都能快速说明，普通聊天已经足够。不要为了工具升级而升级。",
+    "crumbs": [
+      "首页",
+      "00｜现在就开始",
+      "第一次使用普通聊天"
+    ]
+  },
+  {
+    "objectID": "chapters/02-chat-first-task.html#什么时候值得升级",
+    "href": "chapters/02-chat-first-task.html#什么时候值得升级",
+    "title": "第一次使用普通聊天",
+    "section": "什么时候值得升级",
+    "text": "什么时候值得升级\n如果你开始反复做下面这些事：\n\n每次都重新说明同一个研究背景；\n每次都上传同一批文件；\n不同对话之间经常忘记“哪个版本才是现在有效的”；\n\n那么问题已经不再是“提示词写得够不够好”，而是需要一个持续工作空间。下一步看：第一次建立持续研究 Project / Workspace。",
+    "crumbs": [
+      "首页",
+      "00｜现在就开始",
+      "第一次使用普通聊天"
+    ]
+  },
+  {
+    "objectID": "chapters/00-start-now.html",
+    "href": "chapters/00-start-now.html",
+    "title": "现在就开始：30 分钟不要学完 AI，只完成一件事",
+    "section": "",
+    "text": "这本指南不要求你先把 ChatGPT、Claude、DeepSeek、Agent、API 全部学一遍。更有效的起点是：选一个今天本来就要完成的小任务，用当前最简单的工具把它做完。\n真正需要升级工具时，通常不是因为出现了“更高级”的产品，而是因为你开始遇到新的摩擦：材料太多、任务跨天、需要联网检索、需要批量重复、需要让 AI 读代码或操作文件。",
+    "crumbs": [
+      "首页",
+      "00｜现在就开始",
+      "现在就开始：30 分钟不要学完 AI，只完成一件事"
+    ]
+  },
+  {
+    "objectID": "chapters/00-start-now.html#第一次任务的标准",
+    "href": "chapters/00-start-now.html#第一次任务的标准",
+    "title": "现在就开始：30 分钟不要学完 AI，只完成一件事",
+    "section": "第一次任务的标准",
+    "text": "第一次任务的标准\n选一个范围有限、可以人工检查、失败后容易撤回的任务。\n推荐起点：\n\n比较 3—5 篇已经拿到全文的论文；\n解释一个已有 R/Python 脚本做了什么；\n核对一页结果文字与结果表是否一致；\n根据文件清单整理一页项目当前状态。",
+    "crumbs": [
+      "首页",
+      "00｜现在就开始",
+      "现在就开始：30 分钟不要学完 AI，只完成一件事"
+    ]
+  },
+  {
+    "objectID": "chapters/00-start-now.html#五项任务说明",
+    "href": "chapters/00-start-now.html#五项任务说明",
+    "title": "现在就开始：30 分钟不要学完 AI，只完成一件事",
+    "section": "五项任务说明",
+    "text": "五项任务说明\n第一次使用 AI 时，不需要复杂提示词。把下面五件事说清楚通常已经够用：\n\n目标：这次解决什么，不解决什么？\n输入：AI 可以看哪些材料？\n输出：你希望得到什么？\n禁止项：哪些内容不得自行补充或修改？\n检查依据：你用什么判断输出是否可用？\n\n\n\n\n\n\n\n提示一个可以直接复制的最小模板\n\n\n\n目标： 帮我比较这 5 篇论文的方法和主要发现，不扩展到其他文献。\n输入： 只使用我上传的 5 篇 PDF。\n输出： 按“样本—设计—测量—主要结果—作者解释—局限”做表格。\n禁止项： 不要补写论文里没有的信息；无法确认就标记“未确认”。\n检查依据： 每个关键结论都要能回到具体论文和原文位置。",
+    "crumbs": [
+      "首页",
+      "00｜现在就开始",
+      "现在就开始：30 分钟不要学完 AI，只完成一件事"
+    ]
+  },
+  {
+    "objectID": "chapters/00-start-now.html#分钟后必须留下什么",
+    "href": "chapters/00-start-now.html#分钟后必须留下什么",
+    "title": "现在就开始：30 分钟不要学完 AI，只完成一件事",
+    "section": "30 分钟后必须留下什么",
+    "text": "30 分钟后必须留下什么\n至少留下四样东西：确认后的产物、主要输入位置、未决问题、下一步。\n如果普通聊天已经能稳定完成任务，就停在这里。没有必要为了“更专业”而主动升级。\n如果你开始觉得“每次都要重新解释背景”“同一批文件反复上传”“材料太多，聊天窗口放不下”，再进入下一页：一张图选工具。",
+    "crumbs": [
+      "首页",
+      "00｜现在就开始",
+      "现在就开始：30 分钟不要学完 AI，只完成一件事"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "心理学研究者的 AI Start Guide",
+    "section": "",
+    "text": "注记\n\n\n\n定位：这是《心理学研究的 AI 进阶手册》的动态配套入门站。主手册解释相对稳定的方法原则；这里负责回答“今天该打开什么、什么时候需要升级、当前产品大致怎么选”。\n产品信息总核查日期：2026-09-16",
+    "crumbs": [
+      "首页",
+      "心理学研究者的 AI Start Guide"
+    ]
+  },
+  {
+    "objectID": "index.html#第一次来只读这条路线",
+    "href": "index.html#第一次来只读这条路线",
+    "title": "心理学研究者的 AI Start Guide",
+    "section": "第一次来，只读这条路线",
+    "text": "第一次来，只读这条路线\n如果你对 AI 产品还不熟，建议按下面顺序阅读到“够用”为止：\n现在就开始 → 普通聊天 → 遇到真实摩擦后再看 工具选择图\n你不需要把整站看完。Start Guide 的基本原则是：先完成任务，遇到摩擦再升级。",
+    "crumbs": [
+      "首页",
+      "心理学研究者的 AI Start Guide"
+    ]
+  },
+  {
+    "objectID": "index.html#你现在真正想做什么",
+    "href": "index.html#你现在真正想做什么",
+    "title": "心理学研究者的 AI Start Guide",
+    "section": "你现在真正想做什么",
+    "text": "你现在真正想做什么\n\n只想问问题、改文字、解释概念 → 普通对话第一次怎么用\n想围绕同一研究持续使用一批材料 → 第一次建立持续研究空间\n手里已经有一批论文 → 第一次让 AI 读论文\n要系统检索公开资料 → 第一次做 Deep Research\n想把模型接进别的软件 → API 是什么\n想批量处理研究材料并留下可检查记录 → API 最小研究脚本\n想让 AI 看 R/Python 项目 → 第一次让 Code Agent 看代码\n想让 AI 操作一批本地文件或连续做多步任务 → Work Agent / 桌面 Agent",
+    "crumbs": [
+      "首页",
+      "心理学研究者的 AI Start Guide"
+    ]
+  },
+  {
+    "objectID": "index.html#本站只坚持四层逻辑",
+    "href": "index.html#本站只坚持四层逻辑",
+    "title": "心理学研究者的 AI Start Guide",
+    "section": "本站只坚持四层逻辑",
+    "text": "本站只坚持四层逻辑\n产品界面 → API → Harness → Workflow\n\n产品界面：人直接使用 AI。\nAPI：让其他软件或脚本调用模型。\nHarness：给模型文件、工具、权限和执行环境。\nWorkflow：把这些能力放进真实科研任务，并留下可检查、可恢复的结果。\n\n它们不是“初级 → 高级”的等级。一个稳定的普通聊天工作流，可以比配置复杂但没人检查的 Agent 更可靠。",
+    "crumbs": [
+      "首页",
+      "心理学研究者的 AI Start Guide"
+    ]
+  },
+  {
+    "objectID": "index.html#三个最容易混淆的概念",
+    "href": "index.html#三个最容易混淆的概念",
+    "title": "心理学研究者的 AI Start Guide",
+    "section": "三个最容易混淆的概念",
+    "text": "三个最容易混淆的概念\n\n\n\n\n\n\n\n常见误解\n更准确的理解\n\n\n\n\n“ChatGPT / DeepSeek / Kimi 就是一个模型”\n你看到的往往是一个产品生态；里面可能包含多个模型、搜索、项目空间和 Agent。\n\n\n“我买了会员，所以 API 也能直接用”\n产品订阅和 API 通常分开计费。 API 是给软件和脚本调用的另一条入口。\n\n\n“Claude Code / WorkBuddy 很强，是因为模型更强”\nCode / Work Agent 的差异很大一部分来自 Harness：文件、工具、权限和执行环境。\n\n\n\n把这三件事分开以后，很多产品名称就不会再显得混乱。",
+    "crumbs": [
+      "首页",
+      "心理学研究者的 AI Start Guide"
+    ]
+  },
+  {
+    "objectID": "index.html#国内与国际产品并列",
+    "href": "index.html#国内与国际产品并列",
+    "title": "心理学研究者的 AI Start Guide",
+    "section": "国内与国际产品并列",
+    "text": "国内与国际产品并列\n本站首版核心生态：ChatGPT、Claude、Gemini / Gemini Notebook、DeepSeek、Kimi、Qwen、GLM、腾讯 WorkBuddy。\n不做“最佳模型排行榜”。如果你已经知道任务类型，可以直接看 产品速查；如果不知道，先看 一张图选工具。",
+    "crumbs": [
+      "首页",
+      "心理学研究者的 AI Start Guide"
+    ]
+  },
+  {
+    "objectID": "chapters/01-task-map.html",
+    "href": "chapters/01-task-map.html",
+    "title": "一张图选工具：我现在到底该打开什么",
+    "section": "",
+    "text": "你不需要先选“最强模型”。先判断当前任务缺的是什么：上下文、来源、搜索、批量执行，还是文件与代码权限。",
+    "crumbs": [
+      "首页",
+      "00｜现在就开始",
+      "一张图选工具：我现在到底该打开什么"
+    ]
+  },
+  {
+    "objectID": "chapters/01-task-map.html#最短选择表",
+    "href": "chapters/01-task-map.html#最短选择表",
+    "title": "一张图选工具：我现在到底该打开什么",
+    "section": "最短选择表",
+    "text": "最短选择表\n\n\n\n\n\n\n\n\n\n你遇到的实际问题\n优先环境\n典型候选\n第一道边界\n\n\n\n\n只是问答、解释、局部写作\n普通聊天\nChatGPT / Claude / Gemini / DeepSeek / Kimi / Qwen / GLM\n正式依据回到真实材料\n\n\n每次都要重新上传同一批材料\nProject / Workspace\n各平台项目型工作区\n上传过不等于当前有效\n\n\n手里已经有一批论文，要围绕原文阅读\n来源型阅读环境\nGemini Notebook 等\n引用定位仍需回原文\n\n\n需要主动搜索公开资料\nDeep Research\nChatGPT / Gemini / Kimi 等\n报告不替代原始来源\n\n\n同一个任务要重复几十、几百次\nAPI\nOpenAI / Anthropic / DeepSeek / GLM / Qwen 等\nKey、费用、数据流\n\n\n需要读取、修改和运行代码\nCode Agent / Harness\nCodex / Claude Code / Qwen Code / Kimi Code 等\n第一次先只读\n\n\n需要跨本地文件、网页或应用连续执行\nWork Agent\nWorkBuddy / Work / Cowork 等\n权限、停止条件、恢复",
+    "crumbs": [
+      "首页",
+      "00｜现在就开始",
+      "一张图选工具：我现在到底该打开什么"
+    ]
+  },
+  {
+    "objectID": "chapters/01-task-map.html#把它理解成遇到摩擦再升级",
+    "href": "chapters/01-task-map.html#把它理解成遇到摩擦再升级",
+    "title": "一张图选工具：我现在到底该打开什么",
+    "section": "把它理解成“遇到摩擦再升级”",
+    "text": "把它理解成“遇到摩擦再升级”\n普通聊天\n   │ 反复解释背景 / 反复上传材料\n   ▼\nProject / Workspace\n   │ 要围绕已有论文逐条回原文\n   ├──────────────► 来源型阅读工具\n   │\n   │ 需要主动搜索新的公开资料\n   ▼\nDeep Research\n   │ 重复、规模、结构化保存开始成为负担\n   ▼\nAPI / 脚本\n   │ 需要读写代码、运行命令\n   ▼\nCode Agent / Harness\n   │ 需要跨文件、网页、应用连续执行\n   ▼\nWork Agent\n这不是能力等级表。你完全可能长期停在普通聊天，也可能直接因为编程任务进入 Code Agent。\n\n\n\n\n\n\n提示\n\n\n\n产品只是实现方式。 先确定任务需要 AI 看见什么、调用什么、写入什么，再选产品。\n\n\n下一步如果你还没有形成固定使用习惯，直接从 第一次使用普通聊天 开始。",
+    "crumbs": [
+      "首页",
+      "00｜现在就开始",
+      "一张图选工具：我现在到底该打开什么"
+    ]
+  },
+  {
+    "objectID": "chapters/03-project-workspace.html",
+    "href": "chapters/03-project-workspace.html",
+    "title": "第一次建立持续研究 Project / Workspace",
+    "section": "",
+    "text": "Project / Workspace 解决的核心问题不是“让模型更聪明”，而是减少反复搬运上下文。",
+    "crumbs": [
+      "首页",
+      "01｜让 AI 进入真实研究",
+      "第一次建立持续研究 Project / Workspace"
+    ]
+  },
+  {
+    "objectID": "chapters/03-project-workspace.html#什么时候值得建",
+    "href": "chapters/03-project-workspace.html#什么时候值得建",
+    "title": "第一次建立持续研究 Project / Workspace",
+    "section": "什么时候值得建",
+    "text": "什么时候值得建\n当任务跨越多天、反复读取同一批文件、需要持续更新项目说明时，项目空间开始有价值。\n典型信号包括：\n\n每次聊天都先解释研究问题和变量；\n同一组论文、问卷、结果表反复上传；\n你自己也开始记不清哪些文件是当前版本。",
+    "crumbs": [
+      "首页",
+      "01｜让 AI 进入真实研究",
+      "第一次建立持续研究 Project / Workspace"
+    ]
+  },
+  {
+    "objectID": "chapters/03-project-workspace.html#第一次只放什么",
+    "href": "chapters/03-project-workspace.html#第一次只放什么",
+    "title": "第一次建立持续研究 Project / Workspace",
+    "section": "第一次只放什么",
+    "text": "第一次只放什么\n第一次不要上传整个项目历史。只放：\n\n一页项目入口；\n3—5 份当前材料；\n一份当前任务说明。\n\n例如，一个最小的论文项目空间可以只有：README / 当前研究问题 / 当前分析结果 / 当前稿件 / 待办。",
+    "crumbs": [
+      "首页",
+      "01｜让 AI 进入真实研究",
+      "第一次建立持续研究 Project / Workspace"
+    ]
+  },
+  {
+    "objectID": "chapters/03-project-workspace.html#project-不能替你解决什么",
+    "href": "chapters/03-project-workspace.html#project-不能替你解决什么",
+    "title": "第一次建立持续研究 Project / Workspace",
+    "section": "Project 不能替你解决什么",
+    "text": "Project 不能替你解决什么\n把文件放进去，并不意味着 AI 自动知道：\n\n哪个版本当前有效；\n哪些旧结论已经作废；\n哪些聊天里的决定后来被导师推翻；\n哪些文件只是备份。\n\n所以项目空间仍然需要一份简短的“当前状态说明”。",
+    "crumbs": [
+      "首页",
+      "01｜让 AI 进入真实研究",
+      "第一次建立持续研究 Project / Workspace"
+    ]
+  },
+  {
+    "objectID": "chapters/03-project-workspace.html#必须核查的平台差异",
+    "href": "chapters/03-project-workspace.html#必须核查的平台差异",
+    "title": "第一次建立持续研究 Project / Workspace",
+    "section": "必须核查的平台差异",
+    "text": "必须核查的平台差异\n不同产品对“Project / Workspace”的定义并不一样，至少要看：\n\n项目文件是否跨对话可复用；\n旧聊天是否自动进入新任务上下文；\n项目是否有独立指令/知识库；\n文件和记忆是否可删除、导出或限制共享。",
+    "crumbs": [
+      "首页",
+      "01｜让 AI 进入真实研究",
+      "第一次建立持续研究 Project / Workspace"
+    ]
+  },
+  {
+    "objectID": "chapters/03-project-workspace.html#下一步不一定还是-project",
+    "href": "chapters/03-project-workspace.html#下一步不一定还是-project",
+    "title": "第一次建立持续研究 Project / Workspace",
+    "section": "下一步不一定还是 Project",
+    "text": "下一步不一定还是 Project\n建立项目空间以后，你通常会分成两条路线：\n\n手里已有论文，重点是围绕原文阅读和比较 → 第一次让 AI 帮你读一批论文\n还缺资料，需要主动去网上发现和检索 → 第一次做 Deep Research\n\n这两类任务不要混在一起：“读我已经有的来源”和“替我去找新的来源”是两种不同工作。",
+    "crumbs": [
+      "首页",
+      "01｜让 AI 进入真实研究",
+      "第一次建立持续研究 Project / Workspace"
+    ]
+  },
+  {
+    "objectID": "chapters/05-deep-research.html",
+    "href": "chapters/05-deep-research.html",
+    "title": "第一次做 Deep Research",
+    "section": "",
+    "text": "Deep Research 的价值在于主动搜索、筛选和综合公开资料。它更接近“帮你做一轮检索与初步综述”，而不是“替你读已经上传的几篇论文”。",
+    "crumbs": [
+      "首页",
+      "01｜让 AI 进入真实研究",
+      "第一次做 Deep Research"
+    ]
+  },
+  {
+    "objectID": "chapters/05-deep-research.html#它适合什么",
+    "href": "chapters/05-deep-research.html#它适合什么",
+    "title": "第一次做 Deep Research",
+    "section": "它适合什么",
+    "text": "它适合什么\n\n陌生领域地图；\n候选文献发现；\n方法资料检索；\n产品、政策和动态资料核查；\n为后续人工检索形成关键词和来源清单。",
+    "crumbs": [
+      "首页",
+      "01｜让 AI 进入真实研究",
+      "第一次做 Deep Research"
+    ]
+  },
+  {
+    "objectID": "chapters/05-deep-research.html#第一次任务",
+    "href": "chapters/05-deep-research.html#第一次任务",
+    "title": "第一次做 Deep Research",
+    "section": "第一次任务",
+    "text": "第一次任务\n不要直接说“帮我深入研究 X”。先让工具复述：\n\n研究问题；\n计划搜索的概念；\n时间或地区范围；\n排除范围；\n预期输出。\n\n如果这些内容不对，先改计划，再开始搜索。",
+    "crumbs": [
+      "首页",
+      "01｜让 AI 进入真实研究",
+      "第一次做 Deep Research"
+    ]
+  },
+  {
+    "objectID": "chapters/05-deep-research.html#最低检查",
+    "href": "chapters/05-deep-research.html#最低检查",
+    "title": "第一次做 Deep Research",
+    "section": "最低检查",
+    "text": "最低检查\n\n来源是否真实可访问；\n关键结论是否被二手来源放大；\n是否把“搜索不到”写成“不存在”；\n最关键的主张是否回到原始来源；\n动态信息是否标明核查日期。",
+    "crumbs": [
+      "首页",
+      "01｜让 AI 进入真实研究",
+      "第一次做 Deep Research"
+    ]
+  },
+  {
+    "objectID": "chapters/05-deep-research.html#deep-research-结束后应该留下什么",
+    "href": "chapters/05-deep-research.html#deep-research-结束后应该留下什么",
+    "title": "第一次做 Deep Research",
+    "section": "Deep Research 结束后应该留下什么",
+    "text": "Deep Research 结束后应该留下什么\n至少留下：\n\n你最终采用的来源清单；\n哪些结论已回到原始来源核对；\n哪些只是候选线索；\n哪些问题仍然没有可靠答案。",
+    "crumbs": [
+      "首页",
+      "01｜让 AI 进入真实研究",
+      "第一次做 Deep Research"
+    ]
+  },
+  {
+    "objectID": "chapters/05-deep-research.html#下一步什么时候-api-开始有意义",
+    "href": "chapters/05-deep-research.html#下一步什么时候-api-开始有意义",
+    "title": "第一次做 Deep Research",
+    "section": "下一步：什么时候 API 开始有意义",
+    "text": "下一步：什么时候 API 开始有意义\nDeep Research 解决的是“帮我找和综合”。如果你开始遇到的是另一类问题：\n\n同样的任务要重复几十次；\n想把模型接进翻译、阅读或代码工具；\n想让结果自动写入 CSV / JSON；\n想记录每次请求的模型、时间、错误和费用；\n\n那么你需要了解的已经不是“更强的搜索”，而是 API 是什么。\n\n\n\n\n\n\n注记\n\n\n\nAPI 不是 Deep Research 的“高级版”。它只是另一种调用模型的方式。很多研究者永远不需要 API，也完全没有问题。",
+    "crumbs": [
+      "首页",
+      "01｜让 AI 进入真实研究",
+      "第一次做 Deep Research"
+    ]
+  },
+  {
+    "objectID": "chapters/07-api-first-setup.html",
+    "href": "chapters/07-api-first-setup.html",
+    "title": "第一次配置自己的 API：不写代码也能开始",
+    "section": "",
+    "text": "本章不从 Python 开始。第一次 API 体验只需要让读者看懂完整的数据流和计费流，不需要把任何第三方客户端写成逐按钮说明书。",
+    "crumbs": [
+      "首页",
+      "02｜API：从使用 AI 到调用 AI",
+      "第一次配置自己的 API：不写代码也能开始"
+    ]
+  },
+  {
+    "objectID": "chapters/07-api-first-setup.html#路线-adeepseek-api-沉浸式翻译",
+    "href": "chapters/07-api-first-setup.html#路线-adeepseek-api-沉浸式翻译",
+    "title": "第一次配置自己的 API：不写代码也能开始",
+    "section": "路线 A：DeepSeek API → 沉浸式翻译",
+    "text": "路线 A：DeepSeek API → 沉浸式翻译\n这是本册第一条正式示例。它的价值不在于“怎样调一个参数”，而在于让读者第一次看到：一个日常工具可以调用自己购买的模型 API。\n截至 2026-09-16，沉浸式翻译官方文档仍支持用户配置 DeepSeek API。作者已有一年左右的长期实际使用经验，因此不再记录单次请求数、token 增量等低价值指标。\n\n只需要知道四件事\n\n在 DeepSeek 开放平台创建 API Key，并给 API 账户保留少量余额；\n在沉浸式翻译的翻译服务中选择可填写自有 Key 的 DeepSeek 路线；\n把 Key 作为授权凭证交给工具；\n模型调用费用记在 DeepSeek API 账户，而不是沉浸式翻译的托管模型订阅中。\n\n\n当前实测中，沉浸式翻译托管的 DeepSeek 模型属于其 Pro 路线，但用户自行填写 DeepSeek API Key 的自定义服务可以独立使用。这正好说明：工具订阅费和模型 API 费可以是两套完全不同的账单。\n\n\n\n你刚才实际上做了什么\n你点击“翻译”\n   ↓\n沉浸式翻译组织请求\n   ↓\nAPI Key 证明请求由你的账户授权\n   ↓\nDeepSeek API 调用模型\n   ↓\n结果返回沉浸式翻译\n   ↓\nDeepSeek 记录 token 与费用\n这已经足够理解 API 的第一层意义。",
+    "crumbs": [
+      "首页",
+      "02｜API：从使用 AI 到调用 AI",
+      "第一次配置自己的 API：不写代码也能开始"
+    ]
+  },
+  {
+    "objectID": "chapters/07-api-first-setup.html#路线-bbyok-客户端知道它存在即可",
+    "href": "chapters/07-api-first-setup.html#路线-bbyok-客户端知道它存在即可",
+    "title": "第一次配置自己的 API：不写代码也能开始",
+    "section": "路线 B：BYOK 客户端——知道它存在即可",
+    "text": "路线 B：BYOK 客户端——知道它存在即可\n另一类常见工具是 Chatbox、Cherry Studio、LobeChat 等 BYOK（Bring Your Own Key）客户端。它们的共同逻辑是：客户端负责界面和会话，模型服务商负责推理，用户自己提供 API Key。\n以 Chatbox 为例，当前官方支持直接配置 DeepSeek、OpenAI、Anthropic、Google 等 Provider，也支持 Ollama / LM Studio 等本地模型。社区中的实际使用场景主要包括：\n\n在桌面或手机上统一使用自己的 DeepSeek 等 API，而不依赖厂商原生 App；\n在多个 Provider / 模型之间快速切换；\n固定系统提示、Co-pilot 或自定义参数；\n将按量 API 计费与客户端订阅分开；\n进一步进入知识库、Agent、MCP 或本地模型等功能。\n\n这些需求是真实存在的，但对于本册读者，没有必要把 Chatbox 本身学会。如果你已经喜欢某个官方 App，也完全可以跳过这一类客户端。它们只是帮助理解“模型和界面可以拆开”的一个代表性例子。\n同时也要注意：社区经验表明，模型通过不同客户端、路由平台或 Agent Harness 接入后，工具调用、模型路由和兼容性可能与官方产品不同。因此 BYOK 的“自由度”也意味着更多配置与排错责任。",
+    "crumbs": [
+      "首页",
+      "02｜API：从使用 AI 到调用 AI",
+      "第一次配置自己的 API：不写代码也能开始"
+    ]
+  },
+  {
+    "objectID": "chapters/07-api-first-setup.html#路线-capi-最小脚本",
+    "href": "chapters/07-api-first-setup.html#路线-capi-最小脚本",
+    "title": "第一次配置自己的 API：不写代码也能开始",
+    "section": "路线 C：API → 最小脚本",
+    "text": "路线 C：API → 最小脚本\n对于研究者，API 真正独特的价值通常从这里开始：\nCSV / 文本\n   ↓\nPython / R\n   ↓\nAPI\n   ↓\n模型响应\n   ↓\nJSON / CSV\n当你需要批量处理材料、固定参数、自动保存结果、记录模型版本、重试失败任务时，API 才从“换一个聊天界面”变成研究基础设施的一部分。\n本册后续只提供一个最小可复现示例，不展开成 API 编程课程。",
+    "crumbs": [
+      "首页",
+      "02｜API：从使用 AI 到调用 AI",
+      "第一次配置自己的 API：不写代码也能开始"
+    ]
+  },
+  {
+    "objectID": "chapters/07-api-first-setup.html#key-安全",
+    "href": "chapters/07-api-first-setup.html#key-安全",
+    "title": "第一次配置自己的 API：不写代码也能开始",
+    "section": "Key 安全",
+    "text": "Key 安全\n把 API Key 当作支付凭证：\n\n不提交 GitHub；\n不贴进截图；\n不硬编码在公开脚本；\n正式项目最好使用独立 Key，便于撤销和成本审计；\n泄露后立即删除/撤销并重新生成。",
+    "crumbs": [
+      "首页",
+      "02｜API：从使用 AI 到调用 AI",
+      "第一次配置自己的 API：不写代码也能开始"
+    ]
+  },
+  {
+    "objectID": "chapters/07-api-first-setup.html#api-一定很贵吗",
+    "href": "chapters/07-api-first-setup.html#api-一定很贵吗",
+    "title": "第一次配置自己的 API：不写代码也能开始",
+    "section": "API 一定很贵吗",
+    "text": "API 一定很贵吗\n不一定。API 的关键特征是按量计费，不是固定月费。作者的长期 DeepSeek API 使用中，日常插件调用加上部分研究用途，几十元充值可以维持较长时间；这不能外推为普遍成本，但足以说明“API = 昂贵专业版”是错误直觉。\n真正需要比较的是：模型单价 × token 量 × 调用频率 × 是否有缓存/批处理优惠。",
+    "crumbs": [
+      "首页",
+      "02｜API：从使用 AI 到调用 AI",
+      "第一次配置自己的 API：不写代码也能开始"
+    ]
+  },
+  {
+    "objectID": "chapters/07-api-first-setup.html#当前资料",
+    "href": "chapters/07-api-first-setup.html#当前资料",
+    "title": "第一次配置自己的 API：不写代码也能开始",
+    "section": "当前资料",
+    "text": "当前资料\n\nDeepSeek：首次调用 API\nDeepSeek：模型与价格\n沉浸式翻译：DeepSeek\nChatbox：BYOK",
+    "crumbs": [
+      "首页",
+      "02｜API：从使用 AI 到调用 AI",
+      "第一次配置自己的 API：不写代码也能开始"
+    ]
+  },
+  {
+    "objectID": "chapters/09-api-research-script.html",
+    "href": "chapters/09-api-research-script.html",
+    "title": "API 真正对研究者有用的地方：一个最小批量脚本",
+    "section": "",
+    "text": "前面的例子说明了 API 可以让插件或客户端调用模型。对研究者而言，更重要的一步是：同一套输入可以由脚本按照同一规则逐条调用模型，并把原始输入、模型输出、模型名、时间和错误状态一起保存下来。\n本章只做一个很小的教学实例，不把它写成 Python 课程，也不把 LLM 的输出当成已经验证过的心理学测量。\nflowchart LR\n    A[合成输入 CSV] --&gt; B[Python 脚本]\n    B --&gt; C[DeepSeek API]\n    C --&gt; D[模型响应]\n    D --&gt; E[JSONL 逐条保存]\n    B --&gt; F[运行元数据]\n    C --&gt; G[错误 / 用量信息]\n    G --&gt; E\n这张图里最值得注意的不是“模型”本身，而是左右两端：输入有固定结构，输出和错误会自动留下记录。",
+    "crumbs": [
+      "首页",
+      "02｜API：从使用 AI 到调用 AI",
+      "API 真正对研究者有用的地方：一个最小批量脚本"
+    ]
+  },
+  {
+    "objectID": "chapters/09-api-research-script.html#示例任务",
+    "href": "chapters/09-api-research-script.html#示例任务",
+    "title": "API 真正对研究者有用的地方：一个最小批量脚本",
+    "section": "示例任务",
+    "text": "示例任务\n假设我们有 8 条完全虚构的开放式问卷回答，希望按预先给定的标签做一次“候选主题标记”，以展示批量调用流程。\n示例标签：\n\nacademic_pressure：学业压力\nrumination：反复思考 / 难以停止思绪\nsleep_habits：睡眠习惯或作息\nsocial_stress：人际或社会压力\nother：以上均不适合\n\n\n\n\n\n\n\n警告\n\n\n\n这个例子只用于学习 API 工作流。真实研究中的自动编码需要独立的效度、可靠性、偏差和人工复核设计；“模型能输出一个标签”不等于“这个标签已经是有效研究数据”。",
+    "crumbs": [
+      "首页",
+      "02｜API：从使用 AI 到调用 AI",
+      "API 真正对研究者有用的地方：一个最小批量脚本"
+    ]
+  },
+  {
+    "objectID": "chapters/09-api-research-script.html#为什么不直接复制到聊天框",
+    "href": "chapters/09-api-research-script.html#为什么不直接复制到聊天框",
+    "title": "API 真正对研究者有用的地方：一个最小批量脚本",
+    "section": "为什么不直接复制到聊天框",
+    "text": "为什么不直接复制到聊天框\n如果只是 3 条文本，复制粘贴完全可以。到了几十、几百或几千条输入，API + 脚本开始带来不同的价值：\n\n每条输入都经过同一段指令；\n不需要人工逐条复制；\n每次响应自动写入文件；\n可以同时保存请求模型和返回模型；\n中途失败时记录错误，而不是悄悄漏掉；\n重新运行时可以跳过已经完成的条目；\n后续能核查“这一列结果到底是怎样生成的”。",
+    "crumbs": [
+      "首页",
+      "02｜API：从使用 AI 到调用 AI",
+      "API 真正对研究者有用的地方：一个最小批量脚本"
+    ]
+  },
+  {
+    "objectID": "chapters/09-api-research-script.html#教学文件",
+    "href": "chapters/09-api-research-script.html#教学文件",
+    "title": "API 真正对研究者有用的地方：一个最小批量脚本",
+    "section": "教学文件",
+    "text": "教学文件\n项目中已经附带：\nexamples/api-batch/\n├── input_responses.csv\n├── batch_label.py\n├── requirements.txt\n├── .gitignore\n└── README.md\n输入文件只有两列：id 和 response。所有文本都是为本教程编写的合成材料。",
+    "crumbs": [
+      "首页",
+      "02｜API：从使用 AI 到调用 AI",
+      "API 真正对研究者有用的地方：一个最小批量脚本"
+    ]
+  },
+  {
+    "objectID": "chapters/09-api-research-script.html#第一次运行",
+    "href": "chapters/09-api-research-script.html#第一次运行",
+    "title": "API 真正对研究者有用的地方：一个最小批量脚本",
+    "section": "第一次运行",
+    "text": "第一次运行\n\n1. 安装依赖\n在项目根目录打开终端：\npython -m pip install -r examples/api-batch/requirements.txt\n\n\n2. 临时设置 API Key\nWindows PowerShell：\n$env:DEEPSEEK_API_KEY=\"你的 Key\"\nmacOS / Linux：\nexport DEEPSEEK_API_KEY='你的 Key'\n这里只把 Key 放进当前终端会话，不把它写进脚本和 CSV。\n\n\n3. 运行\npython examples/api-batch/batch_label.py\n脚本会逐条调用，并把结果追加到：\nexamples/api-batch/output/results.jsonl\n如果某一条失败，错误也会作为一条记录写入，而不是让整批结果消失。",
+    "crumbs": [
+      "首页",
+      "02｜API：从使用 AI 到调用 AI",
+      "API 真正对研究者有用的地方：一个最小批量脚本"
+    ]
+  },
+  {
+    "objectID": "chapters/09-api-research-script.html#每条结果至少应该留下什么",
+    "href": "chapters/09-api-research-script.html#每条结果至少应该留下什么",
+    "title": "API 真正对研究者有用的地方：一个最小批量脚本",
+    "section": "每条结果至少应该留下什么",
+    "text": "每条结果至少应该留下什么\n本例保存：\n\nid\n原始 response\nstatus\nmodel_requested\nAPI 返回的 model_returned\ntimestamp_utc\nprompt_version\nraw_model_output\n如果能够解析 JSON，再保存 parsed_output\n失败时保存 error\n本地保留 Provider 的完整响应，便于之后查看 token / usage 等运行信息\n\n这比“复制最后一列标签”多了很多字段，但这些字段正是以后回答“这批结果从哪里来”的最低成本证据。",
+    "crumbs": [
+      "首页",
+      "02｜API：从使用 AI 到调用 AI",
+      "API 真正对研究者有用的地方：一个最小批量脚本"
+    ]
+  },
+  {
+    "objectID": "chapters/09-api-research-script.html#什么时候不值得用-api",
+    "href": "chapters/09-api-research-script.html#什么时候不值得用-api",
+    "title": "API 真正对研究者有用的地方：一个最小批量脚本",
+    "section": "什么时候不值得用 API",
+    "text": "什么时候不值得用 API\nAPI 不是“更专业的聊天”。下面这些情况通常直接用聊天界面更省事：\n\n只有少量一次性文本，需要边看边改；\n任务高度依赖临时讨论，结果不需要形成结构化批次；\n你还说不清输入、输出和检查规则；\n材料敏感，而当前 API 服务、机构政策或数据协议并不允许上传；\n为了省几分钟操作，却要额外维护脚本、Key 和错误处理。\n\n一个实用判断是：当“重复、规模、记录和重跑”开始成为负担时，再考虑 API。",
+    "crumbs": [
+      "首页",
+      "02｜API：从使用 AI 到调用 AI",
+      "API 真正对研究者有用的地方：一个最小批量脚本"
+    ]
+  },
+  {
+    "objectID": "chapters/09-api-research-script.html#一个很小但重要的恢复设计",
+    "href": "chapters/09-api-research-script.html#一个很小但重要的恢复设计",
+    "title": "API 真正对研究者有用的地方：一个最小批量脚本",
+    "section": "一个很小但重要的恢复设计",
+    "text": "一个很小但重要的恢复设计\n脚本启动时会读取已有 results.jsonl。如果某个 id 已经成功完成，就默认跳过它。\n这意味着第 137 条请求失败时，你不需要重新付费跑前 136 条。可恢复性本身就是 API 工作流和手工聊天之间的重要差别。",
+    "crumbs": [
+      "首页",
+      "02｜API：从使用 AI 到调用 AI",
+      "API 真正对研究者有用的地方：一个最小批量脚本"
+    ]
+  },
+  {
+    "objectID": "chapters/09-api-research-script.html#这和开放科学有什么关系",
+    "href": "chapters/09-api-research-script.html#这和开放科学有什么关系",
+    "title": "API 真正对研究者有用的地方：一个最小批量脚本",
+    "section": "这和开放科学有什么关系",
+    "text": "这和开放科学有什么关系\n结构化保存并不意味着原始研究数据应该公开。但当项目最终需要准备开放材料时，这种工作方式会明显降低整理成本：\n内部项目\n├── 受保护的原始数据\n├── 分析 / API 脚本\n├── 完整运行记录\n└── 结果\n        ↓ 人工判断哪些内容可以公开\n公开 release\n├── README\n├── 去标识化 / 合成 / 获许可的数据\n├── 分析代码\n├── 环境与运行说明\n└── 可复核结果\nAI 可以帮助整理、检查和维护这套 release，但不能替研究者判断隐私、伦理和许可边界。",
+    "crumbs": [
+      "首页",
+      "02｜API：从使用 AI 到调用 AI",
+      "API 真正对研究者有用的地方：一个最小批量脚本"
+    ]
+  },
+  {
+    "objectID": "chapters/09-api-research-script.html#不要从这个例子得出什么结论",
+    "href": "chapters/09-api-research-script.html#不要从这个例子得出什么结论",
+    "title": "API 真正对研究者有用的地方：一个最小批量脚本",
+    "section": "不要从这个例子得出什么结论",
+    "text": "不要从这个例子得出什么结论\n\n不要因为 prompt、模型名和脚本固定，就宣称 LLM 输出“完全可复现”；模型服务本身仍可能更新。\n不要把本例的标签当作一个经过验证的心理学量表或编码体系。\n不要把真实被试身份信息直接送入第三方 API。\n不要把 API Key 写进脚本后上传 GitHub。\n\n本章真正要建立的直觉只有一个：\n\nAPI 的科研价值不只是“批量”，而是让输入、执行规则、输出和失败记录开始进入一个可检查的流程。",
+    "crumbs": [
+      "首页",
+      "02｜API：从使用 AI 到调用 AI",
+      "API 真正对研究者有用的地方：一个最小批量脚本"
+    ]
+  },
+  {
+    "objectID": "chapters/11-work-agent.html",
+    "href": "chapters/11-work-agent.html",
+    "title": "第一次进入 Work Agent / 桌面 Agent",
+    "section": "",
+    "text": "Work Agent 的重点不是“聊天时间更长”，而是它能够在授权下跨多个文件、网页或工具连续执行，并根据中间结果决定下一步。",
+    "crumbs": [
+      "首页",
+      "03｜Harness 与 Agent",
+      "第一次进入 Work Agent / 桌面 Agent"
+    ]
+  },
+  {
+    "objectID": "chapters/11-work-agent.html#什么时候才需要",
+    "href": "chapters/11-work-agent.html#什么时候才需要",
+    "title": "第一次进入 Work Agent / 桌面 Agent",
+    "section": "什么时候才需要",
+    "text": "什么时候才需要\n典型任务包括：\n\n扫描一批文件并生成项目地图；\n比较多个版本并整理差异；\n从公开网页收集资料，再写入本地文档；\n根据多个中间结果更新交接页或状态表。\n\n如果一个任务在单个聊天、单个文档或单个代码库里已经能完成，就没有必要上 Work Agent。",
+    "crumbs": [
+      "首页",
+      "03｜Harness 与 Agent",
+      "第一次进入 Work Agent / 桌面 Agent"
+    ]
+  },
+  {
+    "objectID": "chapters/11-work-agent.html#第一次不要做什么",
+    "href": "chapters/11-work-agent.html#第一次不要做什么",
+    "title": "第一次进入 Work Agent / 桌面 Agent",
+    "section": "第一次不要做什么",
+    "text": "第一次不要做什么\n不要直接让 Agent “接管整个研究项目”。权限越大，越要缩小第一次任务。",
+    "crumbs": [
+      "首页",
+      "03｜Harness 与 Agent",
+      "第一次进入 Work Agent / 桌面 Agent"
+    ]
+  },
+  {
+    "objectID": "chapters/11-work-agent.html#第一次任务建议",
+    "href": "chapters/11-work-agent.html#第一次任务建议",
+    "title": "第一次进入 Work Agent / 桌面 Agent",
+    "section": "第一次任务建议",
+    "text": "第一次任务建议\n选择一个可回退的结构性任务，例如：\n\n扫描一个副本目录并生成文件地图；\n比较三个版本，只输出差异，不覆盖原件；\n整理公开资料；\n根据已经确认的信息生成交接页草稿。",
+    "crumbs": [
+      "首页",
+      "03｜Harness 与 Agent",
+      "第一次进入 Work Agent / 桌面 Agent"
+    ]
+  },
+  {
+    "objectID": "chapters/11-work-agent.html#第一次写清四个边界",
+    "href": "chapters/11-work-agent.html#第一次写清四个边界",
+    "title": "第一次进入 Work Agent / 桌面 Agent",
+    "section": "第一次写清四个边界",
+    "text": "第一次写清四个边界\n\n可见范围：只能看哪些目录、网页或应用；\n允许动作：只能读，还是可以创建/修改；\n停止条件：遇到什么情况必须停下来问人；\n恢复方式：改错后怎样回退。\n\nWork Agent 把“权限”带进了科研工作流。接下来最重要的一页不是更多功能，而是：上传之前：数据、隐私与未公开研究。",
+    "crumbs": [
+      "首页",
+      "03｜Harness 与 Agent",
+      "第一次进入 Work Agent / 桌面 Agent"
+    ]
+  },
+  {
+    "objectID": "chapters/13-checklist.html",
+    "href": "chapters/13-checklist.html",
+    "title": "30 分钟 Start Checklist",
+    "section": "",
+    "text": "这张清单的目标不是证明你“学会了 AI”，而是检查第一次任务有没有形成一个可继续的工作状态。",
+    "crumbs": [
+      "首页",
+      "04｜安全与第一次完整上手",
+      "30 分钟 Start Checklist"
+    ]
+  },
+  {
+    "objectID": "chapters/13-checklist.html#做完以后怎么升级",
+    "href": "chapters/13-checklist.html#做完以后怎么升级",
+    "title": "30 分钟 Start Checklist",
+    "section": "做完以后怎么升级",
+    "text": "做完以后怎么升级\n只有当相同摩擦反复出现时，再升级工具：\n\n反复搬背景 → Project / Workspace\n论文太多、要回原文 → 来源型阅读环境\n需要主动找资料 → Deep Research\n重复和批量成为负担 → API / 脚本\n需要读写代码并运行 → Code Agent\n需要跨文件、网页、应用执行 → Work Agent\n\n完成这些以后，才值得考虑把重复任务进一步固定成模板、脚本、Skill 或 Agent。",
+    "crumbs": [
+      "首页",
+      "04｜安全与第一次完整上手",
+      "30 分钟 Start Checklist"
+    ]
+  },
+  {
+    "objectID": "products/claude.html",
+    "href": "products/claude.html",
+    "title": "Claude",
+    "section": "",
+    "text": "最后核查：2026-09-16 · 第一轮官方资料审计",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "Claude"
+    ]
+  },
+  {
+    "objectID": "products/claude.html#它是什么",
+    "href": "products/claude.html#它是什么",
+    "title": "Claude",
+    "section": "它是什么",
+    "text": "它是什么\n从普通聊天和 Projects 延伸到 Research、Claude Code 与 Cowork 的 AI 产品生态。",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "Claude"
+    ]
+  },
+  {
+    "objectID": "products/claude.html#什么时候值得打开",
+    "href": "products/claude.html#什么时候值得打开",
+    "title": "Claude",
+    "section": "什么时候值得打开",
+    "text": "什么时候值得打开\n\n围绕一批文件持续讨论；\n做带来源的研究检索；\n让 AI 进入代码库；\n需要桌面端多步骤文件工作。",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "Claude"
+    ]
+  },
+  {
+    "objectID": "products/claude.html#它和-api-harness-的关系",
+    "href": "products/claude.html#它和-api-harness-的关系",
+    "title": "Claude",
+    "section": "它和 API / Harness 的关系",
+    "text": "它和 API / Harness 的关系\nClaude 产品界面、Anthropic API、Claude Code 和 Cowork 是不同层级。Claude Code 更接近代码 Harness；Cowork 更接近工作 Agent。\n\n\n\n能力\n本册当前判断\n\n\n\n\n普通对话 / 文件\n✓\n\n\nProject / Workspace\n✓\n\n\nResearch\n✓\n\n\nAPI\n✓\n\n\nCode Agent\n✓ Claude Code\n\n\nWork Agent\n✓ Cowork\n\n\n中国大陆现实可用性\n需按当时地区、账号与支付条件核查",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "Claude"
+    ]
+  },
+  {
+    "objectID": "products/claude.html#第一次推荐任务",
+    "href": "products/claude.html#第一次推荐任务",
+    "title": "Claude",
+    "section": "第一次推荐任务",
+    "text": "第一次推荐任务\n新建一个 Project，加入一组论文和一页项目说明，先观察“项目知识”能稳定提供什么，而不要假定旧聊天会自动成为完整长期记忆。",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "Claude"
+    ]
+  },
+  {
+    "objectID": "products/claude.html#最重要的限制",
+    "href": "products/claude.html#最重要的限制",
+    "title": "Claude",
+    "section": "最重要的限制",
+    "text": "最重要的限制\n不要把 Projects、Research、Claude Code 和 Cowork 当成同一个“Claude 功能”。它们能看见的材料、拥有的权限和适用任务不同。",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "Claude"
+    ]
+  },
+  {
+    "objectID": "products/claude.html#官方来源",
+    "href": "products/claude.html#官方来源",
+    "title": "Claude",
+    "section": "官方来源",
+    "text": "官方来源\n\nWhat are projects?\nUse research on Claude\nGet started with Claude Cowork",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "Claude"
+    ]
+  },
+  {
+    "objectID": "products/gemini.html",
+    "href": "products/gemini.html",
+    "title": "Gemini / Gemini Notebook",
+    "section": "",
+    "text": "最后核查：2026-09-16 · 第一轮官方资料审计",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "Gemini / Gemini Notebook"
+    ]
+  },
+  {
+    "objectID": "products/gemini.html#它是什么",
+    "href": "products/gemini.html#它是什么",
+    "title": "Gemini / Gemini Notebook",
+    "section": "它是什么",
+    "text": "它是什么\nGemini 负责通用对话和 Deep Research；Gemini Notebook 更适合围绕一批明确来源持续阅读和整理。",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "Gemini / Gemini Notebook"
+    ]
+  },
+  {
+    "objectID": "products/gemini.html#什么时候值得打开",
+    "href": "products/gemini.html#什么时候值得打开",
+    "title": "Gemini / Gemini Notebook",
+    "section": "什么时候值得打开",
+    "text": "什么时候值得打开\n\n已经有 5—20 篇论文，希望围绕来源比较；\n需要用 Google Search 做 Deep Research；\n想把“来源内阅读”和“联网发现”分开处理。",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "Gemini / Gemini Notebook"
+    ]
+  },
+  {
+    "objectID": "products/gemini.html#它和-api-harness-的关系",
+    "href": "products/gemini.html#它和-api-harness-的关系",
+    "title": "Gemini / Gemini Notebook",
+    "section": "它和 API / Harness 的关系",
+    "text": "它和 API / Harness 的关系\nGemini Apps 是产品界面，Gemini Developer API 是程序化入口。Gemini Notebook 是来源型工作空间，不应简单理解为普通聊天的“长期记忆”。\n\n\n\n能力\n本册当前判断\n\n\n\n\n普通对话 / 文件\n✓\n\n\n来源型 Notebook\n✓\n\n\nDeep Research\n✓\n\n\nAPI\n✓\n\n\nCode / Work Agent\n首版不作为核心路线\n\n\n中国大陆现实可用性\n需按当时地区、网络和账号条件核查",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "Gemini / Gemini Notebook"
+    ]
+  },
+  {
+    "objectID": "products/gemini.html#第一次推荐任务",
+    "href": "products/gemini.html#第一次推荐任务",
+    "title": "Gemini / Gemini Notebook",
+    "section": "第一次推荐任务",
+    "text": "第一次推荐任务\n创建一个 Notebook，只加入 5 篇已获得全文的论文，要求按同一字段比较，并逐条回到来源引用。",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "Gemini / Gemini Notebook"
+    ]
+  },
+  {
+    "objectID": "products/gemini.html#最重要的限制",
+    "href": "products/gemini.html#最重要的限制",
+    "title": "Gemini / Gemini Notebook",
+    "section": "最重要的限制",
+    "text": "最重要的限制\n来源型 Notebook 擅长围绕你给出的材料工作；它不能替你完成书目信息和关键方法细节的最终核查。",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "Gemini / Gemini Notebook"
+    ]
+  },
+  {
+    "objectID": "products/gemini.html#官方来源",
+    "href": "products/gemini.html#官方来源",
+    "title": "Gemini / Gemini Notebook",
+    "section": "官方来源",
+    "text": "官方来源\n\nUse Deep Research in Gemini Apps\nLearn about Gemini Notebook\nCreate a notebook\nGemini Developer API pricing",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "Gemini / Gemini Notebook"
+    ]
+  },
+  {
+    "objectID": "products/index.html",
+    "href": "products/index.html",
+    "title": "产品速查",
+    "section": "",
+    "text": "产品页是动态信息区，不是排行榜，也不是完整说明书。\n每页只回答五类问题：\n能力、入口、价格、地区和支付条件会变化，因此页面顶部都标记最后核查日期。没有稳定核查的信息，本册宁可不写。",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "产品速查"
+    ]
+  },
+  {
+    "objectID": "products/index.html#国际生态",
+    "href": "products/index.html#国际生态",
+    "title": "产品速查",
+    "section": "国际生态",
+    "text": "国际生态\n\nChatGPT\nClaude\nGemini / Gemini Notebook",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "产品速查"
+    ]
+  },
+  {
+    "objectID": "products/index.html#中国生态",
+    "href": "products/index.html#中国生态",
+    "title": "产品速查",
+    "section": "中国生态",
+    "text": "中国生态\n\nDeepSeek\nKimi\nQwen / 通义千问\nGLM / 智谱\n腾讯 WorkBuddy\n\n如果你还不知道选哪个，不要从这里开始比较品牌，先回到 一张图选工具。",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "产品速查"
+    ]
+  },
+  {
+    "objectID": "products/qwen.html",
+    "href": "products/qwen.html",
+    "title": "Qwen / 通义千问",
+    "section": "",
+    "text": "最后核查：2026-09-16 · 第一轮官方资料审计",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "Qwen / 通义千问"
+    ]
+  },
+  {
+    "objectID": "products/qwen.html#它是什么",
+    "href": "products/qwen.html#它是什么",
+    "title": "Qwen / 通义千问",
+    "section": "它是什么",
+    "text": "它是什么\n国内通用模型、Deep Research、API 与开源 Qwen Code 生态。",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "Qwen / 通义千问"
+    ]
+  },
+  {
+    "objectID": "products/qwen.html#什么时候值得打开",
+    "href": "products/qwen.html#什么时候值得打开",
+    "title": "Qwen / 通义千问",
+    "section": "什么时候值得打开",
+    "text": "什么时候值得打开\n\n国内环境下使用通用对话和 Deep Research；\n使用阿里云 Model Studio / DashScope API；\n想尝试开源 Code Agent / Harness；\n需要理解普通 API 与 Coding Plan 的差别。",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "Qwen / 通义千问"
+    ]
+  },
+  {
+    "objectID": "products/qwen.html#它和-api-harness-的关系",
+    "href": "products/qwen.html#它和-api-harness-的关系",
+    "title": "Qwen / 通义千问",
+    "section": "它和 API / Harness 的关系",
+    "text": "它和 API / Harness 的关系\nQwen 模型/API 是模型服务；Qwen Code 是 Agent/Harness。二者可以组合，Qwen Code 也可接其他 Provider。\n\n\n\n能力\n本册当前判断\n\n\n\n\n普通对话\n✓\n\n\nDeep Research\n✓\n\n\nAPI\n✓\n\n\nCode Agent\n✓ Qwen Code\n\n\n中国大陆直接可用性\n✓\n\n\n普通 API / Coding Plan\n属于不同使用与计费路径，不能混为一谈",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "Qwen / 通义千问"
+    ]
+  },
+  {
+    "objectID": "products/qwen.html#第一次推荐任务",
+    "href": "products/qwen.html#第一次推荐任务",
+    "title": "Qwen / 通义千问",
+    "section": "第一次推荐任务",
+    "text": "第一次推荐任务\n如果你准备使用 Qwen Code，先只完成认证和环境诊断，弄清“普通 API Key、Coding Plan Key、Provider”分别是什么，再进入真实项目。",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "Qwen / 通义千问"
+    ]
+  },
+  {
+    "objectID": "products/qwen.html#最重要的限制",
+    "href": "products/qwen.html#最重要的限制",
+    "title": "Qwen / 通义千问",
+    "section": "最重要的限制",
+    "text": "最重要的限制\n不要默认“一个 Qwen Key 到处都能用”。普通 API 与 Coding Plan 的接口、用途和计费可能不同，具体以当时官方文档为准。",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "Qwen / 通义千问"
+    ]
+  },
+  {
+    "objectID": "products/qwen.html#官方来源",
+    "href": "products/qwen.html#官方来源",
+    "title": "Qwen / 通义千问",
+    "section": "官方来源",
+    "text": "官方来源\n\nQwen\nQwen Code\nQwen Code on Model Studio\nDashScope API",
+    "crumbs": [
+      "首页",
+      "05｜产品速查",
+      "Qwen / 通义千问"
+    ]
+  },
+  {
+    "objectID": "appendices/api-tools.html",
+    "href": "appendices/api-tools.html",
+    "title": "附录：把自己的 API 接进常用工具",
+    "section": "",
+    "text": "这个附录不做软件大全，也不提供逐按钮教程。只收录能够清楚展示“API 如何把模型能力嵌入现有工具”的代表性产品，并说明它们为什么值得知道。",
+    "crumbs": [
+      "首页",
+      "附录",
+      "附录：把自己的 API 接进常用工具"
+    ]
+  },
+  {
+    "objectID": "appendices/api-tools.html#沉浸式翻译",
+    "href": "appendices/api-tools.html#沉浸式翻译",
+    "title": "附录：把自己的 API 接进常用工具",
+    "section": "沉浸式翻译",
+    "text": "沉浸式翻译\n为什么值得知道：这是最容易理解 API 的案例之一。浏览器插件负责网页/PDF 阅读体验，模型服务商负责推理，用户自己的 API Key 负责授权与计费。\n当前作者长期使用 DeepSeek BYOK 路线。沉浸式翻译托管模型和自带 API Key 是两套不同的使用方式，因此也很适合解释“工具会员费 ≠ API 费用”。\n适合：已经经常阅读英文网页、论文或 PDF 的研究者。",
+    "crumbs": [
+      "首页",
+      "附录",
+      "附录：把自己的 API 接进常用工具"
+    ]
+  },
+  {
+    "objectID": "appendices/api-tools.html#byok-多模型客户端",
+    "href": "appendices/api-tools.html#byok-多模型客户端",
+    "title": "附录：把自己的 API 接进常用工具",
+    "section": "BYOK 多模型客户端",
+    "text": "BYOK 多模型客户端\n代表：Chatbox、Cherry Studio、LobeChat 等。\n为什么值得知道：它们把“界面”和“模型 Provider”拆开。用户可以把自己的 DeepSeek、OpenAI、Claude、Gemini 等 API Key 接入一个客户端，也可以接入 Ollama / LM Studio 等本地模型。\n公开社区中的典型使用包括：在手机/电脑上统一调用多个 Provider、锁定特定模型、在模型之间切换、使用自定义系统提示，以及把 API 按量付费与客户端订阅分开。Chatbox 官方当前也把 BYOK、多 Provider、本地模型列为核心使用方式。\n要不要用：如果厂商官方 App 已经满足你的需求，没有必要额外安装。对科研新手而言，这类工具的主要教学意义是帮助理解“客户端 ≠ 模型”。\n需要注意：一旦跨 Provider、聚合路由或 Agent Harness，模型路由、工具调用和兼容性会增加新的故障点。社区中已有用户报告聊天正常但 Agent/tool calls 不稳定的情况，因此不要把 BYOK 自动等同于“效果和官方产品完全一致”。",
+    "crumbs": [
+      "首页",
+      "附录",
+      "附录：把自己的 API 接进常用工具"
+    ]
+  },
+  {
+    "objectID": "appendices/api-tools.html#code-harness-ide-cli",
+    "href": "appendices/api-tools.html#code-harness-ide-cli",
+    "title": "附录：把自己的 API 接进常用工具",
+    "section": "Code Harness / IDE / CLI",
+    "text": "Code Harness / IDE / CLI\n代表：Claude Code、Codex、Qwen Code、Kimi Code、OpenCode、Cline 等。\n为什么值得知道：这里 API 不再只是给聊天界面供模型，而是让模型进入可以读文件、运行命令、修改代码和执行测试的工作环境。\n这一类工具会在正文的 Code Agent / Harness 路线中讲，而不是在附录里展开安装说明。",
+    "crumbs": [
+      "首页",
+      "附录",
+      "附录：把自己的 API 接进常用工具"
+    ]
+  },
+  {
+    "objectID": "appendices/api-tools.html#后续候选",
+    "href": "appendices/api-tools.html#后续候选",
+    "title": "附录：把自己的 API 接进常用工具",
+    "section": "后续候选",
+    "text": "后续候选\nZotero 扩展、Obsidian / 知识管理插件、浏览器阅读工具、转写/字幕工具、数据处理与自动化工具，都可以后续加入。但只有当工具同时满足“持续维护、API 接入明确、科研场景清楚、隐私边界可说明”时才进入正式推荐表。",
+    "crumbs": [
+      "首页",
+      "附录",
+      "附录：把自己的 API 接进常用工具"
+    ]
+  }
+]
