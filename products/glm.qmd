@@ -1,0 +1,40 @@
+---
+title: "GLM / 智谱"
+---
+
+<span class="last-checked">最后核查：2026-09-16 · 第一轮官方资料审计</span>
+
+## 它是什么
+
+国内模型/API 平台，同时提供面向 Coding Agent 的 Coding Plan。它很适合解释：**按量 API 与订阅式 Coding Plan 是两套产品逻辑。**
+
+## 什么时候值得打开
+
+- 需要国内模型 API；
+- 想把模型接入 Claude Code、Cline、OpenCode、Cursor 等工具；
+- 想理解“模型 Provider”和“Code Harness”可以分开选择。
+
+## 它和 API / Harness 的关系
+
+GLM 提供模型与 API；Claude Code、Cline、OpenCode、Cursor 等承担 Harness。Coding Plan 是针对这类开发工作流设计的独立计费路径。
+
+| 能力 | 本册当前判断 |
+|---|---|
+| 普通对话 | ✓ |
+| API | ✓ |
+| Coding Plan / 第三方 Code Harness | ✓ |
+| 中国大陆直接可用性 | ✓ |
+| 普通 API 与 Coding Plan | 分开理解、分开配置 |
+
+## 第一次推荐任务
+
+不用真的跑代码，先看一次 Coding Plan 的配置说明：确认 Key、Base URL、支持工具和计费通道为什么不能与普通 API 混用。
+
+## 最重要的限制
+
+“拿到一个 API Key”不代表它适用于所有入口。不同套餐、接口和 Harness 的兼容关系属于动态事实，配置前应回官方文档核查。
+
+## 官方来源
+
+- [GLM Coding Plan overview](https://docs.bigmodel.cn/cn/coding-plan/overview)
+- [GLM Coding Plan quick start](https://docs.bigmodel.cn/cn/coding-plan/quick-start)

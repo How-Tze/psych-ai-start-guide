@@ -1,0 +1,31 @@
+---
+title: "产品速查"
+---
+
+产品页是**动态信息区**，不是排行榜，也不是完整说明书。
+
+每页只回答五类问题：
+
+1. 它是什么；
+2. 什么时候值得打开；
+3. 它和模型 / API / Harness 是什么关系；
+4. 第一次可以拿它做什么；
+5. 最重要的限制是什么。
+
+能力、入口、价格、地区和支付条件会变化，因此页面顶部都标记最后核查日期。没有稳定核查的信息，本册宁可不写。
+
+## 国际生态
+
+- [ChatGPT](chatgpt.qmd)
+- [Claude](claude.qmd)
+- [Gemini / Gemini Notebook](gemini.qmd)
+
+## 中国生态
+
+- [DeepSeek](deepseek.qmd)
+- [Kimi](kimi.qmd)
+- [Qwen / 通义千问](qwen.qmd)
+- [GLM / 智谱](glm.qmd)
+- [腾讯 WorkBuddy](workbuddy.qmd)
+
+如果你还不知道选哪个，不要从这里开始比较品牌，先回到 [一张图选工具](../chapters/01-task-map.qmd)。

@@ -1,0 +1,72 @@
+---
+title: "Chatbox × DeepSeek BYOK：第二条无代码 API 路线"
+---
+
+**状态：待用户界面实测；官方路径已核实。**  
+**核查日期：2026-09-16**
+
+## 为什么选 Chatbox 做第二个例子
+
+沉浸式翻译展示了“现成工具调用你的模型 API”。Chatbox 则进一步把几个对象彻底拆开：
+
+```text
+Chatbox 客户端
+    ↓
+Provider：DeepSeek
+    ↓
+API Key：你的授权凭证
+    ↓
+模型：DeepSeek 当前可用模型
+    ↓
+DeepSeek API 账户：记录 token 与费用
+```
+
+这里最重要的不是“换一个聊天软件”，而是第一次看清：**客户端、Provider、模型、API Key 和费用账户并不是同一个东西。**
+
+## 当前官方路径
+
+Chatbox 官方当前提供 DeepSeek 独立 BYOK 配置：
+
+1. 打开 Chatbox → 设置；
+2. 进入“模型提供方”；
+3. 找到 DeepSeek；
+4. 填入 DeepSeek 开放平台 API Key；
+5. 点击“检查”；
+6. 连接通过后，从当前可用模型列表选择模型开始对话。
+
+Chatbox 同时提供自有的 Chatbox AI 托管服务。它和 BYOK 是两条不同计费路径：
+
+- **Chatbox AI**：向 Chatbox 购买托管服务/套餐；
+- **BYOK**：自己持有 Provider API Key，模型费用由 Provider 账户结算。
+
+## 这条路线需要实测什么
+
+不需要测模型质量，也不需要精确测 token 增量。只记录真实用户会遇到的摩擦：
+
+- Windows 安装是否顺利；
+- 首次启动是否必须登录 Chatbox 账号/领取 License；
+- BYOK 设置入口的真实名称；
+- DeepSeek Provider 是否原生存在；
+- Key 是否可以直接通过“检查”；
+- 当前模型列表如何呈现；
+- 是否有任何 BYOK 功能被 Chatbox 订阅挡住；
+- Chatbox 是否明确说明聊天记录与 API Key 的存储位置；
+- 若出现错误，错误信息是否足够让普通用户自行排查。
+
+## 安全与数据流
+
+Chatbox 当前官方帮助文档声称：
+
+- 聊天记录保存在本地设备；
+- API Key 本地存储；
+- BYOK 对话直接发往 AI Provider，不经过 Chatbox 的中间服务器。
+
+这些是厂商当前公开说明，不等于对所有插件、MCP、联网工具或未来版本做无限期保证。因此 Start Guide 会把这类信息标注核查日期，而不会写成永久性质。
+
+## 官方资料
+
+- [Chatbox：下载与安装](https://chatboxai.app/zh/guide/getting-started/download)
+- [Chatbox：选择服务方式](https://chatboxai.app/zh/guide/getting-started/choose-provider)
+- [Chatbox：BYOK](https://chatboxai.app/zh/guide/byok)
+- [Chatbox：DeepSeek 配置](https://chatboxai.app/zh/guide/byok/deepseek)
+- [Chatbox：数据存储](https://releases.chatboxai.app/zh/guide/faq/data-storage)

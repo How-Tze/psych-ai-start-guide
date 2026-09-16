@@ -1,0 +1,43 @@
+---
+title: "Gemini / Gemini Notebook"
+---
+
+<span class="last-checked">最后核查：2026-09-16 · 第一轮官方资料审计</span>
+
+## 它是什么
+
+Gemini 负责通用对话和 Deep Research；Gemini Notebook 更适合围绕一批明确来源持续阅读和整理。
+
+## 什么时候值得打开
+
+- 已经有 5—20 篇论文，希望围绕来源比较；
+- 需要用 Google Search 做 Deep Research；
+- 想把“来源内阅读”和“联网发现”分开处理。
+
+## 它和 API / Harness 的关系
+
+Gemini Apps 是产品界面，Gemini Developer API 是程序化入口。Gemini Notebook 是来源型工作空间，不应简单理解为普通聊天的“长期记忆”。
+
+| 能力 | 本册当前判断 |
+|---|---|
+| 普通对话 / 文件 | ✓ |
+| 来源型 Notebook | ✓ |
+| Deep Research | ✓ |
+| API | ✓ |
+| Code / Work Agent | 首版不作为核心路线 |
+| 中国大陆现实可用性 | 需按当时地区、网络和账号条件核查 |
+
+## 第一次推荐任务
+
+创建一个 Notebook，只加入 5 篇已获得全文的论文，要求按同一字段比较，并逐条回到来源引用。
+
+## 最重要的限制
+
+来源型 Notebook 擅长围绕你给出的材料工作；它不能替你完成书目信息和关键方法细节的最终核查。
+
+## 官方来源
+
+- [Use Deep Research in Gemini Apps](https://support.google.com/gemini/answer/15719111)
+- [Learn about Gemini Notebook](https://support.google.com/gemininotebook/answer/16164461)
+- [Create a notebook](https://support.google.com/gemininotebook/answer/16206563)
+- [Gemini Developer API pricing](https://ai.google.dev/gemini-api/docs/pricing)

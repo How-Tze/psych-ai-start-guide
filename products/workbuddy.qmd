@@ -1,0 +1,44 @@
+---
+title: "腾讯 WorkBuddy"
+---
+
+<span class="last-checked">最后核查：2026-09-16 · 第一轮官方资料审计</span>
+
+## 它是什么
+
+国内桌面 Work Agent / AI 工作台，重点能力是授权本地文件、多步骤办公任务和项目空间。
+
+## 什么时候值得打开
+
+- 任务需要读取一批本地文件；
+- 需要跨文档、网页或工具连续执行；
+- 想让 AI 维护文件地图、比较版本或整理公开资料；
+- 普通聊天已经因为“搬文件”而变得低效。
+
+## 它和 API / Harness 的关系
+
+WorkBuddy 本身就是工作型 Harness：模型只是其中一层，真正重要的是它获得的文件、工具和执行权限。企业版还进一步涉及 Managed Agents / API 等能力。
+
+| 能力 | 本册当前判断 |
+|---|---|
+| 普通任务入口 | ✓ |
+| 本地文件读取/批处理 | ✓ |
+| Project / Workspace | ✓ |
+| 深度调研 | ✓ |
+| Work Agent | ✓ 核心定位 |
+| 中国大陆直接可用性 | ✓ |
+| 免费/付费路径 | 动态，使用前核查 |
+
+## 第一次推荐任务
+
+只授权一个专门的教学文件夹，让 WorkBuddy 生成文件地图和分类建议；明确不允许删除、覆盖或移动原件。
+
+## 最重要的限制
+
+“能读写本地文件”意味着权限扩大，并不意味着结果更可靠。第一次使用时应明确授权目录、允许动作、停止条件和恢复方式。
+
+## 官方来源
+
+- [WorkBuddy product](https://cloud.tencent.com/product/workbuddy)
+- [WorkBuddy product intro](https://cloud.tencent.com/document/product/1831/134384)
+- [WorkBuddy Enterprise overview](https://cloud.tencent.com/document/product/1831/134329)

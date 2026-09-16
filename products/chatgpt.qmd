@@ -1,0 +1,44 @@
+---
+title: "ChatGPT"
+---
+
+<span class="last-checked">最后核查：2026-09-16 · 第一轮官方资料审计</span>
+
+## 它是什么
+
+一个从普通聊天延伸到 Projects、Deep Research、Codex 和 Work 的通用 AI 产品生态。
+
+## 什么时候值得打开
+
+- 日常问答、写作和文件讨论；
+- 想把同一研究材料放进持续 Project；
+- 需要联网检索并生成带来源报告；
+- 需要 Code Agent 或更长的工作型任务。
+
+## 它和 API / Harness 的关系
+
+ChatGPT 是面向人的产品界面；OpenAI API 是独立开发者入口；Codex 和 Work 则提供更强的执行环境。**ChatGPT 订阅与 API 计费不是同一件事。**
+
+| 能力 | 本册当前判断 |
+|---|---|
+| 普通对话 / 文件 | ✓ |
+| Project / Workspace | ✓ |
+| Deep Research | ✓ |
+| API | ✓ |
+| Code Agent | ✓ Codex |
+| Work Agent | ✓ Work |
+| 中国大陆现实可用性 | 需按当时账号、网络与支付条件核查 |
+
+## 第一次推荐任务
+
+把 3—5 份当前研究材料放进一个 Project，只要求生成“材料地图 + 冲突项 + 待确认项”，先不要让它改研究内容。
+
+## 最重要的限制
+
+Projects 不等于“自动知道整个项目历史”。项目材料、聊天、记忆和工具权限仍有边界；涉及未公开稿件、被试数据或受限材料时，先看本册的隐私页。
+
+## 官方来源
+
+- [Projects in ChatGPT](https://help.openai.com/en/articles/10169521-using-projects-in-chatgpt)
+- [Deep research in ChatGPT](https://help.openai.com/en/articles/10500283-research-faq)
+- [ChatGPT Work and Codex](https://help.openai.com/en/articles/20001275/)

@@ -1,0 +1,72 @@
+---
+title: "DeepSeek"
+---
+
+<span class="last-checked">最后核查：2026-09-16 · 官方资料 + 中国大陆控制台实测</span>
+
+## 一句话定位
+
+国内模型/API 生态；很适合用来理解“聊天产品、API、模型与 Harness 是不同层次”。
+
+## 当前能力卡
+
+| 维度 | 状态 | 说明 |
+|---|---|---|
+| 普通对话 | ✓ | 网页/App；与 API 余额分开 |
+| 文件读取 | 待二审 | 本轮未把网页端文件能力写成稳定事实 |
+| Project / Workspace | 待二审 | 不据产品印象补写 |
+| 联网 / Deep Research | 待二审 | 不据产品印象补写 |
+| API | ✓ | OpenAI / Anthropic 兼容接口 |
+| Code Agent / Harness | 有限 | 可接 Claude Code、OpenCode 等；DeepSeek Harness 为开发者预览 |
+| Work Agent / 本地文件 | 有限 | 主要通过第三方 Harness 获得执行环境 |
+| 中国大陆直接可用性 | ✓ | 国内官方产品/API；控制台实测可登录和创建 Key |
+| API 支付 | ✓ | 实测有支付宝、微信支付、对公汇款；另有自定义金额 |
+| 免费路径 | ✓ / 分层 | 网页/App 对话与 API 充值明确分开；API 按用量扣费 |
+
+> **说明：** “待二审”不是否定能力，而是本册不把尚未经过当前官网或现实操作确认的信息写成事实。
+
+## 当前 API 起步参数
+
+截至 2026-09-16，官方文档当前推荐：
+
+```text
+Base URL: https://api.deepseek.com
+Model:    deepseek-flash
+```
+
+`deepseek-flash` 当前对应 DeepSeek-V4.1-Flash。
+
+## 充值与 Key：已实测
+
+控制台已实测：
+
+- 可创建独立 API Key；完整 Key 只在创建时展示一次；
+- 预设充值档位从 ¥10 起，同时提供自定义金额；
+- 支持支付宝、微信支付和对公汇款；
+- 用量页可以看到请求次数、Token、消费金额，并可按模型/API Key 查看；
+- 充值页明确提示：API 充值与网页/App 对话是不同的计费通道。
+
+注意：因为存在“自定义金额”，本册暂不声称 ¥10 是绝对最低充值额。
+
+## 第一次推荐任务
+
+不写代码：创建一个教程专用 API Key，把 DeepSeek 接入沉浸式翻译，翻译一个公开网页，然后回到控制台确认请求量和 Token 变化。
+
+这样可以一次理解：
+
+> 插件是界面 → API Key 是授权凭证 → DeepSeek 是 API 服务商 → 用量在 DeepSeek 账户结算。
+
+## 不要误解成
+
+> DeepSeek 不等于一个聊天网页。模型还可以通过 API 成为 Claude Code、OpenCode 等 Harness 的后端。
+
+## 官方来源
+
+- [首次调用 API](https://api-docs.deepseek.com/zh-cn/)
+- [模型与价格](https://api-docs.deepseek.com/zh-cn/quick_start/pricing/)
+- [接入 Agent 工具](https://api-docs.deepseek.com/zh-cn/guides/coding_agents/)
+- [更新日志](https://api-docs.deepseek.com/zh-cn/updates/)
+
+## 动态说明
+
+DeepSeek 的模型名、价格、Harness 接入方式会变化较快。本页只保留当前稳定起步路径；具体产品变化以官方文档和本站核查日期为准。

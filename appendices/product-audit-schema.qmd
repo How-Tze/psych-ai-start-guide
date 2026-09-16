@@ -1,0 +1,25 @@
+---
+title: "产品审计字段"
+---
+
+动态产品页不得凭印象更新。每次核查至少记录以下字段：
+
+| 字段 | 含义 |
+|---|---|
+| last_checked | 最后核查日期 |
+| official_name | 当前官方产品名 |
+| region | 主要生态/地区 |
+| chat | 普通聊天 |
+| files | 文件能力 |
+| project_workspace | 持续项目空间 |
+| web_research | 联网/Deep Research |
+| api | 是否有公开 API |
+| code_agent | Code Agent / Coding Harness |
+| work_agent | 多文件/多工具 Agent |
+| mainland_access | 中国大陆现实访问门槛 |
+| registration | 注册要求 |
+| payment | 支付要求 |
+| free_path | 免费层能否完成入门教程 |
+| data_flow | 数据大致经过哪些服务 |
+| official_sources | 官方来源 |
+| notes | 需要解释的特殊边界 |

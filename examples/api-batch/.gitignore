@@ -1,0 +1,6 @@
+# Never commit local secrets.
+.env
+*.key
+
+# Generated API results are local by default.
+output/

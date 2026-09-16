@@ -1,0 +1,16 @@
+# API Provider 动态信息表。
+# 价格、模型名、上下文窗口等高频变化信息必须带核查日期。
+providers:
+  example_provider:
+    display_name: Example Provider
+    last_checked: null
+    billing_model: token
+    input_price: null
+    output_price: null
+    cached_input_price: null
+    batch_discount: null
+    extra_tool_fees: []
+    supports_budget_limit: unknown
+    supports_key_scoping: unknown
+    official_pricing_url: null
+    official_api_docs_url: null

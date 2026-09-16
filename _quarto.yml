@@ -1,0 +1,92 @@
+lang: zh-CN
+
+project:
+  type: website
+  output-dir: _site
+  render:
+    - index.qmd
+    - chapters/*.qmd
+    - products/*.qmd
+    - appendices/api-tools.qmd
+    - docs/versioning.qmd
+
+website:
+  title: "心理学研究者的 AI Start Guide"
+  description: "《心理学研究的 AI 进阶手册》动态配套入门站：从产品界面、API、Harness 到科研工作流。"
+  page-navigation: true
+  search: true
+  navbar:
+    left:
+      - href: index.qmd
+        text: 首页
+      - href: chapters/00-start-now.qmd
+        text: 现在就开始
+      - href: chapters/01-task-map.qmd
+        text: 按任务选择
+      - href: chapters/06-api-basics.qmd
+        text: API
+      - href: products/index.qmd
+        text: 产品速查
+      - href: appendices/api-tools.qmd
+        text: API 工具
+    right:
+      - href: docs/versioning.qmd
+        text: 版本与更新
+  sidebar:
+    - title: "Start Guide"
+      style: "docked"
+      search: true
+      contents:
+        - index.qmd
+        - section: "00｜现在就开始"
+          contents:
+            - chapters/00-start-now.qmd
+            - chapters/01-task-map.qmd
+            - chapters/02-chat-first-task.qmd
+        - section: "01｜让 AI 进入真实研究"
+          contents:
+            - chapters/03-project-workspace.qmd
+            - chapters/04-reading-papers.qmd
+            - chapters/05-deep-research.qmd
+        - section: "02｜API：从使用 AI 到调用 AI"
+          contents:
+            - chapters/06-api-basics.qmd
+            - chapters/07-api-first-setup.qmd
+            - chapters/08-api-costs.qmd
+            - chapters/09-api-research-script.qmd
+        - section: "03｜Harness 与 Agent"
+          contents:
+            - chapters/10-code-agent.qmd
+            - chapters/11-work-agent.qmd
+        - section: "04｜安全与第一次完整上手"
+          contents:
+            - chapters/12-privacy.qmd
+            - chapters/13-checklist.qmd
+        - section: "05｜产品速查"
+          contents:
+            - products/index.qmd
+            - products/chatgpt.qmd
+            - products/claude.qmd
+            - products/gemini.qmd
+            - products/deepseek.qmd
+            - products/kimi.qmd
+            - products/qwen.qmd
+            - products/glm.qmd
+            - products/workbuddy.qmd
+        - section: "附录"
+          contents:
+            - appendices/api-tools.qmd
+            - docs/versioning.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: assets/styles.css
+    toc: true
+    toc-depth: 3
+    code-copy: true
+    anchor-sections: true
+    link-external-newwindow: true
+
+execute:
+  freeze: auto

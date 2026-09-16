@@ -1,0 +1,49 @@
+---
+title: "一张图选工具：我现在到底该打开什么"
+---
+
+你不需要先选“最强模型”。先判断当前任务缺的是什么：上下文、来源、搜索、批量执行，还是文件与代码权限。
+
+## 最短选择表
+
+| 你遇到的实际问题 | 优先环境 | 典型候选 | 第一道边界 |
+|---|---|---|---|
+| 只是问答、解释、局部写作 | 普通聊天 | ChatGPT / Claude / Gemini / DeepSeek / Kimi / Qwen / GLM | 正式依据回到真实材料 |
+| 每次都要重新上传同一批材料 | Project / Workspace | 各平台项目型工作区 | 上传过不等于当前有效 |
+| 手里已经有一批论文，要围绕原文阅读 | 来源型阅读环境 | Gemini Notebook 等 | 引用定位仍需回原文 |
+| 需要主动搜索公开资料 | Deep Research | ChatGPT / Gemini / Kimi 等 | 报告不替代原始来源 |
+| 同一个任务要重复几十、几百次 | API | OpenAI / Anthropic / DeepSeek / GLM / Qwen 等 | Key、费用、数据流 |
+| 需要读取、修改和运行代码 | Code Agent / Harness | Codex / Claude Code / Qwen Code / Kimi Code 等 | 第一次先只读 |
+| 需要跨本地文件、网页或应用连续执行 | Work Agent | WorkBuddy / Work / Cowork 等 | 权限、停止条件、恢复 |
+
+## 把它理解成“遇到摩擦再升级”
+
+```text
+普通聊天
+   │ 反复解释背景 / 反复上传材料
+   ▼
+Project / Workspace
+   │ 要围绕已有论文逐条回原文
+   ├──────────────► 来源型阅读工具
+   │
+   │ 需要主动搜索新的公开资料
+   ▼
+Deep Research
+   │ 重复、规模、结构化保存开始成为负担
+   ▼
+API / 脚本
+   │ 需要读写代码、运行命令
+   ▼
+Code Agent / Harness
+   │ 需要跨文件、网页、应用连续执行
+   ▼
+Work Agent
+```
+
+这不是能力等级表。你完全可能长期停在普通聊天，也可能直接因为编程任务进入 Code Agent。
+
+::: {.callout-tip}
+**产品只是实现方式。** 先确定任务需要 AI 看见什么、调用什么、写入什么，再选产品。
+:::
+
+下一步如果你还没有形成固定使用习惯，直接从 [第一次使用普通聊天](02-chat-first-task.qmd) 开始。

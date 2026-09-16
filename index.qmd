@@ -1,0 +1,56 @@
+---
+title: "心理学研究者的 AI Start Guide"
+subtitle: "从打开第一个产品到完成第一个真实科研任务"
+---
+
+::: {.callout-note}
+**定位**：这是《心理学研究的 AI 进阶手册》的动态配套入门站。主手册解释相对稳定的方法原则；这里负责回答“今天该打开什么、什么时候需要升级、当前产品大致怎么选”。
+:::
+
+<span class="last-checked">产品信息总核查日期：2026-09-16</span>
+
+## 第一次来，只读这条路线
+
+如果你对 AI 产品还不熟，建议按下面顺序阅读到“够用”为止：
+
+**[现在就开始](chapters/00-start-now.qmd) → [普通聊天](chapters/02-chat-first-task.qmd) → 遇到真实摩擦后再看 [工具选择图](chapters/01-task-map.qmd)**
+
+你不需要把整站看完。Start Guide 的基本原则是：**先完成任务，遇到摩擦再升级。**
+
+## 你现在真正想做什么
+
+- 只想问问题、改文字、解释概念 → [普通对话第一次怎么用](chapters/02-chat-first-task.qmd)
+- 想围绕同一研究持续使用一批材料 → [第一次建立持续研究空间](chapters/03-project-workspace.qmd)
+- 手里已经有一批论文 → [第一次让 AI 读论文](chapters/04-reading-papers.qmd)
+- 要系统检索公开资料 → [第一次做 Deep Research](chapters/05-deep-research.qmd)
+- 想把模型接进别的软件 → [API 是什么](chapters/06-api-basics.qmd)
+- 想批量处理研究材料并留下可检查记录 → [API 最小研究脚本](chapters/09-api-research-script.qmd)
+- 想让 AI 看 R/Python 项目 → [第一次让 Code Agent 看代码](chapters/10-code-agent.qmd)
+- 想让 AI 操作一批本地文件或连续做多步任务 → [Work Agent / 桌面 Agent](chapters/11-work-agent.qmd)
+
+## 本站只坚持四层逻辑
+
+**产品界面 → API → Harness → Workflow**
+
+- **产品界面**：人直接使用 AI。
+- **API**：让其他软件或脚本调用模型。
+- **Harness**：给模型文件、工具、权限和执行环境。
+- **Workflow**：把这些能力放进真实科研任务，并留下可检查、可恢复的结果。
+
+它们不是“初级 → 高级”的等级。一个稳定的普通聊天工作流，可以比配置复杂但没人检查的 Agent 更可靠。
+
+## 三个最容易混淆的概念
+
+| 常见误解 | 更准确的理解 |
+|---|---|
+| “ChatGPT / DeepSeek / Kimi 就是一个模型” | 你看到的往往是一个**产品生态**；里面可能包含多个模型、搜索、项目空间和 Agent。 |
+| “我买了会员，所以 API 也能直接用” | **产品订阅和 API 通常分开计费。** API 是给软件和脚本调用的另一条入口。 |
+| “Claude Code / WorkBuddy 很强，是因为模型更强” | Code / Work Agent 的差异很大一部分来自 **Harness：文件、工具、权限和执行环境**。 |
+
+把这三件事分开以后，很多产品名称就不会再显得混乱。
+
+## 国内与国际产品并列
+
+本站首版核心生态：ChatGPT、Claude、Gemini / Gemini Notebook、DeepSeek、Kimi、Qwen、GLM、腾讯 WorkBuddy。
+
+不做“最佳模型排行榜”。如果你已经知道任务类型，可以直接看 [产品速查](products/index.qmd)；如果不知道，先看 [一张图选工具](chapters/01-task-map.qmd)。

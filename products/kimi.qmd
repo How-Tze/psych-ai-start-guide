@@ -1,0 +1,45 @@
+---
+title: "Kimi"
+---
+
+<span class="last-checked">最后核查：2026-09-16 · 第一轮官方资料审计</span>
+
+## 它是什么
+
+国内通用对话、Deep Research、工作 Agent 与 Kimi Code 组成的完整生态。
+
+## 什么时候值得打开
+
+- 国内环境下做通用对话和联网研究；
+- 做陌生领域的 Deep Research；
+- 尝试办公/工作型 Agent；
+- 进入 Kimi Code 或第三方 Coding Agent。
+
+## 它和 API / Harness 的关系
+
+Kimi 不只是聊天产品。产品端、Deep Research、Agent、Kimi Code 和 API/第三方 Agent 接入属于不同层次，适合按任务选择。
+
+| 能力 | 本册当前判断 |
+|---|---|
+| 普通对话 | ✓ |
+| Deep Research | ✓ |
+| API | ✓ |
+| Code Agent | ✓ Kimi Code |
+| Work Agent | ✓ |
+| 中国大陆直接可用性 | ✓ |
+| 具体免费额度 / 付费门槛 | 动态，使用前核查 |
+
+## 第一次推荐任务
+
+用 Kimi Deep Research 做一个范围明确的陌生领域检索，然后只挑 3 条关键结论回到原始来源核对。
+
+## 最重要的限制
+
+不要再把 Kimi 简化成“长文本聊天工具”。不同入口拥有不同权限和数据来源，Deep Research 报告也仍然需要回到关键原始来源。
+
+## 官方来源
+
+- [Kimi Deep Research](https://www.kimi.com/help/deep-research/deep-research-overview)
+- [Kimi Agent](https://www.kimi.com/help/agent/agent-overview)
+- [Kimi Code in third-party agents](https://www.kimi.com/en/help/kimi-code/third-party-agents)
+- [Kimi New User Guide](https://www.kimi.com/en/help/new-user-guide/overview)

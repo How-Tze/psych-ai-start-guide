@@ -1,0 +1,44 @@
+---
+title: "Qwen / 通义千问"
+---
+
+<span class="last-checked">最后核查：2026-09-16 · 第一轮官方资料审计</span>
+
+## 它是什么
+
+国内通用模型、Deep Research、API 与开源 Qwen Code 生态。
+
+## 什么时候值得打开
+
+- 国内环境下使用通用对话和 Deep Research；
+- 使用阿里云 Model Studio / DashScope API；
+- 想尝试开源 Code Agent / Harness；
+- 需要理解普通 API 与 Coding Plan 的差别。
+
+## 它和 API / Harness 的关系
+
+Qwen 模型/API 是模型服务；Qwen Code 是 Agent/Harness。二者可以组合，Qwen Code 也可接其他 Provider。
+
+| 能力 | 本册当前判断 |
+|---|---|
+| 普通对话 | ✓ |
+| Deep Research | ✓ |
+| API | ✓ |
+| Code Agent | ✓ Qwen Code |
+| 中国大陆直接可用性 | ✓ |
+| 普通 API / Coding Plan | 属于不同使用与计费路径，不能混为一谈 |
+
+## 第一次推荐任务
+
+如果你准备使用 Qwen Code，先只完成认证和环境诊断，弄清“普通 API Key、Coding Plan Key、Provider”分别是什么，再进入真实项目。
+
+## 最重要的限制
+
+不要默认“一个 Qwen Key 到处都能用”。普通 API 与 Coding Plan 的接口、用途和计费可能不同，具体以当时官方文档为准。
+
+## 官方来源
+
+- [Qwen](https://qwen.ai/)
+- [Qwen Code](https://github.com/QwenLM/qwen-code)
+- [Qwen Code on Model Studio](https://help.aliyun.com/zh/model-studio/qwen-code)
+- [DashScope API](https://help.aliyun.com/en/model-studio/qwen-api-via-dashscope)

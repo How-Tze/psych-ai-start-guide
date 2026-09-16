@@ -1,0 +1,108 @@
+---
+title: "沉浸式翻译 × DeepSeek API：配置实测"
+---
+
+<span class="last-checked">实测日期：2026-09-16 · 沉浸式翻译 1.33.1 · Windows/桌面浏览器</span>
+
+## 当前状态
+
+**配置已通过，真实翻译调用尚待完成。**
+
+本页记录作者在沉浸式翻译中使用自有 DeepSeek API Key（BYOK）的实际界面。公开版不保存 API Key、账户信息或完整控制台截图。
+
+## 这次实测确认了什么
+
+### 1. BYOK 自定义 DeepSeek 不要求开通沉浸式翻译 Pro
+
+当前界面中，沉浸式翻译自己的托管模型（例如 DeepSeek-V4.1-Flash、Qwen 3.5 Plus、Gemini 3 Flash 等）被标记为 **Pro**；但用户可以另外配置一个自有 Key 的 DeepSeek 翻译服务。
+
+实测的自定义 DeepSeek 配置页可以填写：
+
+- API Key；
+- 自定义翻译服务名称；
+- 模型；
+- AI 智能上下文开关；
+- 翻译策略；
+- 自定义 API 接口地址。
+
+因此，本册应明确区分：
+
+> **沉浸式翻译托管的 Pro 模型** 与 **用户自行提供 API Key 的 BYOK 路线** 不是同一种计费方式。
+
+前者向沉浸式翻译购买/使用其托管服务；后者由 DeepSeek API 账户自行承担模型调用费用。
+
+### 2. 当前界面提供“测试服务”
+
+配置卡右上角存在“点此测试服务”入口，可在正式网页翻译前先检查 API Key、模型和接口地址是否可用。
+
+### 3. 当前默认/可见模型名存在版本滞后
+
+实测界面模型下拉框显示：
+
+```text
+deepseek-v4-flash
+```
+
+但 DeepSeek 官方 2026-09-10 起推荐的新模型名为：
+
+```text
+deepseek-flash
+```
+
+DeepSeek 官方仍临时兼容旧名称 `deepseek-v4-flash`，并将其路由到 DeepSeek-V4.1-Flash，按 Flash 价格计费。
+
+因此本册采用以下处理：
+
+- **教学正文使用 `deepseek-flash`**，因为这是当前官方推荐名；
+- 如果用户在沉浸式翻译 1.33.1 中只看到 `deepseek-v4-flash`，可以继续使用，它当前仍可调用；
+- 这类“第三方工具模型列表稍晚于模型供应商更新”的情况，应作为动态指南的常见现象说明。
+
+### 4. API endpoint 与官方接口一致
+
+实测界面显示：
+
+```text
+https://api.deepseek.com/chat/completions
+```
+
+这与沉浸式翻译官方服务文档列出的 DeepSeek Chat Completions 接口一致。
+
+## 安全边界
+
+DeepSeek 创建 Key 时会提示不要公开或把 Key 暴露在客户端代码中。沉浸式翻译的 BYOK 使用方式则要求用户把自己的 Key 配置到浏览器扩展中。
+
+这里需要给新手一个比“绝对安全/绝对不安全”更准确的解释：
+
+- 不要把 Key 写进公开网页 JavaScript、GitHub 仓库或截图；
+- 浏览器扩展中的 BYOK 仍属于客户端凭证，安全性依赖扩展本身与本机环境；
+- 教程应使用**独立、低余额、可随时撤销的 Key**；
+- 正式研究采集、批量模拟等高价值任务建议使用与日常插件分开的 Key；
+- Key 泄露或设备环境异常时，立即删除并重新创建。
+
+沉浸式翻译当前信任中心称，自定义 Key 请求会直接发送到所选服务商、无中间存储；但其页面对 BYOK 的会员条件描述与 1.33.1 实际界面存在差异，因此本册只把“当前实测可配置”作为会员条件依据，并持续复核官方说明。
+
+## 一个很有教学价值的成本经验
+
+作者长期使用 DeepSeek API 的实际体验是：低频日常工具调用的成本可以非常低，即使期间包含过研究用途的批量模型调用，早期一次几十元充值也能使用很长时间。
+
+这只是**个人使用案例，不是价格承诺或典型成本估计**。它的教学意义是：API 并不天然意味着高固定成本；如果调用频率低、模型单价低，按量付费可能比维持多个订阅更经济。真正做预算时仍应根据 token、模型和任务量计算。
+
+## 下一步 smoke test
+
+为了减少变量，第一次真实调用使用：
+
+- 模型：优先 `deepseek-flash`；如果界面只提供旧别名，则使用 `deepseek-v4-flash`；
+- AI 智能上下文：关闭；
+- 翻译策略：通用；
+- 对象：公开、无敏感信息的短英文网页；
+- 调用前后记录 DeepSeek 控制台请求数与 token **增量**，不记录账户余额截图。
+
+测试成功后，本路线从 `configuration_passed` 升级为 `smoke_test_passed`。
+
+## 官方资料
+
+- [DeepSeek 更新日志](https://api-docs.deepseek.com/zh-cn/updates/)
+- [DeepSeek 模型与价格](https://api-docs.deepseek.com/zh-cn/quick_start/pricing/)
+- [沉浸式翻译：DeepSeek](https://immersivetranslate.com/zh-TW/docs/services/deepseek/)
+- [沉浸式翻译：翻译服务 API](https://immersivetranslate.com/zh-Hans/docs/services/)
+- [沉浸式翻译：信任中心](https://immersivetranslate.com/zh-Hans/security/)

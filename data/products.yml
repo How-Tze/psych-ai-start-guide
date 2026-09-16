@@ -1,0 +1,105 @@
+# 动态产品数据。不要把未经核查的产品能力写成 true。
+# 状态建议：true / false / limited / unknown
+products:
+  chatgpt:
+    display_name: ChatGPT
+    ecosystem: OpenAI
+    region: international
+    last_checked: null
+    capabilities:
+      chat: unknown
+      files: unknown
+      project_workspace: unknown
+      web_research: unknown
+      api: unknown
+      code_agent: unknown
+      work_agent: unknown
+    mainland_access: unknown
+    registration: unknown
+    payment: unknown
+    free_path: unknown
+    official_sources: []
+
+  claude:
+    display_name: Claude
+    ecosystem: Anthropic
+    region: international
+    last_checked: null
+    capabilities: {chat: unknown, files: unknown, project_workspace: unknown, web_research: unknown, api: unknown, code_agent: unknown, work_agent: unknown}
+    mainland_access: unknown
+    registration: unknown
+    payment: unknown
+    free_path: unknown
+    official_sources: []
+
+  gemini:
+    display_name: Gemini / Gemini Notebook
+    ecosystem: Google
+    region: international
+    last_checked: null
+    capabilities: {chat: unknown, files: unknown, project_workspace: unknown, web_research: unknown, api: unknown, code_agent: unknown, work_agent: unknown}
+    mainland_access: unknown
+    registration: unknown
+    payment: unknown
+    free_path: unknown
+    official_sources: []
+
+  deepseek:
+    display_name: DeepSeek
+    ecosystem: DeepSeek
+    region: china
+    last_checked: null
+    capabilities: {chat: unknown, files: unknown, project_workspace: unknown, web_research: unknown, api: unknown, code_agent: unknown, work_agent: unknown}
+    mainland_access: unknown
+    registration: unknown
+    payment: unknown
+    free_path: unknown
+    official_sources: []
+
+  kimi:
+    display_name: Kimi
+    ecosystem: Moonshot AI
+    region: china
+    last_checked: null
+    capabilities: {chat: unknown, files: unknown, project_workspace: unknown, web_research: unknown, api: unknown, code_agent: unknown, work_agent: unknown}
+    mainland_access: unknown
+    registration: unknown
+    payment: unknown
+    free_path: unknown
+    official_sources: []
+
+  qwen:
+    display_name: Qwen / 通义千问
+    ecosystem: Alibaba
+    region: china
+    last_checked: null
+    capabilities: {chat: unknown, files: unknown, project_workspace: unknown, web_research: unknown, api: unknown, code_agent: unknown, work_agent: unknown}
+    mainland_access: unknown
+    registration: unknown
+    payment: unknown
+    free_path: unknown
+    official_sources: []
+
+  glm:
+    display_name: GLM / 智谱
+    ecosystem: Zhipu AI
+    region: china
+    last_checked: null
+    capabilities: {chat: unknown, files: unknown, project_workspace: unknown, web_research: unknown, api: unknown, code_agent: unknown, work_agent: unknown}
+    mainland_access: unknown
+    registration: unknown
+    payment: unknown
+    free_path: unknown
+    official_sources: []
+
+  workbuddy:
+    display_name: 腾讯 WorkBuddy
+    ecosystem: Tencent
+    region: china
+    last_checked: null
+    capabilities: {chat: unknown, files: unknown, project_workspace: unknown, web_research: unknown, api: unknown, code_agent: unknown, work_agent: unknown}
+    mainland_access: unknown
+    registration: unknown
+    payment: unknown
+    free_path: unknown
+    official_sources: []

@@ -1,0 +1,30 @@
+# 第三方 API 工具动态信息表。
+# 这里只记录与 Start Guide 教学路径直接相关的行为，不做“AI 工具大全”。
+tools:
+  immersive_translate:
+    display_name: 沉浸式翻译
+    category: browser_translation
+    last_checked: 2026-09-16
+    tested_version: "1.33.1"
+    byok: true
+    deepseek_byok_configuration: configuration_passed
+    membership_observed:
+      managed_deepseek_model: pro
+      custom_deepseek_byok: no_pro_required_observed
+    deepseek_fields_observed:
+      api_key: true
+      custom_service_name: true
+      model: true
+      smart_context_toggle: true
+      translation_strategy: true
+      custom_api_url: true
+      test_service_button: true
+    deepseek_model_alias_observed: deepseek-v4-flash
+    deepseek_model_official_preferred: deepseek-flash
+    deepseek_endpoint_observed: https://api.deepseek.com/chat/completions
+    real_translation_test: pending
+    security_note: "Use a dedicated low-balance/revocable key; browser-extension BYOK is a client credential and should be separated from formal research collection keys."
+    official_sources:
+      - https://immersivetranslate.com/zh-TW/docs/services/deepseek/
+      - https://immersivetranslate.com/zh-Hans/docs/services/
+      - https://immersivetranslate.com/zh-Hans/security/

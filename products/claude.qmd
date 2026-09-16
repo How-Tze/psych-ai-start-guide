@@ -1,0 +1,44 @@
+---
+title: "Claude"
+---
+
+<span class="last-checked">最后核查：2026-09-16 · 第一轮官方资料审计</span>
+
+## 它是什么
+
+从普通聊天和 Projects 延伸到 Research、Claude Code 与 Cowork 的 AI 产品生态。
+
+## 什么时候值得打开
+
+- 围绕一批文件持续讨论；
+- 做带来源的研究检索；
+- 让 AI 进入代码库；
+- 需要桌面端多步骤文件工作。
+
+## 它和 API / Harness 的关系
+
+Claude 产品界面、Anthropic API、Claude Code 和 Cowork 是不同层级。Claude Code 更接近代码 Harness；Cowork 更接近工作 Agent。
+
+| 能力 | 本册当前判断 |
+|---|---|
+| 普通对话 / 文件 | ✓ |
+| Project / Workspace | ✓ |
+| Research | ✓ |
+| API | ✓ |
+| Code Agent | ✓ Claude Code |
+| Work Agent | ✓ Cowork |
+| 中国大陆现实可用性 | 需按当时地区、账号与支付条件核查 |
+
+## 第一次推荐任务
+
+新建一个 Project，加入一组论文和一页项目说明，先观察“项目知识”能稳定提供什么，而不要假定旧聊天会自动成为完整长期记忆。
+
+## 最重要的限制
+
+不要把 Projects、Research、Claude Code 和 Cowork 当成同一个“Claude 功能”。它们能看见的材料、拥有的权限和适用任务不同。
+
+## 官方来源
+
+- [What are projects?](https://support.claude.com/en/articles/9517075-what-are-projects)
+- [Use research on Claude](https://support.claude.com/en/articles/11088861-use-research-on-claude)
+- [Get started with Claude Cowork](https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork)

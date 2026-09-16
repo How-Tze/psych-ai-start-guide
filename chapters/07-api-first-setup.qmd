@@ -1,0 +1,97 @@
+---
+title: "第一次配置自己的 API：不写代码也能开始"
+---
+
+本章不从 Python 开始。第一次 API 体验只需要让读者看懂完整的数据流和计费流，不需要把任何第三方客户端写成逐按钮说明书。
+
+## 路线 A：DeepSeek API → 沉浸式翻译
+
+这是本册第一条正式示例。它的价值不在于“怎样调一个参数”，而在于让读者第一次看到：**一个日常工具可以调用自己购买的模型 API。**
+
+截至 2026-09-16，沉浸式翻译官方文档仍支持用户配置 DeepSeek API。作者已有一年左右的长期实际使用经验，因此不再记录单次请求数、token 增量等低价值指标。
+
+### 只需要知道四件事
+
+1. 在 DeepSeek 开放平台创建 API Key，并给 API 账户保留少量余额；
+2. 在沉浸式翻译的翻译服务中选择可填写自有 Key 的 DeepSeek 路线；
+3. 把 Key 作为授权凭证交给工具；
+4. 模型调用费用记在 DeepSeek API 账户，而不是沉浸式翻译的托管模型订阅中。
+
+> 当前实测中，沉浸式翻译托管的 DeepSeek 模型属于其 Pro 路线，但用户自行填写 DeepSeek API Key 的自定义服务可以独立使用。这正好说明：**工具订阅费和模型 API 费可以是两套完全不同的账单。**
+
+### 你刚才实际上做了什么
+
+```text
+你点击“翻译”
+   ↓
+沉浸式翻译组织请求
+   ↓
+API Key 证明请求由你的账户授权
+   ↓
+DeepSeek API 调用模型
+   ↓
+结果返回沉浸式翻译
+   ↓
+DeepSeek 记录 token 与费用
+```
+
+这已经足够理解 API 的第一层意义。
+
+## 路线 B：BYOK 客户端——知道它存在即可
+
+另一类常见工具是 Chatbox、Cherry Studio、LobeChat 等 BYOK（Bring Your Own Key）客户端。它们的共同逻辑是：**客户端负责界面和会话，模型服务商负责推理，用户自己提供 API Key。**
+
+以 Chatbox 为例，当前官方支持直接配置 DeepSeek、OpenAI、Anthropic、Google 等 Provider，也支持 Ollama / LM Studio 等本地模型。社区中的实际使用场景主要包括：
+
+- 在桌面或手机上统一使用自己的 DeepSeek 等 API，而不依赖厂商原生 App；
+- 在多个 Provider / 模型之间快速切换；
+- 固定系统提示、Co-pilot 或自定义参数；
+- 将按量 API 计费与客户端订阅分开；
+- 进一步进入知识库、Agent、MCP 或本地模型等功能。
+
+这些需求是真实存在的，但对于本册读者，**没有必要把 Chatbox 本身学会**。如果你已经喜欢某个官方 App，也完全可以跳过这一类客户端。它们只是帮助理解“模型和界面可以拆开”的一个代表性例子。
+
+同时也要注意：社区经验表明，模型通过不同客户端、路由平台或 Agent Harness 接入后，工具调用、模型路由和兼容性可能与官方产品不同。因此 BYOK 的“自由度”也意味着更多配置与排错责任。
+
+## 路线 C：API → 最小脚本
+
+对于研究者，API 真正独特的价值通常从这里开始：
+
+```text
+CSV / 文本
+   ↓
+Python / R
+   ↓
+API
+   ↓
+模型响应
+   ↓
+JSON / CSV
+```
+
+当你需要批量处理材料、固定参数、自动保存结果、记录模型版本、重试失败任务时，API 才从“换一个聊天界面”变成研究基础设施的一部分。
+
+本册后续只提供一个最小可复现示例，不展开成 API 编程课程。
+
+## Key 安全
+
+把 API Key 当作支付凭证：
+
+- 不提交 GitHub；
+- 不贴进截图；
+- 不硬编码在公开脚本；
+- 正式项目最好使用独立 Key，便于撤销和成本审计；
+- 泄露后立即删除/撤销并重新生成。
+
+## API 一定很贵吗
+
+不一定。API 的关键特征是**按量计费**，不是固定月费。作者的长期 DeepSeek API 使用中，日常插件调用加上部分研究用途，几十元充值可以维持较长时间；这不能外推为普遍成本，但足以说明“API = 昂贵专业版”是错误直觉。
+
+真正需要比较的是：模型单价 × token 量 × 调用频率 × 是否有缓存/批处理优惠。
+
+## 当前资料
+
+- [DeepSeek：首次调用 API](https://api-docs.deepseek.com/zh-cn/)
+- [DeepSeek：模型与价格](https://api-docs.deepseek.com/zh-cn/quick_start/pricing/)
+- [沉浸式翻译：DeepSeek](https://immersivetranslate.com/zh-TW/docs/services/deepseek/)
+- [Chatbox：BYOK](https://chatboxai.app/zh/guide/byok)
