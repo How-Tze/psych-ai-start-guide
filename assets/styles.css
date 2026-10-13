@@ -28,6 +28,18 @@
   color: #5d6670;
 }
 
+/* Keep comparison columns readable without widening the page on phones. */
+.wide-table {
+  max-width: 100%;
+  overflow-x: auto;
+}
+.wide-table table {
+  min-width: 640px;
+}
+main.content a {
+  overflow-wrap: anywhere;
+}
+
 
 /* v0.10 preview polish */
 body {

@@ -8,19 +8,13 @@ Maintain and improve a task-oriented Quarto Start Guide for psychology and socia
 
 The site is a dynamic companion to a separate, more stable handbook. Optimize for clarity, maintainability, factual freshness and realistic research use — not product coverage.
 
-## Non-negotiable editorial architecture
+## Approved editorial architecture (2026-10-13)
 
-Keep the primary reader flow task-oriented, not vendor-oriented:
+The human approved the strategic audit and next iteration. Provide two equally visible entry points: account/budget onboarding and research tasks. Product pages are supporting references. API, Coding Agent and advanced automation are optional routes, never prerequisites for the basic tutorials.
 
-> chat → Project/Workspace → source-grounded reading → Deep Research → API → Code Agent/Harness → Work Agent → privacy/checklist
+Distinguish products, models, subscriptions, APIs and execution environments when relevant. Do not turn these concepts into a required learning ladder.
 
-Product pages are secondary reference pages.
-
-Preserve the conceptual distinction:
-
-> Product UI → API → Harness → Workflow
-
-Never collapse these into a single concept.
+The v0.11 candidate scope and bounded tutorial-writing authority are recorded in PROJECT_STATUS.md and tasks/ITERATION-v0.11.md. Routine integration, local QA and commits are authorized. Merge, tag and deployment require a release gate for the reviewed candidate.
 
 ## What to optimize for
 

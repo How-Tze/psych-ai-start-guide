@@ -1,5 +1,4 @@
 lang: zh-CN
-
 project:
   type: website
   output-dir: _site
@@ -9,60 +8,71 @@ project:
     - products/*.qmd
     - appendices/api-tools.qmd
     - docs/versioning.qmd
-
+  resources:
+    - /examples/learning/*.csv
+    - /examples/project/*.txt
+    - /examples/api-batch/batch_label.py
+    - /examples/api-batch/test_batch_label.py
+    - /examples/api-batch/input_responses.csv
+    - /examples/api-batch/requirements.txt
+    - /examples/api-batch/README.md
 website:
   title: "心理学研究者的 AI Start Guide"
-  description: "《心理学研究的 AI 进阶手册》动态配套入门站：从产品界面、API、Harness 到科研工作流。"
+  description: "开通与选购、科研任务教程，以及按需使用的 API 和代码代理。"
+  site-url: https://How-Tze.github.io/psych-ai-start-guide/
+  repo-url: https://github.com/How-Tze/psych-ai-start-guide
   page-navigation: true
   search: true
   navbar:
     left:
       - href: index.qmd
         text: 首页
-      - href: chapters/00-start-now.qmd
-        text: 现在就开始
+      - href: chapters/accounts.qmd
+        text: 开通与选购
       - href: chapters/01-task-map.qmd
-        text: 按任务选择
-      - href: chapters/06-api-basics.qmd
-        text: API
+        text: 按任务开始
       - href: products/index.qmd
         text: 产品速查
-      - href: appendices/api-tools.qmd
-        text: API 工具
+      - href: chapters/06-api-basics.qmd
+        text: API 与进阶
     right:
       - href: docs/versioning.qmd
-        text: 版本与更新
+        text: 版本说明
   sidebar:
     - title: "Start Guide"
       style: "docked"
       search: true
       contents:
         - index.qmd
-        - section: "00｜现在就开始"
+        - section: "开通与选购"
           contents:
+            - chapters/accounts.qmd
+            - chapters/budget.qmd
             - chapters/00-start-now.qmd
+        - section: "按科研任务开始"
+          contents:
             - chapters/01-task-map.qmd
             - chapters/02-chat-first-task.qmd
-        - section: "01｜让 AI 进入真实研究"
-          contents:
-            - chapters/03-project-workspace.qmd
+            - chapters/method-learning.qmd
             - chapters/04-reading-papers.qmd
             - chapters/05-deep-research.qmd
-        - section: "02｜API：从使用 AI 到调用 AI"
+            - chapters/data-analysis.qmd
+            - chapters/academic-writing.qmd
+            - chapters/03-project-workspace.qmd
+        - section: "代码、API 与多步任务（按需）"
           contents:
+            - chapters/10-code-agent.qmd
             - chapters/06-api-basics.qmd
             - chapters/07-api-first-setup.qmd
             - chapters/08-api-costs.qmd
             - chapters/09-api-research-script.qmd
-        - section: "03｜Harness 与 Agent"
-          contents:
-            - chapters/10-code-agent.qmd
             - chapters/11-work-agent.qmd
-        - section: "04｜安全与第一次完整上手"
+            - appendices/api-tools.qmd
+        - section: "隐私与练习检查"
           contents:
             - chapters/12-privacy.qmd
             - chapters/13-checklist.qmd
-        - section: "05｜产品速查"
+        - section: "产品速查"
           contents:
             - products/index.qmd
             - products/chatgpt.qmd
@@ -73,11 +83,7 @@ website:
             - products/qwen.qmd
             - products/glm.qmd
             - products/workbuddy.qmd
-        - section: "附录"
-          contents:
-            - appendices/api-tools.qmd
-            - docs/versioning.qmd
-
+        - docs/versioning.qmd
 format:
   html:
     theme: cosmo
@@ -87,6 +93,5 @@ format:
     code-copy: true
     anchor-sections: true
     link-external-newwindow: true
-
 execute:
   freeze: auto

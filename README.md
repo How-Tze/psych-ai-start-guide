@@ -1,52 +1,20 @@
 # 心理学研究者的 AI Start Guide
 
-《心理学研究的 AI 进阶手册》动态配套入门站。
+《心理学研究的 AI 进阶手册》的动态配套指南。
 
-## 核心逻辑
+- [已发布网站](https://How-Tze.github.io/psych-ai-start-guide/)
+- [主手册 v1.2](https://How-Tze.github.io/psych-ai-research-handbook/)
+- 阅读版本：v0.11（2026-10-13）。发布执行状态见 PROJECT_STATUS.md。
 
-**产品界面 → API → Harness → Workflow**
+## 两个入口
 
-这不是能力等级表。读者先完成一个真实任务，只有在出现新的摩擦时才升级工具：反复搬背景、来源太多、需要搜索、需要批量、需要代码执行、需要跨文件工作。
+1. 注册、地区、订阅预算和设备选择。
+2. 方法学习、论文阅读、文献探索、数据图表、写作、项目持续工作。
 
-## 首版目标
+API、代码代理和多步 Agent 是可选路线。价格集中维护在 chapters/budget.qmd，官方来源和核查日期就近列出；账户实测与文档核查分别标注。
 
-- 主导航按“研究者现在想做什么”组织；
-- 同时覆盖国际与中国大陆主流 AI 产品生态；
-- 单独解释 API：是什么、为什么用、怎么计费、怎么配置；
-- 提供 DeepSeek API → 沉浸式翻译、BYOK 客户端、最小研究脚本等渐进示例；
-- 产品页和价格信息全部带核查日期；
-- 产品页采用统一的“五问”结构，不写成厂商说明书；
-- HTML 是持续维护的主版本，PDF 以后只作为阶段性快照。
+## 目录与预览
 
-## 当前阅读主线
+chapters/ 为任务教程，products/ 为产品索引，examples/ 为合成教学材料，tasks/ 为本轮执行范围。内部 field-tests/ 与维护材料不进入公开导航。
 
-`现在就开始 → 普通聊天 → Project / Workspace → 来源型论文阅读 → Deep Research → API → Code Agent → Work Agent`
-
-每一步都强调“什么时候继续停留”和“什么时候值得升级”。
-
-## 目录
-
-- `chapters/`：读者任务主线
-- `products/`：动态产品页
-- `appendices/`：公开附录
-- `data/`：产品/API Provider 的动态结构化信息
-- `examples/`：教学示例
-- `field-tests/`：内部实测记录，不作为读者主导航
-- `docs/`：版本、编辑规则和主手册后续备忘
-
-## 当前教学实例
-
-- `examples/api-batch/`：合成开放式回答 × DeepSeek API 的最小、可恢复批量脚本。
-- `docs/handbook-v1.2-backlog.qmd`：留待主手册下一版讨论的“AI × 开放科学”备忘。
-
-## 本地预览
-
-安装 Quarto 后：
-
-```bash
-quarto preview
-```
-
-正式发布计划使用 GitHub Pages。上线前才写入真实的 `site-url` / `repo-url`，当前本地预览不会渲染无效的占位网址。
-
-Windows 第一次本地预览的详细步骤见：`docs/FIRST_RENDER_WINDOWS.md`。
+安装 Quarto 后运行 `quarto preview`；交付前运行 `quarto render`。main 保存源文件，gh-pages 保存发布产物，_site/ 不提交。2026-09-16 已首次部署，尚未引入自动部署。发布须有针对候选版的 release gate。

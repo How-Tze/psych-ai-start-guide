@@ -1,16 +1,8 @@
-# API Provider 动态信息表。
-# 价格、模型名、上下文窗口等高频变化信息必须带核查日期。
+# 价格与算例在就近带日期的读者页面维护；不建立第二套价格数据库。
 providers:
-  example_provider:
-    display_name: Example Provider
-    last_checked: null
-    billing_model: token
-    input_price: null
-    output_price: null
-    cached_input_price: null
-    batch_discount: null
-    extra_tool_fees: []
-    supports_budget_limit: unknown
-    supports_key_scoping: unknown
-    official_pricing_url: null
-    official_api_docs_url: null
+  deepseek:
+    last_checked: 2026-10-13
+    teaching_page: chapters/08-api-costs.qmd
+    official_pricing_url: https://api-docs.deepseek.com/zh-cn/quick_start/pricing/
+    official_api_docs_url: https://api-docs.deepseek.com/api/create-chat-completion/
+    evidence: official_docs_no_paid_call

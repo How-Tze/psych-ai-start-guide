@@ -7,6 +7,8 @@ __pycache__/
 .env.*
 *.key
 .DS_Store
+.qa/
+.audit/
 
 /.quarto/
 **/*.quarto_ipynb
