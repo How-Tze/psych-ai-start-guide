@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>第一次进入 Work Agent / 桌面 Agent – 心理学研究者的 AI Start Guide</title>
+<title>工作 Agent：把一个文件任务做完 – 心理学研究者的 AI Start Guide</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -36,8 +36,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../chapters/12-privacy.html" rel="next">
-<link href="../chapters/10-code-agent.html" rel="prev">
+<link href="../appendices/api-tools.html" rel="next">
+<link href="../chapters/09-api-research-script.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -102,30 +102,26 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">首页</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../chapters/00-start-now.html"> 
-<span class="menu-text">现在就开始</span></a>
+    <a class="nav-link" href="../chapters/accounts.html"> 
+<span class="menu-text">开通与选购</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../chapters/01-task-map.html"> 
-<span class="menu-text">按任务选择</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../chapters/06-api-basics.html"> 
-<span class="menu-text">API</span></a>
+<span class="menu-text">按任务开始</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../products/index.html"> 
 <span class="menu-text">产品速查</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../appendices/api-tools.html"> 
-<span class="menu-text">API 工具</span></a>
+    <a class="nav-link" href="../chapters/06-api-basics.html"> 
+<span class="menu-text">API 与进阶</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="../docs/versioning.html"> 
-<span class="menu-text">版本与更新</span></a>
+<span class="menu-text">版本说明</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -138,7 +134,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="展开或折叠侧边栏导航" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/10-code-agent.html">03｜Harness 与 Agent</a></li><li class="breadcrumb-item"><a href="../chapters/11-work-agent.html">第一次进入 Work Agent / 桌面 Agent</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/10-code-agent.html">代码、API 与多步任务（按需）</a></li><li class="breadcrumb-item"><a href="../chapters/11-work-agent.html">工作 Agent：把一个文件任务做完</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="展开或折叠侧边栏导航" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="搜索" onclick="window.quartoOpenSearch();">
@@ -167,7 +163,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
- <span class="menu-text">00｜现在就开始</span></a>
+ <span class="menu-text">开通与选购</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="展开或折叠此栏">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -175,14 +171,37 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/00-start-now.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">现在就开始：30 分钟不要学完 AI，只完成一件事</span></a>
+  <a href="../chapters/accounts.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">注册、地区与设备：第一次怎样开始</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../chapters/budget.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">免费、每月约 20 美元和更高预算怎么选</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/00-start-now.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">现在就开始：30 分钟不要学完 AI，只完成一件事</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">按科研任务开始</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="展开或折叠此栏">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../chapters/01-task-map.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">一张图选工具：我现在到底该打开什么</span></a>
+ <span class="menu-text">按任务选择：今天该打开什么</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -191,33 +210,40 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">第一次使用普通聊天</span></a>
   </div>
 </li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
- <span class="menu-text">01｜让 AI 进入真实研究</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="展开或折叠此栏">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/03-project-workspace.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">第一次建立持续研究 Project / Workspace</span></a>
+  <a href="../chapters/method-learning.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">30 分钟学懂一个方法：个体内与个体间</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/04-reading-papers.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">第一次让 AI 帮你读一批论文</span></a>
+ <span class="menu-text">三篇论文的比较阅读：从总结到原文</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/05-deep-research.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">第一次做 Deep Research</span></a>
+ <span class="menu-text">Deep Research：做一轮有方向的文献探索</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/data-analysis.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">从 CSV 到可检查的汇总表与图</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/academic-writing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">从结果表到一段学术文字</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/03-project-workspace.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">建立持续研究空间：让明天接得上今天</span></a>
   </div>
 </li>
       </ul>
@@ -225,12 +251,18 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
- <span class="menu-text">02｜API：从使用 AI 到调用 AI</span></a>
+ <span class="menu-text">代码、API 与多步任务（按需）</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="展开或折叠此栏">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/10-code-agent.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">第一次让代码代理完成一个可检查的小任务</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/06-api-basics.html" class="sidebar-item-text sidebar-link">
@@ -252,7 +284,19 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/09-api-research-script.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">API 真正对研究者有用的地方：一个最小批量脚本</span></a>
+ <span class="menu-text">API 批处理：先用两条合成文本跑通</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/11-work-agent.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">工作 Agent：把一个文件任务做完</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/api-tools.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">附录：把自己的 API 接进常用工具</span></a>
   </div>
 </li>
       </ul>
@@ -260,35 +304,12 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
- <span class="menu-text">03｜Harness 与 Agent</span></a>
+ <span class="menu-text">隐私与练习检查</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="展开或折叠此栏">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chapters/10-code-agent.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">第一次让 Code Agent 看研究项目</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chapters/11-work-agent.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">第一次进入 Work Agent / 桌面 Agent</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true">
- <span class="menu-text">04｜安全与第一次完整上手</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="展开或折叠此栏">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/12-privacy.html" class="sidebar-item-text sidebar-link">
@@ -305,13 +326,13 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true">
- <span class="menu-text">05｜产品速查</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true" aria-label="展开或折叠此栏">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true">
+ <span class="menu-text">产品速查</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="展开或折叠此栏">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../products/index.html" class="sidebar-item-text sidebar-link">
@@ -368,29 +389,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
       </ul>
   </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true">
- <span class="menu-text">附录</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true" aria-label="展开或折叠此栏">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../appendices/api-tools.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">附录：把自己的 API 接进常用工具</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../docs/versioning.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">版本与更新机制</span></a>
+ <span class="menu-text">版本与更新说明</span></a>
   </div>
 </li>
-      </ul>
-  </li>
     </ul>
     </div>
 </nav>
@@ -401,19 +405,20 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">该页面内容</h2>
    
   <ul>
-  <li><a href="#什么时候才需要" id="toc-什么时候才需要" class="nav-link active" data-scroll-target="#什么时候才需要">什么时候才需要</a></li>
-  <li><a href="#第一次不要做什么" id="toc-第一次不要做什么" class="nav-link" data-scroll-target="#第一次不要做什么">第一次不要做什么</a></li>
-  <li><a href="#第一次任务建议" id="toc-第一次任务建议" class="nav-link" data-scroll-target="#第一次任务建议">第一次任务建议</a></li>
-  <li><a href="#第一次写清四个边界" id="toc-第一次写清四个边界" class="nav-link" data-scroll-target="#第一次写清四个边界">第一次写清四个边界</a></li>
+  <li><a href="#打开合适的工作环境" id="toc-打开合适的工作环境" class="nav-link active" data-scroll-target="#打开合适的工作环境">打开合适的工作环境</a></li>
+  <li><a href="#第-1-步准备三个文件" id="toc-第-1-步准备三个文件" class="nav-link" data-scroll-target="#第-1-步准备三个文件">第 1 步：准备三个文件</a></li>
+  <li><a href="#第-2-步给出有终点的任务" id="toc-第-2-步给出有终点的任务" class="nav-link" data-scroll-target="#第-2-步给出有终点的任务">第 2 步：给出有终点的任务</a></li>
+  <li><a href="#第-3-步检查实际产物" id="toc-第-3-步检查实际产物" class="nav-link" data-scroll-target="#第-3-步检查实际产物">第 3 步：检查实际产物</a></li>
+  <li><a href="#第-4-步重复一次才考虑自动化" id="toc-第-4-步重复一次才考虑自动化" class="nav-link" data-scroll-target="#第-4-步重复一次才考虑自动化">第 4 步：重复一次才考虑自动化</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/10-code-agent.html">03｜Harness 与 Agent</a></li><li class="breadcrumb-item"><a href="../chapters/11-work-agent.html">第一次进入 Work Agent / 桌面 Agent</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/10-code-agent.html">代码、API 与多步任务（按需）</a></li><li class="breadcrumb-item"><a href="../chapters/11-work-agent.html">工作 Agent：把一个文件任务做完</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">第一次进入 Work Agent / 桌面 Agent</h1>
+<h1 class="title">工作 Agent：把一个文件任务做完</h1>
 </div>
 
 
@@ -430,41 +435,31 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Work Agent 的重点不是“聊天时间更长”，而是它能够在授权下跨多个文件、网页或工具连续执行，并根据中间结果决定下一步。</p>
-<section id="什么时候才需要" class="level2">
-<h2 class="anchored" data-anchor-id="什么时候才需要">什么时候才需要</h2>
-<p>典型任务包括：</p>
-<ul>
-<li>扫描一批文件并生成项目地图；</li>
-<li>比较多个版本并整理差异；</li>
-<li>从公开网页收集资料，再写入本地文档；</li>
-<li>根据多个中间结果更新交接页或状态表。</li>
-</ul>
-<p>如果一个任务在单个聊天、单个文档或单个代码库里已经能完成，就没有必要上 Work Agent。</p>
+<p><strong>目标：</strong> 让工具把一组已有材料整理成可继续工作的入口。适合需要读取多个文件、生成产物并根据中间结果继续的任务；没有这类需求时普通对话就足够。</p>
+<section id="打开合适的工作环境" class="level2">
+<h2 class="anchored" data-anchor-id="打开合适的工作环境">打开合适的工作环境</h2>
+<p>当前 OpenAI 官方快速开始区分 Chat 与 Work，并提供桌面本地文件任务入口；代码开发使用 Codex。<a href="https://learn.chatgpt.com/docs/quickstart">官方说明</a>，核查于 2026-10-13。不同账号、系统和产品的工作功能不同；这里没有声称逐一实测。</p>
+<p>已有其他支持文件工作的 Agent，也可使用下面同一任务。重点是能看到输入、产物与修改范围。</p>
 </section>
-<section id="第一次不要做什么" class="level2">
-<h2 class="anchored" data-anchor-id="第一次不要做什么">第一次不要做什么</h2>
-<p>不要直接让 Agent “接管整个研究项目”。权限越大，越要缩小第一次任务。</p>
+<section id="第-1-步准备三个文件" class="level2">
+<h2 class="anchored" data-anchor-id="第-1-步准备三个文件">第 1 步：准备三个文件</h2>
+<p>在单独练习文件夹中放入：研究问题说明、当前结果表、当前稿件副本。材料必须允许在该工具中处理。没有自己的合适材料，可先用本站<a href="../examples/project/current-state.txt">当前状态模板</a>和<a href="../examples/learning/within-between.csv">合成数据</a>。</p>
 </section>
-<section id="第一次任务建议" class="level2">
-<h2 class="anchored" data-anchor-id="第一次任务建议">第一次任务建议</h2>
-<p>选择一个可回退的结构性任务，例如：</p>
-<ul>
-<li>扫描一个<strong>副本目录</strong>并生成文件地图；</li>
-<li>比较三个版本，只输出差异，不覆盖原件；</li>
-<li>整理公开资料；</li>
-<li>根据已经确认的信息生成交接页草稿。</li>
-</ul>
+<section id="第-2-步给出有终点的任务" class="level2">
+<h2 class="anchored" data-anchor-id="第-2-步给出有终点的任务">第 2 步：给出有终点的任务</h2>
+<blockquote class="blockquote">
+<p>只读取我指定的练习目录。请生成一页项目入口：文件名和用途、可见的版本冲突、缺少的信息、下一次 30 分钟可完成的任务。把结果保存为新文件 project-entry.md，不改原文件。若无法判断哪个文件当前有效，明确列为待确认，不自行选择。</p>
+</blockquote>
+<p>对于这个新建产物的可逆任务，无需把每个读取步骤都变成审批。若工具要求额外连接云盘或进入其他目录，先判断这些材料是否真有必要。</p>
 </section>
-<section id="第一次写清四个边界" class="level2">
-<h2 class="anchored" data-anchor-id="第一次写清四个边界">第一次写清四个边界</h2>
-<ol type="1">
-<li><strong>可见范围</strong>：只能看哪些目录、网页或应用；</li>
-<li><strong>允许动作</strong>：只能读，还是可以创建/修改；</li>
-<li><strong>停止条件</strong>：遇到什么情况必须停下来问人；</li>
-<li><strong>恢复方式</strong>：改错后怎样回退。</li>
-</ol>
-<p>Work Agent 把“权限”带进了科研工作流。接下来最重要的一页不是更多功能，而是：<a href="../chapters/12-privacy.html">上传之前：数据、隐私与未公开研究</a>。</p>
+<section id="第-3-步检查实际产物" class="level2">
+<h2 class="anchored" data-anchor-id="第-3-步检查实际产物">第 3 步：检查实际产物</h2>
+<p>打开 project-entry.md，确认文件名存在、冲突确有依据、未知没有被写成决定。没有写入权限时接收文本并自行保存；不能访问文件时改为上传允许使用的副本，不让工具编造目录。</p>
+</section>
+<section id="第-4-步重复一次才考虑自动化" class="level2">
+<h2 class="anchored" data-anchor-id="第-4-步重复一次才考虑自动化">第 4 步：重复一次才考虑自动化</h2>
+<p>次日换成更新的结果表，让工具更新入口副本，检查它是否正确指出变化。只有重复任务的输入与规则已经清楚，才值得固定为模板、脚本或定时任务。</p>
+<p>保存原件、产物和采用决定。多 Agent 并不是完成这件事的前提；需要协作时，主手册<a href="https://How-Tze.github.io/psych-ai-research-handbook/chapters/10-automation.html">固定重复工作</a>解释如何分工。</p>
 
 
 </section>
@@ -543,7 +538,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/How-Tze\.github\.io\/psych-ai-start-guide\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -877,13 +872,13 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../chapters/10-code-agent.html" class="pagination-link" aria-label="第一次让 Code Agent 看研究项目">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">第一次让 Code Agent 看研究项目</span>
+      <a href="../chapters/09-api-research-script.html" class="pagination-link" aria-label="API 批处理：先用两条合成文本跑通">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">API 批处理：先用两条合成文本跑通</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../chapters/12-privacy.html" class="pagination-link" aria-label="上传之前：数据、隐私与未公开研究">
-        <span class="nav-page-text">上传之前：数据、隐私与未公开研究</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../appendices/api-tools.html" class="pagination-link" aria-label="附录：把自己的 API 接进常用工具">
+        <span class="nav-page-text">附录：把自己的 API 接进常用工具</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>API 真正对研究者有用的地方：一个最小批量脚本 – 心理学研究者的 AI Start Guide</title>
+<title>API 批处理：先用两条合成文本跑通 – 心理学研究者的 AI Start Guide</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -71,7 +71,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../chapters/10-code-agent.html" rel="next">
+<link href="../chapters/11-work-agent.html" rel="next">
 <link href="../chapters/08-api-costs.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -110,9 +110,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "搜索"
   }
 }</script>
-<script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
-<script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
-<link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="../assets/styles.css">
@@ -140,30 +137,26 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span class="menu-text">首页</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../chapters/00-start-now.html"> 
-<span class="menu-text">现在就开始</span></a>
+    <a class="nav-link" href="../chapters/accounts.html"> 
+<span class="menu-text">开通与选购</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../chapters/01-task-map.html"> 
-<span class="menu-text">按任务选择</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../chapters/06-api-basics.html"> 
-<span class="menu-text">API</span></a>
+<span class="menu-text">按任务开始</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../products/index.html"> 
 <span class="menu-text">产品速查</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../appendices/api-tools.html"> 
-<span class="menu-text">API 工具</span></a>
+    <a class="nav-link" href="../chapters/06-api-basics.html"> 
+<span class="menu-text">API 与进阶</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="../docs/versioning.html"> 
-<span class="menu-text">版本与更新</span></a>
+<span class="menu-text">版本说明</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -176,7 +169,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="展开或折叠侧边栏导航" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/06-api-basics.html">02｜API：从使用 AI 到调用 AI</a></li><li class="breadcrumb-item"><a href="../chapters/09-api-research-script.html">API 真正对研究者有用的地方：一个最小批量脚本</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/10-code-agent.html">代码、API 与多步任务（按需）</a></li><li class="breadcrumb-item"><a href="../chapters/09-api-research-script.html">API 批处理：先用两条合成文本跑通</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="展开或折叠侧边栏导航" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="搜索" onclick="window.quartoOpenSearch();">
@@ -205,7 +198,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
- <span class="menu-text">00｜现在就开始</span></a>
+ <span class="menu-text">开通与选购</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="展开或折叠此栏">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -213,14 +206,37 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/00-start-now.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">现在就开始：30 分钟不要学完 AI，只完成一件事</span></a>
+  <a href="../chapters/accounts.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">注册、地区与设备：第一次怎样开始</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../chapters/budget.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">免费、每月约 20 美元和更高预算怎么选</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/00-start-now.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">现在就开始：30 分钟不要学完 AI，只完成一件事</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">按科研任务开始</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="展开或折叠此栏">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../chapters/01-task-map.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">一张图选工具：我现在到底该打开什么</span></a>
+ <span class="menu-text">按任务选择：今天该打开什么</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -229,33 +245,40 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="menu-text">第一次使用普通聊天</span></a>
   </div>
 </li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
- <span class="menu-text">01｜让 AI 进入真实研究</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="展开或折叠此栏">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/03-project-workspace.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">第一次建立持续研究 Project / Workspace</span></a>
+  <a href="../chapters/method-learning.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">30 分钟学懂一个方法：个体内与个体间</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/04-reading-papers.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">第一次让 AI 帮你读一批论文</span></a>
+ <span class="menu-text">三篇论文的比较阅读：从总结到原文</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/05-deep-research.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">第一次做 Deep Research</span></a>
+ <span class="menu-text">Deep Research：做一轮有方向的文献探索</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/data-analysis.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">从 CSV 到可检查的汇总表与图</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/academic-writing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">从结果表到一段学术文字</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/03-project-workspace.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">建立持续研究空间：让明天接得上今天</span></a>
   </div>
 </li>
       </ul>
@@ -263,12 +286,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
- <span class="menu-text">02｜API：从使用 AI 到调用 AI</span></a>
+ <span class="menu-text">代码、API 与多步任务（按需）</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="展开或折叠此栏">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/10-code-agent.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">第一次让代码代理完成一个可检查的小任务</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/06-api-basics.html" class="sidebar-item-text sidebar-link">
@@ -290,7 +319,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/09-api-research-script.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">API 真正对研究者有用的地方：一个最小批量脚本</span></a>
+ <span class="menu-text">API 批处理：先用两条合成文本跑通</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/11-work-agent.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">工作 Agent：把一个文件任务做完</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/api-tools.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">附录：把自己的 API 接进常用工具</span></a>
   </div>
 </li>
       </ul>
@@ -298,35 +339,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
- <span class="menu-text">03｜Harness 与 Agent</span></a>
+ <span class="menu-text">隐私与练习检查</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="展开或折叠此栏">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chapters/10-code-agent.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">第一次让 Code Agent 看研究项目</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chapters/11-work-agent.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">第一次进入 Work Agent / 桌面 Agent</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true">
- <span class="menu-text">04｜安全与第一次完整上手</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="展开或折叠此栏">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/12-privacy.html" class="sidebar-item-text sidebar-link">
@@ -343,13 +361,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true">
- <span class="menu-text">05｜产品速查</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true" aria-label="展开或折叠此栏">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true">
+ <span class="menu-text">产品速查</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="展开或折叠此栏">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../products/index.html" class="sidebar-item-text sidebar-link">
@@ -406,29 +424,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
       </ul>
   </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true">
- <span class="menu-text">附录</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true" aria-label="展开或折叠此栏">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../appendices/api-tools.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">附录：把自己的 API 接进常用工具</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../docs/versioning.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">版本与更新机制</span></a>
+ <span class="menu-text">版本与更新说明</span></a>
   </div>
 </li>
-      </ul>
-  </li>
     </ul>
     </div>
 </nav>
@@ -439,29 +440,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">该页面内容</h2>
    
   <ul>
-  <li><a href="#示例任务" id="toc-示例任务" class="nav-link active" data-scroll-target="#示例任务">示例任务</a></li>
-  <li><a href="#为什么不直接复制到聊天框" id="toc-为什么不直接复制到聊天框" class="nav-link" data-scroll-target="#为什么不直接复制到聊天框">为什么不直接复制到聊天框</a></li>
-  <li><a href="#教学文件" id="toc-教学文件" class="nav-link" data-scroll-target="#教学文件">教学文件</a></li>
-  <li><a href="#第一次运行" id="toc-第一次运行" class="nav-link" data-scroll-target="#第一次运行">第一次运行</a>
-  <ul class="collapse">
-  <li><a href="#安装依赖" id="toc-安装依赖" class="nav-link" data-scroll-target="#安装依赖">1. 安装依赖</a></li>
-  <li><a href="#临时设置-api-key" id="toc-临时设置-api-key" class="nav-link" data-scroll-target="#临时设置-api-key">2. 临时设置 API Key</a></li>
-  <li><a href="#运行" id="toc-运行" class="nav-link" data-scroll-target="#运行">3. 运行</a></li>
-  </ul></li>
-  <li><a href="#每条结果至少应该留下什么" id="toc-每条结果至少应该留下什么" class="nav-link" data-scroll-target="#每条结果至少应该留下什么">每条结果至少应该留下什么</a></li>
-  <li><a href="#什么时候不值得用-api" id="toc-什么时候不值得用-api" class="nav-link" data-scroll-target="#什么时候不值得用-api">什么时候不值得用 API</a></li>
-  <li><a href="#一个很小但重要的恢复设计" id="toc-一个很小但重要的恢复设计" class="nav-link" data-scroll-target="#一个很小但重要的恢复设计">一个很小但重要的恢复设计</a></li>
-  <li><a href="#这和开放科学有什么关系" id="toc-这和开放科学有什么关系" class="nav-link" data-scroll-target="#这和开放科学有什么关系">这和开放科学有什么关系</a></li>
-  <li><a href="#不要从这个例子得出什么结论" id="toc-不要从这个例子得出什么结论" class="nav-link" data-scroll-target="#不要从这个例子得出什么结论">不要从这个例子得出什么结论</a></li>
+  <li><a href="#第-1-步取得完整示例" id="toc-第-1-步取得完整示例" class="nav-link active" data-scroll-target="#第-1-步取得完整示例">第 1 步：取得完整示例</a></li>
+  <li><a href="#第-2-步先离线检查" id="toc-第-2-步先离线检查" class="nav-link" data-scroll-target="#第-2-步先离线检查">第 2 步：先离线检查</a></li>
+  <li><a href="#第-3-步决定是否实际调用" id="toc-第-3-步决定是否实际调用" class="nav-link" data-scroll-target="#第-3-步决定是否实际调用">第 3 步：决定是否实际调用</a></li>
+  <li><a href="#第-4-步查看结果而不是只看成功" id="toc-第-4-步查看结果而不是只看成功" class="nav-link" data-scroll-target="#第-4-步查看结果而不是只看成功">第 4 步：查看结果，而不是只看“成功”</a></li>
+  <li><a href="#怎样继续怎样恢复" id="toc-怎样继续怎样恢复" class="nav-link" data-scroll-target="#怎样继续怎样恢复">怎样继续、怎样恢复</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/06-api-basics.html">02｜API：从使用 AI 到调用 AI</a></li><li class="breadcrumb-item"><a href="../chapters/09-api-research-script.html">API 真正对研究者有用的地方：一个最小批量脚本</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/10-code-agent.html">代码、API 与多步任务（按需）</a></li><li class="breadcrumb-item"><a href="../chapters/09-api-research-script.html">API 批处理：先用两条合成文本跑通</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">API 真正对研究者有用的地方：一个最小批量脚本</h1>
+<h1 class="title">API 批处理：先用两条合成文本跑通</h1>
 </div>
 
 
@@ -478,164 +470,54 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>前面的例子说明了 API 可以让插件或客户端调用模型。对研究者而言，更重要的一步是：<strong>同一套输入可以由脚本按照同一规则逐条调用模型，并把原始输入、模型输出、模型名、时间和错误状态一起保存下来。</strong></p>
-<p>本章只做一个很小的教学实例，不把它写成 Python 课程，也不把 LLM 的输出当成已经验证过的心理学测量。</p>
-<div class="cell" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class="figure"><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart LR
-    A[合成输入 CSV] --&gt; B[Python 脚本]
-    B --&gt; C[DeepSeek API]
-    C --&gt; D[模型响应]
-    D --&gt; E[JSONL 逐条保存]
-    B --&gt; F[运行元数据]
-    C --&gt; G[错误 / 用量信息]
-    G --&gt; E
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
-<p>这张图里最值得注意的不是“模型”本身，而是左右两端：输入有固定结构，输出和错误会自动留下记录。</p>
-<section id="示例任务" class="level2">
-<h2 class="anchored" data-anchor-id="示例任务">示例任务</h2>
-<p>假设我们有 8 条<strong>完全虚构</strong>的开放式问卷回答，希望按预先给定的标签做一次“候选主题标记”，以展示批量调用流程。</p>
-<p>示例标签：</p>
+<p>本练习演示：固定输入 → 调用模型 → 保存原始响应 → 检查格式 → 失败后继续。要求 Python 3.10+；没有编程环境可先完成<a href="../chapters/method-learning.html">普通文本练习</a>。</p>
+<p>输入八条虚构开放式回答，标签为学业压力、反刍、睡眠习惯、人际压力和其他。<strong>标签仅用于教学，不是经过验证的心理学编码。</strong></p>
+<section id="第-1-步取得完整示例" class="level2">
+<h2 class="anchored" data-anchor-id="第-1-步取得完整示例">第 1 步：取得完整示例</h2>
+<p>新建 <code>api-batch</code> 文件夹，把下面五个文件保存进去；保持文件名不变：</p>
 <ul>
-<li><code>academic_pressure</code>：学业压力</li>
-<li><code>rumination</code>：反复思考 / 难以停止思绪</li>
-<li><code>sleep_habits</code>：睡眠习惯或作息</li>
-<li><code>social_stress</code>：人际或社会压力</li>
-<li><code>other</code>：以上均不适合</li>
+<li><a href="../examples/api-batch/input_responses.csv">输入 CSV</a></li>
+<li><a href="../examples/api-batch/batch_label.py">主脚本 batch_label.py</a></li>
+<li><a href="../examples/api-batch/requirements.txt">依赖 requirements.txt</a></li>
+<li><a href="../examples/api-batch/test_batch_label.py">离线测试 test_batch_label.py</a></li>
+<li><a href="../examples/api-batch/README.md">操作与恢复说明 README</a></li>
 </ul>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-警告
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>这个例子只用于学习 API 工作流。真实研究中的自动编码需要独立的效度、可靠性、偏差和人工复核设计；“模型能输出一个标签”不等于“这个标签已经是有效研究数据”。</p>
-</div>
-</div>
+<p>也可以从<a href="https://github.com/How-Tze/psych-ai-start-guide">仓库</a>选择 Code → Download ZIP，解压后进入 examples/api-batch。候选版尚未发布时，以本预览页的文件为准。</p>
 </section>
-<section id="为什么不直接复制到聊天框" class="level2">
-<h2 class="anchored" data-anchor-id="为什么不直接复制到聊天框">为什么不直接复制到聊天框</h2>
-<p>如果只是 3 条文本，复制粘贴完全可以。到了几十、几百或几千条输入，API + 脚本开始带来不同的价值：</p>
+<section id="第-2-步先离线检查" class="level2">
+<h2 class="anchored" data-anchor-id="第-2-步先离线检查">第 2 步：先离线检查</h2>
+<p>在这个文件夹打开终端：</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode powershell code-with-copy"><code class="sourceCode powershell"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>python batch_label<span class="op">.</span><span class="fu">py</span> <span class="op">--</span>dry-run</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>python <span class="op">-</span>m unittest <span class="op">-</span>v</span></code></pre></div><button title="复制到剪贴板" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Windows 已安装 Python 但没有 python 命令时可试 py。预检查应报告 8 行和最多调用 2 次；它不会请求 API。测试模拟成功与失败，不需要 Key。</p>
+</section>
+<section id="第-3-步决定是否实际调用" class="level2">
+<h2 class="anchored" data-anchor-id="第-3-步决定是否实际调用">第 3 步：决定是否实际调用</h2>
+<p>先阅读<a href="../chapters/08-api-costs.html">API 计费</a>，在官方控制台创建自己的教学 Key。安装依赖：</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode powershell code-with-copy"><code class="sourceCode powershell"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>python <span class="op">-</span>m pip install <span class="op">-</span>r requirements<span class="op">.</span><span class="fu">txt</span></span></code></pre></div><button title="复制到剪贴板" class="code-copy-button"><i class="bi"></i></button></div>
+<p>在 PowerShell 中隐藏输入 Key：</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode powershell code-with-copy"><code class="sourceCode powershell"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="va">$demoSecureKey</span> <span class="op">=</span> <span class="fu">Read-Host</span> <span class="st">"DeepSeek API Key"</span> <span class="op">-</span>AsSecureString</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="va">$env</span><span class="op">:</span><span class="va">DEEPSEEK_API_KEY</span> <span class="op">=</span> <span class="op">[</span>System<span class="op">.</span><span class="fu">Net</span><span class="op">.</span><span class="fu">NetworkCredential</span><span class="op">]::</span>new<span class="op">(</span><span class="st">""</span><span class="op">,</span> <span class="va">$demoSecureKey</span><span class="op">).</span><span class="fu">Password</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>python batch_label<span class="op">.</span><span class="fu">py</span> <span class="op">--</span>max-calls <span class="dv">2</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="dt">Remove</span><span class="op">-</span>Item Env<span class="op">:</span>DEEPSEEK_API_KEY</span></code></pre></div><button title="复制到剪贴板" class="code-copy-button"><i class="bi"></i></button></div>
+<p>不要把 Key 粘进聊天或保存进脚本。命令至多发两次请求，没有自动重试；这只是数量上限，不是金额封顶。模型默认 deepseek-flash，入口来自 <a href="https://api-docs.deepseek.com/zh-cn/quick_start/pricing/">DeepSeek 官方文档</a>，核查于 2026-10-13。</p>
+</section>
+<section id="第-4-步查看结果而不是只看成功" class="level2">
+<h2 class="anchored" data-anchor-id="第-4-步查看结果而不是只看成功">第 4 步：查看结果，而不是只看“成功”</h2>
+<p>打开 output/results.jsonl，每行是一条记录：</p>
 <ul>
-<li>每条输入都经过同一段指令；</li>
-<li>不需要人工逐条复制；</li>
-<li>每次响应自动写入文件；</li>
-<li>可以同时保存请求模型和返回模型；</li>
-<li>中途失败时记录错误，而不是悄悄漏掉；</li>
-<li>重新运行时可以跳过已经完成的条目；</li>
-<li>后续能核查“这一列结果到底是怎样生成的”。</li>
+<li>format_ok：JSON、标签和理由格式通过；</li>
+<li>error：请求失败、返回被截断或格式不符合要求；</li>
+<li>原始输出与服务商响应保留在本地；</li>
+<li>每次运行单独保存模型、提示、输入摘要和参数。</li>
 </ul>
+<p>即便 format_ok，也要对照原文判断标签。自动校验只能确认格式，没有证明标签的效度。</p>
 </section>
-<section id="教学文件" class="level2">
-<h2 class="anchored" data-anchor-id="教学文件">教学文件</h2>
-<p>项目中已经附带：</p>
-<pre class="text"><code>examples/api-batch/
-├── input_responses.csv
-├── batch_label.py
-├── requirements.txt
-├── .gitignore
-└── README.md</code></pre>
-<p>输入文件只有两列：<code>id</code> 和 <code>response</code>。所有文本都是为本教程编写的合成材料。</p>
-</section>
-<section id="第一次运行" class="level2">
-<h2 class="anchored" data-anchor-id="第一次运行">第一次运行</h2>
-<section id="安装依赖" class="level3">
-<h3 class="anchored" data-anchor-id="安装依赖">1. 安装依赖</h3>
-<p>在项目根目录打开终端：</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> <span class="at">-m</span> pip install <span class="at">-r</span> examples/api-batch/requirements.txt</span></code></pre></div><button title="复制到剪贴板" class="code-copy-button"><i class="bi"></i></button></div>
-</section>
-<section id="临时设置-api-key" class="level3">
-<h3 class="anchored" data-anchor-id="临时设置-api-key">2. 临时设置 API Key</h3>
-<p>Windows PowerShell：</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode powershell code-with-copy"><code class="sourceCode powershell"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="va">$env</span><span class="op">:</span><span class="va">DEEPSEEK_API_KEY</span><span class="op">=</span><span class="st">"你的 Key"</span></span></code></pre></div><button title="复制到剪贴板" class="code-copy-button"><i class="bi"></i></button></div>
-<p>macOS / Linux：</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="bu">export</span> <span class="va">DEEPSEEK_API_KEY</span><span class="op">=</span><span class="st">'你的 Key'</span></span></code></pre></div><button title="复制到剪贴板" class="code-copy-button"><i class="bi"></i></button></div>
-<p>这里只把 Key 放进<strong>当前终端会话</strong>，不把它写进脚本和 CSV。</p>
-</section>
-<section id="运行" class="level3">
-<h3 class="anchored" data-anchor-id="运行">3. 运行</h3>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> examples/api-batch/batch_label.py</span></code></pre></div><button title="复制到剪贴板" class="code-copy-button"><i class="bi"></i></button></div>
-<p>脚本会逐条调用，并把结果追加到：</p>
-<pre class="text"><code>examples/api-batch/output/results.jsonl</code></pre>
-<p>如果某一条失败，错误也会作为一条记录写入，而不是让整批结果消失。</p>
-</section>
-</section>
-<section id="每条结果至少应该留下什么" class="level2">
-<h2 class="anchored" data-anchor-id="每条结果至少应该留下什么">每条结果至少应该留下什么</h2>
-<p>本例保存：</p>
-<ul>
-<li><code>id</code></li>
-<li>原始 <code>response</code></li>
-<li><code>status</code></li>
-<li><code>model_requested</code></li>
-<li>API 返回的 <code>model_returned</code></li>
-<li><code>timestamp_utc</code></li>
-<li><code>prompt_version</code></li>
-<li><code>raw_model_output</code></li>
-<li>如果能够解析 JSON，再保存 <code>parsed_output</code></li>
-<li>失败时保存 <code>error</code></li>
-<li>本地保留 Provider 的完整响应，便于之后查看 token / usage 等运行信息</li>
-</ul>
-<p>这比“复制最后一列标签”多了很多字段，但这些字段正是以后回答“这批结果从哪里来”的最低成本证据。</p>
-</section>
-<section id="什么时候不值得用-api" class="level2">
-<h2 class="anchored" data-anchor-id="什么时候不值得用-api">什么时候不值得用 API</h2>
-<p>API 不是“更专业的聊天”。下面这些情况通常直接用聊天界面更省事：</p>
-<ul>
-<li>只有少量一次性文本，需要边看边改；</li>
-<li>任务高度依赖临时讨论，结果不需要形成结构化批次；</li>
-<li>你还说不清输入、输出和检查规则；</li>
-<li>材料敏感，而当前 API 服务、机构政策或数据协议并不允许上传；</li>
-<li>为了省几分钟操作，却要额外维护脚本、Key 和错误处理。</li>
-</ul>
-<p>一个实用判断是：<strong>当“重复、规模、记录和重跑”开始成为负担时，再考虑 API。</strong></p>
-</section>
-<section id="一个很小但重要的恢复设计" class="level2">
-<h2 class="anchored" data-anchor-id="一个很小但重要的恢复设计">一个很小但重要的恢复设计</h2>
-<p>脚本启动时会读取已有 <code>results.jsonl</code>。如果某个 <code>id</code> 已经成功完成，就默认跳过它。</p>
-<p>这意味着第 137 条请求失败时，你不需要重新付费跑前 136 条。<strong>可恢复性本身就是 API 工作流和手工聊天之间的重要差别。</strong></p>
-</section>
-<section id="这和开放科学有什么关系" class="level2">
-<h2 class="anchored" data-anchor-id="这和开放科学有什么关系">这和开放科学有什么关系</h2>
-<p>结构化保存并不意味着原始研究数据应该公开。但当项目最终需要准备开放材料时，这种工作方式会明显降低整理成本：</p>
-<pre class="text"><code>内部项目
-├── 受保护的原始数据
-├── 分析 / API 脚本
-├── 完整运行记录
-└── 结果
-        ↓ 人工判断哪些内容可以公开
-公开 release
-├── README
-├── 去标识化 / 合成 / 获许可的数据
-├── 分析代码
-├── 环境与运行说明
-└── 可复核结果</code></pre>
-<p>AI 可以帮助整理、检查和维护这套 release，但不能替研究者判断隐私、伦理和许可边界。</p>
-</section>
-<section id="不要从这个例子得出什么结论" class="level2">
-<h2 class="anchored" data-anchor-id="不要从这个例子得出什么结论">不要从这个例子得出什么结论</h2>
-<ul>
-<li>不要因为 prompt、模型名和脚本固定，就宣称 LLM 输出“完全可复现”；模型服务本身仍可能更新。</li>
-<li>不要把本例的标签当作一个经过验证的心理学量表或编码体系。</li>
-<li>不要把真实被试身份信息直接送入第三方 API。</li>
-<li>不要把 API Key 写进脚本后上传 GitHub。</li>
-</ul>
-<p>本章真正要建立的直觉只有一个：</p>
-<blockquote class="blockquote">
-<p><strong>API 的科研价值不只是“批量”，而是让输入、执行规则、输出和失败记录开始进入一个可检查的流程。</strong></p>
-</blockquote>
+<section id="怎样继续怎样恢复" class="level2">
+<h2 class="anchored" data-anchor-id="怎样继续怎样恢复">怎样继续、怎样恢复</h2>
+<p>相同输入、模型、提示和参数下，再运行会跳过已经格式通过的条目；错误条目可再次尝试。任一配置或输入改变会形成新批次，保守地重跑整份输入，旧记录继续保留。</p>
+<p>例如前两条通过后重新运行，最多处理接下来的两条。超时可能已经产生服务端费用，重跑也可能再次收费。不要同时启动两个进程；强制中断后按 README 检查残留锁文件。</p>
+<p>完成后保留输入、运行参数、原始响应、人工复核结论和真实控制台用量。本站此版本通过离线测试，<strong>未以真实 Key 发起付费调用</strong>。真实文本需另做伦理、隐私和编码方法判断。</p>
 
 
 </section>
@@ -714,7 +596,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/How-Tze\.github\.io\/psych-ai-start-guide\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -1053,8 +935,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../chapters/10-code-agent.html" class="pagination-link" aria-label="第一次让 Code Agent 看研究项目">
-        <span class="nav-page-text">第一次让 Code Agent 看研究项目</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../chapters/11-work-agent.html" class="pagination-link" aria-label="工作 Agent：把一个文件任务做完">
+        <span class="nav-page-text">工作 Agent：把一个文件任务做完</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
