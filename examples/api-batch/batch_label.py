@@ -1,178 +1,197 @@
-"""Minimal, resumable DeepSeek API batch example for the Start Guide.
-
-Teaching purpose only. The labels and synthetic responses are not a validated
-psychological coding scheme.
-"""
-
+"""Synthetic teaching example; format checks do not validate psychological coding."""
 from __future__ import annotations
 
+import argparse
 import csv
+import hashlib
 import json
 import os
+from contextlib import contextmanager
 from datetime import datetime, timezone
 from pathlib import Path
-
-import requests
+from uuid import uuid4
 
 HERE = Path(__file__).resolve().parent
-INPUT_CSV = HERE / "input_responses.csv"
-OUTPUT_DIR = HERE / "output"
-OUTPUT_JSONL = OUTPUT_DIR / "results.jsonl"
-RUN_METADATA_JSON = OUTPUT_DIR / "run_metadata.json"
-
-API_URL = os.getenv(
-    "DEEPSEEK_API_URL",
-    "https://api.deepseek.com/chat/completions",
-)
-MODEL = os.getenv("DEEPSEEK_MODEL", "deepseek-flash")
-API_KEY = os.getenv("DEEPSEEK_API_KEY")
-PROMPT_VERSION = "theme-label-demo-v1"
-
-SYSTEM_PROMPT = """你正在执行一个教学用的候选主题标记任务。
-只能从以下标签中选择一个或多个：
-academic_pressure, rumination, sleep_habits, social_stress, other
-
-要求：
-1. 只根据提供的文本判断，不补充背景信息。
-2. 如果前四类都不合适，使用 other。
-3. 返回严格 JSON，不要添加 Markdown：
-{"labels": ["label"], "reason": "一句简短理由"}
-
-这只是候选标记，不代表经过验证的心理学编码。
-"""
+API_URL = "https://api.deepseek.com/chat/completions"
+REQUEST_OPTIONS = {"thinking": {"type": "disabled"},
+                   "response_format": {"type": "json_object"}}
+LABELS = {"academic_pressure", "rumination", "sleep_habits", "social_stress", "other"}
+SYSTEM_PROMPT = """你在执行合成教学文本的候选标记。只使用提供的文本。
+只从 academic_pressure, rumination, sleep_habits, social_stress, other 选择标签。
+other 只在其余标签均不适用时单独使用。返回 JSON 对象：
+{"labels":["label"],"reason":"简短理由"}
+不要 Markdown，不补写信息。这不是已验证的心理学编码。"""
 
 
-def utc_now() -> str:
+def now():
     return datetime.now(timezone.utc).isoformat()
 
 
-def load_completed_ids(path: Path) -> set[str]:
-    completed: set[str] = set()
-    if not path.exists():
-        return completed
-    with path.open("r", encoding="utf-8") as f:
-        for line in f:
+def digest(value):
+    return hashlib.sha256(json.dumps(value, ensure_ascii=False,
+                                    sort_keys=True).encode("utf-8")).hexdigest()
+
+
+def validate_output(raw):
+    value = json.loads(raw)
+    if not isinstance(value, dict) or set(value) != {"labels", "reason"}:
+        raise ValueError("Expected exactly labels and reason")
+    labels = value["labels"]
+    if not isinstance(labels, list) or not labels:
+        raise ValueError("labels must be a nonempty list")
+    if any(not isinstance(x, str) or x not in LABELS for x in labels):
+        raise ValueError("Unknown label")
+    if len(set(labels)) != len(labels) or ("other" in labels and len(labels) != 1):
+        raise ValueError("Duplicate or contradictory labels")
+    if not isinstance(value["reason"], str) or not value["reason"].strip():
+        raise ValueError("reason must be nonempty text")
+    return value
+
+
+def read_rows(path):
+    with path.open(encoding="utf-8-sig", newline="") as source:
+        reader = csv.DictReader(source)
+        if reader.fieldnames != ["id", "response"]:
+            raise ValueError("Input columns must be id,response")
+        rows = list(reader)
+    ids = [r["id"] for r in rows]
+    if not rows or len(set(ids)) != len(ids):
+        raise ValueError("Input must be nonempty and ids unique")
+    if any(set(r) != {"id", "response"} or
+           not all(isinstance(v, str) and v.strip() for v in r.values())
+           for r in rows):
+        raise ValueError("Input cells must be nonempty text")
+    return rows
+
+
+def append_record(path, record):
+    # Keep a torn final line as evidence; terminate it before adding a new record.
+    if path.exists() and path.stat().st_size:
+        with path.open("rb") as stream:
+            stream.seek(-1, 2)
+            needs_newline = stream.read(1) != b"\n"
+        if needs_newline:
+            with path.open("ab") as stream:
+                stream.write(b"\n")
+    with path.open("a", encoding="utf-8") as stream:
+        stream.write(json.dumps(record, ensure_ascii=False) + "\n")
+
+
+def completed_keys(path):
+    completed = set()
+    if path.exists():
+        for line in path.read_text(encoding="utf-8").splitlines():
             try:
                 record = json.loads(line)
-            except json.JSONDecodeError:
+                if record.get("status") == "format_ok":
+                    validate_output(record["raw_model_output"])
+                    completed.add(record["request_key"])
+            except (ValueError, KeyError, TypeError, AttributeError):
                 continue
-            if record.get("status") == "ok" and record.get("id"):
-                completed.add(str(record["id"]))
     return completed
 
 
-def append_jsonl(path: Path, record: dict) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    with path.open("a", encoding="utf-8") as f:
-        f.write(json.dumps(record, ensure_ascii=False) + "\n")
-
-
-def call_model(response_text: str) -> tuple[dict, str | None]:
-    payload = {
-        "model": MODEL,
-        "messages": [
-            {"role": "system", "content": SYSTEM_PROMPT},
-            {"role": "user", "content": response_text},
-        ],
-    }
-
-    r = requests.post(
-        API_URL,
-        headers={
-            "Authorization": f"Bearer {API_KEY}",
-            "Content-Type": "application/json",
-        },
-        json=payload,
-        timeout=60,
-    )
-    r.raise_for_status()
-    data = r.json()
-    content = data["choices"][0]["message"]["content"]
-    returned_model = data.get("model")
-    return {"raw": content, "full_response": data}, returned_model
-
-
-def parse_json_if_possible(text: str):
+@contextmanager
+def run_lock(output):
+    lock = output / ".running"
     try:
-        return json.loads(text)
-    except json.JSONDecodeError:
-        return None
+        handle = lock.open("x", encoding="utf-8")
+    except FileExistsError:
+        raise RuntimeError("Another run or stale .running lock exists; see README.") from None
+    try:
+        with handle:
+            handle.write(str(os.getpid()))
+        yield
+    finally:
+        lock.unlink()
 
 
-def main() -> None:
-    if not API_KEY:
-        raise SystemExit(
-            "Missing DEEPSEEK_API_KEY. Set it in your current terminal session first."
-        )
+def call_model(text, config):
+    import requests
+    key = os.getenv("DEEPSEEK_API_KEY")
+    if not key:
+        raise RuntimeError("Missing DEEPSEEK_API_KEY")
+    response = requests.post(API_URL, headers={"Authorization": "Bearer " + key},
+                             json={**REQUEST_OPTIONS, "model": config["model"],
+                                   "messages": [{"role": "system", "content": config["prompt"]},
+                                                {"role": "user", "content": text}],
+                                   "max_tokens": config["max_tokens"]},
+                             timeout=60)
+    response.raise_for_status()
+    return response.json()
 
-    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    if not RUN_METADATA_JSON.exists():
-        RUN_METADATA_JSON.write_text(
-            json.dumps(
-                {
-                    "created_utc": utc_now(),
-                    "api_url": API_URL,
-                    "model_requested": MODEL,
-                    "prompt_version": PROMPT_VERSION,
-                    "system_prompt": SYSTEM_PROMPT,
-                    "input_file": INPUT_CSV.name,
-                },
-                ensure_ascii=False,
-                indent=2,
-            ),
-            encoding="utf-8",
-        )
 
-    completed = load_completed_ids(OUTPUT_JSONL)
+def run(input_path, output, config, max_calls=2, caller=call_model):
+    if max_calls < 0:
+        raise ValueError("max_calls must be nonnegative")
+    rows = read_rows(input_path)
+    output.mkdir(parents=True, exist_ok=True)
+    results = output / "results.jsonl"
+    with run_lock(output):
+        run_id = uuid4().hex
+        configuration = {**config, "endpoint": API_URL, "schema": "labels-v2",
+                         "request_options": REQUEST_OPTIONS}
+        input_hash = digest(rows)
+        batch_key = digest({"input": input_hash, "config": configuration})
+        metadata = {"run_id": run_id, "started_utc": now(), "input_file": input_path.name,
+                    "input_hash": input_hash, "batch_key": batch_key,
+                    "config": configuration, "max_calls": max_calls}
+        # Every invocation gets its own metadata, including a fully skipped run.
+        (output / (run_id + ".json")).write_text(
+            json.dumps(metadata, ensure_ascii=False, indent=2), encoding="utf-8")
+        completed = completed_keys(results)
+        counts = {"calls": 0, "skipped": 0, "format_ok": 0, "errors": 0}
+        for row in rows:
+            request_key = digest({"batch_key": batch_key, "row": row})
+            if request_key in completed:
+                counts["skipped"] += 1
+                continue
+            if counts["calls"] >= max_calls:
+                break
+            record = {"run_id": run_id, "request_key": request_key, **row,
+                      "timestamp_utc": now(), "model_requested": config["model"],
+                      "status": "error", "raw_model_output": None,
+                      "parsed_output": None, "provider_response": None,
+                      "model_returned": None, "error": None}
+            counts["calls"] += 1
+            try:
+                data = caller(row["response"], config)
+                record["provider_response"] = data
+                record["model_returned"] = data.get("model")
+                choice = data["choices"][0]
+                raw = choice["message"]["content"]
+                record["raw_model_output"] = raw
+                if choice.get("finish_reason") != "stop":
+                    raise ValueError("Output did not finish normally")
+                record["parsed_output"] = validate_output(raw)
+                record["status"] = "format_ok"
+                counts["format_ok"] += 1
+            except Exception as exc:
+                # Exception messages may contain request URLs or credentials.
+                record["error"] = type(exc).__name__
+                counts["errors"] += 1
+            append_record(results, record)
+        append_record(output / "runs.jsonl", {"run_id": run_id, "finished_utc": now(), **counts})
+        return counts
 
-    with INPUT_CSV.open("r", encoding="utf-8-sig", newline="") as f:
-        rows = list(csv.DictReader(f))
 
-    for row in rows:
-        item_id = row["id"]
-        text = row["response"]
-
-        if item_id in completed:
-            print(f"SKIP {item_id}: already completed")
-            continue
-
-        base = {
-            "id": item_id,
-            "response": text,
-            "model_requested": MODEL,
-            "timestamp_utc": utc_now(),
-            "prompt_version": PROMPT_VERSION,
-        }
-
-        try:
-            result, returned_model = call_model(text)
-            raw = result["raw"]
-            record = {
-                **base,
-                "status": "ok",
-                "model_returned": returned_model,
-                "raw_model_output": raw,
-                "parsed_output": parse_json_if_possible(raw),
-                # Keep the full provider response locally for audit/debugging.
-                "provider_response": result["full_response"],
-                "error": None,
-            }
-            print(f"OK   {item_id}")
-        except Exception as exc:  # teaching example: preserve failure and continue
-            record = {
-                **base,
-                "status": "error",
-                "model_returned": None,
-                "raw_model_output": None,
-                "parsed_output": None,
-                "provider_response": None,
-                "error": f"{type(exc).__name__}: {exc}",
-            }
-            print(f"ERR  {item_id}: {exc}")
-
-        append_jsonl(OUTPUT_JSONL, record)
-
-    print(f"\nResults: {OUTPUT_JSONL}")
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--input", type=Path, default=HERE / "input_responses.csv")
+    parser.add_argument("--output", type=Path, default=HERE / "output")
+    parser.add_argument("--max-calls", type=int, default=2)
+    parser.add_argument("--dry-run", action="store_true")
+    args = parser.parse_args()
+    config = {"model": os.getenv("DEEPSEEK_MODEL", "deepseek-flash"),
+              "prompt": SYSTEM_PROMPT, "max_tokens": 1024}
+    if args.dry_run:
+        rows = read_rows(args.input)
+        print(json.dumps({"rows": len(rows), "config": config,
+                          "max_calls": args.max_calls}, ensure_ascii=False, indent=2))
+        return
+    if not os.getenv("DEEPSEEK_API_KEY"):
+        parser.error("Set DEEPSEEK_API_KEY in this session first, or use --dry-run.")
+    print(json.dumps(run(args.input, args.output, config, args.max_calls)))
 
 
 if __name__ == "__main__":
