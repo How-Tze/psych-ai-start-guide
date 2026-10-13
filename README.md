@@ -4,7 +4,7 @@
 
 - [已发布网站](https://How-Tze.github.io/psych-ai-start-guide/)
 - [主手册 v1.2](https://How-Tze.github.io/psych-ai-research-handbook/)
-- 本分支：v0.11 实用初版候选，尚未合并或部署。当前状态见 PROJECT_STATUS.md。
+- 阅读版本：v0.11（2026-10-13）。发布执行状态见 PROJECT_STATUS.md。
 
 ## 两个入口
 

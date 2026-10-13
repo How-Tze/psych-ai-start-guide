@@ -34,4 +34,4 @@ subtitle: "开通一个合适的工具，完成一项真实研究任务"
 
 方法选择、研究判断和长期工作流见[主手册 v1.2](https://How-Tze.github.io/psych-ai-research-handbook/)。本站教学数据均为合成数据；真实研究材料先按[隐私页](chapters/12-privacy.qmd)判断是否可以上传。
 
-当前工作版：**v0.11 候选版**。新增教程、核查方式与未实测项见[版本说明](docs/versioning.qmd)。
+当前版本：**v0.11（2026-10-13）**。新增教程、核查方式与未实测项见[版本说明](docs/versioning.qmd)。
