@@ -1,0 +1,54 @@
+---
+title: "免费、每月约 20 美元和更高预算怎么选"
+---
+
+核查日期：**2026-10-13**。以下是个人方案的美元网页标价参考；Google 使用美国页面。未计当地税费、汇率、应用商店差异或短期优惠，购买时以账号结算页为准。这里只列与科研起步直接相关的方案，并非全套餐目录。
+
+## 先分清四件事
+
+**产品**是你打开的应用；**模型**是其中执行任务的系统；**订阅**决定可用功能和额度；**API**是程序调用入口。付费提升的是访问条件或用量，不能保证每个结论正确。
+
+## 当前选购参考
+
+窄屏可横向滚动下表。
+
+::: {.wide-table}
+
+| 产品 | 免费起点 | 日常付费 | 高频使用 |
+|---|---|---|---|
+| ChatGPT | 可做对话、搜索、文件与数据任务，工具有各自额度 | Plus：$20/月 | Pro 100 / 200 / 500：分别 $100 / $200 / $500/月；额度与部分功能不同 |
+| Claude | 可对话、搜索、创建文件和运行代码，有用量限制 | Pro：$20/月；年付 $200 一次支付 | Max 5x：$100/月；Max 20x：$200/月 |
+| Google AI / Gemini | 免费账号有 Gemini 与 Gemini Notebook 的基础访问 | AI Plus：$4.99/月；AI Pro：$19.99/月 | Ultra：$99.99/月（5x）或 $199.99/月（20x），对比基准为 AI Pro |
+
+:::
+
+官方依据：[ChatGPT Free](https://help.openai.com/en/articles/9275245-chatgpt-free-tier-faq)、[Plus](https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus)、[Pro 档位](https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers)、[Claude 定价](https://claude.com/pricing)、[Claude Max](https://support.claude.com/en/articles/11049741-what-is-the-max-plan)、[Google 美国方案](https://gemini.google/us/subscriptions/?hl=en)。
+
+各家的倍数、额度窗口与工具限制不可横向相乘比较。达到限制时先看账号提示的重置时间，不要把“升级”理解为所有功能无限使用。
+
+## 把预算花在已经遇到的问题上
+
+- **免费开始**：每周几个小任务，正在学习提问与判断输出。先做本站六类练习。
+- **每月约 $20**：已经常用，文件或高级功能限制反复打断工作。选一个最贴近自己任务的产品试一个月。
+- **每月约 $100**：日常付费额度仍经常不够，或特定功能能明显缩短工作时间。先记录一周任务、限制和耗时，再决定。
+- **更高预算**：密集研究/代码任务确有稳定需求时再评估。团队管理、机构数据要求与个人高额度是不同采购问题。
+
+价格高低不能代替在同一批材料上的比较。可以用同一篇已获许可的论文、同一张合成结果表试用，比较遗漏、改正成本与保存产物的便利程度。
+
+## API 是否另外付费
+
+OpenAI 的 ChatGPT 与 API 分开管理账单，Plus/Pro 不是 API 余额。[官方账单说明](https://help.openai.com/en/articles/9039756-managing-billing-for-chatgpt-and-the-api-platform)。
+
+Claude 需要单独说明：当前 Max 5x / 20x 分别附带每月 $100 / $200 API credits，需订阅满至少 7 天后按指引领取到关联的 Console 组织；每个账期到期，未用不累积。这不是交互式 Claude Code 或订阅额外用量的通用余额。资格、领取和适用范围见[官方 API credits 说明](https://support.claude.com/en/articles/17154008-monthly-api-credits-for-max-and-team-plans)。
+
+其他产品同样要查看具体条款，不能推定“会员包含 API”或“会员永远不含 API”。API 成本估算见[按量计费](08-api-costs.qmd)。
+
+## 续费、取消与退款
+
+购买时记下账号、购买渠道、月付/年付、下一次扣款日和金额。月付与“按月折算的年付价”不同；后者可能一次收取全年费用。
+
+取消应在原购买渠道办理：网页购买查账号账单设置，应用内购买查 Apple / Google Play 的订阅管理。**卸载应用不等于取消订阅；取消也不等于退款。**
+
+具体步骤：[ChatGPT](https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers)、[Claude](https://support.claude.com/en/articles/8325617-cancel-your-pro-or-max-subscription)、[Google One](https://support.google.com/googleone/answer/9056360?hl=en)。Claude 要求至少提前 24 小时取消以避免下一次扣款；Google 方案降级还应检查云存储用量。取消后保留确认记录，并确认页面显示的到期日。
+
+还没有账号，回到[注册与地区](accounts.qmd)；已能对话，直接开始[免费文本练习](method-learning.qmd)。

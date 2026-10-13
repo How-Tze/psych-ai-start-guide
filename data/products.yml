@@ -1,105 +1,35 @@
-# 动态产品数据。不要把未经核查的产品能力写成 true。
-# 状态建议：true / false / limited / unknown
+# 页面是当前事实来源；本文件只索引核查状态，不维护第二套能力/价格表。
 products:
   chatgpt:
-    display_name: ChatGPT
-    ecosystem: OpenAI
-    region: international
-    last_checked: null
-    capabilities:
-      chat: unknown
-      files: unknown
-      project_workspace: unknown
-      web_research: unknown
-      api: unknown
-      code_agent: unknown
-      work_agent: unknown
-    mainland_access: unknown
-    registration: unknown
-    payment: unknown
-    free_path: unknown
-    official_sources: []
-
+    page: products/chatgpt.qmd
+    last_checked: 2026-10-13
+    evidence: official_docs
   claude:
-    display_name: Claude
-    ecosystem: Anthropic
-    region: international
-    last_checked: null
-    capabilities: {chat: unknown, files: unknown, project_workspace: unknown, web_research: unknown, api: unknown, code_agent: unknown, work_agent: unknown}
-    mainland_access: unknown
-    registration: unknown
-    payment: unknown
-    free_path: unknown
-    official_sources: []
-
+    page: products/claude.qmd
+    last_checked: 2026-10-13
+    evidence: official_docs
   gemini:
-    display_name: Gemini / Gemini Notebook
-    ecosystem: Google
-    region: international
-    last_checked: null
-    capabilities: {chat: unknown, files: unknown, project_workspace: unknown, web_research: unknown, api: unknown, code_agent: unknown, work_agent: unknown}
-    mainland_access: unknown
-    registration: unknown
-    payment: unknown
-    free_path: unknown
-    official_sources: []
-
+    page: products/gemini.qmd
+    last_checked: 2026-10-13
+    evidence: official_docs
   deepseek:
-    display_name: DeepSeek
-    ecosystem: DeepSeek
-    region: china
-    last_checked: null
-    capabilities: {chat: unknown, files: unknown, project_workspace: unknown, web_research: unknown, api: unknown, code_agent: unknown, work_agent: unknown}
-    mainland_access: unknown
-    registration: unknown
-    payment: unknown
-    free_path: unknown
-    official_sources: []
-
+    page: products/deepseek.qmd
+    last_checked: 2026-10-13
+    evidence: official_docs
+    historical_field_test: 2026-09-16
   kimi:
-    display_name: Kimi
-    ecosystem: Moonshot AI
-    region: china
-    last_checked: null
-    capabilities: {chat: unknown, files: unknown, project_workspace: unknown, web_research: unknown, api: unknown, code_agent: unknown, work_agent: unknown}
-    mainland_access: unknown
-    registration: unknown
-    payment: unknown
-    free_path: unknown
-    official_sources: []
-
+    page: products/kimi.qmd
+    last_checked: 2026-09-16
+    evidence: previous_round_not_rechecked
   qwen:
-    display_name: Qwen / 通义千问
-    ecosystem: Alibaba
-    region: china
-    last_checked: null
-    capabilities: {chat: unknown, files: unknown, project_workspace: unknown, web_research: unknown, api: unknown, code_agent: unknown, work_agent: unknown}
-    mainland_access: unknown
-    registration: unknown
-    payment: unknown
-    free_path: unknown
-    official_sources: []
-
+    page: products/qwen.qmd
+    last_checked: 2026-09-16
+    evidence: previous_round_not_rechecked
   glm:
-    display_name: GLM / 智谱
-    ecosystem: Zhipu AI
-    region: china
-    last_checked: null
-    capabilities: {chat: unknown, files: unknown, project_workspace: unknown, web_research: unknown, api: unknown, code_agent: unknown, work_agent: unknown}
-    mainland_access: unknown
-    registration: unknown
-    payment: unknown
-    free_path: unknown
-    official_sources: []
-
+    page: products/glm.qmd
+    last_checked: 2026-09-16
+    evidence: previous_round_not_rechecked
   workbuddy:
-    display_name: 腾讯 WorkBuddy
-    ecosystem: Tencent
-    region: china
-    last_checked: null
-    capabilities: {chat: unknown, files: unknown, project_workspace: unknown, web_research: unknown, api: unknown, code_agent: unknown, work_agent: unknown}
-    mainland_access: unknown
-    registration: unknown
-    payment: unknown
-    free_path: unknown
-    official_sources: []
+    page: products/workbuddy.qmd
+    last_checked: 2026-09-16
+    evidence: previous_round_not_rechecked

@@ -1,0 +1,54 @@
+---
+title: "注册、地区与设备：第一次怎样开始"
+---
+
+核查日期：**2026-10-13**。以下为官方文档核查，没有代替读者实际开户、支付或测试每个账号。
+
+## 先确认自己能够使用哪条官方路线
+
+[ChatGPT 支持地区](https://help.openai.com/en/articles/7947663-chatgpt-supported-countries)、[Claude 支持地区](https://www.anthropic.com/supported-countries)及 [Google AI 订阅可用地区](https://support.google.com/gemini/answer/16275805?hl=en-CA)需要分别检查。当前这些列表未包含中国大陆；Google 的免费服务与付费方案也不能相互推定可用。
+
+在中国大陆开始，可从 [DeepSeek 官网](https://www.deepseek.com/)进入官方对话产品；选择自己所在地正式提供的服务。不要购买共享账号、代充账号或虚构地区与支付资料。学校提供的 AI 服务另受机构许可与管理员设置约束。
+
+## 三个国际产品的最小开通路线
+
+### ChatGPT
+
+1. 从 [ChatGPT 官网](https://chatgpt.com/)创建账号或登录，完成界面要求的验证。
+2. 先开一个新对话，粘贴本站[六行练习数据](method-learning.qmd)，完成一次问答。
+3. 需要付费时进入账号的升级/套餐入口，核对价格、周期和付款方式，再确认购买。套餐细节见[预算页](budget.qmd)。
+
+[官方 Plus 说明](https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus)给出升级入口。首次使用无需先创建 API 账号。
+
+### Claude
+
+1. 从 [Claude 官网](https://claude.ai/)注册，使用自己可持续访问的登录方式。
+2. 完成账号要求的验证；官方说明要求新用户以支持地区的手机号码验证，不接受 VoIP 号码。[手机验证说明](https://support.claude.com/en/articles/8287232-verify-your-phone-number)。
+3. 先用免费方案做一次普通对话；如需升级，从账号的套餐入口选择 Pro 或 Max，再核对账单周期。
+
+### Gemini
+
+1. 打开 [Gemini](https://gemini.google.com/)，使用符合条件的 Google 账号登录。
+2. 先区分个人账号与学校/工作账号；后者受管理员开通和许可影响。
+3. 个人付费方案从 [Google AI 方案页](https://gemini.google/us/subscriptions/?hl=en)进入；核对自己地区与账号的购买资格。美国展示页的报价不能直接当成本地结算价。
+
+## 支付失败时怎样处理
+
+先核对账单地址、币种、卡片支持范围和发卡行提示；使用产品官方支持渠道解决。网页结算与 Apple / Google 应用内购买可能采用不同价格、税费和支付方式。OpenAI 的具体地区支付支持见[多币种结算说明](https://help.openai.com/en/articles/10421635-multicurrency-billing)。
+
+不要为了完成教程而反复尝试陌生支付代理。未开通付费也可以先完成纯文本练习。
+
+## 网页、桌面、移动端和 API 怎么选
+
+| 入口 | 建议用途 | 第一次操作 |
+|---|---|---|
+| 网页版 | 对话、阅读、上传允许分享的文件 | 浏览器打开官网并做一个小任务 |
+| 桌面端 | 长时间工作，或产品明确支持的本地文件任务 | 从官网取得安装入口；确认所需文件权限 |
+| 移动端 | 临时记录、查看结果、语音交流 | 从官网链接进入官方应用商店 |
+| API | 软件调用、批处理、自定保存格式 | 等任务确实需要重复执行，再看 [API 入门](06-api-basics.qmd) |
+
+安装桌面端本身不代表它可以读取整个电脑，也不代表所有网页版功能同步出现。是否能操作本地文件取决于产品、系统和授权。
+
+## 建立第一周的环境
+
+建一个 `AI练习` 文件夹，放入本站合成数据和你确认后的输出。文献继续保存在现有文献管理器；正式统计分析继续使用原有软件。第一天完成[方法练习](method-learning.qmd)，第二天做[论文比较](04-reading-papers.qmd)，一周后回看哪些环节确实节省了时间，再决定是否购买。
