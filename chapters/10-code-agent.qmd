@@ -1,31 +1,69 @@
 ---
-title: "第一次让代码代理完成一个可检查的小任务"
+title: "代码助手入门：从打开文件夹到运行与恢复"
 ---
 
-代码代理能在授权的项目目录里查看、修改和运行文件。普通聊天产品也可能支持文件上传和沙箱计算；真正需要比较的是当前任务能访问哪些文件、能否持续维护项目，以及改动和运行结果能否检查。
+**Coding Agent（代码助手）**能读取项目里的文件、编写或修改程序、运行命令，并根据报错继续修正。对研究者而言，它可以整理数据、重画图、批量生成报告，也可以制作一个小工具。这里先用现成脚本练习，便于看清输入和结果的关系。
 
-## 准备一个教学文件夹
+入口核查日期：**2026-10-17**。本页提供 Codex 图形界面和 Qwen Code 两条路线，任选其一。安装软件本身与购买模型用量是两件事，费用见[预算页](budget.qmd)。
 
-完成[数据练习](data-analysis.qmd)后，把六行 CSV 及参考汇总表放进一个新文件夹。不要从唯一的正式研究目录开始。
+## 路线 A：Codex，打开目录后直接说任务
 
-以 Codex 为例，从[官方快速开始](https://developers.openai.com/codex/quickstart/)选择适合操作系统的入口，登录后选择该教学目录。安装、登录和可用环境依据官方文档，核查于 2026-10-13；实际系统和账号支持以当前文档为准。已有其他代码代理也可以使用同一练习。
+1. 从[官方快速开始](https://learn.chatgpt.com/docs/quickstart)进入桌面端下载，选择自己的系统，安装后用 ChatGPT 账号登录。
+2. 在产品选择处选 Codex，打开专门的教学文件夹。界面里的项目就是一组相关文件。
+3. 先发：“列出本目录的文件，说明输入和已有脚本在哪里。”确认它看到的是本次练习。
+4. 使用下文的运行任务，查看它产生的文件改动和执行结果。
 
-## 第 1 步：让它确认输入和任务
+账号登录可使用方案内额度；API Key 登录走另一套计费。当前官方说明 Free/Go 的桌面端能力受开放进度影响，Plus/Pro 有相应方案用量；Work 与 Codex 共享用量。具体范围见[官方定价](https://learn.chatgpt.com/docs/pricing)。
 
-> 查看这个教学文件夹。报告 CSV 的列、行数与参考输出。今天的任务是按 id 计算两列均值，生成 summary.csv；不要修改输入。先说明将读取和创建哪些文件，以及如何核对结果。
+## 路线 B：Qwen Code，在终端中操作教学文件夹
 
-应识别 6 行、A/B 各 3 行。输入缺失或无法运行环境时，先让它说明具体问题，不把生成代码说成已运行。
+终端是输入命令的窗口。Windows 可打开 PowerShell；macOS 可打开“终端”。从[Qwen Code 官方安装页](https://qwenlm.github.io/qwen-code-docs/zh/users/overview/)选择对应系统的安装方法；安装后重新开一个终端，输入 `qwen --version` 检查是否找到程序。官方安装器优先使用独立程序包，回退到 npm 时需要 Node.js 22 或以上。
 
-## 第 2 步：完成一个小改动
+进入教学目录，再启动：
 
-> 在当前教学目录创建一个只使用现有环境的计算脚本并运行。输出 summary.csv；检查 A 的均值为 2、3，B 为 5、6。报告实际运行命令、结果和改动文件；不安装新依赖，不修改原 CSV。
+```text
+cd "你的教学目录路径"
+qwen
+```
 
-这个任务可由 Python 标准库完成。读者的重点是能说明结果来自哪里，不需要先掌握全部语法。
+第一次启动会选择模型服务。可选 Alibaba ModelStudio 的 Token Plan 或 Standard API Key；也有 DeepSeek、Kimi、Z.AI 等第三方提供商入口。选自己已开通的服务，按对应页面填写凭证。**千问聊天账号、阿里云套餐和第三方 API Key 各自有不同的使用条件。**
 
-## 第 3 步：亲自检查交付
+先输入“只列出当前文件夹中的文件”，确认目录无误，再运行下方任务。认证失败时回查所选服务商、Key 类型和套餐入口；将密钥填在官方配置界面，不粘到对话里。[官方认证说明](https://qwenlm.github.io/qwen-code-docs/zh/users/configuration/auth/)。
 
-打开 summary.csv，与参考表比较；查看新增脚本与输入是否被改动。再运行一次应得到相同汇总。失败时保留原 CSV，依据具体错误修复环境或脚本；若工具没有执行能力，让它交付候选脚本并标明“未运行”。
+<div id="准备一个教学文件夹"></div>
+<div id="第-1-步让它确认输入和任务"></div>
 
-正式研究中，把参考数字替换成研究者确认的分析规格。纳排、反向计分和模型改变都属于研究影响，不能只凭“测试通过”采用。[主手册数据与代码章](https://How-Tze.github.io/psych-ai-research-handbook/chapters/07-data-code.html)进一步说明这些区别。
+## 第一个任务：两轮报告
 
-反复完成相同任务后，可以固定成脚本；多步文件任务见[工作 Agent](11-work-agent.qmd)，并不需要先学习 API 才能使用代码代理。
+下载[主手册 v1.3 教学包](https://github.com/How-Tze/psych-ai-research-handbook/releases/download/v1.3/psych-ai-research-handbook_v1.3_materials.zip)，解压并找到 `workflow/build_report.py`。需要 Python 3.10 或以上；可先让助手检查 `python --version`，Windows 也可能使用 `py`。没有 Python 时按 [Python 官方下载页](https://www.python.org/downloads/)安装对应版本，再重新打开终端。
+
+> 先读 workflow/README.md。确认 Python 可用后，在 workflow 目录按下列命令生成两份报告。保留输入和已有参考稿，核对输出数字，告诉我实际运行了什么。
+
+```text
+python build_report.py --source ../reference/survey-sensitivity.csv --mode main --output my-run/round-1.md
+python build_report.py --source ../reference/survey-sensitivity.csv --mode compare --output my-run/round-2.md
+```
+
+第一份只有主规则，第二份加入比较规则。打开文件：主规则为 21 条记录，系数 0.364、0.343；比较规则为 15 条，系数 1.081、0.720。这次程序整理的是已有数字，不重新拟合分析。
+
+脚本拒绝覆盖已有输出。再次练习时换一个新文件名，例如 `round-2-again.md`。如果路径报错，先确认终端当前位于 `workflow`；`../reference` 表示上一级目录中的 reference 文件夹。
+
+<div id="第-2-步完成一个小改动"></div>
+
+## 再进一步：让它写一个很小的脚本
+
+新建另一个文件夹，放入[六行 CSV](../examples/learning/within-between.csv)与[参考均值](../examples/learning/expected-means.csv)。给助手这项任务：
+
+> 用 Python 标准库编写 summary.py，读取 within-between.csv，按 id 计算 stress 和 sleep_difficulty 的均值，输出 summary.csv。先检查列名、行数和缺失情况。运行后对照 expected-means.csv；不修改输入。
+
+<div id="第-3-步亲自检查交付"></div>
+
+应得到 A 的均值 2、3，B 的均值 5、6。打开脚本和结果，让助手解释“哪些行读取文件、哪些行计算均值、哪些行写出结果”。这能帮助你以后发现分组变量或列名用错，而不必先从头学完整门编程课。
+
+## 做一次恢复，看看“运行成功”之外还要查什么
+
+回到报告目录，让助手依据 `workflow/recovery-exercise.md` 建立错误副本：只把主规则的 `n` 改成 15，运行报告，再用原表在新位置重做。比较两份产物，正确恢复后主规则为 21，比较规则仍为 15。
+
+这次错误能通过格式检查，所以核对来源很有用。若助手修改了错误的文件，先停止后续操作，保留原始教学包，重新从正确副本开始；恢复的具体步骤见[主手册恢复节](https://How-Tze.github.io/psych-ai-research-handbook/chapters/11-safety-recovery.html#recovery)。
+
+想体验从一个想法做出界面，继续[用自然语言制作研究小工具](vibe-coding.qmd)。想把已有材料交给助手整理成文档，进入[工作 Agent](11-work-agent.qmd)。

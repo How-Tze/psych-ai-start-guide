@@ -4,7 +4,7 @@ title: "从 CSV 到可检查的汇总表与图"
 
 **目标：** 将六行合成数据变成按人汇总的表和保留个体信息的图。准备[输入 CSV](../examples/learning/within-between.csv)；先读[方法练习](method-learning.qmd)也可以直接动手。
 
-核查日期：2026-10-13。[ChatGPT Free](https://help.openai.com/en/articles/9275245-chatgpt-free-tier-faq)提供文件与数据分析但有独立额度；[Claude 定价页](https://claude.com/pricing)列出免费文件创建和代码运行。以下操作是文档支持的教学路线，本站没有在各档账号逐一付费实测。
+产品核查日期：2026-10-17。[ChatGPT Free](https://help.openai.com/en/articles/9275245-chatgpt-free-tier-faq)提供有独立额度的文件与数据分析；[Claude 方案页](https://claude.com/pricing)列出文件与代码能力。千问办公也可上传表格开展文件任务，具体入口见[产品页](../products/qwen.qmd)。本页可先用 ChatGPT 的新对话上传 CSV，按下面步骤检查；没有可用上传入口时，将六行文本粘入对话。
 
 ## 第 1 步：上传，并确认读对了
 
@@ -14,7 +14,7 @@ title: "从 CSV 到可检查的汇总表与图"
 
 正确结果是 6 行、4 列、A/B 各 3 行、无缺失。如果得到 5 行或把 id 当数值求平均，先要求展示读入的表格。
 
-无法上传时可直接粘贴六行文本，并在表格软件中完成下面计算；无需为此立即升级。
+粘贴文本时，也可以在表格软件中计算均值作对照。
 
 ## 第 2 步：指定一个明确的输出
 
@@ -34,4 +34,6 @@ title: "从 CSV 到可检查的汇总表与图"
 
 常见失败是把个体差异与个体内变化混成一个相关、自动删除记录、把示例写成发现。分别用分组表、行数和“合成教学数据”标记检查。
 
-下一步可以请[代码代理](10-code-agent.qmd)把重复计算变成脚本。正式数据的纳排、计分、缺失和模型规格参见[主手册数据分析章](https://How-Tze.github.io/psych-ai-research-handbook/chapters/07-data-code.html)。
+下一步可以请[代码助手](10-code-agent.qmd)把重复计算变成脚本，或[做一个切换视图的小工具](vibe-coding.qmd)。若想练习从结果到报告，进入[两轮写作](academic-writing.qmd)，它使用另一份合成问卷的确认结果。
+
+主手册还有 24 行合成问卷与 60 人纵向数据的完整运行材料，分别用于练习计分、比较规则和复杂分析；三组数据各有用途。正式数据的纳排、计分、缺失和模型规格参见[主手册数据分析章](https://How-Tze.github.io/psych-ai-research-handbook/chapters/07-data-code.html)。

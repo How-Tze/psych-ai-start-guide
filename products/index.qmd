@@ -1,33 +1,25 @@
 ---
-title: "产品速查"
+title: "产品速查：按要做的事选入口"
 ---
 
-产品页是**动态信息区**，不是排行榜，也不是完整说明书。
+先看你希望留下什么，再选择工具。下表中的教程使用相同教学材料，换产品时可以继续沿用。官方入口与资料核查于 **2026-10-17**；价格集中在[预算页](../chapters/budget.qmd)。
 
-每页只回答五类问题：
+<div id="中国生态"></div>
+<div id="国际生态"></div>
 
-1. 它是什么；
-2. 什么时候值得打开；
-3. 它和模型 / API / Harness 是什么关系；
-4. 第一次可以拿它做什么；
-5. 最重要的限制是什么。
+| 想完成的事 | 值得打开的入口 | 第一次做什么 |
+|---|---|---|
+| 用中文讨论方法、比较解释、修改文字 | [千问](qwen.qmd)、[DeepSeek](deepseek.qmd)、[豆包](doubao.qmd)、[ChatGPT](chatgpt.qmd)、[Claude](claude.qmd)、[Gemini](gemini.qmd) | [六行数据学方法](../chapters/method-learning.qmd) |
+| 读论文、保存来源与笔记 | [Gemini Notebook 与 Zotero](research-tools.qmd)、[Kimi](kimi.qmd)、[千问办公](qwen.qmd) | [三篇论文比较](../chapters/04-reading-papers.qmd) |
+| 围绕一个缺口搜索材料 | [Kimi 深度研究](kimi.qmd)、[Gemini Notebook](gemini.qmd)、[ChatGPT Work](chatgpt.qmd) | [核实三篇候选文献](../chapters/05-deep-research.qmd) |
+| 多文件整理与报告交付 | [千问办公](qwen.qmd)、[DeepSeek Harness](deepseek.qmd)、[WorkBuddy](workbuddy.qmd)、[Kimi Agent](kimi.qmd)、[ChatGPT Work](chatgpt.qmd)、[Claude Cowork](claude.qmd) | [从结果表生成报告](../chapters/11-work-agent.qmd) |
+| 写脚本、修改程序、做小工具 | Codex、[Qwen Code](qwen.qmd)、[Claude Code](claude.qmd)、[Cursor](cursor.qmd) | [代码助手](../chapters/10-code-agent.qmd) → [vibe coding](../chapters/vibe-coding.qmd) |
+| 在现有软件里调用模型 | [Chatbox、沉浸式翻译](../appendices/api-tools.qmd)、[GLM Coding Plan](glm.qmd) | [连接自己的 API](../chapters/07-api-first-setup.qmd) |
 
-能力、入口、价格、地区和支付条件会变化，因此页面顶部都标记最后核查日期。没有稳定核查的信息，本册宁可不写。
+## 同一个品牌，为什么有几个入口
 
-2026-10-13 更新了 ChatGPT、Claude、Gemini 与 DeepSeek 页面。其余产品页保留 2026-09-16 的核查日期，作为旧参考，不代表本轮已重新实测。价格请统一看[预算页](../chapters/budget.qmd)。
+以 DeepSeek 为例：网页聊天适合来回讨论，Harness 让模型使用文件和工具，API 让其他软件调用模型。以千问为例：普通聊天、千问办公、Qwen Code 和阿里云模型服务分别承担不同工作。
 
-## 国际生态
+因此，先问“我要让它读一段话，还是直接处理文件”，再看当前账号能用哪一项。模型名称能帮助选择推理能力，却不能单独告诉你应用能访问哪些文件、能运行什么程序。
 
-- [ChatGPT](chatgpt.qmd)
-- [Claude](claude.qmd)
-- [Gemini / Gemini Notebook](gemini.qmd)
-
-## 中国生态
-
-- [DeepSeek](deepseek.qmd)
-- [Kimi](kimi.qmd)
-- [Qwen / 通义千问](qwen.qmd)
-- [GLM / 智谱](glm.qmd)
-- [腾讯 WorkBuddy](workbuddy.qmd)
-
-如果你还不知道选哪个，不要从这里开始比较品牌，先回到 [一张图选工具](../chapters/01-task-map.qmd)。
+只想快点开始，可从[账号入口](../chapters/accounts.qmd)选一个熟悉的产品。已有账号则直接选[科研任务](../chapters/01-task-map.qmd)；需要连接资料库或 API 时再看[工具接入](../chapters/tool-connections.qmd)。

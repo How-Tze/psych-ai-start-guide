@@ -3,13 +3,13 @@
 《心理学研究的 AI 进阶手册》的动态配套指南。
 
 - [已发布网站](https://How-Tze.github.io/psych-ai-start-guide/)
-- [主手册 v1.2](https://How-Tze.github.io/psych-ai-research-handbook/)
-- 阅读版本：v0.11（2026-10-13）。发布执行状态见 PROJECT_STATUS.md。
+- [主手册 v1.3](https://How-Tze.github.io/psych-ai-research-handbook/)
+- 当前版本：v0.12（2026-10-17）。执行状态见 PROJECT_STATUS.md；历史版本见 GitHub Releases。
 
 ## 两个入口
 
 1. 注册、地区、订阅预算和设备选择。
-2. 方法学习、论文阅读、文献探索、数据图表、写作、项目持续工作。
+2. 方法学习、论文阅读、文献探索、研究设计、数据图表、写作、质性阅读和项目持续工作；另有 Agent、工具接入与 vibe coding 实操。
 
 API、代码代理和多步 Agent 是可选路线。价格集中维护在 chapters/budget.qmd，官方来源和核查日期就近列出；账户实测与文档核查分别标注。
 

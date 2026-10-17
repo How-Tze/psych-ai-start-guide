@@ -1,13 +1,21 @@
 ---
-title: "Claude"
+title: "Claude：文本、项目、Cowork 与代码"
 ---
 
-最后核查：**2026-10-13 · 官方文档**。
+最后核查：**2026-10-17**。[Claude](https://claude.ai/)可用于阅读、写作与文件任务。注册与所在地条件见[账号页](../chapters/accounts.qmd)，方案见[预算页](../chapters/budget.qmd)。
 
-从 [Claude](https://claude.ai/)开始。用[普通写作练习](../chapters/academic-writing.qmd)熟悉对话，再根据材料量选择[持续项目](../chapters/03-project-workspace.qmd)或文件任务。
+## 先完成一次有修改的写作
 
-当前官方页面区分免费与 Pro/Max 的额度和能力；Research、Claude Code 等的可用性应按方案核对。Cowork 与 Claude 的名称/整合正在变化，不把旧产品名当作永久独立入口。
+新建对话，提供结果表和写作要求，按照[两轮报告](../chapters/academic-writing.qmd)先写数字，再加入比较与讨论。要求保留每段的数字来源，自己检查后保存。
 
-选购及 Max 的 API credits 条件见[预算页](../chapters/budget.qmd)；地区、手机验证和注册见[开通页](../chapters/accounts.qmd)。
+## 跨天工作：Projects
 
-依据：[Claude 官方方案页](https://claude.com/pricing)、[Max 说明](https://support.claude.com/en/articles/11049741-what-is-the-max-plan)。本站没有逐档账号实测。
+创建一个项目，加入当前状态、确认结果表和当前稿件，在项目内开新对话继续工作。项目说明写清“先读当前状态”，再使用[续接练习](../chapters/03-project-workspace.qmd)检查是否正确接上。[官方 Projects 指南](https://support.claude.com/en/articles/9517075-what-are-projects)介绍共享上下文与文件。
+
+## 直接处理文件：Cowork；写程序：Claude Code
+
+Claude 正在把聊天与 Cowork 合并为同一对话体验，先从 Pro/Max 逐步开放。已获得新界面的账号直接描述文件任务即可；仍显示 Chat/Cowork 的账号继续使用原入口。[官方变化说明](https://support.claude.com/en/articles/16761823-claude-cowork-and-chat-are-one-claude)。
+
+从[官方下载页](https://claude.com/download)取得桌面端，需要本地文件时授权教学目录。Code 仍有单独入口；按[Claude Code 快速开始](https://code.claude.com/docs/en/quickstart)选择桌面、编辑器或终端路径，确认登录使用的是订阅还是 Console/API 计费。
+
+首次任务可复用本站的[报告文件任务](../chapters/11-work-agent.qmd)或[单文件网页](../chapters/vibe-coding.qmd)。先交付一份报告或一个网页，打开检查后再增加需求。开始前在[官方方案页](https://claude.com/pricing)核对所需功能与用量。

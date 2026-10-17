@@ -1,45 +1,28 @@
 ---
-title: "Kimi"
+title: "Kimi：读材料、深度研究与文件交付"
 ---
 
-<span class="last-checked">最后核查：2026-09-16 · 第一轮官方资料审计</span>
+<div id="它是什么"></div>
+<div id="什么时候值得打开"></div>
 
-## 它是什么
+最后核查：**2026-10-17**。从 [Kimi 官网](https://www.kimi.com/)开始，普通对话、深度研究与 Agent 分别适合不同任务。
 
-国内通用对话、Deep Research、工作 Agent 与 Kimi Code 组成的完整生态。
+<div id="第一次推荐任务"></div>
+<div id="官方来源"></div>
 
-## 什么时候值得打开
+## 第一次：读三篇论文
 
-- 国内环境下做通用对话和联网研究；
-- 做陌生领域的 Deep Research；
-- 尝试办公/工作型 Agent；
-- 进入 Kimi Code 或第三方 Coding Agent。
+登录后新建对话，通过附件入口加入论文，先单篇询问研究任务与原文位置，再比较三篇。按[入门文档](https://www.kimi.com/help/new-user-guide/agentic-chat)使用当前文件入口，具体材料与问法见[比较阅读教程](../chapters/04-reading-papers.qmd)。
 
-## 它和 API / Harness 的关系
+## 要补文献：深度研究
 
-Kimi 不只是聊天产品。产品端、Deep Research、Agent、Kimi Code 和 API/第三方 Agent 接入属于不同层次，适合按任务选择。
+直接打开 [Kimi 深度研究](https://www.kimi.com/deep-research)，输入一个范围明确的问题，回答工具提出的澄清问题后继续。完成后先打开关键引用，再预览或下载报告。[官方说明](https://www.kimi.com/help/deep-research/deep-research-overview)包含网页/App 入口与导出方式；本站[深度研究练习](../chapters/05-deep-research.qmd)教你把报告收紧为三篇待精读文献。
 
-| 能力 | 本册当前判断 |
-|---|---|
-| 普通对话 | ✓ |
-| Deep Research | ✓ |
-| API | ✓ |
-| Code Agent | ✓ Kimi Code |
-| Work Agent | ✓ |
-| 中国大陆直接可用性 | ✓ |
-| 具体免费额度 / 付费门槛 | 动态，使用前核查 |
+<div id="它和-api-harness-的关系"></div>
+<div id="最重要的限制"></div>
 
-## 第一次推荐任务
+## 要做成文件：Agent 模式
 
-用 Kimi Deep Research 做一个范围明确的陌生领域检索，然后只挑 3 条关键结论回到原始来源核对。
+在任务中选择 Agent，提供确认结果表，并明确要一份中文报告。检查文件，再继续提出修改。第一次只做一个交付物，更容易核对是否读对了材料。
 
-## 最重要的限制
-
-不要再把 Kimi 简化成“长文本聊天工具”。不同入口拥有不同权限和数据来源，Deep Research 报告也仍然需要回到关键原始来源。
-
-## 官方来源
-
-- [Kimi Deep Research](https://www.kimi.com/help/deep-research/deep-research-overview)
-- [Kimi Agent](https://www.kimi.com/help/agent/agent-overview)
-- [Kimi Code in third-party agents](https://www.kimi.com/en/help/kimi-code/third-party-agents)
-- [Kimi New User Guide](https://www.kimi.com/en/help/new-user-guide/overview)
+当前[会员说明](https://www.kimi.com/help/membership/membership-pricing)区分新旧套餐：新 Go 不含 Kimi Code，Plus 及以上可使用；Code 与其他会员功能共享月度额度。新套餐另有滚动 5 小时限制，旧套餐仍有周限额。先在“设置 → 订阅”查看自己所属方案与余额，再安排任务。更多写脚本需求可从[代码助手教程](../chapters/10-code-agent.qmd)开始。
