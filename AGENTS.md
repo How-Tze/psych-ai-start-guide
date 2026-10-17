@@ -14,7 +14,7 @@ The human approved the strategic audit and next iteration. Provide two equally v
 
 Distinguish products, models, subscriptions, APIs and execution environments when relevant. Do not turn these concepts into a required learning ladder.
 
-The active v0.12 scope and authoring authority are recorded in PROJECT_STATUS.md and tasks/ITERATION-v0.12.md. On 2026-10-17 the human approved full candidate writing, practical product coverage/integration, and basic Agent/vibe coding tutorials. The human approved the complete v0.12 candidate for release on 2026-10-17. Final QA, compatibility fixes, merge, a new tag/Release, gh-pages deployment and release closeout are authorized under tasks/RELEASE-v0.12.md. Preserve historical versions and the separate handbook v1.3.
+The completed v0.12 scope is recorded in PROJECT_STATUS.md and tasks/ITERATION-v0.12.md. On 2026-10-17 the human approved full candidate writing, practical product coverage/integration, basic Agent/vibe coding tutorials, and the subsequent release. Release evidence is in tasks/RELEASE-v0.12.md. Preserve the published v0.12 snapshot, all earlier releases and the separate handbook v1.3; future substantive work requires its own approved scope.
 
 ## What to optimize for
 
