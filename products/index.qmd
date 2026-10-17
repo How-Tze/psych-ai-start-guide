@@ -4,6 +4,9 @@ title: "产品速查：按要做的事选入口"
 
 先看你希望留下什么，再选择工具。下表中的教程使用相同教学材料，换产品时可以继续沿用。官方入口与资料核查于 **2026-10-17**；价格集中在[预算页](../chapters/budget.qmd)。
 
+<div id="中国生态"></div>
+<div id="国际生态"></div>
+
 | 想完成的事 | 值得打开的入口 | 第一次做什么 |
 |---|---|---|
 | 用中文讨论方法、比较解释、修改文字 | [千问](qwen.qmd)、[DeepSeek](deepseek.qmd)、[豆包](doubao.qmd)、[ChatGPT](chatgpt.qmd)、[Claude](claude.qmd)、[Gemini](gemini.qmd) | [六行数据学方法](../chapters/method-learning.qmd) |

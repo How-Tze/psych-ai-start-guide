@@ -10,6 +10,8 @@ title: "第一次配置自己的 API：接进 Chatbox 或翻译工具"
 
 网页聊天、客户端会员和 API 账户余额分别管理。Key 不放进研究稿件、普通聊天或截图；不再使用时可以在控制台撤销。
 
+<div id="路线-bbyok-客户端"></div>
+
 ## 路线 A：Chatbox → DeepSeek
 
 1. 从 [Chatbox 官方指南](https://chatboxai.app/zh/guide/byok)进入下载安装，打开设置。
@@ -19,6 +21,8 @@ title: "第一次配置自己的 API：接进 Chatbox 或翻译工具"
 5. 查看返回结果，再到 DeepSeek 用量页确认这次调用；开始大批量使用前先估算费用。
 
 操作依据：[Chatbox 的 DeepSeek 配置](https://chatboxai.app/zh/guide/byok/deepseek)。BYOK 表示“自带 API Key”，与 Chatbox AI 托管订阅服务是两条路线。
+
+<div id="路线-adeepseek-api-沉浸式翻译"></div>
 
 ## 路线 B：DeepSeek → 沉浸式翻译
 
@@ -35,5 +39,7 @@ title: "第一次配置自己的 API：接进 Chatbox 或翻译工具"
 | 模型不存在 | 刷新列表，与服务商当前模型名核对 |
 | 连接超时 | 查网络与官方服务状态，避免反复启动大任务 |
 | 能聊天但某种工具功能失败 | 分开检查客户端版本、接口格式与工具调用支持 |
+
+<div id="路线-c直接进入批处理"></div>
 
 需要程序重复处理材料时，继续[两条文本起步的批处理](09-api-research-script.qmd)。费用计算见[API 价格表怎么读](08-api-costs.qmd)。本页依据官方配置文档编写，未发起新的付费请求；统一核查说明见[版本页](../docs/versioning.qmd)。

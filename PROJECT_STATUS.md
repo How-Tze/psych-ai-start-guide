@@ -1,7 +1,7 @@
 # PROJECT STATUS
 
 - 当前公开版本：v0.11，2026-10-13；[在线阅读](https://How-Tze.github.io/psych-ai-start-guide/)。
-- 活跃阶段：v0.12 完整候选，**REVIEW**（2026-10-17）。用户已批准蓝图、实用产品与接入扩充、基础 Agent / vibe coding 教程的正式撰写。候选完成，等待集中审阅；尚未授权合并、标签或发布。
+- 活跃阶段：v0.12 正式发布，**IN_PROGRESS**（2026-10-17）。用户已批准当前完整候选及发布，正在进行最终检查、合并、标签、部署与线上验收，见 tasks/RELEASE-v0.12.md。
 - 任务与验收范围：[tasks/ITERATION-v0.12.md](tasks/ITERATION-v0.12.md)。
 - 检查结论：[docs/v0.12-candidate-review.md](docs/v0.12-candidate-review.md)。
 
@@ -21,4 +21,4 @@
 
 ## 发布基线
 
-v0.11 内容通过 PR #1 合并为 bc557d6，Pages 产物 f08e066，部署运行 38422139282 成功。主手册 v1.3 已发布并冻结。继续以 main 保存源码、gh-pages 保存网站产物；v0.12 审阅通过后另获发布授权。
+v0.11 内容通过 PR #1 合并为 bc557d6，Pages 产物 f08e066，部署运行 38422139282 成功。主手册 v1.3 已发布并冻结。继续以 main 保存源码、gh-pages 保存网站产物；v0.12 已获发布授权，完成线上检查后更新本页。

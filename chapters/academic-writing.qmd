@@ -6,6 +6,8 @@ title: "从结果表写出两轮报告"
 
 本练习从一张确认结果表开始：先写主分析，再加入表中已有的比较分析，最后保存供下一次工作使用。两轮都读取同一张表。
 
+<div id="第-1-步给足事实"></div>
+
 ## 准备：打开哪份材料，用哪个产品
 
 下载[主手册 v1.3 教学材料 ZIP](https://github.com/How-Tze/psych-ai-research-handbook/releases/download/v1.3/psych-ai-research-handbook_v1.3_materials.zip)，解压后找到含 `analysis-spec.md` 的教学目录。在下文中，文件名都相对于这个目录。
@@ -21,6 +23,8 @@ title: "从结果表写出两轮报告"
 这些是合成问卷的教学结果，与[六行数据练习](data-analysis.qmd)是两个例子。CSV 可以用 Excel 或文本编辑器打开；`.md` 是普通文本，用记事本也能阅读。
 
 本页用**千问普通对话**演示：打开[千问](https://www.qianwen.com/)，登录并新建对话，把规格中有关计分的说明和 CSV 内容粘进去。有附件入口也可以直接上传。DeepSeek、Claude、ChatGPT 同样可以做这项文本任务；能看到表格内容即可开始。
+
+<div id="第-2-步限定改写的产物"></div>
 
 ## 第一轮：先把数字写对
 
@@ -52,10 +56,14 @@ title: "从结果表写出两轮报告"
 
 本轮没有重新拟合模型。新增的是报告内容，计算来源仍是同一张确认表。把改稿保存为 `my-results-2.txt`，再打开 `workflow/discussion-candidate.md`，比较自己的讨论是否越过了现有结果。
 
+<div id="第-3-步识别润色引入的变化"></div>
+
 ## 第三步：回到结果表检查稿件
 
 > 对照确认结果表检查第二轮稿件。按“原句—对应行列—是否需要修改”给出检查表；将数字错误、未获支持的推断、纯语言修改分开。最后给一版修改稿。
 
 检查后，用自己的话写一条采用决定，例如：“保留两种规则；讨论中说明数值变化，暂不解释其成因。”这条决定会成为下一次工作的起点。
+
+<div id="第-4-步将做法迁移到自己的论文"></div>
 
 现在进入[项目续接](03-project-workspace.qmd)，把第二轮稿件和决定交给新对话。希望 AI 直接读写文件并生成报告，则进入[工作 Agent](11-work-agent.qmd)。写作判断的完整讨论见[主手册学术写作章](https://How-Tze.github.io/psych-ai-research-handbook/chapters/08-writing.html)。

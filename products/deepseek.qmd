@@ -18,6 +18,9 @@ title: "DeepSeek：聊天、桌面文件工作与 API"
 
 配置好后先让它列出教学目录，再执行[两轮报告任务](../chapters/10-code-agent.qmd)。检查实际文件和数字，再让它修改第二版。需要确认 API 余额、调用费用和目录授权；聊天登录本身不提供 API 余额。
 
+<div id="api-是另一条入口"></div>
+<div id="账户操作的历史经验"></div>
+
 ## 已经有工具，想接入 DeepSeek
 
 可以在 [Chatbox](../chapters/07-api-first-setup.qmd)中选择 DeepSeek，填入自己的 API Key；也可以让沉浸式翻译使用该 API 处理英文材料。费用由开放平台记录，用小段公开文本做一次验证即可。

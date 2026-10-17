@@ -2,7 +2,13 @@
 title: "千问、千问办公与 Qwen Code"
 ---
 
+<div id="它是什么"></div>
+<div id="什么时候值得打开"></div>
+
 最后核查：**2026-10-17**。普通聊天、办公和代码工具各有入口，可按任务选择。
+
+<div id="第一次推荐任务"></div>
+<div id="官方来源"></div>
 
 ## 先用千问做一次文本任务
 
@@ -15,6 +21,9 @@ title: "千问、千问办公与 Qwen Code"
 国内网页版为 [qwenwork.cn/signin](https://qwenwork.cn/signin)，使用钉钉账号登录；也可从电脑端钉钉左侧的千问办公进入，或从官网下载桌面客户端。[国内快速开始](https://help.aliyun.com/zh/qwenwork/quickstart/)。国际版使用 [qwenwork.ai/signin](https://qwenwork.ai/signin)，登录与账号关联按[国际版指南](https://www.alibabacloud.com/help/zh/qwenwork/qwenwork-intro)办理。两套账号与订阅条件分别查看。
 
 第一次可以上传一张确认结果表，要求生成组会报告；在交付物卡片中预览、下载，再继续要求修改。[文件、网盘与交付物](https://www.alibabacloud.com/help/zh/qwenwork/documents-web-trays-and-deliverables)解释这些入口；本站[工作 Agent 教程](../chapters/11-work-agent.qmd)提供完整任务。先查看账户当前可用额度，再安排较长的文件任务。
+
+<div id="它和-api-harness-的关系"></div>
+<div id="最重要的限制"></div>
 
 ## 要写程序：Qwen Code
 

@@ -4,6 +4,9 @@ title: "选好资料与设置：让 AI 在合适的范围内工作"
 
 第一次用本站的合成数据或公开材料练习，可以把注意力放在操作上。换成真实研究材料时，再确认资料允许交给谁、工具会读取哪些内容，以及产物保存在哪里。
 
+<div id="先把材料分成四类"></div>
+<div id="上传前问五个问题"></div>
+
 ## 先选适合这次任务的材料
 
 | 材料 | 怎样开始 |
@@ -14,6 +17,8 @@ title: "选好资料与设置：让 AI 在合适的范围内工作"
 | 密钥与密码 | 放在工具的凭证设置或环境变量中，排错时隐藏 |
 
 只去掉姓名未必足够。单位、经历、日期与少见事件也可能使人被识别。具体判断和恢复处理见[主手册核验、隐私与恢复章](https://How-Tze.github.io/psych-ai-research-handbook/chapters/11-safety-recovery.html)。
+
+<div id="对科研材料的最低建议"></div>
 
 ## 个人账号常用设置在哪里
 
@@ -29,6 +34,8 @@ title: "选好资料与设置：让 AI 在合适的范围内工作"
 官方步骤：[ChatGPT 数据控制](https://help.openai.com/en/articles/7730893-data-controls-in-chatgpt)、[Claude 隐私设置](https://privacy.claude.com/en/articles/12109829-how-do-i-change-my-model-improvement-privacy-settings)、[Gemini 活动管理](https://support.google.com/gemini/answer/13278892?hl=en)。Google 说明关闭 Keep Activity 后部分会话仍可保留至 72 小时用于提供服务等用途；反馈提交另有规则，见[隐私中心](https://support.google.com/gemini/answer/13594961?hl=en)。
 
 使用千问、DeepSeek、Kimi 等产品时，查看该产品当前的隐私政策和账号中可用的数据管理选项。机构版还要查看学校或工作空间的管理员设置。
+
+<div id="本地-agent也不等于没有隐私问题"></div>
 
 ## 使用本地文件和连接器时
 

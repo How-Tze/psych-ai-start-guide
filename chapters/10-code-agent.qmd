@@ -30,6 +30,9 @@ qwen
 
 先输入“只列出当前文件夹中的文件”，确认目录无误，再运行下方任务。认证失败时回查所选服务商、Key 类型和套餐入口；将密钥填在官方配置界面，不粘到对话里。[官方认证说明](https://qwenlm.github.io/qwen-code-docs/zh/users/configuration/auth/)。
 
+<div id="准备一个教学文件夹"></div>
+<div id="第-1-步让它确认输入和任务"></div>
+
 ## 第一个任务：两轮报告
 
 下载[主手册 v1.3 教学包](https://github.com/How-Tze/psych-ai-research-handbook/releases/download/v1.3/psych-ai-research-handbook_v1.3_materials.zip)，解压并找到 `workflow/build_report.py`。需要 Python 3.10 或以上；可先让助手检查 `python --version`，Windows 也可能使用 `py`。没有 Python 时按 [Python 官方下载页](https://www.python.org/downloads/)安装对应版本，再重新打开终端。
@@ -45,11 +48,15 @@ python build_report.py --source ../reference/survey-sensitivity.csv --mode compa
 
 脚本拒绝覆盖已有输出。再次练习时换一个新文件名，例如 `round-2-again.md`。如果路径报错，先确认终端当前位于 `workflow`；`../reference` 表示上一级目录中的 reference 文件夹。
 
+<div id="第-2-步完成一个小改动"></div>
+
 ## 再进一步：让它写一个很小的脚本
 
 新建另一个文件夹，放入[六行 CSV](../examples/learning/within-between.csv)与[参考均值](../examples/learning/expected-means.csv)。给助手这项任务：
 
 > 用 Python 标准库编写 summary.py，读取 within-between.csv，按 id 计算 stress 和 sleep_difficulty 的均值，输出 summary.csv。先检查列名、行数和缺失情况。运行后对照 expected-means.csv；不修改输入。
+
+<div id="第-3-步亲自检查交付"></div>
 
 应得到 A 的均值 2、3，B 的均值 5、6。打开脚本和结果，让助手解释“哪些行读取文件、哪些行计算均值、哪些行写出结果”。这能帮助你以后发现分组变量或列名用错，而不必先从头学完整门编程课。
 

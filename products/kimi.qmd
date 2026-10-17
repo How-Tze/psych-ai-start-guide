@@ -2,7 +2,13 @@
 title: "Kimi：读材料、深度研究与文件交付"
 ---
 
+<div id="它是什么"></div>
+<div id="什么时候值得打开"></div>
+
 最后核查：**2026-10-17**。从 [Kimi 官网](https://www.kimi.com/)开始，普通对话、深度研究与 Agent 分别适合不同任务。
+
+<div id="第一次推荐任务"></div>
+<div id="官方来源"></div>
 
 ## 第一次：读三篇论文
 
@@ -11,6 +17,9 @@ title: "Kimi：读材料、深度研究与文件交付"
 ## 要补文献：深度研究
 
 直接打开 [Kimi 深度研究](https://www.kimi.com/deep-research)，输入一个范围明确的问题，回答工具提出的澄清问题后继续。完成后先打开关键引用，再预览或下载报告。[官方说明](https://www.kimi.com/help/deep-research/deep-research-overview)包含网页/App 入口与导出方式；本站[深度研究练习](../chapters/05-deep-research.qmd)教你把报告收紧为三篇待精读文献。
+
+<div id="它和-api-harness-的关系"></div>
+<div id="最重要的限制"></div>
 
 ## 要做成文件：Agent 模式
 
