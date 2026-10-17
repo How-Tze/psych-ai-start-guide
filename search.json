@@ -4,40 +4,51 @@
     "href": "docs/versioning.html",
     "title": "版本与更新说明",
     "section": "",
-    "text": "发布日期：2026-10-13。公开站的首次发布日期为 2026-09-16。\n本轮增加开通与预算入口，提供方法学习、论文阅读、文献探索、数据图表、写作与项目连续工作六类教程。合成数据与参考表可下载；API 示例加入按输入与配置区分批次、每次运行记录、格式校验及离线测试。",
+    "text": "发布日期：2026-10-17。v0.12 已通过集中审阅，保留旧页面与下载入口；历史源码可在 GitHub Releases 查阅。\n本轮对齐主手册已发布的 v1.3：把文献与设计、结果与项目续接、质性阅读写成连续练习；扩充国内外产品入口、订阅与工具接入，增加基础 Agent 和 vibe coding 教程。新增的六行数据查看器可以下载、离线打开并继续修改。",
     "crumbs": [
       "首页",
       "版本与更新说明"
     ]
   },
   {
-    "objectID": "docs/versioning.html#当前版本v0.11",
-    "href": "docs/versioning.html#当前版本v0.11",
+    "objectID": "docs/versioning.html#当前版本v0.12",
+    "href": "docs/versioning.html#当前版本v0.12",
     "title": "版本与更新说明",
     "section": "",
-    "text": "发布日期：2026-10-13。公开站的首次发布日期为 2026-09-16。\n本轮增加开通与预算入口，提供方法学习、论文阅读、文献探索、数据图表、写作与项目连续工作六类教程。合成数据与参考表可下载；API 示例加入按输入与配置区分批次、每次运行记录、格式校验及离线测试。",
+    "text": "发布日期：2026-10-17。v0.12 已通过集中审阅，保留旧页面与下载入口；历史源码可在 GitHub Releases 查阅。\n本轮对齐主手册已发布的 v1.3：把文献与设计、结果与项目续接、质性阅读写成连续练习；扩充国内外产品入口、订阅与工具接入，增加基础 Agent 和 vibe coding 教程。新增的六行数据查看器可以下载、离线打开并继续修改。",
     "crumbs": [
       "首页",
       "版本与更新说明"
     ]
   },
   {
-    "objectID": "docs/versioning.html#核查意味着什么",
-    "href": "docs/versioning.html#核查意味着什么",
+    "objectID": "docs/versioning.html#核查与实际检查分别指什么",
+    "href": "docs/versioning.html#核查与实际检查分别指什么",
     "title": "版本与更新说明",
-    "section": "核查意味着什么",
-    "text": "核查意味着什么\n新产品事实来自截至 2026-10-13 的官方资料；来源位于相应页面。ChatGPT、Claude、Gemini 和 DeepSeek 本轮更新；其余产品沿用原页面日期。DeepSeek 控制台的实际操作记录属于 2026-09-16，不等于本轮重新支付验证。\n本轮没有购买订阅、充值或逐档测试账号。批处理脚本以模拟响应做离线测试；格式通过不代表心理学标签有效。教程不保证每个地区、账号和界面都有相同功能。",
+    "section": "核查与实际检查分别指什么",
+    "text": "核查与实际检查分别指什么\n产品入口、价格、功能与设置按 2026-10-17 的官方文档核查，来源就近列在各页。登录后的账号差异、所有订阅档位、付费调用与产品执行效果未逐一实测。本轮没有购买订阅、充值或发起付费 API 请求。\n教学代码、文件与网站另做本地检查。主手册两轮报告使用其冻结的脚本与确认表；指南小工具是本轮编写的示范；API 批处理沿用既有脚本与模拟响应离线测试。这些检查不代表各商业产品在相同材料上都能得到一致结果。",
     "crumbs": [
       "首页",
       "版本与更新说明"
     ]
   },
   {
-    "objectID": "docs/versioning.html#怎样维护",
-    "href": "docs/versioning.html#怎样维护",
+    "objectID": "docs/versioning.html#变化较快的内容放在哪里",
+    "href": "docs/versioning.html#变化较快的内容放在哪里",
     "title": "版本与更新说明",
-    "section": "怎样维护",
-    "text": "怎样维护\n价格集中在预算页，API 计费算例在费用页。注册、功能、地区或价格改变时，重新核对官方来源并更新相应日期。方法论放在主手册。\nHTML 是动态阅读版本。v0.11 标签保存本次发布源码；历史发布保持不变。",
+    "section": "变化较快的内容放在哪里",
+    "text": "变化较快的内容放在哪里\n价格集中在预算页，API 算例在费用页，账号与地区在开通页。核查遇到新旧方案并存时，正文区分适用条件，例如 Kimi 新旧会员与千问办公国内/国际入口。\n主手册 v1.3 维护方法、案例和参考结果，指南链接其固定教学包。历史发布保留，原有页面与八个下载地址继续可用。",
+    "crumbs": [
+      "首页",
+      "版本与更新说明"
+    ]
+  },
+  {
+    "objectID": "docs/versioning.html#已发布历史",
+    "href": "docs/versioning.html#已发布历史",
+    "title": "版本与更新说明",
+    "section": "已发布历史",
+    "text": "已发布历史\nv0.11 于 2026-10-13 发布：建立开通/预算与科研任务双入口，提供六类教程及八份下载。v0.11 标签保留源码。首次公开站发布于 2026-09-16。",
     "crumbs": [
       "首页",
       "版本与更新说明"
@@ -46,301 +57,1520 @@
   {
     "objectID": "products/workbuddy.html",
     "href": "products/workbuddy.html",
-    "title": "腾讯 WorkBuddy",
+    "title": "腾讯 WorkBuddy：从一份文件开始交付任务",
     "section": "",
-    "text": "最后核查：2026-09-16 · 第一轮官方资料审计",
+    "text": "最后核查：2026-10-17。WorkBuddy 提供多步任务入口，可用于整理材料、分析表格和生成文件。第一次先用教学文件，完成一份报告。",
     "crumbs": [
       "首页",
       "产品速查",
-      "腾讯 WorkBuddy"
+      "腾讯 WorkBuddy：从一份文件开始交付任务"
     ]
   },
   {
-    "objectID": "products/workbuddy.html#它是什么",
-    "href": "products/workbuddy.html#它是什么",
-    "title": "腾讯 WorkBuddy",
-    "section": "它是什么",
-    "text": "它是什么\n国内桌面 Work Agent / AI 工作台，重点能力是授权本地文件、多步骤办公任务和项目空间。",
+    "objectID": "products/workbuddy.html#微信小程序最短起步路线",
+    "href": "products/workbuddy.html#微信小程序最短起步路线",
+    "title": "腾讯 WorkBuddy：从一份文件开始交付任务",
+    "section": "微信小程序：最短起步路线",
+    "text": "微信小程序：最短起步路线\n在微信搜索“腾讯 WorkBuddy”，按页面完成微信与手机号授权登录。输入“依据这张教学结果表，生成一页中文组会报告”，添加结果表，再发送任务。执行步骤以卡片显示，可以展开查看，完成后继续追问或修改。官方小程序快速开始。\n小程序提供云端工作与连接电脑两种环境。连接电脑时，电脑端 WorkBuddy 需要运行，并与小程序使用同一微信账号。先做云端文件任务即可体验流程。",
     "crumbs": [
       "首页",
       "产品速查",
-      "腾讯 WorkBuddy"
+      "腾讯 WorkBuddy：从一份文件开始交付任务"
     ]
   },
   {
-    "objectID": "products/workbuddy.html#什么时候值得打开",
-    "href": "products/workbuddy.html#什么时候值得打开",
-    "title": "腾讯 WorkBuddy",
-    "section": "什么时候值得打开",
-    "text": "什么时候值得打开\n\n任务需要读取一批本地文件；\n需要跨文档、网页或工具连续执行；\n想让 AI 维护文件地图、比较版本或整理公开资料；\n普通聊天已经因为“搬文件”而变得低效。",
+    "objectID": "products/workbuddy.html#桌面端打开并保存实际结果",
+    "href": "products/workbuddy.html#桌面端打开并保存实际结果",
+    "title": "腾讯 WorkBuddy：从一份文件开始交付任务",
+    "section": "桌面端：打开并保存实际结果",
+    "text": "桌面端：打开并保存实际结果\n从官方产品入口取得桌面端信息，登录后使用专门的练习目录。任务材料与要求可直接用工作 Agent 教程。\n结果卡片的菜单提供“打开文件夹”“在默认应用打开”“另存为”等操作。打开生成文件，核对主规则 21 条与比较规则 15 条，再要求修改说明文字。官方结果操作说明。\n将选定的报告保存回自己的项目，更新当前状态。当任务涉及外部资料时，再按工具接入页选择连接；订阅、模型积分和账号余额以当前用量页为准。",
     "crumbs": [
       "首页",
       "产品速查",
-      "腾讯 WorkBuddy"
+      "腾讯 WorkBuddy：从一份文件开始交付任务"
     ]
   },
   {
-    "objectID": "products/workbuddy.html#它和-api-harness-的关系",
-    "href": "products/workbuddy.html#它和-api-harness-的关系",
-    "title": "腾讯 WorkBuddy",
-    "section": "它和 API / Harness 的关系",
-    "text": "它和 API / Harness 的关系\nWorkBuddy 本身就是工作型 Harness：模型只是其中一层，真正重要的是它获得的文件、工具和执行权限。企业版还进一步涉及 Managed Agents / API 等能力。\n\n\n\n能力\n本册当前判断\n\n\n\n\n普通任务入口\n✓\n\n\n本地文件读取/批处理\n✓\n\n\nProject / Workspace\n✓\n\n\n深度调研\n✓\n\n\nWork Agent\n✓ 核心定位\n\n\n中国大陆直接可用性\n✓\n\n\n免费/付费路径\n动态，使用前核查",
-    "crumbs": [
-      "首页",
-      "产品速查",
-      "腾讯 WorkBuddy"
-    ]
-  },
-  {
-    "objectID": "products/workbuddy.html#第一次推荐任务",
-    "href": "products/workbuddy.html#第一次推荐任务",
-    "title": "腾讯 WorkBuddy",
-    "section": "第一次推荐任务",
-    "text": "第一次推荐任务\n只授权一个专门的教学文件夹，让 WorkBuddy 生成文件地图和分类建议；明确不允许删除、覆盖或移动原件。",
-    "crumbs": [
-      "首页",
-      "产品速查",
-      "腾讯 WorkBuddy"
-    ]
-  },
-  {
-    "objectID": "products/workbuddy.html#最重要的限制",
-    "href": "products/workbuddy.html#最重要的限制",
-    "title": "腾讯 WorkBuddy",
-    "section": "最重要的限制",
-    "text": "最重要的限制\n“能读写本地文件”意味着权限扩大，并不意味着结果更可靠。第一次使用时应明确授权目录、允许动作、停止条件和恢复方式。",
-    "crumbs": [
-      "首页",
-      "产品速查",
-      "腾讯 WorkBuddy"
-    ]
-  },
-  {
-    "objectID": "products/workbuddy.html#官方来源",
-    "href": "products/workbuddy.html#官方来源",
-    "title": "腾讯 WorkBuddy",
-    "section": "官方来源",
-    "text": "官方来源\n\nWorkBuddy product\nWorkBuddy product intro\nWorkBuddy Enterprise overview",
-    "crumbs": [
-      "首页",
-      "产品速查",
-      "腾讯 WorkBuddy"
-    ]
-  },
-  {
-    "objectID": "products/kimi.html",
-    "href": "products/kimi.html",
-    "title": "Kimi",
+    "objectID": "products/qwen.html",
+    "href": "products/qwen.html",
+    "title": "千问、千问办公与 Qwen Code",
     "section": "",
-    "text": "最后核查：2026-09-16 · 第一轮官方资料审计",
+    "text": "最后核查：2026-10-17。普通聊天、办公和代码工具各有入口，可按任务选择。",
     "crumbs": [
       "首页",
       "产品速查",
-      "Kimi"
+      "千问、千问办公与 Qwen Code"
     ]
   },
   {
-    "objectID": "products/kimi.html#它是什么",
-    "href": "products/kimi.html#它是什么",
-    "title": "Kimi",
-    "section": "它是什么",
-    "text": "它是什么\n国内通用对话、Deep Research、工作 Agent 与 Kimi Code 组成的完整生态。",
+    "objectID": "products/qwen.html#先用千问做一次文本任务",
+    "href": "products/qwen.html#先用千问做一次文本任务",
+    "title": "千问、千问办公与 Qwen Code",
+    "section": "先用千问做一次文本任务",
+    "text": "先用千问做一次文本任务\n打开千问，完成登录，在新对话中粘贴六行数据，请它按人整理压力和睡眠困难的变化。然后自己解释，再请它指出遗漏。完整问法见方法学习。\n同一个聊天入口也适合比较设计方案、逐段阅读合成访谈、修改结果文字。需要具体材料时，直接使用研究设计或质性练习。",
     "crumbs": [
       "首页",
       "产品速查",
-      "Kimi"
+      "千问、千问办公与 Qwen Code"
     ]
   },
   {
-    "objectID": "products/kimi.html#什么时候值得打开",
-    "href": "products/kimi.html#什么时候值得打开",
-    "title": "Kimi",
-    "section": "什么时候值得打开",
-    "text": "什么时候值得打开\n\n国内环境下做通用对话和联网研究；\n做陌生领域的 Deep Research；\n尝试办公/工作型 Agent；\n进入 Kimi Code 或第三方 Coding Agent。",
+    "objectID": "products/qwen.html#要交付文件千问办公qwenwork",
+    "href": "products/qwen.html#要交付文件千问办公qwenwork",
+    "title": "千问、千问办公与 Qwen Code",
+    "section": "要交付文件：千问办公（QwenWork）",
+    "text": "要交付文件：千问办公（QwenWork）\n国内网页版为 qwenwork.cn/signin，使用钉钉账号登录；也可从电脑端钉钉左侧的千问办公进入，或从官网下载桌面客户端。国内快速开始。国际版使用 qwenwork.ai/signin，登录与账号关联按国际版指南办理。两套账号与订阅条件分别查看。\n第一次可以上传一张确认结果表，要求生成组会报告；在交付物卡片中预览、下载，再继续要求修改。文件、网盘与交付物解释这些入口；本站工作 Agent 教程提供完整任务。先查看账户当前可用额度，再安排较长的文件任务。",
     "crumbs": [
       "首页",
       "产品速查",
-      "Kimi"
+      "千问、千问办公与 Qwen Code"
     ]
   },
   {
-    "objectID": "products/kimi.html#它和-api-harness-的关系",
-    "href": "products/kimi.html#它和-api-harness-的关系",
-    "title": "Kimi",
-    "section": "它和 API / Harness 的关系",
-    "text": "它和 API / Harness 的关系\nKimi 不只是聊天产品。产品端、Deep Research、Agent、Kimi Code 和 API/第三方 Agent 接入属于不同层次，适合按任务选择。\n\n\n\n能力\n本册当前判断\n\n\n\n\n普通对话\n✓\n\n\nDeep Research\n✓\n\n\nAPI\n✓\n\n\nCode Agent\n✓ Kimi Code\n\n\nWork Agent\n✓\n\n\n中国大陆直接可用性\n✓\n\n\n具体免费额度 / 付费门槛\n动态，使用前核查",
+    "objectID": "products/qwen.html#要写程序qwen-code",
+    "href": "products/qwen.html#要写程序qwen-code",
+    "title": "千问、千问办公与 Qwen Code",
+    "section": "要写程序：Qwen Code",
+    "text": "要写程序：Qwen Code\nQwen Code 是在终端或编辑器中工作的代码助手。安装后选择模型服务，打开教学目录，就可以要求它读文件、写脚本和运行检查。它可以连接阿里云，也可以使用文档列出的第三方提供商。\n按官方概述安装，按认证说明选择 Token Plan、标准 API Key 或其他服务商。聊天会员与这些调用入口分别计费。具体起步见Qwen Code 路线。",
     "crumbs": [
       "首页",
       "产品速查",
-      "Kimi"
+      "千问、千问办公与 Qwen Code"
     ]
   },
   {
-    "objectID": "products/kimi.html#第一次推荐任务",
-    "href": "products/kimi.html#第一次推荐任务",
-    "title": "Kimi",
-    "section": "第一次推荐任务",
-    "text": "第一次推荐任务\n用 Kimi Deep Research 做一个范围明确的陌生领域检索，然后只挑 3 条关键结论回到原始来源核对。",
-    "crumbs": [
-      "首页",
-      "产品速查",
-      "Kimi"
-    ]
-  },
-  {
-    "objectID": "products/kimi.html#最重要的限制",
-    "href": "products/kimi.html#最重要的限制",
-    "title": "Kimi",
-    "section": "最重要的限制",
-    "text": "最重要的限制\n不要再把 Kimi 简化成“长文本聊天工具”。不同入口拥有不同权限和数据来源，Deep Research 报告也仍然需要回到关键原始来源。",
-    "crumbs": [
-      "首页",
-      "产品速查",
-      "Kimi"
-    ]
-  },
-  {
-    "objectID": "products/kimi.html#官方来源",
-    "href": "products/kimi.html#官方来源",
-    "title": "Kimi",
-    "section": "官方来源",
-    "text": "官方来源\n\nKimi Deep Research\nKimi Agent\nKimi Code in third-party agents\nKimi New User Guide",
-    "crumbs": [
-      "首页",
-      "产品速查",
-      "Kimi"
-    ]
-  },
-  {
-    "objectID": "products/glm.html",
-    "href": "products/glm.html",
-    "title": "GLM / 智谱",
+    "objectID": "products/index.html",
+    "href": "products/index.html",
+    "title": "产品速查：按要做的事选入口",
     "section": "",
-    "text": "最后核查：2026-09-16 · 第一轮官方资料审计",
+    "text": "先看你希望留下什么，再选择工具。下表中的教程使用相同教学材料，换产品时可以继续沿用。官方入口与资料核查于 2026-10-17；价格集中在预算页。",
     "crumbs": [
       "首页",
       "产品速查",
-      "GLM / 智谱"
+      "产品速查：按要做的事选入口"
     ]
   },
   {
-    "objectID": "products/glm.html#它是什么",
-    "href": "products/glm.html#它是什么",
-    "title": "GLM / 智谱",
-    "section": "它是什么",
-    "text": "它是什么\n国内模型/API 平台，同时提供面向 Coding Agent 的 Coding Plan。它很适合解释：按量 API 与订阅式 Coding Plan 是两套产品逻辑。",
+    "objectID": "products/index.html#同一个品牌为什么有几个入口",
+    "href": "products/index.html#同一个品牌为什么有几个入口",
+    "title": "产品速查：按要做的事选入口",
+    "section": "同一个品牌，为什么有几个入口",
+    "text": "同一个品牌，为什么有几个入口\n以 DeepSeek 为例：网页聊天适合来回讨论，Harness 让模型使用文件和工具，API 让其他软件调用模型。以千问为例：普通聊天、千问办公、Qwen Code 和阿里云模型服务分别承担不同工作。\n因此，先问“我要让它读一段话，还是直接处理文件”，再看当前账号能用哪一项。模型名称能帮助选择推理能力，却不能单独告诉你应用能访问哪些文件、能运行什么程序。\n只想快点开始，可从账号入口选一个熟悉的产品。已有账号则直接选科研任务；需要连接资料库或 API 时再看工具接入。",
     "crumbs": [
       "首页",
       "产品速查",
-      "GLM / 智谱"
+      "产品速查：按要做的事选入口"
     ]
   },
   {
-    "objectID": "products/glm.html#什么时候值得打开",
-    "href": "products/glm.html#什么时候值得打开",
-    "title": "GLM / 智谱",
-    "section": "什么时候值得打开",
-    "text": "什么时候值得打开\n\n需要国内模型 API；\n想把模型接入 Claude Code、Cline、OpenCode、Cursor 等工具；\n想理解“模型 Provider”和“Code Harness”可以分开选择。",
+    "objectID": "products/gemini.html",
+    "href": "products/gemini.html",
+    "title": "Gemini 与 Gemini Notebook：讨论问题和围绕来源阅读",
+    "section": "",
+    "text": "最后核查：2026-10-17。打开 Gemini，使用符合地区与账号条件的 Google 账号。学校或工作账号还受管理员设置影响，见账号页。",
     "crumbs": [
       "首页",
       "产品速查",
-      "GLM / 智谱"
+      "Gemini 与 Gemini Notebook：讨论问题和围绕来源阅读"
     ]
   },
   {
-    "objectID": "products/glm.html#它和-api-harness-的关系",
-    "href": "products/glm.html#它和-api-harness-的关系",
-    "title": "GLM / 智谱",
-    "section": "它和 API / Harness 的关系",
-    "text": "它和 API / Harness 的关系\nGLM 提供模型与 API；Claude Code、Cline、OpenCode、Cursor 等承担 Harness。Coding Plan 是针对这类开发工作流设计的独立计费路径。\n\n\n\n能力\n本册当前判断\n\n\n\n\n普通对话\n✓\n\n\nAPI\n✓\n\n\nCoding Plan / 第三方 Code Harness\n✓\n\n\n中国大陆直接可用性\n✓\n\n\n普通 API 与 Coding Plan\n分开理解、分开配置",
+    "objectID": "products/gemini.html#gemini讨论当前任务",
+    "href": "products/gemini.html#gemini讨论当前任务",
+    "title": "Gemini 与 Gemini Notebook：讨论问题和围绕来源阅读",
+    "section": "Gemini：讨论当前任务",
+    "text": "Gemini：讨论当前任务\n在新对话中提供一段研究计划，请它先复述问题、比较两种设计、指出还缺什么信息。最好同时提供一小段具体材料，按设计教程修改一道题，留下可检查的产物。",
     "crumbs": [
       "首页",
       "产品速查",
-      "GLM / 智谱"
+      "Gemini 与 Gemini Notebook：讨论问题和围绕来源阅读"
     ]
   },
   {
-    "objectID": "products/glm.html#第一次推荐任务",
-    "href": "products/glm.html#第一次推荐任务",
-    "title": "GLM / 智谱",
-    "section": "第一次推荐任务",
-    "text": "第一次推荐任务\n不用真的跑代码，先看一次 Coding Plan 的配置说明：确认 Key、Base URL、支持工具和计费通道为什么不能与普通 API 混用。",
+    "objectID": "products/gemini.html#gemini-notebook把来源放在一起读",
+    "href": "products/gemini.html#gemini-notebook把来源放在一起读",
+    "title": "Gemini 与 Gemini Notebook：讨论问题和围绕来源阅读",
+    "section": "Gemini Notebook：把来源放在一起读",
+    "text": "Gemini Notebook：把来源放在一起读\nGoogle 当前文档使用 Gemini Notebook 名称，部分旧链接仍使用 NotebookLM。通过官方来源指南进入笔记本，新建后添加三篇论文，选择要回答问题的来源。检查引用位置，将有用回答保存为笔记，再导出或复制到自己的项目。完整比较阅读练习。\n在来源搜索处，也可以选择 Web 和 Deep Research，围绕一个问题寻找新材料，再挑选需要导入的来源。导入前看题名与来源，避免把检索报告和原论文混在一起当成同一层证据。",
     "crumbs": [
       "首页",
       "产品速查",
-      "GLM / 智谱"
+      "Gemini 与 Gemini Notebook：讨论问题和围绕来源阅读"
     ]
   },
   {
-    "objectID": "products/glm.html#最重要的限制",
-    "href": "products/glm.html#最重要的限制",
-    "title": "GLM / 智谱",
-    "section": "最重要的限制",
-    "text": "最重要的限制\n“拿到一个 API Key”不代表它适用于所有入口。不同套餐、接口和 Harness 的兼容关系属于动态事实，配置前应回官方文档核查。",
+    "objectID": "products/gemini.html#什么时候考虑付费",
+    "href": "products/gemini.html#什么时候考虑付费",
+    "title": "Gemini 与 Gemini Notebook：讨论问题和围绕来源阅读",
+    "section": "什么时候考虑付费",
+    "text": "什么时候考虑付费\n先用免费访问完成一个小笔记本。如果来源数量、文件处理或深度研究额度经常中断任务，再比较 Google AI 方案。美国网页价格与当地购买资格分别见预算页和官方方案。连接 Drive 等资料，进入工具接入教程。",
     "crumbs": [
       "首页",
       "产品速查",
-      "GLM / 智谱"
-    ]
-  },
-  {
-    "objectID": "products/glm.html#官方来源",
-    "href": "products/glm.html#官方来源",
-    "title": "GLM / 智谱",
-    "section": "官方来源",
-    "text": "官方来源\n\nGLM Coding Plan overview\nGLM Coding Plan quick start",
-    "crumbs": [
-      "首页",
-      "产品速查",
-      "GLM / 智谱"
+      "Gemini 与 Gemini Notebook：讨论问题和围绕来源阅读"
     ]
   },
   {
     "objectID": "products/deepseek.html",
     "href": "products/deepseek.html",
-    "title": "DeepSeek",
+    "title": "DeepSeek：聊天、桌面文件工作与 API",
     "section": "",
-    "text": "最后官方核查：2026-10-13。历史控制台实测日期：2026-09-16；两者不混为当前付费实测。\n从 DeepSeek 官网进入网页对话或官方 App。第一次直接粘贴方法练习的六行数据；熟悉后再决定是否需要 API。",
+    "text": "最后核查：2026-10-17。从 DeepSeek 官网可以进入聊天、App、API 与 Harness。",
     "crumbs": [
       "首页",
       "产品速查",
-      "DeepSeek"
+      "DeepSeek：聊天、桌面文件工作与 API"
     ]
   },
   {
-    "objectID": "products/deepseek.html#api-是另一条入口",
-    "href": "products/deepseek.html#api-是另一条入口",
-    "title": "DeepSeek",
-    "section": "API 是另一条入口",
-    "text": "API 是另一条入口\n当前官方文档给出 Base URL 为 https://api.deepseek.com，模型别名 deepseek-flash 当前对应 DeepSeek-V4.1-Flash。费用示例见按量计费，完整教学文件见批处理练习。",
+    "objectID": "products/deepseek.html#先用聊天完成一项研究任务",
+    "href": "products/deepseek.html#先用聊天完成一项研究任务",
+    "title": "DeepSeek：聊天、桌面文件工作与 API",
+    "section": "先用聊天完成一项研究任务",
+    "text": "先用聊天完成一项研究任务\n进入官方网页对话，登录后新建会话，把六段合成访谈粘进去。先请它保留编号逐段阅读，再让它找一段不符合你初步解释的文字。保存阅读记录，下次从这份记录继续。\n这个任务适合体验 AI 怎样帮助你改变思路。也可以用研究设计练习检查一道题的答案依据，无须先配置 API。",
     "crumbs": [
       "首页",
       "产品速查",
-      "DeepSeek"
+      "DeepSeek：聊天、桌面文件工作与 API"
     ]
   },
   {
-    "objectID": "products/deepseek.html#账户操作的历史经验",
-    "href": "products/deepseek.html#账户操作的历史经验",
-    "title": "DeepSeek",
-    "section": "账户操作的历史经验",
-    "text": "账户操作的历史经验\n2026-09-16 的项目实测记录确认了创建 Key、控制台用量查看、支付宝/微信支付/对公汇款及自定义充值金额。当时预设从 ¥10 起，不能据此推断绝对最低充值额。这些是有日期的历史观察，当前支付方式仍需登录官方控制台确认。\n本站本轮没有重新开户、充值或调用付费 API，也未将未经复核的文件/项目功能列为稳定能力。\n官方依据：官网、模型与价格。",
+    "objectID": "products/deepseek.html#想让它操作文件deepseek-harness预览版",
+    "href": "products/deepseek.html#想让它操作文件deepseek-harness预览版",
+    "title": "DeepSeek：聊天、桌面文件工作与 API",
+    "section": "想让它操作文件：DeepSeek Harness（预览版）",
+    "text": "想让它操作文件：DeepSeek Harness（预览版）\n官方下载页提供 Windows 64 位和 macOS Apple 芯片版本。Harness 在这里指把模型与文件、命令、插件连接起来的工作软件；它能开展多步文件任务，目前标记为预览版。\n第一次先建立一个教学目录。官方Web UI 快速开始说明：在设置 → 模型中配置 DeepSeek API Key，再选择工作区后开始会话。这份指南针对 Web UI；桌面端安装从下载页开始，遇到不同界面时以相应版本说明为准。\n配置好后先让它列出教学目录，再执行两轮报告任务。检查实际文件和数字，再让它修改第二版。需要确认 API 余额、调用费用和目录授权；聊天登录本身不提供 API 余额。",
     "crumbs": [
       "首页",
       "产品速查",
-      "DeepSeek"
+      "DeepSeek：聊天、桌面文件工作与 API"
     ]
   },
   {
-    "objectID": "products/chatgpt.html",
-    "href": "products/chatgpt.html",
-    "title": "ChatGPT",
+    "objectID": "products/deepseek.html#已经有工具想接入-deepseek",
+    "href": "products/deepseek.html#已经有工具想接入-deepseek",
+    "title": "DeepSeek：聊天、桌面文件工作与 API",
+    "section": "已经有工具，想接入 DeepSeek",
+    "text": "已经有工具，想接入 DeepSeek\n可以在 Chatbox中选择 DeepSeek，填入自己的 API Key；也可以让沉浸式翻译使用该 API 处理英文材料。费用由开放平台记录，用小段公开文本做一次验证即可。\n当前 API 文档将 deepseek-flash 指向 DeepSeek-V4.1-Flash-1017。模型别名可能更新，批处理研究应记录调用日期、请求模型和返回信息。价格及 Search/Fetch 生效日期见费用页与官方价格表。",
+    "crumbs": [
+      "首页",
+      "产品速查",
+      "DeepSeek：聊天、桌面文件工作与 API"
+    ]
+  },
+  {
+    "objectID": "products/claude.html",
+    "href": "products/claude.html",
+    "title": "Claude：文本、项目、Cowork 与代码",
     "section": "",
-    "text": "最后核查：2026-10-13 · 官方文档。\n从 ChatGPT开始。第一次可以做方法练习，已有论文则做比较阅读。需要主动查找资料时进入Deep Research 教程。\n免费文件与分析功能有独立用量限制；付费选择集中见预算页。订阅和 OpenAI API 账单分开。\n地区资格与注册见开通页。代码项目另见代码代理。\n依据：官方 Free 说明、账单区别。未做本轮账号开户实测。",
+    "text": "最后核查：2026-10-17。Claude可用于阅读、写作与文件任务。注册与所在地条件见账号页，方案见预算页。",
     "crumbs": [
       "首页",
       "产品速查",
-      "ChatGPT"
+      "Claude：文本、项目、Cowork 与代码"
+    ]
+  },
+  {
+    "objectID": "products/claude.html#先完成一次有修改的写作",
+    "href": "products/claude.html#先完成一次有修改的写作",
+    "title": "Claude：文本、项目、Cowork 与代码",
+    "section": "先完成一次有修改的写作",
+    "text": "先完成一次有修改的写作\n新建对话，提供结果表和写作要求，按照两轮报告先写数字，再加入比较与讨论。要求保留每段的数字来源，自己检查后保存。",
+    "crumbs": [
+      "首页",
+      "产品速查",
+      "Claude：文本、项目、Cowork 与代码"
+    ]
+  },
+  {
+    "objectID": "products/claude.html#跨天工作projects",
+    "href": "products/claude.html#跨天工作projects",
+    "title": "Claude：文本、项目、Cowork 与代码",
+    "section": "跨天工作：Projects",
+    "text": "跨天工作：Projects\n创建一个项目，加入当前状态、确认结果表和当前稿件，在项目内开新对话继续工作。项目说明写清“先读当前状态”，再使用续接练习检查是否正确接上。官方 Projects 指南介绍共享上下文与文件。",
+    "crumbs": [
+      "首页",
+      "产品速查",
+      "Claude：文本、项目、Cowork 与代码"
+    ]
+  },
+  {
+    "objectID": "products/claude.html#直接处理文件cowork写程序claude-code",
+    "href": "products/claude.html#直接处理文件cowork写程序claude-code",
+    "title": "Claude：文本、项目、Cowork 与代码",
+    "section": "直接处理文件：Cowork；写程序：Claude Code",
+    "text": "直接处理文件：Cowork；写程序：Claude Code\nClaude 正在把聊天与 Cowork 合并为同一对话体验，先从 Pro/Max 逐步开放。已获得新界面的账号直接描述文件任务即可；仍显示 Chat/Cowork 的账号继续使用原入口。官方变化说明。\n从官方下载页取得桌面端，需要本地文件时授权教学目录。Code 仍有单独入口；按Claude Code 快速开始选择桌面、编辑器或终端路径，确认登录使用的是订阅还是 Console/API 计费。\n首次任务可复用本站的报告文件任务或单文件网页。先交付一份报告或一个网页，打开检查后再增加需求。开始前在官方方案页核对所需功能与用量。",
+    "crumbs": [
+      "首页",
+      "产品速查",
+      "Claude：文本、项目、Cowork 与代码"
+    ]
+  },
+  {
+    "objectID": "chapters/vibe-coding.html",
+    "href": "chapters/vibe-coding.html",
+    "title": "用自然语言做一个研究小工具：vibe coding 入门",
+    "section": "",
+    "text": "假如你想在组会上演示“同一个人前后变化”与“不同人之间差异”，表格不够直观，现成软件又没有刚好合适的按钮。这时可以把需求告诉 AI，让它生成一个网页，再通过实际点击逐步修改。人们常把这种用自然语言推动程序制作的方式叫作 vibe coding。\n本页做一个六行数据查看器：选择 A 或 B，查看原始记录和均值。它只在浏览器本地处理这组教学数据。完成后，你会得到一个双击就能打开的 HTML 文件。",
+    "crumbs": [
+      "首页",
+      "代码、API 与多步任务（按需）",
+      "用自然语言做一个研究小工具：vibe coding 入门"
+    ]
+  },
+  {
+    "objectID": "chapters/vibe-coding.html#先看看想做出的东西",
+    "href": "chapters/vibe-coding.html#先看看想做出的东西",
+    "title": "用自然语言做一个研究小工具：vibe coding 入门",
+    "section": "先看看想做出的东西",
+    "text": "先看看想做出的东西\n打开示范工具，或下载练习包。ZIP 包含可独立打开的工具、六行数据、需求与检查说明。示范由本指南编写并检查，读者可以从空白开始，也可以修改这个版本。\n先点“只看 A”“只看 B”，再点“全部”。A 的压力与睡眠困难均值应为 2、3，B 应为 5、6。这个小工具展示原始记录和均值；怎样解释这两种关系，见方法学习练习。",
+    "crumbs": [
+      "首页",
+      "代码、API 与多步任务（按需）",
+      "用自然语言做一个研究小工具：vibe coding 入门"
+    ]
+  },
+  {
+    "objectID": "chapters/vibe-coding.html#选一种制作方式",
+    "href": "chapters/vibe-coding.html#选一种制作方式",
+    "title": "用自然语言做一个研究小工具：vibe coding 入门",
+    "section": "选一种制作方式",
+    "text": "选一种制作方式\n产品入口核查：2026-10-17。\n\n\n\n你更习惯什么\n可用路线\n怎样开始\n\n\n\n\n有文件夹、想用对话完成\nCodex\n按代码助手页安装登录，选一个空文件夹\n\n\n希望界面同时显示文件和修改\nCursor\n从官网快速开始下载登录，打开文件夹，按 Windows/Linux Ctrl+I 或 macOS Cmd+I 打开 Agent\n\n\n已有国内模型 API 或套餐\nQwen Code\n按代码助手页配置，在教学文件夹中启动\n\n\n只想先试一次普通聊天\n千问、DeepSeek、Kimi 等\n请它输出完整 HTML，复制为本地文件再打开\n\n\n\n前三条可以直接创建和修改文件；最后一条需要自己保存代码。产品试用/订阅与 API 用量分别看预算页，本工具运行时无需调用 AI 服务。",
+    "crumbs": [
+      "首页",
+      "代码、API 与多步任务（按需）",
+      "用自然语言做一个研究小工具：vibe coding 入门"
+    ]
+  },
+  {
+    "objectID": "chapters/vibe-coding.html#第一轮把想法写成可检查的要求",
+    "href": "chapters/vibe-coding.html#第一轮把想法写成可检查的要求",
+    "title": "用自然语言做一个研究小工具：vibe coding 入门",
+    "section": "第一轮：把想法写成可检查的要求",
+    "text": "第一轮：把想法写成可检查的要求\n先建空文件夹 research-viewer，放入六行 CSV。发送：\n\n为这组六行教学数据做一个中文网页，保存为 viewer.html。把数据直接放在文件里，双击可运行，不依赖网络、外部库或服务器。显示原始六行记录，提供“全部、只看 A、只看 B”三个按钮，按人显示压力和睡眠困难均值。页面写清数据是合成教学数据。请创建文件，并说明怎样打开和检查。\n\n这里最关键的要求是“单文件、双击可运行”和三项具体功能。否则助手可能顺手搭出需要安装依赖的完整网站，让第一次练习多出不必要的步骤。\n只有普通聊天时，要求“返回从 &lt;!doctype html&gt; 到 &lt;/html&gt; 的完整内容”。复制到记事本，另存为 viewer.html，保存类型选“所有文件”，编码选 UTF-8。确认文件没有变成 viewer.html.txt，再双击打开。",
+    "crumbs": [
+      "首页",
+      "代码、API 与多步任务（按需）",
+      "用自然语言做一个研究小工具：vibe coding 入门"
+    ]
+  },
+  {
+    "objectID": "chapters/vibe-coding.html#第二轮亲自点再提出一项修改",
+    "href": "chapters/vibe-coding.html#第二轮亲自点再提出一项修改",
+    "title": "用自然语言做一个研究小工具：vibe coding 入门",
+    "section": "第二轮：亲自点，再提出一项修改",
+    "text": "第二轮：亲自点，再提出一项修改\n先按下面的顺序检查：\n\n全部视图有六行；选 A 或 B 后各有三行。\nA 的均值为 2、3，B 为 5、6，列没有对调。\n窄窗口里还能看到按钮、数值与列名。\n断开网络后重新打开文件，仍能切换视图。\n\n然后加一个小功能：\n\n增加“复制当前摘要”按钮。复制内容应包含当前筛选条件、记录数和各人的两项均值。复制失败时，在页面显示可手动选择的摘要。保留原有功能，先备份为 viewer-v1.html，再修改。\n\n这条要求包含用途、输出和失败时的办法。修改后重复前四项检查，再把摘要粘到文本编辑器中核对。示范工具包含这一轮功能，可以比较不同生成版本的做法。",
+    "crumbs": [
+      "首页",
+      "代码、API 与多步任务（按需）",
+      "用自然语言做一个研究小工具：vibe coding 入门"
+    ]
+  },
+  {
+    "objectID": "chapters/vibe-coding.html#打不开或结果不对怎样反馈",
+    "href": "chapters/vibe-coding.html#打不开或结果不对怎样反馈",
+    "title": "用自然语言做一个研究小工具：vibe coding 入门",
+    "section": "打不开或结果不对，怎样反馈",
+    "text": "打不开或结果不对，怎样反馈\n“不好用”很难定位。可以改成：“在 Windows 的浏览器中双击打开，点击只看 B 后仍显示六行；请检查筛选事件并修复，均值算法保持不变。”没有看到任何界面时，先检查文件后缀；显示代码文字时，检查是否把 Markdown 的三反引号也复制进去了。\n能运行后，让助手解释数据放在哪里、按钮怎样筛选、均值怎样算。你至少应该能指出这三部分，并用已知数字判断结果。版本修改出错时，重新打开 viewer-v1.html 对照，再修新文件。",
+    "crumbs": [
+      "首页",
+      "代码、API 与多步任务（按需）",
+      "用自然语言做一个研究小工具：vibe coding 入门"
+    ]
+  },
+  {
+    "objectID": "chapters/vibe-coding.html#把它带回自己的工作",
+    "href": "chapters/vibe-coding.html#把它带回自己的工作",
+    "title": "用自然语言做一个研究小工具：vibe coding 入门",
+    "section": "把它带回自己的工作",
+    "text": "把它带回自己的工作\n类似方式适合做变量字典浏览器、研究材料预览器、图表展示页、内部进度小看板。先从不收集个人信息的小工具开始，每一轮只增加一个能当场检查的功能。\n若进一步用于正式实验，网页能打开只是起点：计时精度、随机化、退出、数据保存和重复参与都要另行验证。先在研究设计页明确要测什么，再决定需要怎样的程序。",
+    "crumbs": [
+      "首页",
+      "代码、API 与多步任务（按需）",
+      "用自然语言做一个研究小工具：vibe coding 入门"
+    ]
+  },
+  {
+    "objectID": "chapters/research-design.html",
+    "href": "chapters/research-design.html",
+    "title": "把研究问题变成可以试做的材料",
+    "section": "",
+    "text": "AI 可以把一个粗略想法展开成刺激材料、指导语、题目和条件列表，也可以从参与者视角帮你找出含糊之处。研究者的工作，是决定这些材料究竟要比较什么，并用试做检验它们。\n本页接着背景音乐与阅读的文献练习。为了先练习材料检查，使用主手册已有的“安静/噪声”教学列表。它与“有歌词/无歌词”不是同一项操纵；如果要迁移到后者，应另写操纵说明并重新检查声音材料。",
+    "crumbs": [
+      "首页",
+      "按科研任务开始",
+      "把研究问题变成可以试做的材料"
+    ]
+  },
+  {
+    "objectID": "chapters/research-design.html#准备材料与对话",
+    "href": "chapters/research-design.html#准备材料与对话",
+    "title": "把研究问题变成可以试做的材料",
+    "section": "准备材料与对话",
+    "text": "准备材料与对话\n下载主手册 v1.3 教学包，打开 design-materials.md 与 counterbalance.csv。前者有 S01—S08 八段短文、16 道题及答案，后者有 L1/L2 两套条件列表。\n在 DeepSeek 或千问新建普通对话，先粘贴 S01 一段及两道题；熟悉后再加入完整材料。有文件上传时可直接添加文件。今天只留下两项产物：一份有理由的材料修改建议，以及一张列表核对结果。",
+    "crumbs": [
+      "首页",
+      "按科研任务开始",
+      "把研究问题变成可以试做的材料"
+    ]
+  },
+  {
+    "objectID": "chapters/research-design.html#第一步从一道题开始让-ai-说出答案依据",
+    "href": "chapters/research-design.html#第一步从一道题开始让-ai-说出答案依据",
+    "title": "把研究问题变成可以试做的材料",
+    "section": "第一步：从一道题开始，让 AI 说出答案依据",
+    "text": "第一步：从一道题开始，让 AI 说出答案依据\n\n逐题说明正确答案怎样由 S01 原文推出，指出依赖的句子。再找一个可能让读者误解的地方：是题干不清楚、选项可有两个解释，还是需要文外知识？每个判断给出具体依据。\n\nS01 描写取书需要手机确认和借书卡。第二题的答案来自“已经带卡、尚未确认”这两个信息。你可以据此看出 AI 是否真正读到了人物处境，还是只按常识回答。\n再加入 S02 和 S04，问它比较两段的理解负担。S02 的空水壶可能分散注意，S04 需要处理预约时间。这些观察能帮助你决定先试哪几题，却不能直接替代参与者的正确率与反应记录。",
+    "crumbs": [
+      "首页",
+      "按科研任务开始",
+      "把研究问题变成可以试做的材料"
+    ]
+  },
+  {
+    "objectID": "chapters/research-design.html#第二步只修改一个问题并看修改牵动了什么",
+    "href": "chapters/research-design.html#第二步只修改一个问题并看修改牵动了什么",
+    "title": "把研究问题变成可以试做的材料",
+    "section": "第二步：只修改一个问题，并看修改牵动了什么",
+    "text": "第二步：只修改一个问题，并看修改牵动了什么\n\n选择一道错误选项过于明显的题，给出原题、修改稿、修改理由。保留文章编号、题号和正确答案的依据。说明新选项会不会引入文外知识，或改变题目原来想要求的判断。\n\n读修改稿时，先自己作答，再看 AI 的说明。把采用的版本存为 design-revision-1.md，同时记录一条准备在试做中观察的问题，例如：“S04 是否让读者主要忙于时间计算？”\nAI 还可以帮助起草试做后的访谈问法：“你刚才在哪个选项之间犹豫？为什么？”这比直接问“题目是不是很清楚”更容易获得可修改的线索。",
+    "crumbs": [
+      "首页",
+      "按科研任务开始",
+      "把研究问题变成可以试做的材料"
+    ]
+  },
+  {
+    "objectID": "chapters/research-design.html#第三步检查条件列表",
+    "href": "chapters/research-design.html#第三步检查条件列表",
+    "title": "把研究问题变成可以试做的材料",
+    "section": "第三步：检查条件列表",
+    "text": "第三步：检查条件列表\n把 counterbalance.csv 加入对话：\n\n按列表统计试次数、刺激编号和条件数量。逐个检查 S01—S08 是否各出现一次；同一篇文章在 L1 与 L2 中是否换了条件。把缺项、重复和不一致分别列出来。\n\n本例每套列表有 8 次呈现，quiet/noise 各 4 次，每篇各出现一次，跨列表更换条件。你可以用表格软件筛选验证，也可以让代码助手计算。\n这只是列表结构检查。列表如何分配给参与者、声音播放到哪里、阅读时间和作答时间怎样设置，还需要研究者决定。相关理由见主手册研究设计章。",
+    "crumbs": [
+      "首页",
+      "按科研任务开始",
+      "把研究问题变成可以试做的材料"
+    ]
+  },
+  {
+    "objectID": "chapters/research-design.html#下一步从材料检查走向试做",
+    "href": "chapters/research-design.html#下一步从材料检查走向试做",
+    "title": "把研究问题变成可以试做的材料",
+    "section": "下一步：从材料检查走向试做",
+    "text": "下一步：从材料检查走向试做\n把修订材料、条件列表和待观察问题一起保存。请 AI 据此整理一页试做清单：开始前检查什么、现场记录什么、结束后问什么。试做回来后，再把真实观察交给它比较，而不是让它替参与者模拟答案。\n想先看到一个可点击的界面，可继续vibe coding 小工具教程，先体验“说明需求—得到界面—实际点击—提出修改”的过程。用于正式收集数据前，还需另外检查计时、随机化、数据保存与研究伦理要求。",
+    "crumbs": [
+      "首页",
+      "按科研任务开始",
+      "把研究问题变成可以试做的材料"
+    ]
+  },
+  {
+    "objectID": "chapters/method-learning.html",
+    "href": "chapters/method-learning.html",
+    "title": "用 AI 学一个方法：从六行数据到自己的解释",
+    "section": "",
+    "text": "你会得到： 一个能自己解释的反例、一张六行数据表、一题迁移练习。打开千问、DeepSeek、豆包等已有账号的新对话即可开始。以下数据是专为练习构造的合成数据。",
+    "crumbs": [
+      "首页",
+      "按科研任务开始",
+      "用 AI 学一个方法：从六行数据到自己的解释"
+    ]
+  },
+  {
+    "objectID": "chapters/method-learning.html#第-1-步先预测再问-ai",
+    "href": "chapters/method-learning.html#第-1-步先预测再问-ai",
+    "title": "用 AI 学一个方法：从六行数据到自己的解释",
+    "section": "第 1 步：先预测，再问 AI",
+    "text": "第 1 步：先预测，再问 AI\n想象两个人连续三天报告压力和睡眠困难。先写下你的预测：“压力越高，睡眠越差”指的是比较不同的人，还是比较同一个人的不同日子？\n将下面数据复制到一个新对话，或下载 CSV。\n\n\n\nid\nday\nstress\nsleep_difficulty\n\n\n\n\nA\n1\n1\n4\n\n\nA\n2\n2\n3\n\n\nA\n3\n3\n2\n\n\nB\n1\n4\n7\n\n\nB\n2\n5\n6\n\n\nB\n3\n6\n5",
+    "crumbs": [
+      "首页",
+      "按科研任务开始",
+      "用 AI 学一个方法：从六行数据到自己的解释"
+    ]
+  },
+  {
+    "objectID": "chapters/method-learning.html#第-2-步让-ai-用数据解释差别",
+    "href": "chapters/method-learning.html#第-2-步让-ai-用数据解释差别",
+    "title": "用 AI 学一个方法：从六行数据到自己的解释",
+    "section": "第 2 步：让 AI 用数据解释差别",
+    "text": "第 2 步：让 AI 用数据解释差别\n复制以下任务：\n\n只使用这六行合成数据。先计算 A、B 各自的平均压力和平均睡眠困难；再分别比较同一人三天的变化。分别回答“哪一个人的平均压力更高”和“同一个人压力比自己平时高时，睡眠困难怎样变化”。先列算式，再用通俗中文解释。不要做显著性检验，不要引用虚构论文。\n\n你应看到：\n\n\n\n人\n平均压力\n平均睡眠困难\n同一人压力每增加 1 时\n\n\n\n\nA\n2\n3\n睡眠困难减少 1\n\n\nB\n5\n6\n睡眠困难减少 1\n\n\n\n两人的均值是一起升高的；每个人内部的变化却向下。两个描述都成立，因为比较对象不同。AI 若只给一句“压力与睡眠正相关”，就遗漏了这个练习最重要的信息。",
+    "crumbs": [
+      "首页",
+      "按科研任务开始",
+      "用 AI 学一个方法：从六行数据到自己的解释"
+    ]
+  },
+  {
+    "objectID": "chapters/method-learning.html#第-3-步把解释权拿回来",
+    "href": "chapters/method-learning.html#第-3-步把解释权拿回来",
+    "title": "用 AI 学一个方法：从六行数据到自己的解释",
+    "section": "第 3 步：把解释权拿回来",
+    "text": "第 3 步：把解释权拿回来\n让 AI 暂时不回答，先由你完成：\n\n“平均压力较高的人睡眠困难较多”是否能推出“一个人在压力比平时高的当天睡得更差”？请用表里两个数字解释。\n\n核对要点：不能直接推出。A 的压力从 1 升到 3 时，睡眠困难从 4 降到 2；B 的均值高于 A，是另一种比较。\n接着要求 AI 给出一题新数据，先藏住答案。你完成后再让它指出具体计算错误。若仍答错，回到均值和单人的三行数据，不要继续堆叠术语。",
+    "crumbs": [
+      "首页",
+      "按科研任务开始",
+      "用 AI 学一个方法：从六行数据到自己的解释"
+    ]
+  },
+  {
+    "objectID": "chapters/method-learning.html#第-4-步保存自己的解释",
+    "href": "chapters/method-learning.html#第-4-步保存自己的解释",
+    "title": "用 AI 学一个方法：从六行数据到自己的解释",
+    "section": "第 4 步：保存自己的解释",
+    "text": "第 4 步：保存自己的解释\n保存 CSV 和你用自己的话写的三句话：两种比较各是什么、为何不能互推、真实研究还需要什么。此处只有两人三天，不能据此估计可靠的人群效应或因果效应。\n想继续动手，进入数据与图表练习，也可以打开可切换的小工具。后续学习多层模型时，结合课程、教材和合适数据，让 AI 继续帮助拆解公式、生成反例与反馈练习。完整的学习工作流见主手册方法学习章。",
+    "crumbs": [
+      "首页",
+      "按科研任务开始",
+      "用 AI 学一个方法：从六行数据到自己的解释"
+    ]
+  },
+  {
+    "objectID": "chapters/budget.html",
+    "href": "chapters/budget.html",
+    "title": "免费、人民币订阅与每月约 20 美元：怎样选择预算",
+    "section": "",
+    "text": "核查日期：2026-10-17。先确定要完成的任务，再看哪个产品的功能与额度合适。下列为官方网页方案参考，币种、地区和计费周期分别注明；税费、应用商店差异与账号优惠以结算页为准。",
+    "crumbs": [
+      "首页",
+      "开通与选购",
+      "免费、人民币订阅与每月约 20 美元：怎样选择预算"
+    ]
+  },
+  {
+    "objectID": "chapters/budget.html#先分清四笔不同的费用",
+    "href": "chapters/budget.html#先分清四笔不同的费用",
+    "title": "免费、人民币订阅与每月约 20 美元：怎样选择预算",
+    "section": "先分清四笔不同的费用",
+    "text": "先分清四笔不同的费用\n产品是你打开的软件，模型在其中处理任务。订阅通常提供一段时间的功能与用量；API 则供软件或程序调用，常按实际用量收费。一个客户端还可能有自己的会员费。因此，付了工具会员，不一定已购买相应 API 用量。\n普通文本练习先用现有免费额度。想读几篇论文、改一段结果，通常先试任务比先买高档套餐更容易判断值不值。",
+    "crumbs": [
+      "首页",
+      "开通与选购",
+      "免费、人民币订阅与每月约 20 美元：怎样选择预算"
+    ]
+  },
+  {
+    "objectID": "chapters/budget.html#人民币方案聊天文件与代码分别看",
+    "href": "chapters/budget.html#人民币方案聊天文件与代码分别看",
+    "title": "免费、人民币订阅与每月约 20 美元：怎样选择预算",
+    "section": "人民币方案：聊天、文件与代码分别看",
+    "text": "人民币方案：聊天、文件与代码分别看\n\n\n\n\n产品与地区\n当前价格参考\n对科研任务有用的区别\n\n\n\n\n千问办公国内个人版\n免费版 ¥0；标准版月付 ¥98、连续包月 ¥78、年付 ¥823；高级版月付 ¥198、连续包月 ¥158、年付 ¥1,663\n标准/高级每月套餐积分为 2,000/4,000；免费版无固定月度套餐积分，赠送与登录奖励属限时规则\n\n\nKimi 国内新会员\nGo/Plus/Pro/Max 连续包月分别 ¥49/99/199/699；连续包年总额分别 ¥468/948/1,908/6,708\nGo 含文档、深度研究等，不含 Kimi Code；Plus 及以上含 Code。功能共享月度额度\n\n\nWorkBuddy / CodeBuddy 国内个人版\n体验版免费；标准/高级/旗舰月付 ¥99/199/999；连续包月 ¥70/140/700\n同一账号共享积分；基础月积分为 500/2,000/4,000/20,000，限时赠送另计\n\n\nDeepSeek API\n按 tokens 与所用接口计费，见算例\n给 Chatbox、翻译或脚本调用；与官网聊天分开\n\n\n\n\n依据：千问办公个人权益、Kimi 当前价格、WorkBuddy/CodeBuddy 定价。千问普通聊天与千问办公是不同入口，不能把办公价格套到聊天产品上。\nKimi 旧套餐 Andante 等名称仍可能出现在老账号中。官方明确保留旧套餐规则：旧套餐的 Code 有滚动 5 小时及周限额；新套餐 Plus 及以上保留 5 小时窗口、取消周限额，仍受共享月度额度约束。购买时先确认自己看到的是哪套方案。",
+    "crumbs": [
+      "首页",
+      "开通与选购",
+      "免费、人民币订阅与每月约 20 美元：怎样选择预算"
+    ]
+  },
+  {
+    "objectID": "chapters/budget.html#美元网页方案约-20100-美元与更高用量",
+    "href": "chapters/budget.html#美元网页方案约-20100-美元与更高用量",
+    "title": "免费、人民币订阅与每月约 20 美元：怎样选择预算",
+    "section": "美元网页方案：约 20、100 美元与更高用量",
+    "text": "美元网页方案：约 20、100 美元与更高用量\n以下是个人方案美元标价，Google 使用美国页面。\n\n\n\n\n\n\n\n\n\n\n产品\n免费起点\n日常付费\n高频方案\n\n\n\n\nChatGPT\n基础对话及有额度限制的工具；Work/Codex 开放范围看账号\nGo $8/月；Plus $20/月\nPro $100、$200 或 $500/月\n\n\nClaude\n免费对话及方案列出的基础功能\nPro $20/月；年付一次 $200\nMax 5x $100/月；Max 20x $200/月\n\n\nGoogle AI / Gemini\nGemini 与 Gemini Notebook 基础访问\nAI Plus $4.99/月；AI Pro $19.99/月\nUltra $99.99/月（相对 Pro 5x）或 $199.99/月（20x）\n\n\n\n\n依据：ChatGPT / Codex 定价、Claude 定价、Google 美国方案。各家的“倍数”与限额窗口不能横向直接比较。ChatGPT Work 与 Codex 共享用量；Free/Go 的桌面能力受开放进度影响。",
+    "crumbs": [
+      "首页",
+      "开通与选购",
+      "免费、人民币订阅与每月约 20 美元：怎样选择预算"
+    ]
+  },
+  {
+    "objectID": "chapters/budget.html#怎样花第一笔钱",
+    "href": "chapters/budget.html#怎样花第一笔钱",
+    "title": "免费、人民币订阅与每月约 20 美元：怎样选择预算",
+    "section": "怎样花第一笔钱",
+    "text": "怎样花第一笔钱\n\n先用免费额度：完成一项文本任务，再试一次文件任务，看看实际卡在哪里。\n日常订阅或约 $20/月：每周反复使用，文件、较强模型或用量限制经常打断工作。优先选一个产品试一个月。\n约 $100/月：较低档位已持续不够用，或某项高用量任务确实值得。记录一周完成的工作与耗时，再比较升级收益。\n更高预算：适合需求稳定的密集任务。团队权限、机构数据规则和个人用量是不同的购买理由，先核对实际需求。\n\n想学 vibe coding，可先用已有 Codex 或 Qwen Code 入口。Cursor 的当前方案页另列其订阅与第三方模型收费，不应按其他工具的 $20 档推定。第一次的单文件网页可以离线运行，运行它本身不消耗模型额度。",
+    "crumbs": [
+      "首页",
+      "开通与选购",
+      "免费、人民币订阅与每月约 20 美元：怎样选择预算"
+    ]
+  },
+  {
+    "objectID": "chapters/budget.html#订阅是否包含-api",
+    "href": "chapters/budget.html#订阅是否包含-api",
+    "title": "免费、人民币订阅与每月约 20 美元：怎样选择预算",
+    "section": "订阅是否包含 API",
+    "text": "订阅是否包含 API\nChatGPT 订阅与 OpenAI API 账单分开；用 ChatGPT 登录 Codex 的方案额度也不同于 API 余额。官方定价说明。\nClaude Max 5x/20x 当前分别附带每月 $100/$200 API credits，需符合资格、订阅满七天并关联 Console 组织领取，当期未用不结转；这与交互式订阅额度的使用范围不同。领取与适用范围。\nGLM Coding Plan、阿里云 Token Plan 等面向指定调用环境，不能当作所有程序通用的 API 包月。具体配置见代码助手与GLM 页。",
+    "crumbs": [
+      "首页",
+      "开通与选购",
+      "免费、人民币订阅与每月约 20 美元：怎样选择预算"
+    ]
+  },
+  {
+    "objectID": "chapters/budget.html#自动续费取消与退款",
+    "href": "chapters/budget.html#自动续费取消与退款",
+    "title": "免费、人民币订阅与每月约 20 美元：怎样选择预算",
+    "section": "自动续费、取消与退款",
+    "text": "自动续费、取消与退款\n月付、连续包月和“年付折合每月”分别看。年付可能一次扣除全年金额。购买时记下账号、原购买渠道和下一次扣款日。\n\n\n\n产品\n取消入口\n\n\n\n\nChatGPT\n按官方取消说明在网页订阅设置或原应用商店办理\n\n\nClaude\n按官方说明在原渠道办理，至少提前 24 小时避免下次扣款\n\n\nGoogle One / AI\n按取消会员说明办理，降级时同时检查云存储使用量\n\n\nKimi\n设置 → 订阅管理；也可按原扣费渠道管理，见取消自动续费\n\n\n千问办公、WorkBuddy\n从账号用量/订阅页找到原订单与续费设置；按结算所示支付渠道管理，保留关闭续费的确认\n\n\n\n卸载应用不会取消订阅；取消续费与申请退款是两件事。办理后查看到期日期，再决定是否继续使用当前周期额度。",
+    "crumbs": [
+      "首页",
+      "开通与选购",
+      "免费、人民币订阅与每月约 20 美元：怎样选择预算"
+    ]
+  },
+  {
+    "objectID": "chapters/academic-writing.html",
+    "href": "chapters/academic-writing.html",
+    "title": "从结果表写出两轮报告",
+    "section": "",
+    "text": "你已经算出了结果，接下来要把它写成别人读得懂、自己查得回去的文字。AI 在这里最有用的工作，是整理数字、比较不同写法，并跟着你的决定修改稿件。\n本练习从一张确认结果表开始：先写主分析，再加入表中已有的比较分析，最后保存供下一次工作使用。两轮都读取同一张表。",
+    "crumbs": [
+      "首页",
+      "按科研任务开始",
+      "从结果表写出两轮报告"
+    ]
+  },
+  {
+    "objectID": "chapters/academic-writing.html#准备打开哪份材料用哪个产品",
+    "href": "chapters/academic-writing.html#准备打开哪份材料用哪个产品",
+    "title": "从结果表写出两轮报告",
+    "section": "准备：打开哪份材料，用哪个产品",
+    "text": "准备：打开哪份材料，用哪个产品\n下载主手册 v1.3 教学材料 ZIP，解压后找到含 analysis-spec.md 的教学目录。在下文中，文件名都相对于这个目录。\n先打开三份文件：\n\n\n\n\n\n\n\n文件\n你用它做什么\n\n\n\n\nanalysis-spec.md\n知道主规则与比较规则的含义\n\n\nreference/survey-sensitivity.csv\n提供两轮写作共同使用的数字\n\n\nworkflow/discussion-candidate.md\n写完数字段后，比较研究者怎样解释结果\n\n\n\n这些是合成问卷的教学结果，与六行数据练习是两个例子。CSV 可以用 Excel 或文本编辑器打开；.md 是普通文本，用记事本也能阅读。\n本页用千问普通对话演示：打开千问，登录并新建对话，把规格中有关计分的说明和 CSV 内容粘进去。有附件入口也可以直接上传。DeepSeek、Claude、ChatGPT 同样可以做这项文本任务；能看到表格内容即可开始。",
+    "crumbs": [
+      "首页",
+      "按科研任务开始",
+      "从结果表写出两轮报告"
+    ]
+  },
+  {
+    "objectID": "chapters/academic-writing.html#第一轮先把数字写对",
+    "href": "chapters/academic-writing.html#第一轮先把数字写对",
+    "title": "从结果表写出两轮报告",
+    "section": "第一轮：先把数字写对",
+    "text": "第一轮：先把数字写对\n复制下面的要求：\n\n我要写一段结果描述。请先按行复述这张表，解释 rule、n、stress_mean、rum_mean 各列在本例中的用途。依据附上的规格，只用 at_least_two 这一行起草主分析数字段，系数保留三位小数。把“表里有的数字”和“还缺少的统计信息”分开列出。\n\n本例的主规则是每个指标至少两题有效，纳入 21 条记录；压力系数为 0.364，反刍系数为 0.343。先核对这三个数，再读句子是否通顺。表中没有提供显著性检验或置信区间，文字就不应自行补上“显著”或区间。\n一个够用的起点是：\n\n按每个指标至少两题有效的规则，主分析纳入 21 条记录。压力与反刍的回归系数分别为 0.364 和 0.343。\n\n这是数字段的开头。正式写作还需要交代变量、模型与估计方法；相关信息从分析规格补入，而不是让 AI 凭常见论文句式猜出来。保存为 my-results-1.txt，下一轮继续使用。",
+    "crumbs": [
+      "首页",
+      "按科研任务开始",
+      "从结果表写出两轮报告"
+    ]
+  },
+  {
+    "objectID": "chapters/academic-writing.html#第二轮同一张表加入已有比较结果",
+    "href": "chapters/academic-writing.html#第二轮同一张表加入已有比较结果",
+    "title": "从结果表写出两轮报告",
+    "section": "第二轮：同一张表，加入已有比较结果",
+    "text": "第二轮：同一张表，加入已有比较结果\n继续对话：\n\n现在把 all_three 行加入报告，说明两条规则对应的记录数和系数。保留主规则的地位，新增一段比较说明。先给数字段，再另列两种可能的讨论写法，并解释各自需要哪些依据。\n\n比较规则要求每个指标三题全部有效，纳入 15 条记录；压力系数为 1.081，反刍系数为 0.720。两个系数方向相同，但数值变化明显。因而“方向一致”与“数值稳定”应分别说清楚。\n你可以继续要求：\n\n将“结果完全稳健”改成与这张表相称的表达。说明哪些观察可以直接从表里看出，哪些解释需要进一步分析。\n\n例如：“两种规则下的系数方向一致，大小有所变化；计分规则改变时，纳入记录也从 21 条变为 15 条。”这句话描述了已有比较。变化为什么发生，仍要结合数据和分析判断。\n本轮没有重新拟合模型。新增的是报告内容，计算来源仍是同一张确认表。把改稿保存为 my-results-2.txt，再打开 workflow/discussion-candidate.md，比较自己的讨论是否越过了现有结果。",
+    "crumbs": [
+      "首页",
+      "按科研任务开始",
+      "从结果表写出两轮报告"
+    ]
+  },
+  {
+    "objectID": "chapters/academic-writing.html#第三步回到结果表检查稿件",
+    "href": "chapters/academic-writing.html#第三步回到结果表检查稿件",
+    "title": "从结果表写出两轮报告",
+    "section": "第三步：回到结果表检查稿件",
+    "text": "第三步：回到结果表检查稿件\n\n对照确认结果表检查第二轮稿件。按“原句—对应行列—是否需要修改”给出检查表；将数字错误、未获支持的推断、纯语言修改分开。最后给一版修改稿。\n\n检查后，用自己的话写一条采用决定，例如：“保留两种规则；讨论中说明数值变化，暂不解释其成因。”这条决定会成为下一次工作的起点。\n\n\n\n现在进入项目续接，把第二轮稿件和决定交给新对话。希望 AI 直接读写文件并生成报告，则进入工作 Agent。写作判断的完整讨论见主手册学术写作章。",
+    "crumbs": [
+      "首页",
+      "按科研任务开始",
+      "从结果表写出两轮报告"
+    ]
+  },
+  {
+    "objectID": "chapters/12-privacy.html",
+    "href": "chapters/12-privacy.html",
+    "title": "选好资料与设置：让 AI 在合适的范围内工作",
+    "section": "",
+    "text": "第一次用本站的合成数据或公开材料练习，可以把注意力放在操作上。换成真实研究材料时，再确认资料允许交给谁、工具会读取哪些内容，以及产物保存在哪里。",
+    "crumbs": [
+      "首页",
+      "隐私与练习检查",
+      "选好资料与设置：让 AI 在合适的范围内工作"
+    ]
+  },
+  {
+    "objectID": "chapters/12-privacy.html#先选适合这次任务的材料",
+    "href": "chapters/12-privacy.html#先选适合这次任务的材料",
+    "title": "选好资料与设置：让 AI 在合适的范围内工作",
+    "section": "先选适合这次任务的材料",
+    "text": "先选适合这次任务的材料\n\n\n\n\n\n\n\n材料\n怎样开始\n\n\n\n\n公开论文和网页\n确认有权处理，保留来源；只需一段时先提供该段\n\n\n自己的未公开稿件\n检查合作约定与机构账户要求，选所需章节\n\n\n参与者记录、访谈原文\n按同意范围、伦理审批与数据协议决定；练习阶段可先用合成片段\n\n\n密钥与密码\n放在工具的凭证设置或环境变量中，排错时隐藏\n\n\n\n只去掉姓名未必足够。单位、经历、日期与少见事件也可能使人被识别。具体判断和恢复处理见主手册核验、隐私与恢复章。",
+    "crumbs": [
+      "首页",
+      "隐私与练习检查",
+      "选好资料与设置：让 AI 在合适的范围内工作"
+    ]
+  },
+  {
+    "objectID": "chapters/12-privacy.html#个人账号常用设置在哪里",
+    "href": "chapters/12-privacy.html#个人账号常用设置在哪里",
+    "title": "选好资料与设置：让 AI 在合适的范围内工作",
+    "section": "个人账号常用设置在哪里",
+    "text": "个人账号常用设置在哪里\n以下按 2026-10-17 官方说明核查。设置影响服务怎样使用数据，不能替代研究材料本身的使用许可。\n\n\n\n\n\n\n\n\n产品\n操作入口\n这项设置做什么\n\n\n\n\nChatGPT\nSettings → Data controls → Improve the model for everyone\n关闭后新对话不用于模型训练，仍可保留历史\n\n\nCodex 个人账号\n上述 ChatGPT 设置；另查看 Codex 的 Include environments\n额外环境内容的训练选项单独管理\n\n\nClaude 个人账号\nSettings → Privacy → Help Improve our AI models\n管理对话与代码会话用于模型改进的选择\n\n\nGemini 个人账号\nSettings & help → Activity → Keep Activity\n管理活动保存与相关使用；关闭时还会影响部分连接功能\n\n\n\n官方步骤：ChatGPT 数据控制、Claude 隐私设置、Gemini 活动管理。Google 说明关闭 Keep Activity 后部分会话仍可保留至 72 小时用于提供服务等用途；反馈提交另有规则，见隐私中心。\n使用千问、DeepSeek、Kimi 等产品时，查看该产品当前的隐私政策和账号中可用的数据管理选项。机构版还要查看学校或工作空间的管理员设置。",
+    "crumbs": [
+      "首页",
+      "隐私与练习检查",
+      "选好资料与设置：让 AI 在合适的范围内工作"
+    ]
+  },
+  {
+    "objectID": "chapters/12-privacy.html#使用本地文件和连接器时",
+    "href": "chapters/12-privacy.html#使用本地文件和连接器时",
+    "title": "选好资料与设置：让 AI 在合适的范围内工作",
+    "section": "使用本地文件和连接器时",
+    "text": "使用本地文件和连接器时\n先建一个只放本次练习的目录，再选给 Agent。开始前让它列出将读取的文件，完成后查看新增与修改的文件。原始数据留在受保护的位置，工作使用副本。\n桌面程序可能把所读内容发给云端模型；“文件在本机”与“计算在本机”是不同情况。连接网盘时，还要确认登录的账号、可访问范围与共享权限。接入教程提供一个先读取教学文档的练习。",
+    "crumbs": [
+      "首页",
+      "隐私与练习检查",
+      "选好资料与设置：让 AI 在合适的范围内工作"
+    ]
+  },
+  {
+    "objectID": "chapters/12-privacy.html#上传错了先处理哪几步",
+    "href": "chapters/12-privacy.html#上传错了先处理哪几步",
+    "title": "选好资料与设置：让 AI 在合适的范围内工作",
+    "section": "上传错了，先处理哪几步",
+    "text": "上传错了，先处理哪几步\n停止后续任务，记录误传的文件与时间；在产品中删除相关资料、撤销共享或连接，按机构流程报告和评估影响。原始材料和本地工作文件分别检查。已外发的数据不能只靠恢复本地文件解决。\n如果只是教学报告读错了输入，则按恢复练习回到正确结果表，重新生成并核对受影响的报告。把问题发生在哪一步写清楚，后续才容易继续。",
+    "crumbs": [
+      "首页",
+      "隐私与练习检查",
+      "选好资料与设置：让 AI 在合适的范围内工作"
+    ]
+  },
+  {
+    "objectID": "chapters/10-code-agent.html",
+    "href": "chapters/10-code-agent.html",
+    "title": "代码助手入门：从打开文件夹到运行与恢复",
+    "section": "",
+    "text": "Coding Agent（代码助手）能读取项目里的文件、编写或修改程序、运行命令，并根据报错继续修正。对研究者而言，它可以整理数据、重画图、批量生成报告，也可以制作一个小工具。这里先用现成脚本练习，便于看清输入和结果的关系。\n入口核查日期：2026-10-17。本页提供 Codex 图形界面和 Qwen Code 两条路线，任选其一。安装软件本身与购买模型用量是两件事，费用见预算页。",
+    "crumbs": [
+      "首页",
+      "代码、API 与多步任务（按需）",
+      "代码助手入门：从打开文件夹到运行与恢复"
+    ]
+  },
+  {
+    "objectID": "chapters/10-code-agent.html#路线-acodex打开目录后直接说任务",
+    "href": "chapters/10-code-agent.html#路线-acodex打开目录后直接说任务",
+    "title": "代码助手入门：从打开文件夹到运行与恢复",
+    "section": "路线 A：Codex，打开目录后直接说任务",
+    "text": "路线 A：Codex，打开目录后直接说任务\n\n从官方快速开始进入桌面端下载，选择自己的系统，安装后用 ChatGPT 账号登录。\n在产品选择处选 Codex，打开专门的教学文件夹。界面里的项目就是一组相关文件。\n先发：“列出本目录的文件，说明输入和已有脚本在哪里。”确认它看到的是本次练习。\n使用下文的运行任务，查看它产生的文件改动和执行结果。\n\n账号登录可使用方案内额度；API Key 登录走另一套计费。当前官方说明 Free/Go 的桌面端能力受开放进度影响，Plus/Pro 有相应方案用量；Work 与 Codex 共享用量。具体范围见官方定价。",
+    "crumbs": [
+      "首页",
+      "代码、API 与多步任务（按需）",
+      "代码助手入门：从打开文件夹到运行与恢复"
+    ]
+  },
+  {
+    "objectID": "chapters/10-code-agent.html#路线-bqwen-code在终端中操作教学文件夹",
+    "href": "chapters/10-code-agent.html#路线-bqwen-code在终端中操作教学文件夹",
+    "title": "代码助手入门：从打开文件夹到运行与恢复",
+    "section": "路线 B：Qwen Code，在终端中操作教学文件夹",
+    "text": "路线 B：Qwen Code，在终端中操作教学文件夹\n终端是输入命令的窗口。Windows 可打开 PowerShell；macOS 可打开“终端”。从Qwen Code 官方安装页选择对应系统的安装方法；安装后重新开一个终端，输入 qwen --version 检查是否找到程序。官方安装器优先使用独立程序包，回退到 npm 时需要 Node.js 22 或以上。\n进入教学目录，再启动：\ncd \"你的教学目录路径\"\nqwen\n第一次启动会选择模型服务。可选 Alibaba ModelStudio 的 Token Plan 或 Standard API Key；也有 DeepSeek、Kimi、Z.AI 等第三方提供商入口。选自己已开通的服务，按对应页面填写凭证。千问聊天账号、阿里云套餐和第三方 API Key 各自有不同的使用条件。\n先输入“只列出当前文件夹中的文件”，确认目录无误，再运行下方任务。认证失败时回查所选服务商、Key 类型和套餐入口；将密钥填在官方配置界面，不粘到对话里。官方认证说明。",
+    "crumbs": [
+      "首页",
+      "代码、API 与多步任务（按需）",
+      "代码助手入门：从打开文件夹到运行与恢复"
+    ]
+  },
+  {
+    "objectID": "chapters/10-code-agent.html#第一个任务两轮报告",
+    "href": "chapters/10-code-agent.html#第一个任务两轮报告",
+    "title": "代码助手入门：从打开文件夹到运行与恢复",
+    "section": "第一个任务：两轮报告",
+    "text": "第一个任务：两轮报告\n下载主手册 v1.3 教学包，解压并找到 workflow/build_report.py。需要 Python 3.10 或以上；可先让助手检查 python --version，Windows 也可能使用 py。没有 Python 时按 Python 官方下载页安装对应版本，再重新打开终端。\n\n先读 workflow/README.md。确认 Python 可用后，在 workflow 目录按下列命令生成两份报告。保留输入和已有参考稿，核对输出数字，告诉我实际运行了什么。\n\npython build_report.py --source ../reference/survey-sensitivity.csv --mode main --output my-run/round-1.md\npython build_report.py --source ../reference/survey-sensitivity.csv --mode compare --output my-run/round-2.md\n第一份只有主规则，第二份加入比较规则。打开文件：主规则为 21 条记录，系数 0.364、0.343；比较规则为 15 条，系数 1.081、0.720。这次程序整理的是已有数字，不重新拟合分析。\n脚本拒绝覆盖已有输出。再次练习时换一个新文件名，例如 round-2-again.md。如果路径报错，先确认终端当前位于 workflow；../reference 表示上一级目录中的 reference 文件夹。",
+    "crumbs": [
+      "首页",
+      "代码、API 与多步任务（按需）",
+      "代码助手入门：从打开文件夹到运行与恢复"
+    ]
+  },
+  {
+    "objectID": "chapters/10-code-agent.html#再进一步让它写一个很小的脚本",
+    "href": "chapters/10-code-agent.html#再进一步让它写一个很小的脚本",
+    "title": "代码助手入门：从打开文件夹到运行与恢复",
+    "section": "再进一步：让它写一个很小的脚本",
+    "text": "再进一步：让它写一个很小的脚本\n新建另一个文件夹，放入六行 CSV与参考均值。给助手这项任务：\n\n用 Python 标准库编写 summary.py，读取 within-between.csv，按 id 计算 stress 和 sleep_difficulty 的均值，输出 summary.csv。先检查列名、行数和缺失情况。运行后对照 expected-means.csv；不修改输入。\n\n\n\n\n应得到 A 的均值 2、3，B 的均值 5、6。打开脚本和结果，让助手解释“哪些行读取文件、哪些行计算均值、哪些行写出结果”。这能帮助你以后发现分组变量或列名用错，而不必先从头学完整门编程课。",
+    "crumbs": [
+      "首页",
+      "代码、API 与多步任务（按需）",
+      "代码助手入门：从打开文件夹到运行与恢复"
+    ]
+  },
+  {
+    "objectID": "chapters/10-code-agent.html#做一次恢复看看运行成功之外还要查什么",
+    "href": "chapters/10-code-agent.html#做一次恢复看看运行成功之外还要查什么",
+    "title": "代码助手入门：从打开文件夹到运行与恢复",
+    "section": "做一次恢复，看看“运行成功”之外还要查什么",
+    "text": "做一次恢复，看看“运行成功”之外还要查什么\n回到报告目录，让助手依据 workflow/recovery-exercise.md 建立错误副本：只把主规则的 n 改成 15，运行报告，再用原表在新位置重做。比较两份产物，正确恢复后主规则为 21，比较规则仍为 15。\n这次错误能通过格式检查，所以核对来源很有用。若助手修改了错误的文件，先停止后续操作，保留原始教学包，重新从正确副本开始；恢复的具体步骤见主手册恢复节。\n想体验从一个想法做出界面，继续用自然语言制作研究小工具。想把已有材料交给助手整理成文档，进入工作 Agent。",
+    "crumbs": [
+      "首页",
+      "代码、API 与多步任务（按需）",
+      "代码助手入门：从打开文件夹到运行与恢复"
+    ]
+  },
+  {
+    "objectID": "chapters/08-api-costs.html",
+    "href": "chapters/08-api-costs.html",
+    "title": "API 为什么这样计费：学会看价格表",
+    "section": "",
+    "text": "第一次看到 API 价格表时，最容易困惑的是：为什么同一个模型会同时出现 Input、Output、Cached input、Batch，甚至搜索、代码执行等额外费用？",
+    "crumbs": [
+      "首页",
+      "代码、API 与多步任务（按需）",
+      "API 为什么这样计费：学会看价格表"
+    ]
+  },
+  {
+    "objectID": "chapters/08-api-costs.html#最基础的理解",
+    "href": "chapters/08-api-costs.html#最基础的理解",
+    "title": "API 为什么这样计费：学会看价格表",
+    "section": "最基础的理解",
+    "text": "最基础的理解\n大多数文本 API 都可以先用这个近似式理解：\n费用 ≈ 输入 tokens × 输入单价 + 输出 tokens × 输出单价 + 额外工具费用\n这里的 token 是模型处理文本的计量单位，不严格等于“一个汉字”或“一个单词”。你不需要先学会精确估算 token；更重要的是看懂账单由哪些部分组成。",
+    "crumbs": [
+      "首页",
+      "代码、API 与多步任务（按需）",
+      "API 为什么这样计费：学会看价格表"
+    ]
+  },
+  {
+    "objectID": "chapters/08-api-costs.html#为什么输入和输出价格不同",
+    "href": "chapters/08-api-costs.html#为什么输入和输出价格不同",
+    "title": "API 为什么这样计费：学会看价格表",
+    "section": "为什么输入和输出价格不同",
+    "text": "为什么输入和输出价格不同\n模型既要“读”你的输入，也要“生成”输出。很多服务商会给这两部分设置不同单价，因此长材料和长回答的成本结构也不同。",
+    "crumbs": [
+      "首页",
+      "代码、API 与多步任务（按需）",
+      "API 为什么这样计费：学会看价格表"
+    ]
+  },
+  {
+    "objectID": "chapters/08-api-costs.html#cached-input-是什么",
+    "href": "chapters/08-api-costs.html#cached-input-是什么",
+    "title": "API 为什么这样计费：学会看价格表",
+    "section": "Cached input 是什么",
+    "text": "Cached input 是什么\n当大量请求重复使用同一段提示、长文档或固定上下文时，一些服务商可以复用已经处理过的部分，并以更低价格计算。批量任务中保留稳定的提示与材料结构，也可能节省这部分成本。",
+    "crumbs": [
+      "首页",
+      "代码、API 与多步任务（按需）",
+      "API 为什么这样计费：学会看价格表"
+    ]
+  },
+  {
+    "objectID": "chapters/08-api-costs.html#batch-又是什么",
+    "href": "chapters/08-api-costs.html#batch-又是什么",
+    "title": "API 为什么这样计费：学会看价格表",
+    "section": "Batch 又是什么",
+    "text": "Batch 又是什么\n如果任务不要求立即返回，一些服务会提供批处理或异步接口，用较低价格换取更长等待时间。它适合大批量离线任务，不适合即时聊天。",
+    "crumbs": [
+      "首页",
+      "代码、API 与多步任务（按需）",
+      "API 为什么这样计费：学会看价格表"
+    ]
+  },
+  {
+    "objectID": "chapters/08-api-costs.html#coding-plan-为什么看起来又不一样",
+    "href": "chapters/08-api-costs.html#coding-plan-为什么看起来又不一样",
+    "title": "API 为什么这样计费：学会看价格表",
+    "section": "Coding Plan 为什么看起来又不一样",
+    "text": "Coding Plan 为什么看起来又不一样\n有些厂商为代码助手提供订阅式套餐或专用额度。它与普通 API 可能使用不同的密钥（Key）、服务地址（Base URL）、模型范围和限额。\n所以看到“月费 Coding Plan”时，不要默认它就是“API 包月”。",
+    "crumbs": [
+      "首页",
+      "代码、API 与多步任务（按需）",
+      "API 为什么这样计费：学会看价格表"
+    ]
+  },
+  {
+    "objectID": "chapters/08-api-costs.html#用一笔小账理解价格表",
+    "href": "chapters/08-api-costs.html#用一笔小账理解价格表",
+    "title": "API 为什么这样计费：学会看价格表",
+    "section": "用一笔小账理解价格表",
+    "text": "用一笔小账理解价格表\n核查日期：2026-10-17。DeepSeek 官方价格表中，deepseek-flash 每百万未命中缓存输入 / 输出 tokens 的价格，空闲时段为 ¥1 / ¥4，高峰为 ¥2 / ¥8。北京时间周一至周五（中国法定节假日除外）9–12 点、14–18 点为高峰。\n假设 1,000 次请求，每次 2,000 输入 tokens、500 个计费输出 tokens，全部输入未命中缓存：总量为 200 万输入、50 万输出。空闲价约为 2 × 1 + 0.5 × 4 = ¥4；高峰价约 ¥8。这是给定用量下的算例，不是实际任务报价；长上下文、推理输出、工具、重试都会影响账单。\n当前 deepseek-flash 对应 DeepSeek-V4.1-Flash-1017。官方还说明 Search/Fetch 独立接口各按每 1,000 次成功请求 ¥5 计费；通过 Harness/Claude Code/Codex 使用 DeepSeek API 的服务端 Search/Fetch 调用，目前暂未收费，将于北京时间 2026-11-01 00:00 起按次收费。上述 ¥4/¥8 算例只含给定 tokens，未计搜索与抓取。\n第一次只跑两条，再从服务商控制台查看真实用量并外推。产品订阅集中见预算页，本页维护 API 算例。\n真正需要学会的是：\n\n分清输入与输出；\n看有没有缓存或批处理；\n看额外工具是否单独收费；\n确认当前使用的是按量 API，还是另一个订阅套餐；\n正式项目用独立 Key 或项目标签追踪成本。\n\n如果你只是偶尔调用插件，成本可能很低；如果是大规模 LLM simulation、长上下文或高价模型，成本可以迅速放大。API 的优势是可计量，不是天然便宜。\n下一步如果你想看 API 为什么对研究者真正有用，直接进入：一个最小批量脚本。",
+    "crumbs": [
+      "首页",
+      "代码、API 与多步任务（按需）",
+      "API 为什么这样计费：学会看价格表"
+    ]
+  },
+  {
+    "objectID": "chapters/06-api-basics.html",
+    "href": "chapters/06-api-basics.html",
+    "title": "API 是什么：从‘我使用 AI’到‘我的工具调用 AI’",
+    "section": "",
+    "text": "需要把同一任务重复执行、或让现有软件调用模型时，可以从这一页直接开始了解 API。",
+    "crumbs": [
+      "首页",
+      "代码、API 与多步任务（按需）",
+      "API 是什么：从‘我使用 AI’到‘我的工具调用 AI’"
+    ]
+  },
+  {
+    "objectID": "chapters/06-api-basics.html#一句话理解",
+    "href": "chapters/06-api-basics.html#一句话理解",
+    "title": "API 是什么：从‘我使用 AI’到‘我的工具调用 AI’",
+    "section": "一句话理解",
+    "text": "一句话理解\n产品界面是人直接与模型交互；API 是软件与模型交互的程序化入口。\n人 → Chat / App → 模型\n软件 / 插件 / 脚本 → API → 模型\n例如，你在沉浸式翻译里点击“翻译”时，可以由浏览器插件替你向 DeepSeek API 发出请求。你看到的界面属于插件，模型服务和账单属于 DeepSeek。",
+    "crumbs": [
+      "首页",
+      "代码、API 与多步任务（按需）",
+      "API 是什么：从‘我使用 AI’到‘我的工具调用 AI’"
+    ]
+  },
+  {
+    "objectID": "chapters/06-api-basics.html#为什么已经订阅产品还需要-api",
+    "href": "chapters/06-api-basics.html#为什么已经订阅产品还需要-api",
+    "title": "API 是什么：从‘我使用 AI’到‘我的工具调用 AI’",
+    "section": "为什么已经订阅产品还需要 API",
+    "text": "为什么已经订阅产品还需要 API\nAPI 可以帮助你：\n\n把模型接入翻译、阅读、知识管理、代码等工具；\n批量处理重复任务；\n固定参数并保存结构化结果；\n自动记录、重试和统计成本；\n在同一个工作软件中选择不同模型服务。",
+    "crumbs": [
+      "首页",
+      "代码、API 与多步任务（按需）",
+      "API 是什么：从‘我使用 AI’到‘我的工具调用 AI’"
+    ]
+  },
+  {
+    "objectID": "chapters/06-api-basics.html#为什么通常单独计费",
+    "href": "chapters/06-api-basics.html#为什么通常单独计费",
+    "title": "API 是什么：从‘我使用 AI’到‘我的工具调用 AI’",
+    "section": "为什么通常单独计费",
+    "text": "为什么通常单独计费\n产品订阅与 API 往往属于不同计费系统。你购买一个聊天产品的月费，并不自动等于拥有同厂商的 API 余额。\nAPI 常按实际使用量计费，因此你会看到输入 token、输出 token、缓存、批处理、工具调用等不同字段。具体怎么读价格表，见 API 为什么这样计费。",
+    "crumbs": [
+      "首页",
+      "代码、API 与多步任务（按需）",
+      "API 是什么：从‘我使用 AI’到‘我的工具调用 AI’"
+    ]
+  },
+  {
+    "objectID": "chapters/06-api-basics.html#api-key-是什么",
+    "href": "chapters/06-api-basics.html#api-key-是什么",
+    "title": "API 是什么：从‘我使用 AI’到‘我的工具调用 AI’",
+    "section": "API Key 是什么",
+    "text": "API Key 是什么\nAPI Key 是软件代表你的账户调用 API 时使用的授权凭证。对个人用户可以先把它理解成一种会产生费用的密码。\n因此：\n\n不贴进聊天截图；\n不提交 GitHub；\n不写死在公开脚本；\n不同正式项目尽量使用不同 Key；\n怀疑泄露时立即撤销并重新生成。",
+    "crumbs": [
+      "首页",
+      "代码、API 与多步任务（按需）",
+      "API 是什么：从‘我使用 AI’到‘我的工具调用 AI’"
+    ]
+  },
+  {
+    "objectID": "chapters/06-api-basics.html#怎样选择第一次练习",
+    "href": "chapters/06-api-basics.html#怎样选择第一次练习",
+    "title": "API 是什么：从‘我使用 AI’到‘我的工具调用 AI’",
+    "section": "怎样选择第一次练习",
+    "text": "怎样选择第一次练习\n如果目前主要是：\n\n每天和一个聊天产品交流；\n偶尔读几篇论文；\n临时让 AI 改一段文字；\n没有批量处理或工具接入需求；\n\n那么继续使用产品界面通常更简单。\n想把模型接到翻译工具，或让一批文本逐条处理并自动保存结果时，API 就有了具体用途。",
+    "crumbs": [
+      "首页",
+      "代码、API 与多步任务（按需）",
+      "API 是什么：从‘我使用 AI’到‘我的工具调用 AI’"
+    ]
+  },
+  {
+    "objectID": "chapters/06-api-basics.html#接下来怎么学",
+    "href": "chapters/06-api-basics.html#接下来怎么学",
+    "title": "API 是什么：从‘我使用 AI’到‘我的工具调用 AI’",
+    "section": "接下来怎么学",
+    "text": "接下来怎么学\n想把模型接进现有软件，看无需编程的配置例子；已有脚本需求，直接看最小批处理。订阅与 API 的具体包含关系见预算页，不要从某一家推定其他厂商。",
+    "crumbs": [
+      "首页",
+      "代码、API 与多步任务（按需）",
+      "API 是什么：从‘我使用 AI’到‘我的工具调用 AI’"
+    ]
+  },
+  {
+    "objectID": "chapters/04-reading-papers.html",
+    "href": "chapters/04-reading-papers.html",
+    "title": "三篇论文怎么一起读：从上传到文献笔记",
+    "section": "",
+    "text": "读完三篇论文，却说不清它们为什么得出不同结果，是很常见的困境。AI 可以先替你整理“研究了谁、怎么做、测了什么”，再帮助你发现需要回到原文的问题。\n本页沿用主手册关于背景音乐与学习的三篇选文。完成后，你会得到一张有原文位置的比较表，以及下一篇该读什么的理由。",
+    "crumbs": [
+      "首页",
+      "按科研任务开始",
+      "三篇论文怎么一起读：从上传到文献笔记"
+    ]
+  },
+  {
+    "objectID": "chapters/04-reading-papers.html#先取到材料",
+    "href": "chapters/04-reading-papers.html#先取到材料",
+    "title": "三篇论文怎么一起读：从上传到文献笔记",
+    "section": "先取到材料",
+    "text": "先取到材料\n打开主手册的三篇论文阅读入口，按其中链接取得可使用的全文。也可下载v1.3 教学包，查看同名笔记。包里保存原创阅读笔记，论文全文仍在出版商或机构网站。\n\n\n\n\n\n\n\n\n编号\n选文\n这一轮优先检查什么\n\n\n\n\nP1\nLehmann & Seufert（2017）\n音乐条件、工作记忆和理解任务怎样进入设计\n\n\nP2\nGoltz & Sadakata（2021）\n自报音乐使用与理由，能够回答哪类问题\n\n\nP3\nSouza & Barbosa（2023）\n阅读理解任务、参照条件和声音材料\n\n\n\n这里是教学选文，不是一次完整的系统检索。三篇先读清楚，才知道下一步应补什么证据。",
+    "crumbs": [
+      "首页",
+      "按科研任务开始",
+      "三篇论文怎么一起读：从上传到文献笔记"
+    ]
+  },
+  {
+    "objectID": "chapters/04-reading-papers.html#路线-a在-gemini-notebook-中按来源阅读",
+    "href": "chapters/04-reading-papers.html#路线-a在-gemini-notebook-中按来源阅读",
+    "title": "三篇论文怎么一起读：从上传到文献笔记",
+    "section": "路线 A：在 Gemini Notebook 中按来源阅读",
+    "text": "路线 A：在 Gemini Notebook 中按来源阅读\n入口核查：2026-10-17。 Google 当前文档使用 Gemini Notebook 名称；部分旧入口或材料仍写 NotebookLM。从官方来源指南进入产品，用可用的 Google 账号新建笔记本。\n\n在 Sources（来源）中选择 Add sources（添加来源），导入三篇 PDF 或可读取的全文链接。检查每个来源是否真的包含正文。\n先只选 P1，问下面的“单篇问题”。回答有引用时，点击引用并回看附近段落。\n再分别选择 P2、P3，做同样的定位。\n勾选三篇，生成比较表。将核对后的回答保存为笔记；也可导出到 Google Docs，再保存一份本地副本。笔记与导出步骤。\n\n\n只依据选中的论文，说明研究问题、参与者、实际任务、主要比较和限制。每项标明原文小节、表格或页码。先区分作者实际测量的内容与他们在讨论中提出的解释。\n\n有些导入网页只有摘要。此时先换成有权使用的全文 PDF；如果手上确实只有摘要，就把比较表中无法判断的地方留下来。论文印刷页码和 PDF 浏览器页码可能不同，可以同时记录小节名。",
+    "crumbs": [
+      "首页",
+      "按科研任务开始",
+      "三篇论文怎么一起读：从上传到文献笔记"
+    ]
+  },
+  {
+    "objectID": "chapters/04-reading-papers.html#路线-b用-kimi-或千问上传后比较",
+    "href": "chapters/04-reading-papers.html#路线-b用-kimi-或千问上传后比较",
+    "title": "三篇论文怎么一起读：从上传到文献笔记",
+    "section": "路线 B：用 Kimi 或千问上传后比较",
+    "text": "路线 B：用 Kimi 或千问上传后比较\n在 Kimi新建对话，通过附件入口加入论文文件，再使用同一组问题。Kimi 官方入门说明提供文件与对话入口。千问办公也可通过会话附件读入文件，见文件说明。\n这条路线下，可以要求它在表中保留文件名和小节名；即使界面没有可点击的段落引用，你仍可在原 PDF 搜索关键词找到位置。",
+    "crumbs": [
+      "首页",
+      "按科研任务开始",
+      "三篇论文怎么一起读：从上传到文献笔记"
+    ]
+  },
+  {
+    "objectID": "chapters/04-reading-papers.html#做一张真正帮助判断的比较表",
+    "href": "chapters/04-reading-papers.html#做一张真正帮助判断的比较表",
+    "title": "三篇论文怎么一起读：从上传到文献笔记",
+    "section": "做一张真正帮助判断的比较表",
+    "text": "做一张真正帮助判断的比较表\n\n请用 P1—P3 做比较表，列为：研究问题、实际任务、音乐如何进入研究、测得的结果、不能直接回答的问题、原文位置。最后指出两处容易被误当成同一类证据的差别，并告诉我下一步该回查哪里。\n\n一项很值得追问的差别是：参与者说自己为什么听音乐，与实际完成阅读任务时的表现，回答的并不是同一个问题。不要只把三篇结论并列成“有帮助”“没帮助”“有干扰”。\n\n\n\n从表里选出最影响你研究决定的一行，自己核查原文，再追问：\n\n如果我的问题是“有歌词的声音会不会影响中文短文理解”，这三篇分别提供了什么线索？还缺哪类直接证据？给出下一篇文献的检索条件，并解释为什么要找它。",
+    "crumbs": [
+      "首页",
+      "按科研任务开始",
+      "三篇论文怎么一起读：从上传到文献笔记"
+    ]
+  },
+  {
+    "objectID": "chapters/04-reading-papers.html#把笔记接到-zotero-和下一项任务",
+    "href": "chapters/04-reading-papers.html#把笔记接到-zotero-和下一项任务",
+    "title": "三篇论文怎么一起读：从上传到文献笔记",
+    "section": "把笔记接到 Zotero 和下一项任务",
+    "text": "把笔记接到 Zotero 和下一项任务\n在 Zotero 新建“背景音乐与阅读”分类，用 DOI 或浏览器 Connector 保存三篇条目，检查题名、作者和年份。在每条论文下添加笔记，保存“本篇能回答什么、关键原文位置、我准备怎样使用它”。Zotero 的 DOI 导入、笔记和 Word 引用操作见官方快速开始。\n把跨论文比较表另存为 music-reading-comparison.md 或普通文档。还缺证据，继续深度研究；准备做材料，继续研究设计。文献如何推动问题变化，见主手册文献探索章。",
+    "crumbs": [
+      "首页",
+      "按科研任务开始",
+      "三篇论文怎么一起读：从上传到文献笔记"
+    ]
+  },
+  {
+    "objectID": "chapters/02-chat-first-task.html",
+    "href": "chapters/02-chat-first-task.html",
+    "title": "第一次普通对话：让回答变成可用的修改",
+    "section": "",
+    "text": "打开你熟悉的豆包、千问、DeepSeek 或其他产品，新建对话。先给一段具体材料，再告诉它今天想推进什么。",
+    "crumbs": [
+      "首页",
+      "按科研任务开始",
+      "第一次普通对话：让回答变成可用的修改"
+    ]
+  },
+  {
+    "objectID": "chapters/02-chat-first-task.html#用一句结果描述开始",
+    "href": "chapters/02-chat-first-task.html#用一句结果描述开始",
+    "title": "第一次普通对话：让回答变成可用的修改",
+    "section": "用一句结果描述开始",
+    "text": "用一句结果描述开始\n复制这段教学材料：\n\n合成问卷的主规则纳入 21 条记录，压力系数 0.364，反刍系数 0.343。比较规则纳入 15 条，系数分别为 1.081 和 0.720。我想向组会说明两种规则的结果。\n\n然后提出要求：\n\n帮我写一个简短开头。先解释我们在比较什么，再列出两种规则的数字。用自然中文，保留数值，并列出还需要我补充的信息。\n\n读第一版时，先核对两组数字。如果它把“方向一样”写成“结果完全稳定”，继续说：\n\n两组系数大小明显不同，请区分方向与大小，改写这句话。告诉我改写依据，不增加表里没有的统计检验。",
+    "crumbs": [
+      "首页",
+      "按科研任务开始",
+      "第一次普通对话：让回答变成可用的修改"
+    ]
+  },
+  {
+    "objectID": "chapters/02-chat-first-task.html#把对话接成一次工作",
+    "href": "chapters/02-chat-first-task.html#把对话接成一次工作",
+    "title": "第一次普通对话：让回答变成可用的修改",
+    "section": "把对话接成一次工作",
+    "text": "把对话接成一次工作\n你已经完成了提供材料、生成候选、核对和修改。最后把采用的版本复制到本地文件，注明数字来源。这是后续两轮报告教程的缩小版。\n同一做法可以迁移到文献和设计：提供一段原文，问它如何支持某个解释；提供一道题，问它正确答案是否唯一。需要学习时，让它先出题、暂不公布答案，再根据你的回答反馈，见方法学习。\n如果任务跨天，把当前文件和决定写进一页状态说明，新对话就能从这次已完成的工作继续。",
+    "crumbs": [
+      "首页",
+      "按科研任务开始",
+      "第一次普通对话：让回答变成可用的修改"
+    ]
+  },
+  {
+    "objectID": "chapters/00-start-now.html",
+    "href": "chapters/00-start-now.html",
+    "title": "现在就开始：30 分钟完成一个小任务",
+    "section": "",
+    "text": "选一件今天就想推进的工作，用当前账号完成第一轮。先取得一个看得见的结果，下一轮才知道该怎么改。\n还没有账号，先看官方入口；已有账号，直接打开方法练习或两轮报告。",
+    "crumbs": [
+      "首页",
+      "开通与选购",
+      "现在就开始：30 分钟完成一个小任务"
+    ]
+  },
+  {
+    "objectID": "chapters/00-start-now.html#给-ai-一份简短任务说明",
+    "href": "chapters/00-start-now.html#给-ai-一份简短任务说明",
+    "title": "现在就开始：30 分钟完成一个小任务",
+    "section": "给 AI 一份简短任务说明",
+    "text": "给 AI 一份简短任务说明\n把目标、材料、输出和检查方法说清楚即可。例如：\n\n我要比较这三篇论文，以决定下一步怎样设计阅读任务。请依据附件，按参与者、任务、条件、结果和限制做表，标出原文位置。无法从材料确认的地方保留空缺。先完成比较表，再建议我最该回查的一处原文。\n\n也可以只处理一道题、一段统计输出或一页结果。材料越具体，越容易看出它的回答是否有用。",
+    "crumbs": [
+      "首页",
+      "开通与选购",
+      "现在就开始：30 分钟完成一个小任务"
+    ]
+  },
+  {
+    "objectID": "chapters/00-start-now.html#把一轮工作走完",
+    "href": "chapters/00-start-now.html#把一轮工作走完",
+    "title": "现在就开始：30 分钟完成一个小任务",
+    "section": "把一轮工作走完",
+    "text": "把一轮工作走完\n前几分钟提供材料、说明任务；中间读输出，挑最影响决定的数字或原文核对；最后提出一次具体修改，把采用的产物保存到 AI练习 文件夹。\n结束时补两句话：“我采用了什么？下次从哪里继续？”例如：“保留三篇比较表，下一步核查 P3 的参照条件。”这两句比保存整段聊天更方便明天接着做。\n完成后打开任务选择。文件多了，可以试项目空间；需要直接生成报告或改程序，可以试 Agent。每条路线都有可以单独进入的小练习。",
+    "crumbs": [
+      "首页",
+      "开通与选购",
+      "现在就开始：30 分钟完成一个小任务"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "心理学研究者的 AI Start Guide",
+    "section": "",
+    "text": "你也许已经用豆包改过句子、问过 DeepSeek，或请千问解释过概念。往前再走一步，AI 还能陪你读一组论文、检查实验题目、整理结果、生成报告，甚至做一个可以点击的小工具。\n这份指南把这些工作拆成可以跟做的步骤：打开哪个产品，交给它什么材料，怎样检查结果，以及下一轮从哪里继续。 无需先掌握编程或 API。",
+    "crumbs": [
+      "首页",
+      "心理学研究者的 AI Start Guide"
+    ]
+  },
+  {
+    "objectID": "index.html#还没选好工具从账号与预算开始",
+    "href": "index.html#还没选好工具从账号与预算开始",
+    "title": "心理学研究者的 AI Start Guide",
+    "section": "还没选好工具：从账号与预算开始",
+    "text": "还没选好工具：从账号与预算开始\n注册、地区与设备介绍国内与国际产品的官方入口；免费与付费怎么选比较人民币方案、约 20 美元及更高预算。已有账号，就从下面选一项工作。",
+    "crumbs": [
+      "首页",
+      "心理学研究者的 AI Start Guide"
+    ]
+  },
+  {
+    "objectID": "index.html#先做一个短练习",
+    "href": "index.html#先做一个短练习",
+    "title": "心理学研究者的 AI Start Guide",
+    "section": "先做一个短练习",
+    "text": "先做一个短练习\n\n\n\n今天想试什么\n打开教程\n完成后留下什么\n\n\n\n\n让 AI 陪我学方法\n六行数据与一次迁移练习\n自己能解释的例子\n\n\n把一张表变成文字\n两轮结果报告\n数字段、比较段与采用决定\n\n\n看看 AI 怎样帮忙读访谈\n六段文字的不同读法\n原话依据、修改后的解释\n\n\n做出一个能点的小工具\nvibe coding 入门\n可在电脑本地打开的网页",
+    "crumbs": [
+      "首页",
+      "心理学研究者的 AI Start Guide"
+    ]
+  },
+  {
+    "objectID": "index.html#把几个环节接起来",
+    "href": "index.html#把几个环节接起来",
+    "title": "心理学研究者的 AI Start Guide",
+    "section": "把几个环节接起来",
+    "text": "把几个环节接起来\n从文献走到设计。 三篇论文比较 → 围绕缺口继续检索 → 检查短文、题目和条件列表。每一步都带着上一项产物继续。\n从结果走到持续工作。 两轮报告 → 保存当前状态、换对话继续 → 让 Agent 生成实际文件 → 运行与恢复。同一张确认结果表贯穿整条路线。\n从访谈原话走到解释。 定位片段、比较读法、寻找反例、修改解释，最后保留研究者自己的阅读记录与后续问题。",
+    "crumbs": [
+      "首页",
+      "心理学研究者的 AI Start Guide"
+    ]
+  },
+  {
+    "objectID": "index.html#需要具体产品接入和下载",
+    "href": "index.html#需要具体产品接入和下载",
+    "title": "心理学研究者的 AI Start Guide",
+    "section": "需要具体产品、接入和下载",
+    "text": "需要具体产品、接入和下载\n产品速查包括千问、DeepSeek、Kimi、豆包、ChatGPT、Claude、Gemini、WorkBuddy、Cursor，以及文献工具组合。接入教程说明附件、网盘连接、API 与 Skill 分别怎么用。\n先试六行 CSV或可直接打开的小工具。完整研究案例使用主手册 v1.3 固定教学包，各教程会说明本次打开哪些文件。\n研究方法、判断依据与长期工作流见主手册 v1.3。本站负责当前产品与实际操作，产品事实按页面日期核查；真实研究材料的使用先查看资料与设置。\n当前版本：v0.12（2026-10-17）。本轮新增内容、核查方式和未实测范围见版本说明。",
+    "crumbs": [
+      "首页",
+      "心理学研究者的 AI Start Guide"
+    ]
+  },
+  {
+    "objectID": "chapters/01-task-map.html",
+    "href": "chapters/01-task-map.html",
+    "title": "按任务选择：今天该打开什么",
+    "section": "",
+    "text": "从要完成的工作进入，再看产品步骤。你可以只做一个短练习，也可以把几个环节连起来。\n\n\n\n今天的任务\n教程与材料\n可以接着做什么\n\n\n\n\n学会解释一个方法\n六行数据，普通文本对话\n生成汇总表与图\n\n\n读懂几篇论文\n三篇背景音乐论文\n找缺少的证据\n\n\n把问题变成设计材料\n八段短文与条件列表\n材料修改、试做与记录\n\n\n写清已有结果\n同表两轮报告\n项目续接\n\n\n发展质性解释\n两人六段合成访谈\n寻找反例、修订阅读记录\n\n\n让 AI 直接生成文件\n工作 Agent\n修改第二版、保存状态\n\n\n写脚本、重复运行与恢复\nCodex / Qwen Code\n检查输入、重做报告\n\n\n做一个研究小工具\nvibe coding\n本地打开、点击检查、再改一轮\n\n\n连接网盘或工具\n附件、连接器、API、Skill\n先读一份教学文档\n\n\n批量处理文本\n两条起步的 API 脚本\n保存响应、检查、继续运行\n\n\n\n只想选产品，查看速查表；需要注册与付费信息，查看账号和预算。\n三条连续练习的关系是：文献比较帮助确定缺口，缺口带出设计问题；确认结果进入报告，报告与决定进入项目说明；访谈解释在原话和反例之间修改。工具跟着这些任务变化。",
+    "crumbs": [
+      "首页",
+      "按科研任务开始",
+      "按任务选择：今天该打开什么"
+    ]
+  },
+  {
+    "objectID": "chapters/03-project-workspace.html",
+    "href": "chapters/03-project-workspace.html",
+    "title": "让明天接得上今天：保存材料、决定和下一步",
+    "section": "",
+    "text": "昨天 AI 已经帮你改过报告，今天换了对话，它却又从第一轮数字稿开始。通常缺的只是一页简短说明：现在哪份文件有效、哪些决定已经作出、接下来做什么。\n本页接着两轮报告继续。普通聊天就能完成；产品中的“项目”（Projects）可以让相关文件放在一起，作用是减少重复上传。",
+    "crumbs": [
+      "首页",
+      "按科研任务开始",
+      "让明天接得上今天：保存材料、决定和下一步"
+    ]
+  },
+  {
+    "objectID": "chapters/03-project-workspace.html#保存三份材料和一页说明",
+    "href": "chapters/03-project-workspace.html#保存三份材料和一页说明",
+    "title": "让明天接得上今天：保存材料、决定和下一步",
+    "section": "1. 保存三份材料和一页说明",
+    "text": "1. 保存三份材料和一页说明\n把确认结果表、第二轮稿件、自己的采用决定放进 report-practice 文件夹。下载当前状态模板，填成下面这样：\n任务：写清合成问卷的主分析和比较结果。\n数字来源：survey-sensitivity.csv；主规则 n=21，比较规则 n=15。\n当前稿件：my-results-2.txt；my-results-1.txt 仅保留作过程对照。\n采用决定：两种规则都报告，不因系数较大而改选主规则。\n尚未决定：讨论怎样解释系数变化；现有表不足以回答原因。\n下一步：核对第二轮稿的数字，再把讨论压缩到 150 字左右。\n这里的“当前”是你检查后的判断。让 AI 起草说明可以节省整理时间，最后自己看一遍文件名和决定即可。",
+    "crumbs": [
+      "首页",
+      "按科研任务开始",
+      "让明天接得上今天：保存材料、决定和下一步"
+    ]
+  },
+  {
+    "objectID": "chapters/03-project-workspace.html#新建对话验证它能否接上",
+    "href": "chapters/03-project-workspace.html#新建对话验证它能否接上",
+    "title": "让明天接得上今天：保存材料、决定和下一步",
+    "section": "2. 新建对话，验证它能否接上",
+    "text": "2. 新建对话，验证它能否接上\n在 DeepSeek、千问或其他已有账号中新建一个对话。提供状态说明、结果表和第二轮稿件，然后说：\n\n请先告诉我当前稿件是哪份、数字来自哪里、还有什么没决定。然后核对数字并起草 150 字左右的讨论候选，列出本次修改。材料缺失时请指出文件名。\n\n看它是否仍将主规则写成 21 条，是否把比较规则的 15 条保留下来，是否区分了数字事实与解释。若它又从第一轮开始，检查是否误传了旧稿，或说明中没有写清当前版本。\n把核对后的结果存为 my-results-3.txt，并把状态说明的“当前稿件”和“下一步”改成新的内容。这样，换模型或换产品也能继续。",
+    "crumbs": [
+      "首页",
+      "按科研任务开始",
+      "让明天接得上今天：保存材料、决定和下一步"
+    ]
+  },
+  {
+    "objectID": "chapters/03-project-workspace.html#常用同一批文件时再放进产品项目",
+    "href": "chapters/03-project-workspace.html#常用同一批文件时再放进产品项目",
+    "title": "让明天接得上今天：保存材料、决定和下一步",
+    "section": "3. 常用同一批文件时，再放进产品项目",
+    "text": "3. 常用同一批文件时，再放进产品项目\nClaude 路线（官方资料核查：2026-10-17）。 登录 Claude，进入 Projects，新建以研究问题命名的项目，加入上述材料，在项目说明中写“先读当前状态”。随后在该项目内开新对话，使用上面的续接要求。项目可用范围和容量见账号方案；具体操作见官方 Projects 指南。\n千问办公路线。 在会话中通过附件控件上传材料；生成稿件后，从交付物卡片预览并下载。下一次工作可以从个人网盘或已有文件卡片取回材料。给第二轮稿件保留清楚的文件名，避免在几份“最终版”中来回选择。文件与会话复用说明。\n如果你使用 ChatGPT，项目也可以集中相关对话、文件和说明；本地任务可直接选择工作文件夹。官方项目说明。实际读到哪些材料，以这次任务的来源说明和输出核对。",
+    "crumbs": [
+      "首页",
+      "按科研任务开始",
+      "让明天接得上今天：保存材料、决定和下一步"
+    ]
+  },
+  {
+    "objectID": "chapters/03-project-workspace.html#做一次小型恢复",
+    "href": "chapters/03-project-workspace.html#做一次小型恢复",
+    "title": "让明天接得上今天：保存材料、决定和下一步",
+    "section": "4. 做一次小型恢复",
+    "text": "4. 做一次小型恢复\n打开主手册材料中的 workflow/recovery-exercise.md。练习只在结果表副本中把主规则的 n 从 21 改成 15，再观察报告会怎样跟着出错。\n发现问题后，回到原确认表重新生成报告，而不是把全文所有“15”替换成“21”：比较规则的 15 原本就正确。按代码助手页可以实际运行这次恢复，也可以在普通对话中用表格副本完成对照。\n这次工作最后只需补一句：“错误来自练习副本；现已用原表恢复，当前使用第三轮核对稿。”主手册项目连续性进一步解释哪些信息值得长期保存。",
+    "crumbs": [
+      "首页",
+      "按科研任务开始",
+      "让明天接得上今天：保存材料、决定和下一步"
+    ]
+  },
+  {
+    "objectID": "chapters/05-deep-research.html",
+    "href": "chapters/05-deep-research.html",
+    "title": "深度研究：围绕一个缺口找文献",
+    "section": "",
+    "text": "普通联网问答适合找一个事实；深度研究（Deep Research）会连续检索、打开来源、整理多份材料，最后给出报告。科研里一个很实用的用法，是把已有阅读中的疑问变成下一轮检索。\n本页接着三篇论文阅读：你想找更接近“中文短文理解与有歌词声音”的证据。完成目标是三篇已经核实的候选文献、它们各自补什么缺口，以及下一轮阅读顺序。",
+    "crumbs": [
+      "首页",
+      "按科研任务开始",
+      "深度研究：围绕一个缺口找文献"
+    ]
+  },
+  {
+    "objectID": "chapters/05-deep-research.html#选入口再限定问题",
+    "href": "chapters/05-deep-research.html#选入口再限定问题",
+    "title": "深度研究：围绕一个缺口找文献",
+    "section": "选入口，再限定问题",
+    "text": "选入口，再限定问题\n官方资料核查：2026-10-17。Kimi 有深度研究入口；Gemini Notebook 可在来源检索处选择 Web 与 Deep Research；ChatGPT Work 可以接收明确的研究任务并交付带来源的报告。按账号可见功能选择一条即可。\n以 Kimi 为例，在新任务中选择“深度研究”，提交下面的要求。如果工具先给出检索计划，检查研究对象和任务是否与你的问题一致，再让它继续。\n\n我准备研究有歌词的声音与中文短文理解。已有阅读包括 Lehmann & Seufert（2017）、Goltz & Sadakata（2021）、Souza & Barbosa（2023）。请优先寻找能补足语言、阅读任务或音乐条件差异的实证研究。给出检索词、来源入口与筛选理由，最终保留三篇优先阅读全文的候选。每篇列 DOI 或出版商链接，区分实际结果与作者解释。只有摘要的条目注明全文尚未核查。\n\n范围过宽时，先限定一个缺口。例如只找“有歌词与无歌词的直接比较”，比同时要求解释所有音乐、语言、年龄和学习任务更容易形成有用结果。",
+    "crumbs": [
+      "首页",
+      "按科研任务开始",
+      "深度研究：围绕一个缺口找文献"
+    ]
+  },
+  {
+    "objectID": "chapters/05-deep-research.html#不急着读完整份报告先检查三个入口",
+    "href": "chapters/05-deep-research.html#不急着读完整份报告先检查三个入口",
+    "title": "深度研究：围绕一个缺口找文献",
+    "section": "不急着读完整份报告，先检查三个入口",
+    "text": "不急着读完整份报告，先检查三个入口\n打开报告中最关键的三篇论文链接。核对题名、作者、年份与 DOI，再看摘要和方法。记录：\n\n\n\n检查项\n留下什么\n\n\n\n\n文献存在且信息相符\n正确条目与来源链接\n\n\n与问题的联系\n它补语言、任务还是条件比较的缺口\n\n\n证据实际来自哪里\n全文小节；尚无全文时标记摘要\n\n\n是否值得继续\n阅读顺序与一条理由\n\n\n\n\n\n\n如果链接通向新闻或另一篇论文，就让工具根据正确的题名/DOI 重找。找不到时保留空缺，换一篇候选。这样整理出来的短列表，往往比继续加长综述更能推动下一步。",
+    "crumbs": [
+      "首页",
+      "按科研任务开始",
+      "深度研究：围绕一个缺口找文献"
+    ]
+  },
+  {
+    "objectID": "chapters/05-deep-research.html#用第二轮问题收紧研究方向",
+    "href": "chapters/05-deep-research.html#用第二轮问题收紧研究方向",
+    "title": "深度研究：围绕一个缺口找文献",
+    "section": "用第二轮问题收紧研究方向",
+    "text": "用第二轮问题收紧研究方向\n\n我已核对候选 A 的方法：其任务与我的短文理解任务差异较大。请据此修改检索条件，保留 B、C，并再找一篇更接近目标任务的研究。解释这次筛选怎样改变了原来的报告。\n\n把核对后的条目放进 Zotero，把搜索范围、日期和未解决问题写在笔记末尾。之后按比较阅读页继续，不必让每一次探索都重新生成一篇长报告。\n如果研究目标是系统综述，还需要预先明确数据库、完整检索式、筛选和记录方法；本页是探索性起点。如何把探索转成可辩护的文献工作，见主手册文献章。\n操作依据：Kimi 深度研究、Gemini Notebook 来源搜索、ChatGPT Work。深度研究次数及可用入口受各产品方案限制，集中见预算与用量。",
+    "crumbs": [
+      "首页",
+      "按科研任务开始",
+      "深度研究：围绕一个缺口找文献"
+    ]
+  },
+  {
+    "objectID": "chapters/07-api-first-setup.html",
+    "href": "chapters/07-api-first-setup.html",
+    "title": "第一次配置自己的 API：接进 Chatbox 或翻译工具",
+    "section": "",
+    "text": "核查日期：2026-10-17。API Key 是软件调用模型服务的凭证。本页用 DeepSeek 做两条小练习：在 Chatbox 对话，或在沉浸式翻译中读一小段英文。先确认开放平台余额与费用，调用可能产生收费。",
+    "crumbs": [
+      "首页",
+      "代码、API 与多步任务（按需）",
+      "第一次配置自己的 API：接进 Chatbox 或翻译工具"
+    ]
+  },
+  {
+    "objectID": "chapters/07-api-first-setup.html#先取得服务商的凭证",
+    "href": "chapters/07-api-first-setup.html#先取得服务商的凭证",
+    "title": "第一次配置自己的 API：接进 Chatbox 或翻译工具",
+    "section": "先取得服务商的凭证",
+    "text": "先取得服务商的凭证\n从 DeepSeek 官网进入 API 开放平台，用自己的账号登录，在 Key 管理中创建本次练习专用 Key，保存到密码管理器或工具的密钥栏。检查 API 余额与用量入口。\n网页聊天、客户端会员和 API 账户余额分别管理。Key 不放进研究稿件、普通聊天或截图；不再使用时可以在控制台撤销。",
+    "crumbs": [
+      "首页",
+      "代码、API 与多步任务（按需）",
+      "第一次配置自己的 API：接进 Chatbox 或翻译工具"
+    ]
+  },
+  {
+    "objectID": "chapters/07-api-first-setup.html#路线-achatbox-deepseek",
+    "href": "chapters/07-api-first-setup.html#路线-achatbox-deepseek",
+    "title": "第一次配置自己的 API：接进 Chatbox 或翻译工具",
+    "section": "路线 A：Chatbox → DeepSeek",
+    "text": "路线 A：Chatbox → DeepSeek\n\n从 Chatbox 官方指南进入下载安装，打开设置。\n在“模型提供方”中选 DeepSeek，将自己的 Key 填入 API Key 栏。\n点击“检查”，连接成功后在模型列表选择当前可用模型。\n新建对话，发一句：“请把‘个体内变化’解释给第一次做日记研究的同学，给一个例子。”\n查看返回结果，再到 DeepSeek 用量页确认这次调用；开始大批量使用前先估算费用。\n\n操作依据：Chatbox 的 DeepSeek 配置。BYOK 表示“自带 API Key”，与 Chatbox AI 托管订阅服务是两条路线。",
+    "crumbs": [
+      "首页",
+      "代码、API 与多步任务（按需）",
+      "第一次配置自己的 API：接进 Chatbox 或翻译工具"
+    ]
+  },
+  {
+    "objectID": "chapters/07-api-first-setup.html#路线-bdeepseek-沉浸式翻译",
+    "href": "chapters/07-api-first-setup.html#路线-bdeepseek-沉浸式翻译",
+    "title": "第一次配置自己的 API：接进 Chatbox 或翻译工具",
+    "section": "路线 B：DeepSeek → 沉浸式翻译",
+    "text": "路线 B：DeepSeek → 沉浸式翻译\n从官方安装入口安装浏览器扩展。在服务设置中按DeepSeek 配置说明选择自带 Key 路线，填入凭证；模型名按当前官方模型页选择。\n先翻译一小段公开英文摘要。对照原文检查术语、否定词与比较对象，再去 API 用量页查看请求。工具内订阅模型与自带 Key 的计费位置不同，先确认自己选的是哪条路线。",
+    "crumbs": [
+      "首页",
+      "代码、API 与多步任务（按需）",
+      "第一次配置自己的 API：接进 Chatbox 或翻译工具"
+    ]
+  },
+  {
+    "objectID": "chapters/07-api-first-setup.html#配置失败时按什么顺序检查",
+    "href": "chapters/07-api-first-setup.html#配置失败时按什么顺序检查",
+    "title": "第一次配置自己的 API：接进 Chatbox 或翻译工具",
+    "section": "配置失败时按什么顺序检查",
+    "text": "配置失败时按什么顺序检查\n\n\n\n\n\n\n\n提示或现象\n优先检查\n\n\n\n\nKey 验证失败\n是否为 DeepSeek 开放平台 Key，是否复制完整、已撤销或填错服务商\n\n\n余额/额度不足\n查 API 余额，不是网页聊天会员状态\n\n\n模型不存在\n刷新列表，与服务商当前模型名核对\n\n\n连接超时\n查网络与官方服务状态，避免反复启动大任务\n\n\n能聊天但某种工具功能失败\n分开检查客户端版本、接口格式与工具调用支持\n\n\n\n\n\n\n需要程序重复处理材料时，继续两条文本起步的批处理。费用计算见API 价格表怎么读。本页依据官方配置文档编写，未发起新的付费请求；统一核查说明见版本页。",
+    "crumbs": [
+      "首页",
+      "代码、API 与多步任务（按需）",
+      "第一次配置自己的 API：接进 Chatbox 或翻译工具"
+    ]
+  },
+  {
+    "objectID": "chapters/09-api-research-script.html",
+    "href": "chapters/09-api-research-script.html",
+    "title": "API 批处理：先用两条合成文本跑通",
+    "section": "",
+    "text": "本练习演示：固定输入 → 调用模型 → 保存原始响应 → 检查格式 → 失败后继续。要求 Python 3.10+；没有编程环境可先完成普通文本练习。\n输入八条虚构开放式回答，标签为学业压力、反刍、睡眠习惯、人际压力和其他。标签仅用于教学，不是经过验证的心理学编码。",
+    "crumbs": [
+      "首页",
+      "代码、API 与多步任务（按需）",
+      "API 批处理：先用两条合成文本跑通"
+    ]
+  },
+  {
+    "objectID": "chapters/09-api-research-script.html#第-1-步取得完整示例",
+    "href": "chapters/09-api-research-script.html#第-1-步取得完整示例",
+    "title": "API 批处理：先用两条合成文本跑通",
+    "section": "第 1 步：取得完整示例",
+    "text": "第 1 步：取得完整示例\n新建 api-batch 文件夹，把下面五个文件保存进去；保持文件名不变：\n\n输入 CSV\n主脚本 batch_label.py\n依赖 requirements.txt\n离线测试 test_batch_label.py\n操作与恢复说明 README\n\n也可以从仓库选择 Code → Download ZIP，解压后进入 examples/api-batch。",
+    "crumbs": [
+      "首页",
+      "代码、API 与多步任务（按需）",
+      "API 批处理：先用两条合成文本跑通"
+    ]
+  },
+  {
+    "objectID": "chapters/09-api-research-script.html#第-2-步先离线检查",
+    "href": "chapters/09-api-research-script.html#第-2-步先离线检查",
+    "title": "API 批处理：先用两条合成文本跑通",
+    "section": "第 2 步：先离线检查",
+    "text": "第 2 步：先离线检查\n在这个文件夹打开终端：\npython batch_label.py --dry-run\npython -m unittest -v\nWindows 已安装 Python 但没有 python 命令时可试 py。预检查应报告 8 行和最多调用 2 次；它不会请求 API。测试模拟成功与失败，不需要 Key。",
+    "crumbs": [
+      "首页",
+      "代码、API 与多步任务（按需）",
+      "API 批处理：先用两条合成文本跑通"
+    ]
+  },
+  {
+    "objectID": "chapters/09-api-research-script.html#第-3-步决定是否实际调用",
+    "href": "chapters/09-api-research-script.html#第-3-步决定是否实际调用",
+    "title": "API 批处理：先用两条合成文本跑通",
+    "section": "第 3 步：决定是否实际调用",
+    "text": "第 3 步：决定是否实际调用\n先阅读API 计费，在官方控制台创建自己的教学 Key。安装依赖：\npython -m pip install -r requirements.txt\n在 PowerShell 中隐藏输入 Key：\n$demoSecureKey = Read-Host \"DeepSeek API Key\" -AsSecureString\n$env:DEEPSEEK_API_KEY = [System.Net.NetworkCredential]::new(\"\", $demoSecureKey).Password\npython batch_label.py --max-calls 2\nRemove-Item Env:DEEPSEEK_API_KEY\n不要把 Key 粘进聊天或保存进脚本。命令至多发两次请求，没有自动重试；这只是数量上限，不是金额封顶。模型默认 deepseek-flash，入口来自 DeepSeek 官方文档，核查于 2026-10-17。该别名当前指向 DeepSeek-V4.1-Flash-1017；服务商更新别名后，同一请求模型名也可能得到不同版本的服务，研究运行记录应同时保留日期与返回信息。",
+    "crumbs": [
+      "首页",
+      "代码、API 与多步任务（按需）",
+      "API 批处理：先用两条合成文本跑通"
+    ]
+  },
+  {
+    "objectID": "chapters/09-api-research-script.html#第-4-步查看结果而不是只看成功",
+    "href": "chapters/09-api-research-script.html#第-4-步查看结果而不是只看成功",
+    "title": "API 批处理：先用两条合成文本跑通",
+    "section": "第 4 步：查看结果，而不是只看“成功”",
+    "text": "第 4 步：查看结果，而不是只看“成功”\n打开 output/results.jsonl，每行是一条记录：\n\nformat_ok：JSON、标签和理由格式通过；\nerror：请求失败、返回被截断或格式不符合要求；\n原始输出与服务商响应保留在本地；\n每次运行单独保存模型、提示、输入摘要和参数。\n\n即便 format_ok，也要对照原文判断标签。自动校验只能确认格式，没有证明标签的效度。",
+    "crumbs": [
+      "首页",
+      "代码、API 与多步任务（按需）",
+      "API 批处理：先用两条合成文本跑通"
+    ]
+  },
+  {
+    "objectID": "chapters/09-api-research-script.html#怎样继续怎样恢复",
+    "href": "chapters/09-api-research-script.html#怎样继续怎样恢复",
+    "title": "API 批处理：先用两条合成文本跑通",
+    "section": "怎样继续、怎样恢复",
+    "text": "怎样继续、怎样恢复\n相同输入、模型、提示和参数下，再运行会跳过已经格式通过的条目；错误条目可再次尝试。任一配置或输入改变会形成新批次，保守地重跑整份输入，旧记录继续保留。\n例如前两条通过后重新运行，最多处理接下来的两条。超时可能已经产生服务端费用，重跑也可能再次收费。不要同时启动两个进程；强制中断后按 README 检查残留锁文件。\n完成后保留输入、运行参数、原始响应、人工复核结论和真实控制台用量。本站此版本通过离线测试，未以真实 Key 发起付费调用。真实文本需另做伦理、隐私和编码方法判断。",
+    "crumbs": [
+      "首页",
+      "代码、API 与多步任务（按需）",
+      "API 批处理：先用两条合成文本跑通"
+    ]
+  },
+  {
+    "objectID": "chapters/11-work-agent.html",
+    "href": "chapters/11-work-agent.html",
+    "title": "第一次用工作 Agent：交给它一组文件，拿回一份报告",
+    "section": "",
+    "text": "你可以让 AI 回答“这张表说明什么”，也可以让它打开表格、整理数字、写出报告、保存文件，再按你的意见修改。后一类能够使用工具并连续做事的助手，通常称为 Agent。\n本页的目标很具体：把两轮报告练习变成可打开的文件。你负责说明用途和检查结果，Agent 负责读取、整理、保存与修改。",
+    "crumbs": [
+      "首页",
+      "代码、API 与多步任务（按需）",
+      "第一次用工作 Agent：交给它一组文件，拿回一份报告"
+    ]
+  },
+  {
+    "objectID": "chapters/11-work-agent.html#选一个入口",
+    "href": "chapters/11-work-agent.html#选一个入口",
+    "title": "第一次用工作 Agent：交给它一组文件，拿回一份报告",
+    "section": "选一个入口",
+    "text": "选一个入口\n产品入口核查于 2026-10-17。先使用自己能正常访问、账号已有额度的工具。\n\n\n\n入口\n怎样开始\n本练习怎样给材料\n\n\n\n\n千问办公\n从官方办公入口进入会话\n附件上传，结果从交付物卡片下载\n\n\nChatGPT Work\n网页或桌面端切换到 Work\n网页上传；桌面端也可选择本地文件夹\n\n\nKimi Agent\n在 Kimi 选择 Agent 模式\n上传任务材料，预览并保存产物\n\n\nDeepSeek Harness\n安装官方预览版，按快速开始配置模型服务\n选择练习目录，生成本地文件\n\n\nWorkBuddy\n桌面端，或微信小程序发起云端任务\n上传文件；连接电脑模式另需桌面端在线\n\n\n\n这些入口的额度与计费分别管理。DeepSeek Harness 的模型接入按其文档办理，不能把网页聊天账号直接当作 API 余额。首次练习不需要定时任务、多 Agent 或额外插件。",
+    "crumbs": [
+      "首页",
+      "代码、API 与多步任务（按需）",
+      "第一次用工作 Agent：交给它一组文件，拿回一份报告"
+    ]
+  },
+  {
+    "objectID": "chapters/11-work-agent.html#路线一上传材料直接取得文件",
+    "href": "chapters/11-work-agent.html#路线一上传材料直接取得文件",
+    "title": "第一次用工作 Agent：交给它一组文件，拿回一份报告",
+    "section": "路线一：上传材料，直接取得文件",
+    "text": "路线一：上传材料，直接取得文件\n以千问办公为例：国内读者从 qwenwork.cn/signin用钉钉账号登录并选择个人空间；国际版登录方式见产品页。在会话添加附件，上传确认表 survey-sensitivity.csv、分析规格以及自己的第二轮稿件。账号有可用积分后即可提交任务；免费版赠送与付费套餐见预算页。\n\n请依据附件，制作一份中文组会报告，保存为可下载文件。先用表格列出两种规则的记录数与系数，再用两段文字说明结果和需要讨论的问题。数字只取自确认表，主规则保持不变。报告后附本次使用的文件名。完成后检查每个数字，并告诉我从哪里打开文件。\n\n\n\n\n在交付物卡片中打开文件。主规则应为 21、0.364、0.343；比较规则应为 15、1.081、0.720。查看表格是否挤在一起、数字是否被写进错误的行。\n\n\n\n再发一条修改要求：\n\n面向第一次听这个项目的同学，解释“比较规则”为什么会有另一组结果。保留数字，把解释放在表格下面，控制在两段。另存第二版，并概括修改了什么。\n\n下载后亲自打开第二版。文件卡片中的预览、导出的文件和本地保存的文件应当对应同一版。接着把新文件名写入当前状态说明。",
+    "crumbs": [
+      "首页",
+      "代码、API 与多步任务（按需）",
+      "第一次用工作 Agent：交给它一组文件，拿回一份报告"
+    ]
+  },
+  {
+    "objectID": "chapters/11-work-agent.html#路线二直接在本地目录生成报告",
+    "href": "chapters/11-work-agent.html#路线二直接在本地目录生成报告",
+    "title": "第一次用工作 Agent：交给它一组文件，拿回一份报告",
+    "section": "路线二：直接在本地目录生成报告",
+    "text": "路线二：直接在本地目录生成报告\n从 ChatGPT 官方快速开始安装适合系统的桌面端，登录后选择 ChatGPT → Work，再选择教学目录。网页 Work 可以用上传材料完成上一条路线；需要直接操作电脑文件时选择桌面端的本地工作入口。\n将主手册教学包完整解压，保留 workflow 与 reference 的相对位置。让它执行：\n\n请读取 workflow/README.md 和确认结果表。用现有 build_report.py 分别生成 my-run/round-1.md 与 my-run/round-2.md，按 README 的命令运行，不修改脚本或输入。运行后核对两份报告的行数与数字，交付文件路径和实际执行结果。如果电脑缺少 Python，请明确指出缺少什么。\n\n这两份报告由已有脚本整理数字。需要新讨论时另起一个文件，请 Agent 提供候选解释，再由你选择采用。完整的命令和恢复练习见代码助手教程。",
+    "crumbs": [
+      "首页",
+      "代码、API 与多步任务（按需）",
+      "第一次用工作 Agent：交给它一组文件，拿回一份报告"
+    ]
+  },
+  {
+    "objectID": "chapters/11-work-agent.html#结果停在半路时",
+    "href": "chapters/11-work-agent.html#结果停在半路时",
+    "title": "第一次用工作 Agent：交给它一组文件，拿回一份报告",
+    "section": "结果停在半路时",
+    "text": "结果停在半路时\n\n\n\n\n\n\n\n看到的情况\n下一步\n\n\n\n\n只给了正文，没有文件\n指定文件名和格式，请它保存；只有聊天能力时复制到本地文本文件\n\n\n说找不到结果表\n在当前任务重新添加该文件，或确认所选目录\n\n\n生成了脚本却没运行\n问清运行环境；使用配套参考报告先继续阅读\n\n\n用完额度\n保存已完成产物与下一步，等额度恢复或换到已有可用入口\n\n\n报告数字与原表不一致\n先核对实际输入，再重做受影响的报告\n\n\n\n本页操作依据：千问文件说明、ChatGPT Work 指南、Kimi Agent、WorkBuddy 小程序快速开始。核查方式及未实测范围统一见版本说明。",
+    "crumbs": [
+      "首页",
+      "代码、API 与多步任务（按需）",
+      "第一次用工作 Agent：交给它一组文件，拿回一份报告"
+    ]
+  },
+  {
+    "objectID": "chapters/13-checklist.html",
+    "href": "chapters/13-checklist.html",
+    "title": "做完以后：检查结果，再选下一步",
+    "section": "",
+    "text": "完成一次练习后，用下面几项看看手里是否已经有可以继续使用的成果。",
+    "crumbs": [
+      "首页",
+      "隐私与练习检查",
+      "做完以后：检查结果，再选下一步"
+    ]
+  },
+  {
+    "objectID": "chapters/13-checklist.html#根据下一项工作选路线",
+    "href": "chapters/13-checklist.html#根据下一项工作选路线",
+    "title": "做完以后：检查结果，再选下一步",
+    "section": "根据下一项工作选路线",
+    "text": "根据下一项工作选路线\n\n\n\n接下来想做什么\n从哪里开始\n\n\n\n\n继续同一项目\n当前状态与新对话续接\n\n\n更仔细地读论文\n来源定位与 Zotero 笔记\n\n\n把想法变成材料\n研究设计\n\n\n让 AI 直接交付文件\n工作 Agent\n\n\n做一个可点击工具\nvibe coding\n\n\n接已有网盘或模型\n工具接入\n\n\n重复处理许多条记录\nAPI 批处理\n\n\n\n每条路线都可以从教学材料开始。用于自己的项目时，结合主手册 v1.3重新确认方法与资料条件。",
+    "crumbs": [
+      "首页",
+      "隐私与练习检查",
+      "做完以后：检查结果，再选下一步"
+    ]
+  },
+  {
+    "objectID": "chapters/accounts.html",
+    "href": "chapters/accounts.html",
+    "title": "注册、地区与设备：第一次怎样开始",
+    "section": "",
+    "text": "核查日期：2026-10-17。先选一个所在地能够正常使用的官方产品，做完一项练习，再考虑订阅。第一次只需要账号、浏览器和一个保存文件的目录。",
+    "crumbs": [
+      "首页",
+      "开通与选购",
+      "注册、地区与设备：第一次怎样开始"
+    ]
+  },
+  {
+    "objectID": "chapters/accounts.html#在中国大陆从这些入口开始",
+    "href": "chapters/accounts.html#在中国大陆从这些入口开始",
+    "title": "注册、地区与设备：第一次怎样开始",
+    "section": "在中国大陆，从这些入口开始",
+    "text": "在中国大陆，从这些入口开始\n\n\n\n入口\n最小操作\n可以先做什么\n\n\n\n\n千问\n打开官网，按登录页完成验证，新建对话\n学习一个方法、修改题目\n\n\nDeepSeek\n从官网进入网页版或官方 App，登录后开始对话\n阅读六段访谈、讨论设计\n\n\nKimi\n登录，新建对话并添加文件\n三篇论文比较\n\n\n豆包\n使用已有账号进入新对话\n粘贴材料，完成第一次文本任务\n\n\n千问办公国内版\n使用钉钉账号登录，选择个人空间\n上传表格生成报告\n\n\n腾讯 WorkBuddy\n微信搜索官方小程序并授权登录\n云端文件任务；详见产品页\n\n\n\n账号验证方式以各登录页为准。国内千问办公的钉钉、网页与桌面入口与国际版邮箱入口不同；千问普通聊天也有独立入口。\n有付费或试用提示时，先看本任务是否需要那项功能。预算页列出人民币方案与积分区别。只粘贴文本的练习，可以从账号现有可用额度开始。",
+    "crumbs": [
+      "首页",
+      "开通与选购",
+      "注册、地区与设备：第一次怎样开始"
+    ]
+  },
+  {
+    "objectID": "chapters/accounts.html#chatgptclaudegemini-怎样开通",
+    "href": "chapters/accounts.html#chatgptclaudegemini-怎样开通",
+    "title": "注册、地区与设备：第一次怎样开始",
+    "section": "ChatGPT、Claude、Gemini 怎样开通",
+    "text": "ChatGPT、Claude、Gemini 怎样开通\n\n先看地区与账号类型\nChatGPT 支持地区和 Claude 当前可用地区未列中国大陆。Google 的Gemini 网页可用地区将中国大陆标为 Workspace only，不能据此推定个人账号或 Google AI 个人订阅可用。学校/工作账号需要机构开通与许可。\nAnthropic 的地区政策入口另显示一版 2026-11-12 生效的规则；本页核查日尚未到该日期。当前开户按现行帮助页检查，后续规则见官方地区政策。\n\n\nChatGPT\n打开 ChatGPT，创建账号或登录，完成验证后新建 Chat 对话，粘贴六行数据做一次练习。需要完整文件时再切换 Work。桌面端安装与登录见官方快速开始，初次对话不需要 API Key。\n\n\nClaude\n打开 Claude，选择可持续使用的登录方式。官方要求新账号用支持地区的手机号码接收验证码，VoIP 等虚拟号码不适用；详见手机验证说明。完成后先做一段文本任务，需要更多用量时从账号套餐入口查看 Pro/Max。\n\n\nGemini\n打开 Gemini，用符合条件的 Google 账号登录。个人账号与机构账号分别查看可用功能；个人付费从 Google AI 方案页进入，核对当地购买资格和结算价格。相关功能限制见官方帮助。",
+    "crumbs": [
+      "首页",
+      "开通与选购",
+      "注册、地区与设备：第一次怎样开始"
+    ]
+  },
+  {
+    "objectID": "chapters/accounts.html#网页桌面移动端和-api-怎么选",
+    "href": "chapters/accounts.html#网页桌面移动端和-api-怎么选",
+    "title": "注册、地区与设备：第一次怎样开始",
+    "section": "网页、桌面、移动端和 API 怎么选",
+    "text": "网页、桌面、移动端和 API 怎么选\n\n\n\n入口\n什么时候方便\n第一次怎样用\n\n\n\n\n网页版\n对话、论文阅读、上传文件\n浏览器开官网，完成一个小任务\n\n\n桌面端\n需要工具直接处理本地文件或长时间工作\n从官网下载，选择专门的教学目录\n\n\n移动端\n临时记录想法、语音交流、查看结果\n从官网进入应用商店安装\n\n\nAPI\n翻译插件、批量处理、自己的程序调用\n按API 接入页配置服务商凭证\n\n\n\n桌面软件访问本地文件时，仍可能调用云端模型。选好入口后查看资料与设置，再换成真实研究材料。",
+    "crumbs": [
+      "首页",
+      "开通与选购",
+      "注册、地区与设备：第一次怎样开始"
+    ]
+  },
+  {
+    "objectID": "chapters/accounts.html#付款前看清什么",
+    "href": "chapters/accounts.html#付款前看清什么",
+    "title": "注册、地区与设备：第一次怎样开始",
+    "section": "付款前看清什么",
+    "text": "付款前看清什么\n核对账号、币种、计费周期、是否自动续费，以及本次实际扣款额。国际网页订阅与 Apple/Google 应用内购买的结算方式可能不同；OpenAI 当前各地区支付支持见多币种账单说明。Kimi 的国内支付与权益到账问题见官方帮助。\n支付失败时先核对账单信息和银行/平台提示，使用官方支持渠道。共享账号、代充或虚构地区资料都不适合作为研究环境的基础。取消与续费的具体入口集中在预算页。",
+    "crumbs": [
+      "首页",
+      "开通与选购",
+      "注册、地区与设备：第一次怎样开始"
+    ]
+  },
+  {
+    "objectID": "chapters/accounts.html#第一周的安排",
+    "href": "chapters/accounts.html#第一周的安排",
+    "title": "注册、地区与设备：第一次怎样开始",
+    "section": "第一周的安排",
+    "text": "第一周的安排\n建立 AI练习 文件夹，第一天完成方法练习，第二天做论文比较，再选一次写作与续接。文献继续保存在 Zotero 等原有工具中。到周末看哪些步骤最常用、哪里真正遇到额度或文件限制，再决定是否订阅。",
+    "crumbs": [
+      "首页",
+      "开通与选购",
+      "注册、地区与设备：第一次怎样开始"
     ]
   },
   {
@@ -348,7 +1578,7 @@
     "href": "chapters/data-analysis.html",
     "title": "从 CSV 到可检查的汇总表与图",
     "section": "",
-    "text": "目标： 将六行合成数据变成按人汇总的表和保留个体信息的图。准备输入 CSV；先读方法练习也可以直接动手。\n核查日期：2026-10-13。ChatGPT Free提供文件与数据分析但有独立额度；Claude 定价页列出免费文件创建和代码运行。以下操作是文档支持的教学路线，本站没有在各档账号逐一付费实测。",
+    "text": "目标： 将六行合成数据变成按人汇总的表和保留个体信息的图。准备输入 CSV；先读方法练习也可以直接动手。\n产品核查日期：2026-10-17。ChatGPT Free提供有独立额度的文件与数据分析；Claude 方案页列出文件与代码能力。千问办公也可上传表格开展文件任务，具体入口见产品页。本页可先用 ChatGPT 的新对话上传 CSV，按下面步骤检查；没有可用上传入口时，将六行文本粘入对话。",
     "crumbs": [
       "首页",
       "按科研任务开始",
@@ -360,7 +1590,7 @@
     "href": "chapters/data-analysis.html#第-1-步上传并确认读对了",
     "title": "从 CSV 到可检查的汇总表与图",
     "section": "第 1 步：上传，并确认读对了",
-    "text": "第 1 步：上传，并确认读对了\n打开你可用产品的新对话，通过附件入口上传 CSV。要求：\n\n先报告文件名、行数、列名、id 的取值、每人记录数和缺失值数量。不要删除或补齐任何记录。\n\n正确结果是 6 行、4 列、A/B 各 3 行、无缺失。如果得到 5 行或把 id 当数值求平均，先要求展示读入的表格。\n无法上传时可直接粘贴六行文本，并在表格软件中完成下面计算；无需为此立即升级。",
+    "text": "第 1 步：上传，并确认读对了\n打开你可用产品的新对话，通过附件入口上传 CSV。要求：\n\n先报告文件名、行数、列名、id 的取值、每人记录数和缺失值数量。不要删除或补齐任何记录。\n\n正确结果是 6 行、4 列、A/B 各 3 行、无缺失。如果得到 5 行或把 id 当数值求平均，先要求展示读入的表格。\n粘贴文本时，也可以在表格软件中计算均值作对照。",
     "crumbs": [
       "首页",
       "按科研任务开始",
@@ -396,7 +1626,7 @@
     "href": "chapters/data-analysis.html#第-4-步留下一套最小产物",
     "title": "从 CSV 到可检查的汇总表与图",
     "section": "第 4 步：留下一套最小产物",
-    "text": "第 4 步：留下一套最小产物\n保存原始 CSV、汇总表、图和生成方法到同一练习文件夹；原始 CSV 保留不改。第二次打开时应能说明每个数字来自哪几行。\n常见失败是把个体差异与个体内变化混成一个相关、自动删除记录、把示例写成发现。分别用分组表、行数和“合成教学数据”标记检查。\n下一步可以请代码代理把重复计算变成脚本。正式数据的纳排、计分、缺失和模型规格参见主手册数据分析章。",
+    "text": "第 4 步：留下一套最小产物\n保存原始 CSV、汇总表、图和生成方法到同一练习文件夹；原始 CSV 保留不改。第二次打开时应能说明每个数字来自哪几行。\n常见失败是把个体差异与个体内变化混成一个相关、自动删除记录、把示例写成发现。分别用分组表、行数和“合成教学数据”标记检查。\n下一步可以请代码助手把重复计算变成脚本，或做一个切换视图的小工具。若想练习从结果到报告，进入两轮写作，它使用另一份合成问卷的确认结果。\n主手册还有 24 行合成问卷与 60 人纵向数据的完整运行材料，分别用于练习计分、比较规则和复杂分析；三组数据各有用途。正式数据的纳排、计分、缺失和模型规格参见主手册数据分析章。",
     "crumbs": [
       "首页",
       "按科研任务开始",
@@ -404,1342 +1634,435 @@
     ]
   },
   {
-    "objectID": "chapters/accounts.html",
-    "href": "chapters/accounts.html",
-    "title": "注册、地区与设备：第一次怎样开始",
+    "objectID": "chapters/qualitative-research.html",
+    "href": "chapters/qualitative-research.html",
+    "title": "和 AI 一起读访谈：定位原话、比较解释、寻找反例",
     "section": "",
-    "text": "核查日期：2026-10-13。以下为官方文档核查，没有代替读者实际开户、支付或测试每个账号。",
+    "text": "AI 可以很快给一段访谈起标题、列关键词。更值得练习的，是让它帮你看见另一种读法，并找到不符合初步解释的材料。这样，输出会回到研究者的阅读过程里。\n本页用两名虚构说话者的六段文字，练习从原话到解释的几次往返。完成后留下一份阅读记录和两个后续问题。",
     "crumbs": [
       "首页",
-      "开通与选购",
-      "注册、地区与设备：第一次怎样开始"
+      "按科研任务开始",
+      "和 AI 一起读访谈：定位原话、比较解释、寻找反例"
     ]
   },
   {
-    "objectID": "chapters/accounts.html#先确认自己能够使用哪条官方路线",
-    "href": "chapters/accounts.html#先确认自己能够使用哪条官方路线",
-    "title": "注册、地区与设备：第一次怎样开始",
-    "section": "先确认自己能够使用哪条官方路线",
-    "text": "先确认自己能够使用哪条官方路线\nChatGPT 支持地区、Claude 支持地区及 Google AI 订阅可用地区需要分别检查。当前这些列表未包含中国大陆；Google 的免费服务与付费方案也不能相互推定可用。\n在中国大陆开始，可从 DeepSeek 官网进入官方对话产品；选择自己所在地正式提供的服务。不要购买共享账号、代充账号或虚构地区与支付资料。学校提供的 AI 服务另受机构许可与管理员设置约束。",
+    "objectID": "chapters/qualitative-research.html#取到六段材料",
+    "href": "chapters/qualitative-research.html#取到六段材料",
+    "title": "和 AI 一起读访谈：定位原话、比较解释、寻找反例",
+    "section": "取到六段材料",
+    "text": "取到六段材料\n下载主手册 v1.3 教学包，打开 synthetic-interviews.csv。Q01—Q03 属于 P1，Q04—Q06 属于 P2；另有 qualitative-reading-sheet.md 可供最后对照。\n在 DeepSeek 新建对话，把 CSV 文本粘入，或上传文件。千问、Kimi、Claude 等普通文本对话也能用相同问法。先自己读一遍，写下第一印象，再让 AI 加入。",
     "crumbs": [
       "首页",
-      "开通与选购",
-      "注册、地区与设备：第一次怎样开始"
+      "按科研任务开始",
+      "和 AI 一起读访谈：定位原话、比较解释、寻找反例"
     ]
   },
   {
-    "objectID": "chapters/accounts.html#三个国际产品的最小开通路线",
-    "href": "chapters/accounts.html#三个国际产品的最小开通路线",
-    "title": "注册、地区与设备：第一次怎样开始",
-    "section": "三个国际产品的最小开通路线",
-    "text": "三个国际产品的最小开通路线\n\nChatGPT\n\n从 ChatGPT 官网创建账号或登录，完成界面要求的验证。\n先开一个新对话，粘贴本站六行练习数据，完成一次问答。\n需要付费时进入账号的升级/套餐入口，核对价格、周期和付款方式，再确认购买。套餐细节见预算页。\n\n官方 Plus 说明给出升级入口。首次使用无需先创建 API 账号。\n\n\nClaude\n\n从 Claude 官网注册，使用自己可持续访问的登录方式。\n完成账号要求的验证；官方说明要求新用户以支持地区的手机号码验证，不接受 VoIP 号码。手机验证说明。\n先用免费方案做一次普通对话；如需升级，从账号的套餐入口选择 Pro 或 Max，再核对账单周期。\n\n\n\nGemini\n\n打开 Gemini，使用符合条件的 Google 账号登录。\n先区分个人账号与学校/工作账号；后者受管理员开通和许可影响。\n个人付费方案从 Google AI 方案页进入；核对自己地区与账号的购买资格。美国展示页的报价不能直接当成本地结算价。",
+    "objectID": "chapters/qualitative-research.html#第一轮贴着原话读",
+    "href": "chapters/qualitative-research.html#第一轮贴着原话读",
+    "title": "和 AI 一起读访谈：定位原话、比较解释、寻找反例",
+    "section": "第一轮：贴着原话读",
+    "text": "第一轮：贴着原话读\n\n我想理解两人怎样安排与同伴的联系，又怎样解释自己的做法。逐段列出编号、说话者、原话、初步关注和需要补充的上下文。保持两人的区别，先用贴近原文的语言。\n\n检查它是否把 Q04 的“确认大家理解的是同一个任务”改成了“缺少独立能力”。前者来自说话者，后者已经是额外解释。要求它将这类跳跃单独标出来。\nQ01 的关闭群聊与 Q02 的重新打开可以放在一起看：同一个人既想减少比较，也担心错过消息。将片段按说话者接起来，有助于避免每句各贴一个标签后丢失情境。",
     "crumbs": [
       "首页",
-      "开通与选购",
-      "注册、地区与设备：第一次怎样开始"
+      "按科研任务开始",
+      "和 AI 一起读访谈：定位原话、比较解释、寻找反例"
     ]
   },
   {
-    "objectID": "chapters/accounts.html#支付失败时怎样处理",
-    "href": "chapters/accounts.html#支付失败时怎样处理",
-    "title": "注册、地区与设备：第一次怎样开始",
-    "section": "支付失败时怎样处理",
-    "text": "支付失败时怎样处理\n先核对账单地址、币种、卡片支持范围和发卡行提示；使用产品官方支持渠道解决。网页结算与 Apple / Google 应用内购买可能采用不同价格、税费和支付方式。OpenAI 的具体地区支付支持见多币种结算说明。\n不要为了完成教程而反复尝试陌生支付代理。未开通付费也可以先完成纯文本练习。",
+    "objectID": "chapters/qualitative-research.html#第二轮请它提供两种读法",
+    "href": "chapters/qualitative-research.html#第二轮请它提供两种读法",
+    "title": "和 AI 一起读访谈：定位原话、比较解释、寻找反例",
+    "section": "第二轮：请它提供两种读法",
+    "text": "第二轮：请它提供两种读法\n\n对 P1 的三段话提出两种可能的理解。分别说明哪些片段支持、哪些片段让解释变得困难。不要给两种解释强行排第一第二；说清我继续读材料时该留意什么。\n\n一种读法关注进度比较带来的不适，另一种关注联系时机和方式的安排。两者可能互补，也可能需要更多上下文。把你更倾向的读法和理由写下来，便于下一轮有东西可修。",
     "crumbs": [
       "首页",
-      "开通与选购",
-      "注册、地区与设备：第一次怎样开始"
+      "按科研任务开始",
+      "和 AI 一起读访谈：定位原话、比较解释、寻找反例"
     ]
   },
   {
-    "objectID": "chapters/accounts.html#网页桌面移动端和-api-怎么选",
-    "href": "chapters/accounts.html#网页桌面移动端和-api-怎么选",
-    "title": "注册、地区与设备：第一次怎样开始",
-    "section": "网页、桌面、移动端和 API 怎么选",
-    "text": "网页、桌面、移动端和 API 怎么选\n\n\n\n入口\n建议用途\n第一次操作\n\n\n\n\n网页版\n对话、阅读、上传允许分享的文件\n浏览器打开官网并做一个小任务\n\n\n桌面端\n长时间工作，或产品明确支持的本地文件任务\n从官网取得安装入口；确认所需文件权限\n\n\n移动端\n临时记录、查看结果、语音交流\n从官网链接进入官方应用商店\n\n\nAPI\n软件调用、批处理、自定保存格式\n等任务确实需要重复执行，再看 API 入门\n\n\n\n安装桌面端本身不代表它可以读取整个电脑，也不代表所有网页版功能同步出现。是否能操作本地文件取决于产品、系统和授权。",
+    "objectID": "chapters/qualitative-research.html#第三轮用反例修改自己的解释",
+    "href": "chapters/qualitative-research.html#第三轮用反例修改自己的解释",
+    "title": "和 AI 一起读访谈：定位原话、比较解释、寻找反例",
+    "section": "第三轮：用反例修改自己的解释",
+    "text": "第三轮：用反例修改自己的解释\n给它一个刻意偏窄的初稿：\n\n我暂时把中心意思写成“远离同伴才能恢复掌控”。请找最不符合这句话的片段，解释为什么；再给出一个能容纳差异的修改方向。\n\nQ03 提到与熟悉同学分工，Q06 提到先独自试一版再讨论。两段都使“远离同伴”显得太窄。你可以尝试“想借助同伴，又要顾好自己的学习节奏”，再检查它有没有把 P1 与 P2 的差异抹平。\n这个新标题是一种候选解释。最有价值的产物，是你能说清“哪段话使我改变了什么”，以及还有哪些材料不容易放进去。",
     "crumbs": [
       "首页",
-      "开通与选购",
-      "注册、地区与设备：第一次怎样开始"
+      "按科研任务开始",
+      "和 AI 一起读访谈：定位原话、比较解释、寻找反例"
     ]
   },
   {
-    "objectID": "chapters/accounts.html#建立第一周的环境",
-    "href": "chapters/accounts.html#建立第一周的环境",
-    "title": "注册、地区与设备：第一次怎样开始",
-    "section": "建立第一周的环境",
-    "text": "建立第一周的环境\n建一个 AI练习 文件夹，放入本站合成数据和你确认后的输出。文献继续保存在现有文献管理器；正式统计分析继续使用原有软件。第一天完成方法练习，第二天做论文比较，一周后回看哪些环节确实节省了时间，再决定是否购买。",
+    "objectID": "chapters/qualitative-research.html#保存阅读记录安排下一步",
+    "href": "chapters/qualitative-research.html#保存阅读记录安排下一步",
+    "title": "和 AI 一起读访谈：定位原话、比较解释、寻找反例",
+    "section": "保存阅读记录，安排下一步",
+    "text": "保存阅读记录，安排下一步\n\n将本次工作整理为一页：当前问题、采用的读法、原话依据、使我修改解释的片段、我的阅读立场、下一步问题。保留我还没有决定的地方。\n\n自己的阅读立场可以写得很日常：“我习惯把独立完成看得更积极，因此一开始把找同学理解成依赖。”这能帮助你检查 AI 是否一直顺着最初倾向写。\n随后打开 qualitative-reading-sheet.md，比较它怎样处理 Q02、Q03 与 Q06。若后续仍有访谈机会，可以追问一次具体的分工经历；研究已经结束时，就将缺少的上下文留在记录里。\n此练习用于发展解释。API 文本分类则演示按给定规则处理输入、保存运行记录，两者各有用途。质性方法与 AI 参与方式的深入讨论见主手册质性研究章。真实访谈资料进入外部服务前，先查看资料与设置。",
     "crumbs": [
       "首页",
-      "开通与选购",
-      "注册、地区与设备：第一次怎样开始"
+      "按科研任务开始",
+      "和 AI 一起读访谈：定位原话、比较解释、寻找反例"
     ]
   },
   {
-    "objectID": "chapters/13-checklist.html",
-    "href": "chapters/13-checklist.html",
-    "title": "30 分钟 Start Checklist",
+    "objectID": "chapters/tool-connections.html",
+    "href": "chapters/tool-connections.html",
+    "title": "把资料和工具接进 AI：附件、连接器、API 与 Skill",
     "section": "",
-    "text": "这张清单的目标不是证明你“学会了 AI”，而是检查第一次任务有没有形成一个可继续的工作状态。",
+    "text": "“接入”可以很简单：上传一张表，让 AI 读它；也可以是授权它查网盘、把一个模型接到翻译软件，或装一套反复使用的写作步骤。先选能解决眼前问题的方式。",
     "crumbs": [
       "首页",
-      "隐私与练习检查",
-      "30 分钟 Start Checklist"
+      "代码、API 与多步任务（按需）",
+      "把资料和工具接进 AI：附件、连接器、API 与 Skill"
     ]
   },
   {
-    "objectID": "chapters/13-checklist.html#做完以后怎么升级",
-    "href": "chapters/13-checklist.html#做完以后怎么升级",
-    "title": "30 分钟 Start Checklist",
-    "section": "做完以后怎么升级",
-    "text": "做完以后怎么升级\n只有当相同摩擦反复出现时，再升级工具：\n\n反复搬背景 → Project / Workspace\n论文太多、要回原文 → 来源型阅读环境\n需要主动找资料 → Deep Research\n重复和批量成为负担 → API / 脚本\n需要读写代码并运行 → Code Agent\n需要跨文件、网页、应用执行 → Work Agent\n\n完成这些以后，才值得考虑把重复任务进一步固定成模板、脚本、Skill 或 Agent。",
+    "objectID": "chapters/tool-connections.html#四种常见接法",
+    "href": "chapters/tool-connections.html#四种常见接法",
+    "title": "把资料和工具接进 AI：附件、连接器、API 与 Skill",
+    "section": "四种常见接法",
+    "text": "四种常见接法\n\n\n\n\n\n\n\n\n你想解决什么\n用什么\n一个例子\n\n\n\n\n只读这次的材料\n附件或粘贴\n上传三篇论文做比较\n\n\n从已有资料库取文件\n连接器 / 插件\n授权查找自己 Drive 中的教学文档\n\n\n在一个软件中使用另一家的模型\nAPI Key / BYOK\nChatbox 连接 DeepSeek\n\n\n让重复任务按熟悉步骤完成\nSkill（技能）\n按约定检查文献笔记、编辑中文\n\n\n\n连接器连接数据与操作；API Key 授权模型调用；Skill 提供可复用的工作说明。安装了技能，不会自动获得访问网盘的权限。",
     "crumbs": [
       "首页",
-      "隐私与练习检查",
-      "30 分钟 Start Checklist"
+      "代码、API 与多步任务（按需）",
+      "把资料和工具接进 AI：附件、连接器、API 与 Skill"
     ]
   },
   {
-    "objectID": "chapters/11-work-agent.html",
-    "href": "chapters/11-work-agent.html",
-    "title": "工作 Agent：把一个文件任务做完",
+    "objectID": "chapters/tool-connections.html#第一条路线先上传完成后保存",
+    "href": "chapters/tool-connections.html#第一条路线先上传完成后保存",
+    "title": "把资料和工具接进 AI：附件、连接器、API 与 Skill",
+    "section": "第一条路线：先上传，完成后保存",
+    "text": "第一条路线：先上传，完成后保存\n用论文阅读教程的三篇材料，手动上传到一个对话或笔记本。完成后将比较表保存回 Zotero 或项目文件夹。材料少时，这条路线容易理解，也方便知道本次用了什么。",
+    "crumbs": [
+      "首页",
+      "代码、API 与多步任务（按需）",
+      "把资料和工具接进 AI：附件、连接器、API 与 Skill"
+    ]
+  },
+  {
+    "objectID": "chapters/tool-connections.html#第二条路线在-chatgpt-中连接-google-drive",
+    "href": "chapters/tool-connections.html#第二条路线在-chatgpt-中连接-google-drive",
+    "title": "把资料和工具接进 AI：附件、连接器、API 与 Skill",
+    "section": "第二条路线：在 ChatGPT 中连接 Google Drive",
+    "text": "第二条路线：在 ChatGPT 中连接 Google Drive\n官方操作核查：2026-10-17。在 ChatGPT 网页或桌面端打开 Plugins（插件），搜索 Google Drive，查看插件说明并安装。按提示登录你要使用的 Google 账号，阅读授权范围。安装后开新对话，明确让它使用 Drive。官方插件指南。\n先在自己的网盘建一份只含教学内容的文档，给它一个容易辨认的标题，如“AI练习—两轮报告”。然后说：\n\n在我的 Drive 中找到“AI练习—两轮报告”。只读取这份文档，告诉我标题、内容要点和来源链接，给出一项修改建议，先不要改原文。\n\n打开返回的链接，确认是那份文档。接下来可以明确要求将修改稿保存为新文件。查找成功、读取成功和写回成功是三步，分别看实际结果。\n不再使用时，在插件与连接设置中移除对应连接。卸载插件与断开已授权服务可能是两项操作；同时检查 Google 账号的第三方访问记录。",
+    "crumbs": [
+      "首页",
+      "代码、API 与多步任务（按需）",
+      "把资料和工具接进 AI：附件、连接器、API 与 Skill"
+    ]
+  },
+  {
+    "objectID": "chapters/tool-connections.html#gemini-与千问办公的接入",
+    "href": "chapters/tool-connections.html#gemini-与千问办公的接入",
+    "title": "把资料和工具接进 AI：附件、连接器、API 与 Skill",
+    "section": "Gemini 与千问办公的接入",
+    "text": "Gemini 与千问办公的接入\nGemini 的 Connected Apps 由账号、地区、设备和 Keep Activity 设置共同决定；在 Connectors 中选择可连接服务，再按提示授权。当前文档对关闭 Keep Activity 后的功能范围有条件说明，具体见官方连接指南。只想读一份文件时，也可直接上传或导入到笔记本。\n千问办公通过扩展与连接器使用外部服务。登录钉钉只是登录身份；要让会话访问具体业务数据，还需要对应的连接授权。官方扩展说明。第一次同样选一份教学文档，先读后改。",
+    "crumbs": [
+      "首页",
+      "代码、API 与多步任务（按需）",
+      "把资料和工具接进 AI：附件、连接器、API 与 Skill"
+    ]
+  },
+  {
+    "objectID": "chapters/tool-connections.html#第三条路线chatbox-接-deepseek",
+    "href": "chapters/tool-connections.html#第三条路线chatbox-接-deepseek",
+    "title": "把资料和工具接进 AI：附件、连接器、API 与 Skill",
+    "section": "第三条路线：Chatbox 接 DeepSeek",
+    "text": "第三条路线：Chatbox 接 DeepSeek\n按第一次 API 配置取得自己的 Key，在 Chatbox 的“设置 → 模型提供方 → DeepSeek”中填写并检查连接。模型列表选当前可用项，发一段公开文本，然后去 DeepSeek 用量页确认消费。这里改变的是模型调用入口；资料仍要经过所选服务处理。",
+    "crumbs": [
+      "首页",
+      "代码、API 与多步任务（按需）",
+      "把资料和工具接进 AI：附件、连接器、API 与 Skill"
+    ]
+  },
+  {
+    "objectID": "chapters/tool-connections.html#第四条路线先把好用的步骤写下来再考虑-skill",
+    "href": "chapters/tool-connections.html#第四条路线先把好用的步骤写下来再考虑-skill",
+    "title": "把资料和工具接进 AI：附件、连接器、API 与 Skill",
+    "section": "第四条路线：先把好用的步骤写下来，再考虑 Skill",
+    "text": "第四条路线：先把好用的步骤写下来，再考虑 Skill\n完成几次论文比较后，你可能发现自己总在重复同一组要求：先确认来源、逐篇读任务与比较、标原文位置、再写下一步。这时先把要求保存为一个文本文件，下次直接使用。\n产品支持 Skill 时，可以把这套稳定步骤装成技能。技能可能只含说明，也可能附脚本或工具，因此安装前读用途、来源和权限。第一次用同一份公开材料比较启用前后效果，再决定保留。本站本轮中文编辑沿用 Humanizer-zh 的表达检查原则，研究数字和判断依据仍逐项核对。\n如果软件出现 MCP，它通常是在描述工具怎样连接外部服务。使用现成连接器时，先按产品授权步骤完成一项任务即可；只有需要自建连接时才继续学习协议与服务器配置。",
+    "crumbs": [
+      "首页",
+      "代码、API 与多步任务（按需）",
+      "把资料和工具接进 AI：附件、连接器、API 与 Skill"
+    ]
+  },
+  {
+    "objectID": "products/chatgpt.html",
+    "href": "products/chatgpt.html",
+    "title": "ChatGPT、Work 与 Codex：从对话到文件任务",
     "section": "",
-    "text": "目标： 让工具把一组已有材料整理成可继续工作的入口。适合需要读取多个文件、生成产物并根据中间结果继续的任务；没有这类需求时普通对话就足够。",
-    "crumbs": [
-      "首页",
-      "代码、API 与多步任务（按需）",
-      "工作 Agent：把一个文件任务做完"
-    ]
-  },
-  {
-    "objectID": "chapters/11-work-agent.html#打开合适的工作环境",
-    "href": "chapters/11-work-agent.html#打开合适的工作环境",
-    "title": "工作 Agent：把一个文件任务做完",
-    "section": "打开合适的工作环境",
-    "text": "打开合适的工作环境\n当前 OpenAI 官方快速开始区分 Chat 与 Work，并提供桌面本地文件任务入口；代码开发使用 Codex。官方说明，核查于 2026-10-13。不同账号、系统和产品的工作功能不同；这里没有声称逐一实测。\n已有其他支持文件工作的 Agent，也可使用下面同一任务。重点是能看到输入、产物与修改范围。",
-    "crumbs": [
-      "首页",
-      "代码、API 与多步任务（按需）",
-      "工作 Agent：把一个文件任务做完"
-    ]
-  },
-  {
-    "objectID": "chapters/11-work-agent.html#第-1-步准备三个文件",
-    "href": "chapters/11-work-agent.html#第-1-步准备三个文件",
-    "title": "工作 Agent：把一个文件任务做完",
-    "section": "第 1 步：准备三个文件",
-    "text": "第 1 步：准备三个文件\n在单独练习文件夹中放入：研究问题说明、当前结果表、当前稿件副本。材料必须允许在该工具中处理。没有自己的合适材料，可先用本站当前状态模板和合成数据。",
-    "crumbs": [
-      "首页",
-      "代码、API 与多步任务（按需）",
-      "工作 Agent：把一个文件任务做完"
-    ]
-  },
-  {
-    "objectID": "chapters/11-work-agent.html#第-2-步给出有终点的任务",
-    "href": "chapters/11-work-agent.html#第-2-步给出有终点的任务",
-    "title": "工作 Agent：把一个文件任务做完",
-    "section": "第 2 步：给出有终点的任务",
-    "text": "第 2 步：给出有终点的任务\n\n只读取我指定的练习目录。请生成一页项目入口：文件名和用途、可见的版本冲突、缺少的信息、下一次 30 分钟可完成的任务。把结果保存为新文件 project-entry.md，不改原文件。若无法判断哪个文件当前有效，明确列为待确认，不自行选择。\n\n对于这个新建产物的可逆任务，无需把每个读取步骤都变成审批。若工具要求额外连接云盘或进入其他目录，先判断这些材料是否真有必要。",
-    "crumbs": [
-      "首页",
-      "代码、API 与多步任务（按需）",
-      "工作 Agent：把一个文件任务做完"
-    ]
-  },
-  {
-    "objectID": "chapters/11-work-agent.html#第-3-步检查实际产物",
-    "href": "chapters/11-work-agent.html#第-3-步检查实际产物",
-    "title": "工作 Agent：把一个文件任务做完",
-    "section": "第 3 步：检查实际产物",
-    "text": "第 3 步：检查实际产物\n打开 project-entry.md，确认文件名存在、冲突确有依据、未知没有被写成决定。没有写入权限时接收文本并自行保存；不能访问文件时改为上传允许使用的副本，不让工具编造目录。",
-    "crumbs": [
-      "首页",
-      "代码、API 与多步任务（按需）",
-      "工作 Agent：把一个文件任务做完"
-    ]
-  },
-  {
-    "objectID": "chapters/11-work-agent.html#第-4-步重复一次才考虑自动化",
-    "href": "chapters/11-work-agent.html#第-4-步重复一次才考虑自动化",
-    "title": "工作 Agent：把一个文件任务做完",
-    "section": "第 4 步：重复一次才考虑自动化",
-    "text": "第 4 步：重复一次才考虑自动化\n次日换成更新的结果表，让工具更新入口副本，检查它是否正确指出变化。只有重复任务的输入与规则已经清楚，才值得固定为模板、脚本或定时任务。\n保存原件、产物和采用决定。多 Agent 并不是完成这件事的前提；需要协作时，主手册固定重复工作解释如何分工。",
-    "crumbs": [
-      "首页",
-      "代码、API 与多步任务（按需）",
-      "工作 Agent：把一个文件任务做完"
-    ]
-  },
-  {
-    "objectID": "chapters/09-api-research-script.html",
-    "href": "chapters/09-api-research-script.html",
-    "title": "API 批处理：先用两条合成文本跑通",
-    "section": "",
-    "text": "本练习演示：固定输入 → 调用模型 → 保存原始响应 → 检查格式 → 失败后继续。要求 Python 3.10+；没有编程环境可先完成普通文本练习。\n输入八条虚构开放式回答，标签为学业压力、反刍、睡眠习惯、人际压力和其他。标签仅用于教学，不是经过验证的心理学编码。",
-    "crumbs": [
-      "首页",
-      "代码、API 与多步任务（按需）",
-      "API 批处理：先用两条合成文本跑通"
-    ]
-  },
-  {
-    "objectID": "chapters/09-api-research-script.html#第-1-步取得完整示例",
-    "href": "chapters/09-api-research-script.html#第-1-步取得完整示例",
-    "title": "API 批处理：先用两条合成文本跑通",
-    "section": "第 1 步：取得完整示例",
-    "text": "第 1 步：取得完整示例\n新建 api-batch 文件夹，把下面五个文件保存进去；保持文件名不变：\n\n输入 CSV\n主脚本 batch_label.py\n依赖 requirements.txt\n离线测试 test_batch_label.py\n操作与恢复说明 README\n\n也可以从仓库选择 Code → Download ZIP，解压后进入 examples/api-batch。候选版尚未发布时，以本预览页的文件为准。",
-    "crumbs": [
-      "首页",
-      "代码、API 与多步任务（按需）",
-      "API 批处理：先用两条合成文本跑通"
-    ]
-  },
-  {
-    "objectID": "chapters/09-api-research-script.html#第-2-步先离线检查",
-    "href": "chapters/09-api-research-script.html#第-2-步先离线检查",
-    "title": "API 批处理：先用两条合成文本跑通",
-    "section": "第 2 步：先离线检查",
-    "text": "第 2 步：先离线检查\n在这个文件夹打开终端：\npython batch_label.py --dry-run\npython -m unittest -v\nWindows 已安装 Python 但没有 python 命令时可试 py。预检查应报告 8 行和最多调用 2 次；它不会请求 API。测试模拟成功与失败，不需要 Key。",
-    "crumbs": [
-      "首页",
-      "代码、API 与多步任务（按需）",
-      "API 批处理：先用两条合成文本跑通"
-    ]
-  },
-  {
-    "objectID": "chapters/09-api-research-script.html#第-3-步决定是否实际调用",
-    "href": "chapters/09-api-research-script.html#第-3-步决定是否实际调用",
-    "title": "API 批处理：先用两条合成文本跑通",
-    "section": "第 3 步：决定是否实际调用",
-    "text": "第 3 步：决定是否实际调用\n先阅读API 计费，在官方控制台创建自己的教学 Key。安装依赖：\npython -m pip install -r requirements.txt\n在 PowerShell 中隐藏输入 Key：\n$demoSecureKey = Read-Host \"DeepSeek API Key\" -AsSecureString\n$env:DEEPSEEK_API_KEY = [System.Net.NetworkCredential]::new(\"\", $demoSecureKey).Password\npython batch_label.py --max-calls 2\nRemove-Item Env:DEEPSEEK_API_KEY\n不要把 Key 粘进聊天或保存进脚本。命令至多发两次请求，没有自动重试；这只是数量上限，不是金额封顶。模型默认 deepseek-flash，入口来自 DeepSeek 官方文档，核查于 2026-10-13。",
-    "crumbs": [
-      "首页",
-      "代码、API 与多步任务（按需）",
-      "API 批处理：先用两条合成文本跑通"
-    ]
-  },
-  {
-    "objectID": "chapters/09-api-research-script.html#第-4-步查看结果而不是只看成功",
-    "href": "chapters/09-api-research-script.html#第-4-步查看结果而不是只看成功",
-    "title": "API 批处理：先用两条合成文本跑通",
-    "section": "第 4 步：查看结果，而不是只看“成功”",
-    "text": "第 4 步：查看结果，而不是只看“成功”\n打开 output/results.jsonl，每行是一条记录：\n\nformat_ok：JSON、标签和理由格式通过；\nerror：请求失败、返回被截断或格式不符合要求；\n原始输出与服务商响应保留在本地；\n每次运行单独保存模型、提示、输入摘要和参数。\n\n即便 format_ok，也要对照原文判断标签。自动校验只能确认格式，没有证明标签的效度。",
-    "crumbs": [
-      "首页",
-      "代码、API 与多步任务（按需）",
-      "API 批处理：先用两条合成文本跑通"
-    ]
-  },
-  {
-    "objectID": "chapters/09-api-research-script.html#怎样继续怎样恢复",
-    "href": "chapters/09-api-research-script.html#怎样继续怎样恢复",
-    "title": "API 批处理：先用两条合成文本跑通",
-    "section": "怎样继续、怎样恢复",
-    "text": "怎样继续、怎样恢复\n相同输入、模型、提示和参数下，再运行会跳过已经格式通过的条目；错误条目可再次尝试。任一配置或输入改变会形成新批次，保守地重跑整份输入，旧记录继续保留。\n例如前两条通过后重新运行，最多处理接下来的两条。超时可能已经产生服务端费用，重跑也可能再次收费。不要同时启动两个进程；强制中断后按 README 检查残留锁文件。\n完成后保留输入、运行参数、原始响应、人工复核结论和真实控制台用量。本站此版本通过离线测试，未以真实 Key 发起付费调用。真实文本需另做伦理、隐私和编码方法判断。",
-    "crumbs": [
-      "首页",
-      "代码、API 与多步任务（按需）",
-      "API 批处理：先用两条合成文本跑通"
-    ]
-  },
-  {
-    "objectID": "chapters/07-api-first-setup.html",
-    "href": "chapters/07-api-first-setup.html",
-    "title": "第一次配置自己的 API：不写代码也能开始",
-    "section": "",
-    "text": "目标： 用自己的 API Key 接入一个现有工具，并知道请求在哪里计费。核查日期：2026-10-13，依据官方文档；本轮没有重新充值或发起付费翻译。",
-    "crumbs": [
-      "首页",
-      "代码、API 与多步任务（按需）",
-      "第一次配置自己的 API：不写代码也能开始"
-    ]
-  },
-  {
-    "objectID": "chapters/07-api-first-setup.html#路线-adeepseek-api-沉浸式翻译",
-    "href": "chapters/07-api-first-setup.html#路线-adeepseek-api-沉浸式翻译",
-    "title": "第一次配置自己的 API：不写代码也能开始",
-    "section": "路线 A：DeepSeek API → 沉浸式翻译",
-    "text": "路线 A：DeepSeek API → 沉浸式翻译\n准备官方 DeepSeek 账号、可用 API 余额与官方沉浸式翻译扩展。客户端或插件组织请求，DeepSeek API 执行模型调用；软件订阅与模型 API 费用需分别确认。\n\n从 DeepSeek 官网进入官方开放平台，在 Key 管理中创建专用于本练习的 Key。\n从沉浸式翻译官方安装入口取得扩展。\n按官方 DeepSeek 配置说明在服务设置中填写自己的 Key；如需选择模型，以 DeepSeek 当前模型文档为准。\n只翻译一小段允许处理的公开英文材料，检查输出是否保留术语和否定表达。\n回到官方 API 用量页确认请求与消费；若无法确认调用是否记在自己的 API 账户，先停止扩大使用量。\n\n如果设置失败，依次检查当前选择的是自带 Key 路线还是托管订阅、Key 是否有效、账户是否有余额、模型与入口是否匹配。不要把含 Key 的截图交给陌生人排错。\n2026-09-16 的项目记录包含界面配置和既有使用经验；它不等于本轮在当前版本完成了一次付费请求。网页对话和插件翻译都能满足任务时，继续使用熟悉的入口即可。",
-    "crumbs": [
-      "首页",
-      "代码、API 与多步任务（按需）",
-      "第一次配置自己的 API：不写代码也能开始"
-    ]
-  },
-  {
-    "objectID": "chapters/07-api-first-setup.html#路线-bbyok-客户端",
-    "href": "chapters/07-api-first-setup.html#路线-bbyok-客户端",
-    "title": "第一次配置自己的 API：不写代码也能开始",
-    "section": "路线 B：BYOK 客户端",
-    "text": "路线 B：BYOK 客户端\nBYOK 是“自带 API Key”。在客户端的设置中选择服务商，填入该服务商的 Key，再选择其支持的模型。Chatbox 官方 BYOK 文档介绍这一关系和各服务商配置入口；本文不要求你额外安装它。\n客户端、API 服务商和模型是三个不同对象。直连 API 也不能自动证明某项研究数据适合上传；正式材料仍需按机构规则判断。",
-    "crumbs": [
-      "首页",
-      "代码、API 与多步任务（按需）",
-      "第一次配置自己的 API：不写代码也能开始"
-    ]
-  },
-  {
-    "objectID": "chapters/07-api-first-setup.html#路线-c直接进入批处理",
-    "href": "chapters/07-api-first-setup.html#路线-c直接进入批处理",
-    "title": "第一次配置自己的 API：不写代码也能开始",
-    "section": "路线 C：直接进入批处理",
-    "text": "路线 C：直接进入批处理\n已有重复处理需求，可直接进入两条合成文本起步的批处理教程，不必先装翻译插件或客户端。\nKey 相当于能产生费用的凭证：不放进聊天、截图或代码；练习结束后可在控制台撤销。费用如何估算见按量计费。",
-    "crumbs": [
-      "首页",
-      "代码、API 与多步任务（按需）",
-      "第一次配置自己的 API：不写代码也能开始"
-    ]
-  },
-  {
-    "objectID": "chapters/05-deep-research.html",
-    "href": "chapters/05-deep-research.html",
-    "title": "Deep Research：做一轮有方向的文献探索",
-    "section": "",
-    "text": "目标： 为“大学生日常压力与睡眠的关系”形成候选来源清单，并核实三篇最值得读的文献。这是一轮探索；正式系统综述还需要数据库检索、纳排标准与筛选记录。",
-    "crumbs": [
-      "首页",
-      "按科研任务开始",
-      "Deep Research：做一轮有方向的文献探索"
-    ]
-  },
-  {
-    "objectID": "chapters/05-deep-research.html#第-1-步打开一个实际可用的入口",
-    "href": "chapters/05-deep-research.html#第-1-步打开一个实际可用的入口",
-    "title": "Deep Research：做一轮有方向的文献探索",
-    "section": "第 1 步：打开一个实际可用的入口",
-    "text": "第 1 步：打开一个实际可用的入口\n在 ChatGPT 中可从工具菜单选择 Deep research，或输入 /Deepresearch；先看剩余额度和地区/套餐条件。它可结合公开网页、上传文件及账号允许的来源，先提出计划再开展研究。官方说明，核查于 2026-10-13；本站未逐档实测账号。\n没有该功能时，用普通联网搜索逐条查同一组问题，也能完成下面任务。已有全文阅读请用论文比较教程。",
-    "crumbs": [
-      "首页",
-      "按科研任务开始",
-      "Deep Research：做一轮有方向的文献探索"
-    ]
-  },
-  {
-    "objectID": "chapters/05-deep-research.html#第-2-步给出问题和范围",
-    "href": "chapters/05-deep-research.html#第-2-步给出问题和范围",
-    "title": "Deep Research：做一轮有方向的文献探索",
-    "section": "第 2 步：给出问题和范围",
-    "text": "第 2 步：给出问题和范围\n\n我在学习大学生日常压力与睡眠研究。请先提出检索计划，区分个体间差异与个体内变化，覆盖日记/密集纵向设计及关键方法文献。实证研究优先近五年，奠基性方法文献不限年份。优先原始论文和作者/期刊页面，分别标记已读取全文、只读摘要和候选线索。输出题名、作者、年份、DOI/稳定链接、设计、与问题的关系，以及三个仍有争议的问题。不要把没有检索到写成不存在。\n\n检查计划是否把“压力”“睡眠”的操作化、大学生样本及不同时间尺度分开。范围太宽时先缩到一个问题，例如“当日压力与当夜睡眠”。",
-    "crumbs": [
-      "首页",
-      "按科研任务开始",
-      "Deep Research：做一轮有方向的文献探索"
-    ]
-  },
-  {
-    "objectID": "chapters/05-deep-research.html#第-3-步把报告变成下一轮阅读",
-    "href": "chapters/05-deep-research.html#第-3-步把报告变成下一轮阅读",
-    "title": "Deep Research：做一轮有方向的文献探索",
-    "section": "第 3 步：把报告变成下一轮阅读",
-    "text": "第 3 步：把报告变成下一轮阅读\n报告完成后，选择三篇最能改变你理解的来源：一篇代表性实证、一篇不同结果/不同设计、一篇方法文献。逐篇打开真实来源，核对题名和 DOI，记录全文是否可得。\n可保存为：\n\n\n\n来源\n状态\n需要亲自回答的问题\n\n\n\n\n一篇实证论文\n全文已核对\n时间顺序与分析层级是什么？\n\n\n一篇对照论文\n仅摘要，待全文\n差异来自测量、样本还是估计目标？\n\n\n一篇方法论文\n全文已核对\n哪项建议适用于自己的设计？\n\n\n\n这是输出格式示例，不含虚构书目。把实际核实的来源存入文献管理器，保存检索日期、最终问题和报告。",
-    "crumbs": [
-      "首页",
-      "按科研任务开始",
-      "Deep Research：做一轮有方向的文献探索"
-    ]
-  },
-  {
-    "objectID": "chapters/05-deep-research.html#遇到常见问题时",
-    "href": "chapters/05-deep-research.html#遇到常见问题时",
-    "title": "Deep Research：做一轮有方向的文献探索",
-    "section": "遇到常见问题时",
-    "text": "遇到常见问题时\n链接打不开：按 DOI、题名或作者机构主页找合法版本；拿不到全文就保留为线索。只有二手博客：追到原始论文后再判断。报告看似全面却无反例：指定检索不同结果、测量方式与理论解释，而不是仅要求“更多论文”。\n达到本轮终点的标志是：你能说出三篇为何值得读，以及下一轮应搜什么。研究设计合理性仍需要主手册和方法文献，不由一份检索报告担保。",
-    "crumbs": [
-      "首页",
-      "按科研任务开始",
-      "Deep Research：做一轮有方向的文献探索"
-    ]
-  },
-  {
-    "objectID": "chapters/03-project-workspace.html",
-    "href": "chapters/03-project-workspace.html",
-    "title": "建立持续研究空间：让明天接得上今天",
-    "section": "",
-    "text": "目标： 用一页当前状态减少重复解释。适合任务跨天、材料反复使用的研究者。普通对话也可完成，不要求任何特定付费项目功能。",
-    "crumbs": [
-      "首页",
-      "按科研任务开始",
-      "建立持续研究空间：让明天接得上今天"
-    ]
-  },
-  {
-    "objectID": "chapters/03-project-workspace.html#第-1-步只选三份当前材料",
-    "href": "chapters/03-project-workspace.html#第-1-步只选三份当前材料",
-    "title": "建立持续研究空间：让明天接得上今天",
-    "section": "第 1 步：只选三份当前材料",
-    "text": "第 1 步：只选三份当前材料\n例如：研究问题、当前分析结果、当前稿件。复制允许处理的版本到一个练习文件夹，标注日期；不用把整个项目历史一次上传。\n建立一页入口，或下载当前状态模板：\n问题：这次研究要回答什么？\n当前材料：文件名、日期、用途。\n已经确认：最多三条。\n尚未决定：哪些问题还需要方法判断？\n今天的任务：只交付什么？\n下一步：从哪个文件、哪一件事继续？",
-    "crumbs": [
-      "首页",
-      "按科研任务开始",
-      "建立持续研究空间：让明天接得上今天"
-    ]
-  },
-  {
-    "objectID": "chapters/03-project-workspace.html#第-2-步先请-ai-找到上下文缺口",
-    "href": "chapters/03-project-workspace.html#第-2-步先请-ai-找到上下文缺口",
-    "title": "建立持续研究空间：让明天接得上今天",
-    "section": "第 2 步：先请 AI 找到上下文缺口",
-    "text": "第 2 步：先请 AI 找到上下文缺口\n在新对话中粘贴入口、上传允许使用的材料：\n\n根据当前状态说明，列出今天完成任务所需的输入；指出文件互相冲突或缺失的地方。然后提出一个 30 分钟可完成的小任务。我确认任务后再执行。不要根据旧文件推定当前决定。\n\n例如，状态页说“已采用模型 B”，结果表却标“模型 A”；应先找到当前表，而不是顺手把稿件改成 A。",
-    "crumbs": [
-      "首页",
-      "按科研任务开始",
-      "建立持续研究空间：让明天接得上今天"
-    ]
-  },
-  {
-    "objectID": "chapters/03-project-workspace.html#第-3-步需要时再使用产品项目空间",
-    "href": "chapters/03-project-workspace.html#第-3-步需要时再使用产品项目空间",
-    "title": "建立持续研究空间：让明天接得上今天",
-    "section": "第 3 步：需要时再使用产品项目空间",
-    "text": "第 3 步：需要时再使用产品项目空间\n若产品支持 Project/项目，把相同三份材料和入口放入其中，以研究问题命名；开启新对话时要求先读当前状态。不同产品是否自动使用旧聊天、如何读取文件、删除和共享都不同，不能把“上传过”当成“当前任务已读”。\nClaude 官方方案页列有 Projects 功能，核查于 2026-10-13。具体账号设置以实际界面为准；如果没有项目功能，继续使用本地入口文件即可。",
-    "crumbs": [
-      "首页",
-      "按科研任务开始",
-      "建立持续研究空间：让明天接得上今天"
-    ]
-  },
-  {
-    "objectID": "chapters/03-project-workspace.html#第-4-步用下一次对话检验",
-    "href": "chapters/03-project-workspace.html#第-4-步用下一次对话检验",
-    "title": "建立持续研究空间：让明天接得上今天",
-    "section": "第 4 步：用下一次对话检验",
-    "text": "第 4 步：用下一次对话检验\n结束前要求：\n\n总结本次新增产物、采用的决定、未决问题和下一步，只给当前状态的候选更新。注明哪些内容来自我的确认。\n\n你检查后更新本地入口。第二天另开对话，仅提供当前入口和材料，看看它能否正确说出下一项工作。不能时修入口，不要增加更多管理文档。\n保存材料及自己的采用决定；聊过的探索性意见不自动变成研究方案。需要重复维护大量文件时再看工作 Agent，长期项目方法见主手册维护章。",
-    "crumbs": [
-      "首页",
-      "按科研任务开始",
-      "建立持续研究空间：让明天接得上今天"
-    ]
-  },
-  {
-    "objectID": "chapters/01-task-map.html",
-    "href": "chapters/01-task-map.html",
-    "title": "按任务选择：今天该打开什么",
-    "section": "",
-    "text": "直接选择当前任务，不需要按顺序学习所有工具。\n\n\n\n任务\n最小入口\n何时增加工具\n\n\n\n\n学一个概念\n普通对话与方法练习\n需要反复模拟或运行计算时，用数据工具\n\n\n读手中论文\n文件对话与阅读表\n来源多、要反复定位时，使用来源型阅读环境\n\n\n找新文献\n搜索或 Deep Research\n形成正式综述时另做检索方案、数据库检索与筛选记录\n\n\n数据汇总与图表\nCSV 练习\n多文件、重复运行时用本地脚本或代码代理\n\n\n学术写作\n结果表与原段落\n长项目需要当前材料和修改记录\n\n\n持续推进项目\n一页项目状态\n反复搬运文件时再建产品项目空间\n\n\n修订代码\n代码代理\n允许读写、运行之前确认输入与产物\n\n\n重复处理很多条文本\nAPI 批处理\n先以两条输入验证格式和费用\n\n\n多步跨文件工作\n工作 Agent\n用明确交付物与停止条件约束范围\n\n\n\n产品入口和付费选择见开通、预算与产品速查。模型、产品、订阅和执行环境会共同影响结果，没有单一“最强工具”可以替代任务判断。",
-    "crumbs": [
-      "首页",
-      "按科研任务开始",
-      "按任务选择：今天该打开什么"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "心理学研究者的 AI Start Guide",
-    "section": "",
-    "text": "这是《心理学研究的 AI 进阶手册》的动态配套指南。适合刚开始系统使用 AI、没有 API 或编程基础的心理学与社会科学研究者。",
-    "crumbs": [
-      "首页",
-      "心理学研究者的 AI Start Guide"
-    ]
-  },
-  {
-    "objectID": "index.html#还没开始使用先选入口和预算",
-    "href": "index.html#还没开始使用先选入口和预算",
-    "title": "心理学研究者的 AI Start Guide",
-    "section": "还没开始使用：先选入口和预算",
-    "text": "还没开始使用：先选入口和预算\n从 注册、地区与设备 开始，再看 免费与付费怎么选。已有账号就直接做下面的练习。\n第一周只需要一个可用的 AI 账号、一个本地文件夹，以及你已有的文献管理和统计工具。",
-    "crumbs": [
-      "首页",
-      "心理学研究者的 AI Start Guide"
-    ]
-  },
-  {
-    "objectID": "index.html#已有账号按今天的任务开始",
-    "href": "index.html#已有账号按今天的任务开始",
-    "title": "心理学研究者的 AI Start Guide",
-    "section": "已有账号：按今天的任务开始",
-    "text": "已有账号：按今天的任务开始\n\n\n\n今天想完成什么\n本站练习\n完成后留下什么\n\n\n\n\n学懂一个研究方法\n30 分钟理解个体内与个体间\n六行数据、自己的解释、一题迁移练习\n\n\n读懂手里的论文\n三篇论文的比较阅读\n带原文位置的比较表\n\n\n探索陌生领域\nDeep Research 与文献探索\n三篇核实过的文献和下一轮问题\n\n\n处理数据、制作图表\n从 CSV 到可检查结果\n汇总表、图、计算步骤\n\n\n写一段可信的结果\n从结果表到学术文字\n可逐句回到证据的文字\n\n\n明天接着做同一项目\n建立持续研究空间\n一页当前状态和下一步\n\n\n\n普通对话怎么提问 · 完整任务选择表",
-    "crumbs": [
-      "首页",
-      "心理学研究者的 AI Start Guide"
-    ]
-  },
-  {
-    "objectID": "index.html#需要代码或批量处理时再打开",
-    "href": "index.html#需要代码或批量处理时再打开",
-    "title": "心理学研究者的 AI Start Guide",
-    "section": "需要代码或批量处理时再打开",
-    "text": "需要代码或批量处理时再打开\n代码代理可以从一个教学文件夹开始；API 批处理适合重复调用和保存运行记录；工作 Agent适合有明确输入与产物的多步任务。这些都是可直接进入的选项。",
-    "crumbs": [
-      "首页",
-      "心理学研究者的 AI Start Guide"
-    ]
-  },
-  {
-    "objectID": "index.html#产品和方法分别去哪找",
-    "href": "index.html#产品和方法分别去哪找",
-    "title": "心理学研究者的 AI Start Guide",
-    "section": "产品和方法分别去哪找",
-    "text": "产品和方法分别去哪找\n产品速查提供当前入口和适用任务。价格集中在预算页，每条动态信息以所在页面的核查日期为准。\n方法选择、研究判断和长期工作流见主手册 v1.2。本站教学数据均为合成数据；真实研究材料先按隐私页判断是否可以上传。\n当前版本：v0.11（2026-10-13）。新增教程、核查方式与未实测项见版本说明。",
-    "crumbs": [
-      "首页",
-      "心理学研究者的 AI Start Guide"
-    ]
-  },
-  {
-    "objectID": "chapters/00-start-now.html",
-    "href": "chapters/00-start-now.html",
-    "title": "现在就开始：30 分钟不要学完 AI，只完成一件事",
-    "section": "",
-    "text": "这本指南不要求你先把 ChatGPT、Claude、DeepSeek、Agent、API 全部学一遍。更有效的起点是：选一个今天本来就要完成的小任务，用当前最简单的工具把它做完。\n真正需要升级工具时，通常不是因为出现了“更高级”的产品，而是因为你开始遇到新的摩擦：材料太多、任务跨天、需要联网检索、需要批量重复、需要让 AI 读代码或操作文件。\n还没有账号，先看注册、地区与设备；想判断是否付费，先看预算。已有账号可以直接做无需上传文件的方法练习。",
-    "crumbs": [
-      "首页",
-      "开通与选购",
-      "现在就开始：30 分钟不要学完 AI，只完成一件事"
-    ]
-  },
-  {
-    "objectID": "chapters/00-start-now.html#第一次任务的标准",
-    "href": "chapters/00-start-now.html#第一次任务的标准",
-    "title": "现在就开始：30 分钟不要学完 AI，只完成一件事",
-    "section": "第一次任务的标准",
-    "text": "第一次任务的标准\n选一个范围有限、可以人工检查、失败后容易撤回的任务。\n推荐起点：\n\n比较 3—5 篇已经拿到全文的论文；\n解释一个已有 R/Python 脚本做了什么；\n核对一页结果文字与结果表是否一致；\n根据文件清单整理一页项目当前状态。",
-    "crumbs": [
-      "首页",
-      "开通与选购",
-      "现在就开始：30 分钟不要学完 AI，只完成一件事"
-    ]
-  },
-  {
-    "objectID": "chapters/00-start-now.html#五项任务说明",
-    "href": "chapters/00-start-now.html#五项任务说明",
-    "title": "现在就开始：30 分钟不要学完 AI，只完成一件事",
-    "section": "五项任务说明",
-    "text": "五项任务说明\n第一次使用 AI 时，不需要复杂提示词。把下面五件事说清楚通常已经够用：\n\n目标：这次解决什么，不解决什么？\n输入：AI 可以看哪些材料？\n输出：你希望得到什么？\n禁止项：哪些内容不得自行补充或修改？\n检查依据：你用什么判断输出是否可用？\n\n\n\n\n\n\n\n提示一个可以直接复制的最小模板\n\n\n\n目标： 帮我比较这 5 篇论文的方法和主要发现，不扩展到其他文献。\n输入： 只使用我上传的 5 篇 PDF。\n输出： 按“样本—设计—测量—主要结果—作者解释—局限”做表格。\n禁止项： 不要补写论文里没有的信息；无法确认就标记“未确认”。\n检查依据： 每个关键结论都要能回到具体论文和原文位置。",
-    "crumbs": [
-      "首页",
-      "开通与选购",
-      "现在就开始：30 分钟不要学完 AI，只完成一件事"
-    ]
-  },
-  {
-    "objectID": "chapters/00-start-now.html#分钟后必须留下什么",
-    "href": "chapters/00-start-now.html#分钟后必须留下什么",
-    "title": "现在就开始：30 分钟不要学完 AI，只完成一件事",
-    "section": "30 分钟后必须留下什么",
-    "text": "30 分钟后必须留下什么\n至少留下四样东西：确认后的产物、主要输入位置、未决问题、下一步。\n如果普通聊天已经能稳定完成任务，就停在这里。没有必要为了“更专业”而主动升级。\n如果你开始觉得“每次都要重新解释背景”“同一批文件反复上传”“材料太多，聊天窗口放不下”，再进入下一页：一张图选工具。",
-    "crumbs": [
-      "首页",
-      "开通与选购",
-      "现在就开始：30 分钟不要学完 AI，只完成一件事"
-    ]
-  },
-  {
-    "objectID": "chapters/02-chat-first-task.html",
-    "href": "chapters/02-chat-first-task.html",
-    "title": "第一次使用普通聊天",
-    "section": "",
-    "text": "普通聊天仍然是最好的起点。很多科研任务根本不需要 Project、API 或 Agent。",
-    "crumbs": [
-      "首页",
-      "按科研任务开始",
-      "第一次使用普通聊天"
-    ]
-  },
-  {
-    "objectID": "chapters/02-chat-first-task.html#什么时候用",
-    "href": "chapters/02-chat-first-task.html#什么时候用",
-    "title": "第一次使用普通聊天",
-    "section": "什么时候用",
-    "text": "什么时候用\n适合解释概念、比较少量材料、局部写作、形成候选、读一小段统计输出，或者帮你把一个模糊任务先说清楚。",
-    "crumbs": [
-      "首页",
-      "按科研任务开始",
-      "第一次使用普通聊天"
-    ]
-  },
-  {
-    "objectID": "chapters/02-chat-first-task.html#第一次怎么做",
-    "href": "chapters/02-chat-first-task.html#第一次怎么做",
-    "title": "第一次使用普通聊天",
-    "section": "第一次怎么做",
-    "text": "第一次怎么做\n直接使用上一页的五项任务说明：目标—输入—输出—禁止项—检查依据。\n例如，你可以让 AI：\n\n解释一段 R 输出，但明确“不推断未显示的检验”；\n比较三篇已上传论文，但明确“只使用这三篇”；\n修改一段方法部分，但要求“不要改变统计含义和数字”；\n根据一页项目说明，列出仍需确认的问题。",
-    "crumbs": [
-      "首页",
-      "按科研任务开始",
-      "第一次使用普通聊天"
-    ]
-  },
-  {
-    "objectID": "chapters/02-chat-first-task.html#输出检查",
-    "href": "chapters/02-chat-first-task.html#输出检查",
-    "title": "第一次使用普通聊天",
-    "section": "输出检查",
-    "text": "输出检查\n\n它是否只使用了你允许的材料？\n是否把候选推断写成了事实？\n数字、文献、方法判断能否返回原始依据？\n你真正采用的内容，是否已经保存到项目文件，而不是只留在聊天里？",
-    "crumbs": [
-      "首页",
-      "按科研任务开始",
-      "第一次使用普通聊天"
-    ]
-  },
-  {
-    "objectID": "chapters/02-chat-first-task.html#什么时候继续停在聊天里",
-    "href": "chapters/02-chat-first-task.html#什么时候继续停在聊天里",
-    "title": "第一次使用普通聊天",
-    "section": "什么时候继续停在聊天里",
-    "text": "什么时候继续停在聊天里\n如果任务短、材料少、上下文每次都能快速说明，普通聊天已经足够。不要为了工具升级而升级。",
-    "crumbs": [
-      "首页",
-      "按科研任务开始",
-      "第一次使用普通聊天"
-    ]
-  },
-  {
-    "objectID": "chapters/02-chat-first-task.html#什么时候值得升级",
-    "href": "chapters/02-chat-first-task.html#什么时候值得升级",
-    "title": "第一次使用普通聊天",
-    "section": "什么时候值得升级",
-    "text": "什么时候值得升级\n如果你开始反复做下面这些事：\n\n每次都重新说明同一个研究背景；\n每次都上传同一批文件；\n不同对话之间经常忘记“哪个版本才是现在有效的”；\n\n那么问题已经不再是“提示词写得够不够好”，而是需要一个持续工作空间。下一步看：第一次建立持续研究 Project / Workspace。",
-    "crumbs": [
-      "首页",
-      "按科研任务开始",
-      "第一次使用普通聊天"
-    ]
-  },
-  {
-    "objectID": "chapters/04-reading-papers.html",
-    "href": "chapters/04-reading-papers.html",
-    "title": "三篇论文的比较阅读：从总结到原文",
-    "section": "",
-    "text": "目标： 找到三篇论文在研究问题、设计和测量上的实质差异。准备三篇合法取得、允许在所选服务中处理的论文；将它们命名为 P1、P2、P3，并保存题名、作者、年份和 DOI。",
-    "crumbs": [
-      "首页",
-      "按科研任务开始",
-      "三篇论文的比较阅读：从总结到原文"
-    ]
-  },
-  {
-    "objectID": "chapters/04-reading-papers.html#第-1-步选择一个能回到来源的环境",
-    "href": "chapters/04-reading-papers.html#第-1-步选择一个能回到来源的环境",
-    "title": "三篇论文的比较阅读：从总结到原文",
-    "section": "第 1 步：选择一个能回到来源的环境",
-    "text": "第 1 步：选择一个能回到来源的环境\n小批材料可以用支持文件上传的对话产品；已有来源型阅读工具也可以继续使用。Google 的 Gemini Notebook 说明提供来源阅读入口。动态入口核查于 2026-10-13，未作各账号实测。\n先上传一篇，要求报告题名、作者、方法节标题及定位。若 PDF 是扫描图片或读取不全，使用自己有权处理的可检索版本，或粘贴必要方法段落；不要让模型根据题名补写正文。",
-    "crumbs": [
-      "首页",
-      "按科研任务开始",
-      "三篇论文的比较阅读：从总结到原文"
-    ]
-  },
-  {
-    "objectID": "chapters/04-reading-papers.html#第-2-步形成一张有用的比较表",
-    "href": "chapters/04-reading-papers.html#第-2-步形成一张有用的比较表",
-    "title": "三篇论文的比较阅读：从总结到原文",
-    "section": "第 2 步：形成一张有用的比较表",
-    "text": "第 2 步：形成一张有用的比较表\n三篇均读入后发送：\n\n只比较我提供的 P1、P2、P3。每行一篇，列出研究问题、样本、研究设计、关键变量如何测量、主要结果、作者解释、一个重要局限。关键内容标注论文编号和页码/小节；PDF 页与印刷页不同请说明。区分论文报告的事实和你的推断。未读到的信息写“未确认”。\n\n例如，表中的“每天测量”还不够：需要知道每天几次、持续几天、变量是否同一时点测量。只有摘要时应明确“仅据摘要”，不填完整分析细节。",
-    "crumbs": [
-      "首页",
-      "按科研任务开始",
-      "三篇论文的比较阅读：从总结到原文"
-    ]
-  },
-  {
-    "objectID": "chapters/04-reading-papers.html#第-3-步追问差异的意义",
-    "href": "chapters/04-reading-papers.html#第-3-步追问差异的意义",
-    "title": "三篇论文的比较阅读：从总结到原文",
-    "section": "第 3 步：追问差异的意义",
-    "text": "第 3 步：追问差异的意义\n\n找出两项可能解释结论差异的设计或测量差异。分别写出原文依据、你的解释、还缺什么信息。再推荐我必须亲自阅读的三个原文位置。\n\n这一步的产物可以是：“P1 比较人群均值，P2 比较日内波动，因此不能只按结论是否同号判断冲突。”这是分析方向示例，不是对任意三篇论文的预定结论。",
-    "crumbs": [
-      "首页",
-      "按科研任务开始",
-      "三篇论文的比较阅读：从总结到原文"
-    ]
-  },
-  {
-    "objectID": "chapters/04-reading-papers.html#第-4-步核对并放回文献库",
-    "href": "chapters/04-reading-papers.html#第-4-步核对并放回文献库",
-    "title": "三篇论文的比较阅读：从总结到原文",
-    "section": "第 4 步：核对并放回文献库",
-    "text": "第 4 步：核对并放回文献库\n亲自打开每篇最关键的一处方法和一处结果，确认数字、方向及样本；更正后保留比较表。用 Zotero Connector 或 DOI 添加条目，核对元数据，在笔记中写下“为何阅读”和“下一步读哪里”。Zotero 操作依据核查于 2026-10-13。\n遇到不存在的页码，要求引用短小原文片段并自行搜索；若仍找不到，将该项保留为未确认。保存的比较表是阅读导航，引用论文时仍回原文。\n还缺论文时进入文献探索；已经要写综述时，先用这张表组织问题与证据，不要直接拼接三个摘要。",
-    "crumbs": [
-      "首页",
-      "按科研任务开始",
-      "三篇论文的比较阅读：从总结到原文"
-    ]
-  },
-  {
-    "objectID": "chapters/06-api-basics.html",
-    "href": "chapters/06-api-basics.html",
-    "title": "API 是什么：从‘我使用 AI’到‘我的工具调用 AI’",
-    "section": "",
-    "text": "需要把同一任务重复执行、或让现有软件调用模型时，可以从这一页直接开始了解 API。",
-    "crumbs": [
-      "首页",
-      "代码、API 与多步任务（按需）",
-      "API 是什么：从‘我使用 AI’到‘我的工具调用 AI’"
-    ]
-  },
-  {
-    "objectID": "chapters/06-api-basics.html#一句话理解",
-    "href": "chapters/06-api-basics.html#一句话理解",
-    "title": "API 是什么：从‘我使用 AI’到‘我的工具调用 AI’",
-    "section": "一句话理解",
-    "text": "一句话理解\n产品界面是人直接与模型交互；API 是软件与模型交互的程序化入口。\n人 → Chat / App → 模型\n软件 / 插件 / 脚本 → API → 模型\n例如，你在沉浸式翻译里点击“翻译”时，可以由浏览器插件替你向 DeepSeek API 发出请求。你看到的界面属于插件，模型服务和账单属于 DeepSeek。",
-    "crumbs": [
-      "首页",
-      "代码、API 与多步任务（按需）",
-      "API 是什么：从‘我使用 AI’到‘我的工具调用 AI’"
-    ]
-  },
-  {
-    "objectID": "chapters/06-api-basics.html#为什么已经订阅产品还需要-api",
-    "href": "chapters/06-api-basics.html#为什么已经订阅产品还需要-api",
-    "title": "API 是什么：从‘我使用 AI’到‘我的工具调用 AI’",
-    "section": "为什么已经订阅产品还需要 API",
-    "text": "为什么已经订阅产品还需要 API\nAPI 的价值通常不在于“回答更聪明”，而在于：\n\n把模型接入翻译、阅读、知识管理、代码等工具；\n批量处理重复任务；\n固定参数并保存结构化结果；\n自动记录、重试和统计成本；\n在同一个 Harness 中替换不同模型服务。",
-    "crumbs": [
-      "首页",
-      "代码、API 与多步任务（按需）",
-      "API 是什么：从‘我使用 AI’到‘我的工具调用 AI’"
-    ]
-  },
-  {
-    "objectID": "chapters/06-api-basics.html#为什么通常单独计费",
-    "href": "chapters/06-api-basics.html#为什么通常单独计费",
-    "title": "API 是什么：从‘我使用 AI’到‘我的工具调用 AI’",
-    "section": "为什么通常单独计费",
-    "text": "为什么通常单独计费\n产品订阅与 API 往往属于不同计费系统。你购买一个聊天产品的月费，并不自动等于拥有同厂商的 API 余额。\nAPI 常按实际使用量计费，因此你会看到输入 token、输出 token、缓存、批处理、工具调用等不同字段。具体怎么读价格表，见 API 为什么这样计费。",
-    "crumbs": [
-      "首页",
-      "代码、API 与多步任务（按需）",
-      "API 是什么：从‘我使用 AI’到‘我的工具调用 AI’"
-    ]
-  },
-  {
-    "objectID": "chapters/06-api-basics.html#api-key-是什么",
-    "href": "chapters/06-api-basics.html#api-key-是什么",
-    "title": "API 是什么：从‘我使用 AI’到‘我的工具调用 AI’",
-    "section": "API Key 是什么",
-    "text": "API Key 是什么\nAPI Key 是软件代表你的账户调用 API 时使用的授权凭证。对个人用户可以先把它理解成一种会产生费用的密码。\n因此：\n\n不贴进聊天截图；\n不提交 GitHub；\n不写死在公开脚本；\n不同正式项目尽量使用不同 Key；\n怀疑泄露时立即撤销并重新生成。",
-    "crumbs": [
-      "首页",
-      "代码、API 与多步任务（按需）",
-      "API 是什么：从‘我使用 AI’到‘我的工具调用 AI’"
-    ]
-  },
-  {
-    "objectID": "chapters/06-api-basics.html#什么时候完全不需要-api",
-    "href": "chapters/06-api-basics.html#什么时候完全不需要-api",
-    "title": "API 是什么：从‘我使用 AI’到‘我的工具调用 AI’",
-    "section": "什么时候完全不需要 API",
-    "text": "什么时候完全不需要 API\n如果你只是：\n\n每天和一个聊天产品交流；\n偶尔读几篇论文；\n临时让 AI 改一段文字；\n没有批量处理或工具接入需求；\n\n那么继续使用产品界面通常更简单。\nAPI 只有在重复、规模、自动保存、第三方工具接入开始带来明显价值时，才值得学习。",
-    "crumbs": [
-      "首页",
-      "代码、API 与多步任务（按需）",
-      "API 是什么：从‘我使用 AI’到‘我的工具调用 AI’"
-    ]
-  },
-  {
-    "objectID": "chapters/06-api-basics.html#接下来怎么学",
-    "href": "chapters/06-api-basics.html#接下来怎么学",
-    "title": "API 是什么：从‘我使用 AI’到‘我的工具调用 AI’",
-    "section": "接下来怎么学",
-    "text": "接下来怎么学\n想把模型接进现有软件，看无需编程的配置例子；已有脚本需求，直接看最小批处理。订阅与 API 的具体包含关系见预算页，不要从某一家推定其他厂商。",
-    "crumbs": [
-      "首页",
-      "代码、API 与多步任务（按需）",
-      "API 是什么：从‘我使用 AI’到‘我的工具调用 AI’"
-    ]
-  },
-  {
-    "objectID": "chapters/08-api-costs.html",
-    "href": "chapters/08-api-costs.html",
-    "title": "API 为什么这样计费：学会看价格表",
-    "section": "",
-    "text": "第一次看到 API 价格表时，最容易困惑的是：为什么同一个模型会同时出现 Input、Output、Cached input、Batch，甚至搜索、代码执行等额外费用？",
-    "crumbs": [
-      "首页",
-      "代码、API 与多步任务（按需）",
-      "API 为什么这样计费：学会看价格表"
-    ]
-  },
-  {
-    "objectID": "chapters/08-api-costs.html#最基础的理解",
-    "href": "chapters/08-api-costs.html#最基础的理解",
-    "title": "API 为什么这样计费：学会看价格表",
-    "section": "最基础的理解",
-    "text": "最基础的理解\n大多数文本 API 都可以先用这个近似式理解：\n费用 ≈ 输入 tokens × 输入单价 + 输出 tokens × 输出单价 + 额外工具费用\n这里的 token 是模型处理文本的计量单位，不严格等于“一个汉字”或“一个单词”。你不需要先学会精确估算 token；更重要的是看懂账单由哪些部分组成。",
-    "crumbs": [
-      "首页",
-      "代码、API 与多步任务（按需）",
-      "API 为什么这样计费：学会看价格表"
-    ]
-  },
-  {
-    "objectID": "chapters/08-api-costs.html#为什么输入和输出价格不同",
-    "href": "chapters/08-api-costs.html#为什么输入和输出价格不同",
-    "title": "API 为什么这样计费：学会看价格表",
-    "section": "为什么输入和输出价格不同",
-    "text": "为什么输入和输出价格不同\n模型既要“读”你的输入，也要“生成”输出。很多 Provider 会给这两部分设置不同单价，因此长材料和长回答的成本结构也不同。",
-    "crumbs": [
-      "首页",
-      "代码、API 与多步任务（按需）",
-      "API 为什么这样计费：学会看价格表"
-    ]
-  },
-  {
-    "objectID": "chapters/08-api-costs.html#cached-input-是什么",
-    "href": "chapters/08-api-costs.html#cached-input-是什么",
-    "title": "API 为什么这样计费：学会看价格表",
-    "section": "Cached input 是什么",
-    "text": "Cached input 是什么\n当大量请求重复使用同一段系统提示、长文档或固定上下文时，一些 Provider 可以复用已经处理过的部分，并以更低价格计算。这也是为什么批量任务里，固定 prompt 和稳定结构有时不只是为了可复核，也可能影响成本。",
-    "crumbs": [
-      "首页",
-      "代码、API 与多步任务（按需）",
-      "API 为什么这样计费：学会看价格表"
-    ]
-  },
-  {
-    "objectID": "chapters/08-api-costs.html#batch-又是什么",
-    "href": "chapters/08-api-costs.html#batch-又是什么",
-    "title": "API 为什么这样计费：学会看价格表",
-    "section": "Batch 又是什么",
-    "text": "Batch 又是什么\n如果任务不要求立即返回，一些服务会提供批处理或异步接口，用较低价格换取更长等待时间。它适合大批量离线任务，不适合即时聊天。",
-    "crumbs": [
-      "首页",
-      "代码、API 与多步任务（按需）",
-      "API 为什么这样计费：学会看价格表"
-    ]
-  },
-  {
-    "objectID": "chapters/08-api-costs.html#coding-plan-为什么看起来又不一样",
-    "href": "chapters/08-api-costs.html#coding-plan-为什么看起来又不一样",
-    "title": "API 为什么这样计费：学会看价格表",
-    "section": "Coding Plan 为什么看起来又不一样",
-    "text": "Coding Plan 为什么看起来又不一样\n有些厂商不是按每次 API token 结算，而是为 Coding Agent 提供订阅式套餐或专用额度。它和普通 API 可能使用不同 Key、Base URL、模型范围和限额。\n所以看到“月费 Coding Plan”时，不要默认它就是“API 包月”。",
-    "crumbs": [
-      "首页",
-      "代码、API 与多步任务（按需）",
-      "API 为什么这样计费：学会看价格表"
-    ]
-  },
-  {
-    "objectID": "chapters/08-api-costs.html#用一笔小账理解价格表",
-    "href": "chapters/08-api-costs.html#用一笔小账理解价格表",
-    "title": "API 为什么这样计费：学会看价格表",
-    "section": "用一笔小账理解价格表",
-    "text": "用一笔小账理解价格表\n核查日期：2026-10-13。DeepSeek 官方价格表中，deepseek-flash 每百万未命中缓存输入 / 输出 tokens 的价格，空闲时段为 ¥1 / ¥4，高峰为 ¥2 / ¥8。北京时间工作周一至周五（中国法定节假日除外）9–12 点、14–18 点为高峰。\n假设 1,000 次请求，每次 2,000 输入 tokens、500 个计费输出 tokens，全部输入未命中缓存：总量为 200 万输入、50 万输出。空闲价约为 2 × 1 + 0.5 × 4 = ¥4；高峰价约 ¥8。这是给定用量下的算例，不是实际任务报价；长上下文、推理输出、工具、重试都会影响账单。\n第一次只跑两条，再从服务商控制台查看真实用量并外推。产品订阅集中见预算页，本页维护 API 算例；未核查的数据占位文件不作为价格依据。\n真正需要学会的是：\n\n分清输入与输出；\n看有没有缓存或批处理；\n看额外工具是否单独收费；\n确认当前使用的是按量 API，还是另一个订阅套餐；\n正式项目用独立 Key 或项目标签追踪成本。\n\n如果你只是偶尔调用插件，成本可能很低；如果是大规模 LLM simulation、长上下文或高价模型，成本可以迅速放大。API 的优势是可计量，不是天然便宜。\n下一步如果你想看 API 为什么对研究者真正有用，直接进入：一个最小批量脚本。",
-    "crumbs": [
-      "首页",
-      "代码、API 与多步任务（按需）",
-      "API 为什么这样计费：学会看价格表"
-    ]
-  },
-  {
-    "objectID": "chapters/10-code-agent.html",
-    "href": "chapters/10-code-agent.html",
-    "title": "第一次让代码代理完成一个可检查的小任务",
-    "section": "",
-    "text": "代码代理能在授权的项目目录里查看、修改和运行文件。普通聊天产品也可能支持文件上传和沙箱计算；真正需要比较的是当前任务能访问哪些文件、能否持续维护项目，以及改动和运行结果能否检查。",
-    "crumbs": [
-      "首页",
-      "代码、API 与多步任务（按需）",
-      "第一次让代码代理完成一个可检查的小任务"
-    ]
-  },
-  {
-    "objectID": "chapters/10-code-agent.html#准备一个教学文件夹",
-    "href": "chapters/10-code-agent.html#准备一个教学文件夹",
-    "title": "第一次让代码代理完成一个可检查的小任务",
-    "section": "准备一个教学文件夹",
-    "text": "准备一个教学文件夹\n完成数据练习后，把六行 CSV 及参考汇总表放进一个新文件夹。不要从唯一的正式研究目录开始。\n以 Codex 为例，从官方快速开始选择适合操作系统的入口，登录后选择该教学目录。安装、登录和可用环境依据官方文档，核查于 2026-10-13；实际系统和账号支持以当前文档为准。已有其他代码代理也可以使用同一练习。",
-    "crumbs": [
-      "首页",
-      "代码、API 与多步任务（按需）",
-      "第一次让代码代理完成一个可检查的小任务"
-    ]
-  },
-  {
-    "objectID": "chapters/10-code-agent.html#第-1-步让它确认输入和任务",
-    "href": "chapters/10-code-agent.html#第-1-步让它确认输入和任务",
-    "title": "第一次让代码代理完成一个可检查的小任务",
-    "section": "第 1 步：让它确认输入和任务",
-    "text": "第 1 步：让它确认输入和任务\n\n查看这个教学文件夹。报告 CSV 的列、行数与参考输出。今天的任务是按 id 计算两列均值，生成 summary.csv；不要修改输入。先说明将读取和创建哪些文件，以及如何核对结果。\n\n应识别 6 行、A/B 各 3 行。输入缺失或无法运行环境时，先让它说明具体问题，不把生成代码说成已运行。",
-    "crumbs": [
-      "首页",
-      "代码、API 与多步任务（按需）",
-      "第一次让代码代理完成一个可检查的小任务"
-    ]
-  },
-  {
-    "objectID": "chapters/10-code-agent.html#第-2-步完成一个小改动",
-    "href": "chapters/10-code-agent.html#第-2-步完成一个小改动",
-    "title": "第一次让代码代理完成一个可检查的小任务",
-    "section": "第 2 步：完成一个小改动",
-    "text": "第 2 步：完成一个小改动\n\n在当前教学目录创建一个只使用现有环境的计算脚本并运行。输出 summary.csv；检查 A 的均值为 2、3，B 为 5、6。报告实际运行命令、结果和改动文件；不安装新依赖，不修改原 CSV。\n\n这个任务可由 Python 标准库完成。读者的重点是能说明结果来自哪里，不需要先掌握全部语法。",
-    "crumbs": [
-      "首页",
-      "代码、API 与多步任务（按需）",
-      "第一次让代码代理完成一个可检查的小任务"
-    ]
-  },
-  {
-    "objectID": "chapters/10-code-agent.html#第-3-步亲自检查交付",
-    "href": "chapters/10-code-agent.html#第-3-步亲自检查交付",
-    "title": "第一次让代码代理完成一个可检查的小任务",
-    "section": "第 3 步：亲自检查交付",
-    "text": "第 3 步：亲自检查交付\n打开 summary.csv，与参考表比较；查看新增脚本与输入是否被改动。再运行一次应得到相同汇总。失败时保留原 CSV，依据具体错误修复环境或脚本；若工具没有执行能力，让它交付候选脚本并标明“未运行”。\n正式研究中，把参考数字替换成研究者确认的分析规格。纳排、反向计分和模型改变都属于研究影响，不能只凭“测试通过”采用。主手册数据与代码章进一步说明这些区别。\n反复完成相同任务后，可以固定成脚本；多步文件任务见工作 Agent，并不需要先学习 API 才能使用代码代理。",
-    "crumbs": [
-      "首页",
-      "代码、API 与多步任务（按需）",
-      "第一次让代码代理完成一个可检查的小任务"
-    ]
-  },
-  {
-    "objectID": "chapters/12-privacy.html",
-    "href": "chapters/12-privacy.html",
-    "title": "上传之前：数据、隐私与未公开研究",
-    "section": "",
-    "text": "AI 工具越来越容易读取文件、网页、代码库和本地目录，因此“能不能上传”不应等到点击上传按钮以后再想。",
-    "crumbs": [
-      "首页",
-      "隐私与练习检查",
-      "上传之前：数据、隐私与未公开研究"
-    ]
-  },
-  {
-    "objectID": "chapters/12-privacy.html#先把材料分成四类",
-    "href": "chapters/12-privacy.html#先把材料分成四类",
-    "title": "上传之前：数据、隐私与未公开研究",
-    "section": "先把材料分成四类",
-    "text": "先把材料分成四类\n\n\n\n\n\n\n\n材料\n默认态度\n\n\n\n\n已公开论文、公开网页、公开代码\n通常风险较低，但仍注意版权与来源\n\n\n自己的工作材料、未公开草稿\n先看账户、机构和合作约定\n\n\n被试数据、访谈原文、身份信息\n高风险；优先脱敏、最小化或不用外部服务\n\n\nAPI Key、密码、访问令牌\n不上传、不截图公开、不写进仓库",
-    "crumbs": [
-      "首页",
-      "隐私与练习检查",
-      "上传之前：数据、隐私与未公开研究"
-    ]
-  },
-  {
-    "objectID": "chapters/12-privacy.html#上传前问五个问题",
-    "href": "chapters/12-privacy.html#上传前问五个问题",
-    "title": "上传之前：数据、隐私与未公开研究",
-    "section": "上传前问五个问题",
-    "text": "上传前问五个问题\n\n这是公开材料、自己的工作材料，还是包含他人数据？\n是否含被试数据、访谈原文、未公开稿件、API Key 或受版权保护全文？\n当前账户、机构、伦理审批或数据协议是否允许把材料交给该服务？\n是否真的需要上传原文，还是可以只提供脱敏摘录、字段说明、合成示例或副本？\n如果上传错误，能否删除、撤销访问并恢复？",
-    "crumbs": [
-      "首页",
-      "隐私与练习检查",
-      "上传之前：数据、隐私与未公开研究"
-    ]
-  },
-  {
-    "objectID": "chapters/12-privacy.html#本地-agent也不等于没有隐私问题",
-    "href": "chapters/12-privacy.html#本地-agent也不等于没有隐私问题",
-    "title": "上传之前：数据、隐私与未公开研究",
-    "section": "“本地 Agent”也不等于没有隐私问题",
-    "text": "“本地 Agent”也不等于没有隐私问题\n即使 Agent 在你的电脑上工作，模型请求仍可能发送到云端 Provider；反过来，有些任务可能完全在本地模型中完成。判断数据流时，不要只看界面是不是桌面 App，要问：\n\n文件在哪里？请求发到哪里？谁保留什么？",
-    "crumbs": [
-      "首页",
-      "隐私与练习检查",
-      "上传之前：数据、隐私与未公开研究"
-    ]
-  },
-  {
-    "objectID": "chapters/12-privacy.html#对科研材料的最低建议",
-    "href": "chapters/12-privacy.html#对科研材料的最低建议",
-    "title": "上传之前：数据、隐私与未公开研究",
-    "section": "对科研材料的最低建议",
-    "text": "对科研材料的最低建议\n\n原始数据保留受保护副本；\n能用变量说明就不要上传完整身份信息；\n能用合成数据测试工作流，就先用合成数据；\n未公开稿件进入外部服务前，先看期刊、审稿或合作协议；\nAPI Key 使用环境变量或密钥管理方式，不进入 Git；\nWork Agent 第一次只授权一个教学/副本目录。\n\n\n\n\n\n\n\n警告\n\n\n\n产品隐私政策、训练选项、地区规则和机构要求都是动态事实。本页只提供决策框架；真实项目必须按当时服务条款、伦理审批和机构规定核查。\n\n\n如果这些边界已经清楚，回到 30 分钟 Start Checklist 检查第一次任务是否真正形成了可继续状态。",
-    "crumbs": [
-      "首页",
-      "隐私与练习检查",
-      "上传之前：数据、隐私与未公开研究"
-    ]
-  },
-  {
-    "objectID": "chapters/academic-writing.html",
-    "href": "chapters/academic-writing.html",
-    "title": "从结果表到一段学术文字",
-    "section": "",
-    "text": "目标： 写一段与给定结果一致、保留不确定性的文字。只需普通对话。以下实验及数字均为虚构教学材料。",
-    "crumbs": [
-      "首页",
-      "按科研任务开始",
-      "从结果表到一段学术文字"
-    ]
-  },
-  {
-    "objectID": "chapters/academic-writing.html#第-1-步给足事实",
-    "href": "chapters/academic-writing.html#第-1-步给足事实",
-    "title": "从结果表到一段学术文字",
-    "section": "第 1 步：给足事实",
-    "text": "第 1 步：给足事实\n复制以下材料：\n\n教学设计：40 名成年人随机分到安静组与噪声组，每组 20 人。因变量为任务正确率，量纲为百分比。安静组均值 82%，噪声组均值 78%。未提供组内标准差、置信区间或检验结果。当前任务只写描述性结果，不推断总体差异，不解释心理机制。\n\n先自己写两句话，再让 AI 修订。这样你可以比较它如何改变含义。",
-    "crumbs": [
-      "首页",
-      "按科研任务开始",
-      "从结果表到一段学术文字"
-    ]
-  },
-  {
-    "objectID": "chapters/academic-writing.html#第-2-步限定改写的产物",
-    "href": "chapters/academic-writing.html#第-2-步限定改写的产物",
-    "title": "从结果表到一段学术文字",
-    "section": "第 2 步：限定改写的产物",
-    "text": "第 2 步：限定改写的产物\n\n请把我的文字改成一段清楚的结果描述，逐句列出依据。区分百分点与相对百分比。不要补充 p 值、效应量、显著性、引文或未测量的机制。最后指出要写完整统计报告还缺什么。\n\n可接受的示例是：\n\n在这份合成教学数据的描述性汇总中，安静组和噪声组的平均正确率分别为 82% 和 78%，相差 4 个百分点。现有材料未提供组内变异或推断统计，尚不能据此判断总体差异的不确定性。\n\n这不是可以直接用于真实论文的结论，而是练习如何使句子不超出输入。",
-    "crumbs": [
-      "首页",
-      "按科研任务开始",
-      "从结果表到一段学术文字"
-    ]
-  },
-  {
-    "objectID": "chapters/academic-writing.html#第-3-步识别润色引入的变化",
-    "href": "chapters/academic-writing.html#第-3-步识别润色引入的变化",
-    "title": "从结果表到一段学术文字",
-    "section": "第 3 步：识别“润色”引入的变化",
-    "text": "第 3 步：识别“润色”引入的变化\n逐句对照：是否把“均值高”改成“显著提高”？是否把 4 个百分点改为“提高 4%”？是否添加了注意资源耗竭之类未测量机制？\n如果发生，要求 AI 标出新增主张并退回证据范围。相对噪声组均值，4/78 约为 5.13%；这与 4 个百分点是不同量，报告应选与问题一致的表达。",
-    "crumbs": [
-      "首页",
-      "按科研任务开始",
-      "从结果表到一段学术文字"
-    ]
-  },
-  {
-    "objectID": "chapters/academic-writing.html#第-4-步将做法迁移到自己的论文",
-    "href": "chapters/academic-writing.html#第-4-步将做法迁移到自己的论文",
-    "title": "从结果表到一段学术文字",
-    "section": "第 4 步：将做法迁移到自己的论文",
-    "text": "第 4 步：将做法迁移到自己的论文\n只上传允许处理的当前段落与对应结果表。先让 AI 标明每句属于结果、解释、文献主张还是建议，再决定是否改写；需要新文献时单独进行文献探索。引用由文献管理器维护，不让模型凭记忆补齐。\n保存原段落、采用稿和未解决的问题。下一次请 AI 按投稿期刊的实际要求检查格式；期刊披露规则要另行核实。\n进一步的论证组织、审稿回复和研究责任见主手册写作章。",
-    "crumbs": [
-      "首页",
-      "按科研任务开始",
-      "从结果表到一段学术文字"
-    ]
-  },
-  {
-    "objectID": "chapters/budget.html",
-    "href": "chapters/budget.html",
-    "title": "免费、每月约 20 美元和更高预算怎么选",
-    "section": "",
-    "text": "核查日期：2026-10-13。以下是个人方案的美元网页标价参考；Google 使用美国页面。未计当地税费、汇率、应用商店差异或短期优惠，购买时以账号结算页为准。这里只列与科研起步直接相关的方案，并非全套餐目录。",
-    "crumbs": [
-      "首页",
-      "开通与选购",
-      "免费、每月约 20 美元和更高预算怎么选"
-    ]
-  },
-  {
-    "objectID": "chapters/budget.html#先分清四件事",
-    "href": "chapters/budget.html#先分清四件事",
-    "title": "免费、每月约 20 美元和更高预算怎么选",
-    "section": "先分清四件事",
-    "text": "先分清四件事\n产品是你打开的应用；模型是其中执行任务的系统；订阅决定可用功能和额度；API是程序调用入口。付费提升的是访问条件或用量，不能保证每个结论正确。",
-    "crumbs": [
-      "首页",
-      "开通与选购",
-      "免费、每月约 20 美元和更高预算怎么选"
-    ]
-  },
-  {
-    "objectID": "chapters/budget.html#当前选购参考",
-    "href": "chapters/budget.html#当前选购参考",
-    "title": "免费、每月约 20 美元和更高预算怎么选",
-    "section": "当前选购参考",
-    "text": "当前选购参考\n窄屏可横向滚动下表。\n\n\n\n\n\n\n\n\n\n\n产品\n免费起点\n日常付费\n高频使用\n\n\n\n\nChatGPT\n可做对话、搜索、文件与数据任务，工具有各自额度\nPlus：$20/月\nPro 100 / 200 / 500：分别 $100 / $200 / $500/月；额度与部分功能不同\n\n\nClaude\n可对话、搜索、创建文件和运行代码，有用量限制\nPro：$20/月；年付 $200 一次支付\nMax 5x：$100/月；Max 20x：$200/月\n\n\nGoogle AI / Gemini\n免费账号有 Gemini 与 Gemini Notebook 的基础访问\nAI Plus：$4.99/月；AI Pro：$19.99/月\nUltra：$99.99/月（5x）或 $199.99/月（20x），对比基准为 AI Pro\n\n\n\n\n官方依据：ChatGPT Free、Plus、Pro 档位、Claude 定价、Claude Max、Google 美国方案。\n各家的倍数、额度窗口与工具限制不可横向相乘比较。达到限制时先看账号提示的重置时间，不要把“升级”理解为所有功能无限使用。",
-    "crumbs": [
-      "首页",
-      "开通与选购",
-      "免费、每月约 20 美元和更高预算怎么选"
-    ]
-  },
-  {
-    "objectID": "chapters/budget.html#把预算花在已经遇到的问题上",
-    "href": "chapters/budget.html#把预算花在已经遇到的问题上",
-    "title": "免费、每月约 20 美元和更高预算怎么选",
-    "section": "把预算花在已经遇到的问题上",
-    "text": "把预算花在已经遇到的问题上\n\n免费开始：每周几个小任务，正在学习提问与判断输出。先做本站六类练习。\n每月约 $20：已经常用，文件或高级功能限制反复打断工作。选一个最贴近自己任务的产品试一个月。\n每月约 $100：日常付费额度仍经常不够，或特定功能能明显缩短工作时间。先记录一周任务、限制和耗时，再决定。\n更高预算：密集研究/代码任务确有稳定需求时再评估。团队管理、机构数据要求与个人高额度是不同采购问题。\n\n价格高低不能代替在同一批材料上的比较。可以用同一篇已获许可的论文、同一张合成结果表试用，比较遗漏、改正成本与保存产物的便利程度。",
-    "crumbs": [
-      "首页",
-      "开通与选购",
-      "免费、每月约 20 美元和更高预算怎么选"
-    ]
-  },
-  {
-    "objectID": "chapters/budget.html#api-是否另外付费",
-    "href": "chapters/budget.html#api-是否另外付费",
-    "title": "免费、每月约 20 美元和更高预算怎么选",
-    "section": "API 是否另外付费",
-    "text": "API 是否另外付费\nOpenAI 的 ChatGPT 与 API 分开管理账单，Plus/Pro 不是 API 余额。官方账单说明。\nClaude 需要单独说明：当前 Max 5x / 20x 分别附带每月 $100 / $200 API credits，需订阅满至少 7 天后按指引领取到关联的 Console 组织；每个账期到期，未用不累积。这不是交互式 Claude Code 或订阅额外用量的通用余额。资格、领取和适用范围见官方 API credits 说明。\n其他产品同样要查看具体条款，不能推定“会员包含 API”或“会员永远不含 API”。API 成本估算见按量计费。",
-    "crumbs": [
-      "首页",
-      "开通与选购",
-      "免费、每月约 20 美元和更高预算怎么选"
-    ]
-  },
-  {
-    "objectID": "chapters/budget.html#续费取消与退款",
-    "href": "chapters/budget.html#续费取消与退款",
-    "title": "免费、每月约 20 美元和更高预算怎么选",
-    "section": "续费、取消与退款",
-    "text": "续费、取消与退款\n购买时记下账号、购买渠道、月付/年付、下一次扣款日和金额。月付与“按月折算的年付价”不同；后者可能一次收取全年费用。\n取消应在原购买渠道办理：网页购买查账号账单设置，应用内购买查 Apple / Google Play 的订阅管理。卸载应用不等于取消订阅；取消也不等于退款。\n具体步骤：ChatGPT、Claude、Google One。Claude 要求至少提前 24 小时取消以避免下一次扣款；Google 方案降级还应检查云存储用量。取消后保留确认记录，并确认页面显示的到期日。\n还没有账号，回到注册与地区；已能对话，直接开始免费文本练习。",
-    "crumbs": [
-      "首页",
-      "开通与选购",
-      "免费、每月约 20 美元和更高预算怎么选"
-    ]
-  },
-  {
-    "objectID": "chapters/method-learning.html",
-    "href": "chapters/method-learning.html",
-    "title": "30 分钟学懂一个方法：个体内与个体间",
-    "section": "",
-    "text": "你会得到： 一个能自己解释的反例、一张六行数据表、一题迁移练习。只需普通文本对话，不要求付费、联网搜索或 API。以下是特意构造的合成教学数据，不是心理学实证结论。",
-    "crumbs": [
-      "首页",
-      "按科研任务开始",
-      "30 分钟学懂一个方法：个体内与个体间"
-    ]
-  },
-  {
-    "objectID": "chapters/method-learning.html#第-1-步先预测再问-ai",
-    "href": "chapters/method-learning.html#第-1-步先预测再问-ai",
-    "title": "30 分钟学懂一个方法：个体内与个体间",
-    "section": "第 1 步：先预测，再问 AI",
-    "text": "第 1 步：先预测，再问 AI\n想象两个人连续三天报告压力和睡眠困难。先写下你的预测：“压力越高，睡眠越差”指的是比较不同的人，还是比较同一个人的不同日子？\n将下面数据复制到一个新对话，或下载 CSV。\n\n\n\nid\nday\nstress\nsleep_difficulty\n\n\n\n\nA\n1\n1\n4\n\n\nA\n2\n2\n3\n\n\nA\n3\n3\n2\n\n\nB\n1\n4\n7\n\n\nB\n2\n5\n6\n\n\nB\n3\n6\n5",
-    "crumbs": [
-      "首页",
-      "按科研任务开始",
-      "30 分钟学懂一个方法：个体内与个体间"
-    ]
-  },
-  {
-    "objectID": "chapters/method-learning.html#第-2-步让-ai-用数据解释差别",
-    "href": "chapters/method-learning.html#第-2-步让-ai-用数据解释差别",
-    "title": "30 分钟学懂一个方法：个体内与个体间",
-    "section": "第 2 步：让 AI 用数据解释差别",
-    "text": "第 2 步：让 AI 用数据解释差别\n复制以下任务：\n\n只使用这六行合成数据。先计算 A、B 各自的平均压力和平均睡眠困难；再分别比较同一人三天的变化。分别回答“哪一个人的平均压力更高”和“同一个人压力比自己平时高时，睡眠困难怎样变化”。先列算式，再用通俗中文解释。不要做显著性检验，不要引用虚构论文。\n\n你应看到：\n\n\n\n人\n平均压力\n平均睡眠困难\n同一人压力每增加 1 时\n\n\n\n\nA\n2\n3\n睡眠困难减少 1\n\n\nB\n5\n6\n睡眠困难减少 1\n\n\n\n两人的均值是一起升高的；每个人内部的变化却向下。两个描述都成立，因为比较对象不同。AI 若只给一句“压力与睡眠正相关”，就遗漏了这个练习最重要的信息。",
-    "crumbs": [
-      "首页",
-      "按科研任务开始",
-      "30 分钟学懂一个方法：个体内与个体间"
-    ]
-  },
-  {
-    "objectID": "chapters/method-learning.html#第-3-步把解释权拿回来",
-    "href": "chapters/method-learning.html#第-3-步把解释权拿回来",
-    "title": "30 分钟学懂一个方法：个体内与个体间",
-    "section": "第 3 步：把解释权拿回来",
-    "text": "第 3 步：把解释权拿回来\n让 AI 暂时不回答，先由你完成：\n\n“平均压力较高的人睡眠困难较多”是否能推出“一个人在压力比平时高的当天睡得更差”？请用表里两个数字解释。\n\n核对要点：不能直接推出。A 的压力从 1 升到 3 时，睡眠困难从 4 降到 2；B 的均值高于 A，是另一种比较。\n接着要求 AI 给出一题新数据，先藏住答案。你完成后再让它指出具体计算错误。若仍答错，回到均值和单人的三行数据，不要继续堆叠术语。",
-    "crumbs": [
-      "首页",
-      "按科研任务开始",
-      "30 分钟学懂一个方法：个体内与个体间"
-    ]
-  },
-  {
-    "objectID": "chapters/method-learning.html#第-4-步保存自己的解释",
-    "href": "chapters/method-learning.html#第-4-步保存自己的解释",
-    "title": "30 分钟学懂一个方法：个体内与个体间",
-    "section": "第 4 步：保存自己的解释",
-    "text": "第 4 步：保存自己的解释\n保存 CSV 和你用自己的话写的三句话：两种比较各是什么、为何不能互推、真实研究还需要什么。此处只有两人三天，不能据此估计可靠的人群效应或因果效应。\n想继续动手，进入数据与图表练习。想学习真正的多层模型，应结合课程、教材和合适数据；AI 可以帮你拆解公式、生成反例和练习，但“解释听起来顺”不是掌握方法的证据。",
-    "crumbs": [
-      "首页",
-      "按科研任务开始",
-      "30 分钟学懂一个方法：个体内与个体间"
-    ]
-  },
-  {
-    "objectID": "products/claude.html",
-    "href": "products/claude.html",
-    "title": "Claude",
-    "section": "",
-    "text": "最后核查：2026-10-13 · 官方文档。\n从 Claude开始。用普通写作练习熟悉对话，再根据材料量选择持续项目或文件任务。\n当前官方页面区分免费与 Pro/Max 的额度和能力；Research、Claude Code 等的可用性应按方案核对。Cowork 与 Claude 的名称/整合正在变化，不把旧产品名当作永久独立入口。\n选购及 Max 的 API credits 条件见预算页；地区、手机验证和注册见开通页。\n依据：Claude 官方方案页、Max 说明。本站没有逐档账号实测。",
+    "text": "最后核查：2026-10-17。先检查所在地与账号条件，再从 ChatGPT登录。",
     "crumbs": [
       "首页",
       "产品速查",
-      "Claude"
+      "ChatGPT、Work 与 Codex：从对话到文件任务"
     ]
   },
   {
-    "objectID": "products/gemini.html",
-    "href": "products/gemini.html",
-    "title": "Gemini / Gemini Notebook",
+    "objectID": "products/chatgpt.html#先做一项短任务",
+    "href": "products/chatgpt.html#先做一项短任务",
+    "title": "ChatGPT、Work 与 Codex：从对话到文件任务",
+    "section": "先做一项短任务",
+    "text": "先做一项短任务\n选择 Chat，粘贴教学结果表，请它起草主分析数字段，再加入比较结果。按两轮报告教程核对并保存。已有文件上传能力时，可以直接附上表格和规格。",
+    "crumbs": [
+      "首页",
+      "产品速查",
+      "ChatGPT、Work 与 Codex：从对话到文件任务"
+    ]
+  },
+  {
+    "objectID": "products/chatgpt.html#要得到完整文件work",
+    "href": "products/chatgpt.html#要得到完整文件work",
+    "title": "ChatGPT、Work 与 Codex：从对话到文件任务",
+    "section": "要得到完整文件：Work",
+    "text": "要得到完整文件：Work\n在新任务切换到 Work，描述最后需要的文件，附上输入材料。网页端可以在云端处理任务；桌面端在账号允许时还能选择本地工作目录。生成报告后打开检查，在同一任务中提出第二轮修改。官方使用说明、Work 入门。",
+    "crumbs": [
+      "首页",
+      "产品速查",
+      "ChatGPT、Work 与 Codex：从对话到文件任务"
+    ]
+  },
+  {
+    "objectID": "products/chatgpt.html#要写脚本或小工具codex",
+    "href": "products/chatgpt.html#要写脚本或小工具codex",
+    "title": "ChatGPT、Work 与 Codex：从对话到文件任务",
+    "section": "要写脚本或小工具：Codex",
+    "text": "要写脚本或小工具：Codex\n按官方快速开始安装桌面端，登录后在产品选择处切换 Codex，再打开教学文件夹。本站代码助手教你运行已有报告脚本，小工具教程教你从空白做一个网页。\nWork 与 Codex 共享方案用量；API Key 调用另按 API 规则计费。Free/Go 的部分桌面能力仍受开放进度影响，具体方案见官方定价和本站预算页。选择入口后先检查账号显示的模型与剩余额度，再安排较长任务。",
+    "crumbs": [
+      "首页",
+      "产品速查",
+      "ChatGPT、Work 与 Codex：从对话到文件任务"
+    ]
+  },
+  {
+    "objectID": "products/cursor.html",
+    "href": "products/cursor.html",
+    "title": "Cursor：在文件旁边和代码助手一起修改",
     "section": "",
-    "text": "最后核查：2026-10-13 · 官方文档。\n从 Gemini开始。已有材料时可尝试 Gemini Notebook 的来源阅读；不需要先把材料搬进复杂项目。\n第一次建议完成三篇论文的比较阅读，检验能否回到具体原文。寻找新来源则按文献探索的计划和核实步骤进行。\n免费、AI Plus、AI Pro 与 Ultra 的选择见预算页；账号与地区区分个人和学校/工作账号。\n依据：美国个人方案页、订阅条件与额度。本站未逐档账号实测。",
+    "text": "最后核查：2026-10-17。Cursor 是带 AI 助手的代码编辑器。你可以同时看到文件、对话和修改，适合希望慢慢了解程序结构的研究者。",
     "crumbs": [
       "首页",
       "产品速查",
-      "Gemini / Gemini Notebook"
+      "Cursor：在文件旁边和代码助手一起修改"
     ]
   },
   {
-    "objectID": "products/index.html",
-    "href": "products/index.html",
-    "title": "产品速查",
+    "objectID": "products/cursor.html#从空文件夹做一个小工具",
+    "href": "products/cursor.html#从空文件夹做一个小工具",
+    "title": "Cursor：在文件旁边和代码助手一起修改",
+    "section": "从空文件夹做一个小工具",
+    "text": "从空文件夹做一个小工具\n\n从官方快速开始下载安装并登录。\n打开一个空文件夹 research-viewer，放入本站六行 CSV。\n用 Windows/Linux Ctrl+I、macOS Cmd+I 打开 Agent 面板。\n提交vibe coding 教程的单文件网页要求。\n在改动视图中查看新增文件，双击 HTML 打开，再根据实际点击结果提出第二轮修改。\n\n需要较大修改时可先切换 Plan Mode，让它说明将改哪些部分。已经知道要改什么，也可以直接给清楚的功能要求。Agent 概述。",
+    "crumbs": [
+      "首页",
+      "产品速查",
+      "Cursor：在文件旁边和代码助手一起修改"
+    ]
+  },
+  {
+    "objectID": "products/cursor.html#运行权限与费用",
+    "href": "products/cursor.html#运行权限与费用",
+    "title": "Cursor：在文件旁边和代码助手一起修改",
+    "section": "运行权限与费用",
+    "text": "运行权限与费用\n设置中的 Agents → Approvals & Execution 管理命令和工具执行方式；第一次使用可保留 Auto-review，由界面在需要时请求确认。文件修改要看，命令请求也要读清楚。运行模式说明。\n当前定价页区分免费有限用量、订阅额度和第三方模型按量费用。选择模型时同时检查计费提示，不沿用旧教程中的套餐名称或默认“所有模型都包含”。本页练习生成的网页本身可以离线运行。",
+    "crumbs": [
+      "首页",
+      "产品速查",
+      "Cursor：在文件旁边和代码助手一起修改"
+    ]
+  },
+  {
+    "objectID": "products/doubao.html",
+    "href": "products/doubao.html",
+    "title": "豆包：从熟悉的聊天开始做研究练习",
     "section": "",
-    "text": "产品页是动态信息区，不是排行榜，也不是完整说明书。\n每页只回答五类问题：\n能力、入口、价格、地区和支付条件会变化，因此页面顶部都标记最后核查日期。没有稳定核查的信息，本册宁可不写。\n2026-10-13 更新了 ChatGPT、Claude、Gemini 与 DeepSeek 页面。其余产品页保留 2026-09-16 的核查日期，作为旧参考，不代表本轮已重新实测。价格请统一看预算页。",
+    "text": "官方入口核查：2026-10-17。豆包网页适合作为已有聊天经验的读者起点。本页练习只用文本输入，不依赖特定附件或付费功能。",
     "crumbs": [
       "首页",
       "产品速查",
-      "产品速查"
+      "豆包：从熟悉的聊天开始做研究练习"
     ]
   },
   {
-    "objectID": "products/index.html#国际生态",
-    "href": "products/index.html#国际生态",
-    "title": "产品速查",
-    "section": "国际生态",
-    "text": "国际生态\n\nChatGPT\nClaude\nGemini / Gemini Notebook",
+    "objectID": "products/doubao.html#把解释概念换成陪我完成一次学习",
+    "href": "products/doubao.html#把解释概念换成陪我完成一次学习",
+    "title": "豆包：从熟悉的聊天开始做研究练习",
+    "section": "把“解释概念”换成“陪我完成一次学习”",
+    "text": "把“解释概念”换成“陪我完成一次学习”\n在新对话中粘贴六行数据，先问它怎样分别观察 A 和 B 的变化。然后自己解释，要求它只指出解释中与数据不符的地方。最后请它换一个小例子，让你先判断再给反馈。步骤见方法学习。",
     "crumbs": [
       "首页",
       "产品速查",
-      "产品速查"
+      "豆包：从熟悉的聊天开始做研究练习"
     ]
   },
   {
-    "objectID": "products/index.html#中国生态",
-    "href": "products/index.html#中国生态",
-    "title": "产品速查",
-    "section": "中国生态",
-    "text": "中国生态\n\nDeepSeek\nKimi\nQwen / 通义千问\nGLM / 智谱\n腾讯 WorkBuddy\n\n如果你还不知道选哪个，不要从这里开始比较品牌，先回到 一张图选工具。",
+    "objectID": "products/doubao.html#再试一次研究设计",
+    "href": "products/doubao.html#再试一次研究设计",
+    "title": "豆包：从熟悉的聊天开始做研究练习",
+    "section": "再试一次研究设计",
+    "text": "再试一次研究设计\n粘贴设计练习中的一段材料及题目，要求它逐题解释答案依据、找出歧义，并给一项修改建议。你选择采用后，保存原稿、修改稿和理由。\n这两项练习已经包含研究工作的几个环节：提出问题、提供材料、检查、修改、保存。接下来若希望 AI 直接维护文件，可以使用工作 Agent；准备换工具时，把材料和当前状态一起带过去。",
     "crumbs": [
       "首页",
       "产品速查",
-      "产品速查"
+      "豆包：从熟悉的聊天开始做研究练习"
     ]
   },
   {
-    "objectID": "products/qwen.html",
-    "href": "products/qwen.html",
-    "title": "Qwen / 通义千问",
+    "objectID": "products/glm.html",
+    "href": "products/glm.html",
+    "title": "GLM：把模型接到已有代码或工作工具中",
     "section": "",
-    "text": "最后核查：2026-09-16 · 第一轮官方资料审计",
+    "text": "最后核查：2026-10-17。智谱开放平台提供模型 API，GLM Coding Plan 则是面向指定工具的订阅用量。它适合已经知道要用哪个工具、希望选择模型服务的读者。",
     "crumbs": [
       "首页",
       "产品速查",
-      "Qwen / 通义千问"
+      "GLM：把模型接到已有代码或工作工具中"
     ]
   },
   {
-    "objectID": "products/qwen.html#它是什么",
-    "href": "products/qwen.html#它是什么",
-    "title": "Qwen / 通义千问",
-    "section": "它是什么",
-    "text": "它是什么\n国内通用模型、Deep Research、API 与开源 Qwen Code 生态。",
+    "objectID": "products/glm.html#先决定工具再选计费入口",
+    "href": "products/glm.html#先决定工具再选计费入口",
+    "title": "GLM：把模型接到已有代码或工作工具中",
+    "section": "先决定工具，再选计费入口",
+    "text": "先决定工具，再选计费入口\n打开官方套餐概览，查看支持的工具与当前额度规则。当前文档列有 ZCode、Claude Code、Codex、OpenCode、WorkBuddy 等；只有按官方接入说明在指定环境使用，才会消费套餐额度。\n\n在概览页进入自己工具对应的接入指南。\n确认正在配置 Coding Plan，还是标准按量 API。\n在工具的凭证设置中填写该路线所要求的 Key 与服务地址。\n用教学目录完成一次列文件或短文本任务，再检查用量页。\n\n不要把同一段配置直接粘到所有工具。不同接口格式、服务地址和套餐用途，需要分别匹配。具体入口可从官方概览的“适用工具”进入。",
     "crumbs": [
       "首页",
       "产品速查",
-      "Qwen / 通义千问"
+      "GLM：把模型接到已有代码或工作工具中"
     ]
   },
   {
-    "objectID": "products/qwen.html#什么时候值得打开",
-    "href": "products/qwen.html#什么时候值得打开",
-    "title": "Qwen / 通义千问",
-    "section": "什么时候值得打开",
-    "text": "什么时候值得打开\n\n国内环境下使用通用对话和 Deep Research；\n使用阿里云 Model Studio / DashScope API；\n想尝试开源 Code Agent / Harness；\n需要理解普通 API 与 Coding Plan 的差别。",
+    "objectID": "products/glm.html#第一次拿它做什么",
+    "href": "products/glm.html#第一次拿它做什么",
+    "title": "GLM：把模型接到已有代码或工作工具中",
+    "section": "第一次拿它做什么",
+    "text": "第一次拿它做什么\n配置后，让工具读取六行数据，写出并运行分组均值脚本。任务与参考结果见代码助手教程。能否读文件与运行程序由所用工具决定，GLM 提供其中的模型服务。\n\n\n\n当前套餐同时设有 5 小时与每周额度。用完后查看重置窗口；不要推定是无限 API 包月。购买页价格、周期与续费条件需在所选区域账号中确认。",
     "crumbs": [
       "首页",
       "产品速查",
-      "Qwen / 通义千问"
+      "GLM：把模型接到已有代码或工作工具中"
     ]
   },
   {
-    "objectID": "products/qwen.html#它和-api-harness-的关系",
-    "href": "products/qwen.html#它和-api-harness-的关系",
-    "title": "Qwen / 通义千问",
-    "section": "它和 API / Harness 的关系",
-    "text": "它和 API / Harness 的关系\nQwen 模型/API 是模型服务；Qwen Code 是 Agent/Harness。二者可以组合，Qwen Code 也可接其他 Provider。\n\n\n\n能力\n本册当前判断\n\n\n\n\n普通对话\n✓\n\n\nDeep Research\n✓\n\n\nAPI\n✓\n\n\nCode Agent\n✓ Qwen Code\n\n\n中国大陆直接可用性\n✓\n\n\n普通 API / Coding Plan\n属于不同使用与计费路径，不能混为一谈",
+    "objectID": "products/kimi.html",
+    "href": "products/kimi.html",
+    "title": "Kimi：读材料、深度研究与文件交付",
+    "section": "",
+    "text": "最后核查：2026-10-17。从 Kimi 官网开始，普通对话、深度研究与 Agent 分别适合不同任务。",
     "crumbs": [
       "首页",
       "产品速查",
-      "Qwen / 通义千问"
+      "Kimi：读材料、深度研究与文件交付"
     ]
   },
   {
-    "objectID": "products/qwen.html#第一次推荐任务",
-    "href": "products/qwen.html#第一次推荐任务",
-    "title": "Qwen / 通义千问",
-    "section": "第一次推荐任务",
-    "text": "第一次推荐任务\n如果你准备使用 Qwen Code，先只完成认证和环境诊断，弄清“普通 API Key、Coding Plan Key、Provider”分别是什么，再进入真实项目。",
+    "objectID": "products/kimi.html#第一次读三篇论文",
+    "href": "products/kimi.html#第一次读三篇论文",
+    "title": "Kimi：读材料、深度研究与文件交付",
+    "section": "第一次：读三篇论文",
+    "text": "第一次：读三篇论文\n登录后新建对话，通过附件入口加入论文，先单篇询问研究任务与原文位置，再比较三篇。按入门文档使用当前文件入口，具体材料与问法见比较阅读教程。",
     "crumbs": [
       "首页",
       "产品速查",
-      "Qwen / 通义千问"
+      "Kimi：读材料、深度研究与文件交付"
     ]
   },
   {
-    "objectID": "products/qwen.html#最重要的限制",
-    "href": "products/qwen.html#最重要的限制",
-    "title": "Qwen / 通义千问",
-    "section": "最重要的限制",
-    "text": "最重要的限制\n不要默认“一个 Qwen Key 到处都能用”。普通 API 与 Coding Plan 的接口、用途和计费可能不同，具体以当时官方文档为准。",
+    "objectID": "products/kimi.html#要补文献深度研究",
+    "href": "products/kimi.html#要补文献深度研究",
+    "title": "Kimi：读材料、深度研究与文件交付",
+    "section": "要补文献：深度研究",
+    "text": "要补文献：深度研究\n直接打开 Kimi 深度研究，输入一个范围明确的问题，回答工具提出的澄清问题后继续。完成后先打开关键引用，再预览或下载报告。官方说明包含网页/App 入口与导出方式；本站深度研究练习教你把报告收紧为三篇待精读文献。",
     "crumbs": [
       "首页",
       "产品速查",
-      "Qwen / 通义千问"
+      "Kimi：读材料、深度研究与文件交付"
     ]
   },
   {
-    "objectID": "products/qwen.html#官方来源",
-    "href": "products/qwen.html#官方来源",
-    "title": "Qwen / 通义千问",
-    "section": "官方来源",
-    "text": "官方来源\n\nQwen\nQwen Code\nQwen Code on Model Studio\nDashScope API",
+    "objectID": "products/kimi.html#要做成文件agent-模式",
+    "href": "products/kimi.html#要做成文件agent-模式",
+    "title": "Kimi：读材料、深度研究与文件交付",
+    "section": "要做成文件：Agent 模式",
+    "text": "要做成文件：Agent 模式\n在任务中选择 Agent，提供确认结果表，并明确要一份中文报告。检查文件，再继续提出修改。第一次只做一个交付物，更容易核对是否读对了材料。\n当前会员说明区分新旧套餐：新 Go 不含 Kimi Code，Plus 及以上可使用；Code 与其他会员功能共享月度额度。新套餐另有滚动 5 小时限制，旧套餐仍有周限额。先在“设置 → 订阅”查看自己所属方案与余额，再安排任务。更多写脚本需求可从代码助手教程开始。",
     "crumbs": [
       "首页",
       "产品速查",
-      "Qwen / 通义千问"
+      "Kimi：读材料、深度研究与文件交付"
+    ]
+  },
+  {
+    "objectID": "products/research-tools.html",
+    "href": "products/research-tools.html",
+    "title": "论文阅读的工具组合：Zotero、笔记本与翻译",
+    "section": "",
+    "text": "最后核查：2026-10-17。一套够用的文献工作环境，可以由 Zotero 保存来源、AI 协助比较、文字或笔记文件保存研究者判断组成。",
+    "crumbs": [
+      "首页",
+      "产品速查",
+      "论文阅读的工具组合：Zotero、笔记本与翻译"
+    ]
+  },
+  {
+    "objectID": "products/research-tools.html#zotero把来源保存好",
+    "href": "products/research-tools.html#zotero把来源保存好",
+    "title": "论文阅读的工具组合：Zotero、笔记本与翻译",
+    "section": "Zotero：把来源保存好",
+    "text": "Zotero：把来源保存好\n从官网安装页取得 Zotero 与对应浏览器的 Connector。新建一个分类，在论文出版商页面点击 Connector 保存条目；也可用“通过标识符添加”输入 DOI。检查作者、年份与题名，再附上自己有权使用的全文。\n每篇附一条笔记：当前问题、关键结果、原文位置、下一步。写作时用 Zotero 的文字处理插件插入引用。基础软件可免费使用，附件同步存储有独立方案。官方快速开始。",
+    "crumbs": [
+      "首页",
+      "产品速查",
+      "论文阅读的工具组合：Zotero、笔记本与翻译"
+    ]
+  },
+  {
+    "objectID": "products/research-tools.html#gemini-notebook-或-kimi帮助比较材料",
+    "href": "products/research-tools.html#gemini-notebook-或-kimi帮助比较材料",
+    "title": "论文阅读的工具组合：Zotero、笔记本与翻译",
+    "section": "Gemini Notebook 或 Kimi：帮助比较材料",
+    "text": "Gemini Notebook 或 Kimi：帮助比较材料\n把选定论文加入笔记本或文件对话，先单篇核查，再横向比较。Gemini Notebook 可以按来源选择与引用定位；Kimi 可以读入文件并围绕材料讨论。完整路线见三篇论文比较。\n将核对后的比较结果回存 Zotero 笔记或项目文件。这样既能保留原论文，也能知道哪句话是自己的解释。",
+    "crumbs": [
+      "首页",
+      "产品速查",
+      "论文阅读的工具组合：Zotero、笔记本与翻译"
+    ]
+  },
+  {
+    "objectID": "products/research-tools.html#沉浸式翻译减少英文阅读阻力",
+    "href": "products/research-tools.html#沉浸式翻译减少英文阅读阻力",
+    "title": "论文阅读的工具组合：Zotero、笔记本与翻译",
+    "section": "沉浸式翻译：减少英文阅读阻力",
+    "text": "沉浸式翻译：减少英文阅读阻力\n从官方安装页安装对应浏览器扩展。先试一段公开英文摘要，比较原文和译文中的术语、否定词和比较对象。已有工具内服务可直接选择；想使用自己的 DeepSeek API，则按接入教程配置。\n先手动传递三篇材料，了解哪些步骤最耗时，再考虑用连接器或插件减少重复操作，见工具接入。",
+    "crumbs": [
+      "首页",
+      "产品速查",
+      "论文阅读的工具组合：Zotero、笔记本与翻译"
     ]
   },
   {
     "objectID": "appendices/api-tools.html",
     "href": "appendices/api-tools.html",
-    "title": "附录：把自己的 API 接进常用工具",
+    "title": "附录：把自己的模型接到常用工具",
     "section": "",
-    "text": "这个附录不做软件大全，也不提供逐按钮教程。只收录能够清楚展示“API 如何把模型能力嵌入现有工具”的代表性产品，并说明它们为什么值得知道。",
+    "text": "核查日期：2026-10-17。这些工具分别解决阅读、对话与文件执行的问题。已经有具体需求时，按对应教程配置即可。\n逐步操作见Chatbox 与翻译接入、Qwen Code、GLM。官方依据：沉浸式翻译、Chatbox、Qwen Code、GLM 套餐。",
     "crumbs": [
       "首页",
       "代码、API 与多步任务（按需）",
-      "附录：把自己的 API 接进常用工具"
+      "附录：把自己的模型接到常用工具"
     ]
   },
   {
-    "objectID": "appendices/api-tools.html#沉浸式翻译",
-    "href": "appendices/api-tools.html#沉浸式翻译",
-    "title": "附录：把自己的 API 接进常用工具",
-    "section": "沉浸式翻译",
-    "text": "沉浸式翻译\n为什么值得知道：这是最容易理解 API 的案例之一。浏览器插件负责网页/PDF 阅读体验，模型服务商负责推理，用户自己的 API Key 负责授权与计费。\n当前作者长期使用 DeepSeek BYOK 路线。沉浸式翻译托管模型和自带 API Key 是两套不同的使用方式，因此也很适合解释“工具会员费 ≠ API 费用”。\n适合：已经经常阅读英文网页、论文或 PDF 的研究者。",
+    "objectID": "appendices/api-tools.html#想接本地模型",
+    "href": "appendices/api-tools.html#想接本地模型",
+    "title": "附录：把自己的模型接到常用工具",
+    "section": "想接本地模型",
+    "text": "想接本地模型\nChatbox 也提供 Ollama、LM Studio 的配置入口。这类软件可以在适合的电脑上运行本地模型，再向客户端提供服务。官方 BYOK 指南列出对应配置页。\n选择前先看电脑内存、模型大小与具体任务。运行本地模型可以减少对云端推理的依赖，但要确认搜索、插件等其他步骤是否仍联网。首次可只用合成文本验证对话；不把“安装了桌面端”直接理解成“所有计算已在本机完成”。\n\n\n\n需要接网盘、论文材料或可复用步骤，继续工具连接与 Skill。",
     "crumbs": [
       "首页",
       "代码、API 与多步任务（按需）",
-      "附录：把自己的 API 接进常用工具"
-    ]
-  },
-  {
-    "objectID": "appendices/api-tools.html#byok-多模型客户端",
-    "href": "appendices/api-tools.html#byok-多模型客户端",
-    "title": "附录：把自己的 API 接进常用工具",
-    "section": "BYOK 多模型客户端",
-    "text": "BYOK 多模型客户端\n代表：Chatbox、Cherry Studio、LobeChat 等。\n为什么值得知道：它们把“界面”和“模型 Provider”拆开。用户可以把自己的 DeepSeek、OpenAI、Claude、Gemini 等 API Key 接入一个客户端，也可以接入 Ollama / LM Studio 等本地模型。\n公开社区中的典型使用包括：在手机/电脑上统一调用多个 Provider、锁定特定模型、在模型之间切换、使用自定义系统提示，以及把 API 按量付费与客户端订阅分开。Chatbox 官方当前也把 BYOK、多 Provider、本地模型列为核心使用方式。\n要不要用：如果厂商官方 App 已经满足你的需求，没有必要额外安装。对科研新手而言，这类工具的主要教学意义是帮助理解“客户端 ≠ 模型”。\n需要注意：一旦跨 Provider、聚合路由或 Agent Harness，模型路由、工具调用和兼容性会增加新的故障点。社区中已有用户报告聊天正常但 Agent/tool calls 不稳定的情况，因此不要把 BYOK 自动等同于“效果和官方产品完全一致”。",
-    "crumbs": [
-      "首页",
-      "代码、API 与多步任务（按需）",
-      "附录：把自己的 API 接进常用工具"
-    ]
-  },
-  {
-    "objectID": "appendices/api-tools.html#code-harness-ide-cli",
-    "href": "appendices/api-tools.html#code-harness-ide-cli",
-    "title": "附录：把自己的 API 接进常用工具",
-    "section": "Code Harness / IDE / CLI",
-    "text": "Code Harness / IDE / CLI\n代表：Claude Code、Codex、Qwen Code、Kimi Code、OpenCode、Cline 等。\n为什么值得知道：这里 API 不再只是给聊天界面供模型，而是让模型进入可以读文件、运行命令、修改代码和执行测试的工作环境。\n这一类工具会在正文的 Code Agent / Harness 路线中讲，而不是在附录里展开安装说明。",
-    "crumbs": [
-      "首页",
-      "代码、API 与多步任务（按需）",
-      "附录：把自己的 API 接进常用工具"
-    ]
-  },
-  {
-    "objectID": "appendices/api-tools.html#后续候选",
-    "href": "appendices/api-tools.html#后续候选",
-    "title": "附录：把自己的 API 接进常用工具",
-    "section": "后续候选",
-    "text": "后续候选\nZotero 扩展、Obsidian / 知识管理插件、浏览器阅读工具、转写/字幕工具、数据处理与自动化工具，都可以后续加入。但只有当工具同时满足“持续维护、API 接入明确、科研场景清楚、隐私边界可说明”时才进入正式推荐表。",
-    "crumbs": [
-      "首页",
-      "代码、API 与多步任务（按需）",
-      "附录：把自己的 API 接进常用工具"
+      "附录：把自己的模型接到常用工具"
     ]
   }
 ]

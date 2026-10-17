@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>第一次配置自己的 API：不写代码也能开始 – 心理学研究者的 AI Start Guide</title>
+<title>第一次配置自己的 API：接进 Chatbox 或翻译工具 – 心理学研究者的 AI Start Guide</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -134,7 +134,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="展开或折叠侧边栏导航" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/10-code-agent.html">代码、API 与多步任务（按需）</a></li><li class="breadcrumb-item"><a href="../chapters/07-api-first-setup.html">第一次配置自己的 API：不写代码也能开始</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/10-code-agent.html">代码、API 与多步任务（按需）</a></li><li class="breadcrumb-item"><a href="../chapters/07-api-first-setup.html">第一次配置自己的 API：接进 Chatbox 或翻译工具</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="展开或折叠侧边栏导航" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="搜索" onclick="window.quartoOpenSearch();">
@@ -178,13 +178,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/budget.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">免费、每月约 20 美元和更高预算怎么选</span></a>
+ <span class="menu-text">免费、人民币订阅与每月约 20 美元：怎样选择预算</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/00-start-now.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">现在就开始：30 分钟不要学完 AI，只完成一件事</span></a>
+ <span class="menu-text">现在就开始：30 分钟完成一个小任务</span></a>
   </div>
 </li>
       </ul>
@@ -207,25 +207,31 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/02-chat-first-task.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">第一次使用普通聊天</span></a>
+ <span class="menu-text">第一次普通对话：让回答变成可用的修改</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/method-learning.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">30 分钟学懂一个方法：个体内与个体间</span></a>
+ <span class="menu-text">用 AI 学一个方法：从六行数据到自己的解释</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/04-reading-papers.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">三篇论文的比较阅读：从总结到原文</span></a>
+ <span class="menu-text">三篇论文怎么一起读：从上传到文献笔记</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/05-deep-research.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Deep Research：做一轮有方向的文献探索</span></a>
+ <span class="menu-text">深度研究：围绕一个缺口找文献</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/research-design.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">把研究问题变成可以试做的材料</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -237,13 +243,19 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/academic-writing.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">从结果表到一段学术文字</span></a>
+ <span class="menu-text">从结果表写出两轮报告</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/03-project-workspace.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">建立持续研究空间：让明天接得上今天</span></a>
+ <span class="menu-text">让明天接得上今天：保存材料、决定和下一步</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/qualitative-research.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">和 AI 一起读访谈：定位原话、比较解释、寻找反例</span></a>
   </div>
 </li>
       </ul>
@@ -260,7 +272,19 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/10-code-agent.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">第一次让代码代理完成一个可检查的小任务</span></a>
+ <span class="menu-text">代码助手入门：从打开文件夹到运行与恢复</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/vibe-coding.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">用自然语言做一个研究小工具：vibe coding 入门</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/tool-connections.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">把资料和工具接进 AI：附件、连接器、API 与 Skill</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -272,7 +296,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/07-api-first-setup.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">第一次配置自己的 API：不写代码也能开始</span></a>
+ <span class="menu-text">第一次配置自己的 API：接进 Chatbox 或翻译工具</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -290,13 +314,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/11-work-agent.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">工作 Agent：把一个文件任务做完</span></a>
+ <span class="menu-text">第一次用工作 Agent：交给它一组文件，拿回一份报告</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../appendices/api-tools.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">附录：把自己的 API 接进常用工具</span></a>
+ <span class="menu-text">附录：把自己的模型接到常用工具</span></a>
   </div>
 </li>
       </ul>
@@ -313,13 +337,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/12-privacy.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">上传之前：数据、隐私与未公开研究</span></a>
+ <span class="menu-text">选好资料与设置：让 AI 在合适的范围内工作</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/13-checklist.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">30 分钟 Start Checklist</span></a>
+ <span class="menu-text">做完以后：检查结果，再选下一步</span></a>
   </div>
 </li>
       </ul>
@@ -336,55 +360,73 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../products/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">产品速查</span></a>
+ <span class="menu-text">产品速查：按要做的事选入口</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../products/chatgpt.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">ChatGPT</span></a>
+ <span class="menu-text">ChatGPT、Work 与 Codex：从对话到文件任务</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../products/claude.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Claude</span></a>
+ <span class="menu-text">Claude：文本、项目、Cowork 与代码</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../products/gemini.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Gemini / Gemini Notebook</span></a>
+ <span class="menu-text">Gemini 与 Gemini Notebook：讨论问题和围绕来源阅读</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../products/deepseek.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">DeepSeek</span></a>
+ <span class="menu-text">DeepSeek：聊天、桌面文件工作与 API</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../products/kimi.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Kimi</span></a>
+ <span class="menu-text">Kimi：读材料、深度研究与文件交付</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../products/qwen.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Qwen / 通义千问</span></a>
+ <span class="menu-text">千问、千问办公与 Qwen Code</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../products/doubao.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">豆包：从熟悉的聊天开始做研究练习</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../products/glm.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">GLM / 智谱</span></a>
+ <span class="menu-text">GLM：把模型接到已有代码或工作工具中</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../products/workbuddy.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">腾讯 WorkBuddy</span></a>
+ <span class="menu-text">腾讯 WorkBuddy：从一份文件开始交付任务</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../products/cursor.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cursor：在文件旁边和代码助手一起修改</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../products/research-tools.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">论文阅读的工具组合：Zotero、笔记本与翻译</span></a>
   </div>
 </li>
       </ul>
@@ -405,18 +447,19 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">该页面内容</h2>
    
   <ul>
-  <li><a href="#路线-adeepseek-api-沉浸式翻译" id="toc-路线-adeepseek-api-沉浸式翻译" class="nav-link active" data-scroll-target="#路线-adeepseek-api-沉浸式翻译">路线 A：DeepSeek API → 沉浸式翻译</a></li>
-  <li><a href="#路线-bbyok-客户端" id="toc-路线-bbyok-客户端" class="nav-link" data-scroll-target="#路线-bbyok-客户端">路线 B：BYOK 客户端</a></li>
-  <li><a href="#路线-c直接进入批处理" id="toc-路线-c直接进入批处理" class="nav-link" data-scroll-target="#路线-c直接进入批处理">路线 C：直接进入批处理</a></li>
+  <li><a href="#先取得服务商的凭证" id="toc-先取得服务商的凭证" class="nav-link active" data-scroll-target="#先取得服务商的凭证">先取得服务商的凭证</a></li>
+  <li><a href="#路线-achatbox-deepseek" id="toc-路线-achatbox-deepseek" class="nav-link" data-scroll-target="#路线-achatbox-deepseek">路线 A：Chatbox → DeepSeek</a></li>
+  <li><a href="#路线-bdeepseek-沉浸式翻译" id="toc-路线-bdeepseek-沉浸式翻译" class="nav-link" data-scroll-target="#路线-bdeepseek-沉浸式翻译">路线 B：DeepSeek → 沉浸式翻译</a></li>
+  <li><a href="#配置失败时按什么顺序检查" id="toc-配置失败时按什么顺序检查" class="nav-link" data-scroll-target="#配置失败时按什么顺序检查">配置失败时按什么顺序检查</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/10-code-agent.html">代码、API 与多步任务（按需）</a></li><li class="breadcrumb-item"><a href="../chapters/07-api-first-setup.html">第一次配置自己的 API：不写代码也能开始</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/10-code-agent.html">代码、API 与多步任务（按需）</a></li><li class="breadcrumb-item"><a href="../chapters/07-api-first-setup.html">第一次配置自己的 API：接进 Chatbox 或翻译工具</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">第一次配置自己的 API：不写代码也能开始</h1>
+<h1 class="title">第一次配置自己的 API：接进 Chatbox 或翻译工具</h1>
 </div>
 
 
@@ -433,29 +476,74 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><strong>目标：</strong> 用自己的 API Key 接入一个现有工具，并知道请求在哪里计费。核查日期：2026-10-13，依据官方文档；本轮没有重新充值或发起付费翻译。</p>
-<section id="路线-adeepseek-api-沉浸式翻译" class="level2">
-<h2 class="anchored" data-anchor-id="路线-adeepseek-api-沉浸式翻译">路线 A：DeepSeek API → 沉浸式翻译</h2>
-<p>准备官方 DeepSeek 账号、可用 API 余额与官方沉浸式翻译扩展。客户端或插件组织请求，DeepSeek API 执行模型调用；软件订阅与模型 API 费用需分别确认。</p>
+<p>核查日期：<strong>2026-10-17</strong>。API Key 是软件调用模型服务的凭证。本页用 DeepSeek 做两条小练习：在 Chatbox 对话，或在沉浸式翻译中读一小段英文。先确认开放平台余额与费用，调用可能产生收费。</p>
+<section id="先取得服务商的凭证" class="level2">
+<h2 class="anchored" data-anchor-id="先取得服务商的凭证">先取得服务商的凭证</h2>
+<p>从 <a href="https://www.deepseek.com/">DeepSeek 官网</a>进入 API 开放平台，用自己的账号登录，在 Key 管理中创建本次练习专用 Key，保存到密码管理器或工具的密钥栏。检查 API 余额与用量入口。</p>
+<p>网页聊天、客户端会员和 API 账户余额分别管理。Key 不放进研究稿件、普通聊天或截图；不再使用时可以在控制台撤销。</p>
+<div id="路线-bbyok-客户端">
+
+</div>
+</section>
+<section id="路线-achatbox-deepseek" class="level2">
+<h2 class="anchored" data-anchor-id="路线-achatbox-deepseek">路线 A：Chatbox → DeepSeek</h2>
 <ol type="1">
-<li>从 <a href="https://www.deepseek.com/">DeepSeek 官网</a>进入官方开放平台，在 Key 管理中创建专用于本练习的 Key。</li>
-<li>从<a href="https://immersivetranslate.com/zh-TW/docs/installation/">沉浸式翻译官方安装入口</a>取得扩展。</li>
-<li>按<a href="https://immersivetranslate.com/zh-TW/docs/services/deepseek/">官方 DeepSeek 配置说明</a>在服务设置中填写自己的 Key；如需选择模型，以 <a href="https://api-docs.deepseek.com/zh-cn/quick_start/pricing/">DeepSeek 当前模型文档</a>为准。</li>
-<li>只翻译一小段允许处理的公开英文材料，检查输出是否保留术语和否定表达。</li>
-<li>回到官方 API 用量页确认请求与消费；若无法确认调用是否记在自己的 API 账户，先停止扩大使用量。</li>
+<li>从 <a href="https://chatboxai.app/zh/guide/byok">Chatbox 官方指南</a>进入下载安装，打开设置。</li>
+<li>在“模型提供方”中选 DeepSeek，将自己的 Key 填入 API Key 栏。</li>
+<li>点击“检查”，连接成功后在模型列表选择当前可用模型。</li>
+<li>新建对话，发一句：“请把‘个体内变化’解释给第一次做日记研究的同学，给一个例子。”</li>
+<li>查看返回结果，再到 DeepSeek 用量页确认这次调用；开始大批量使用前先估算费用。</li>
 </ol>
-<p>如果设置失败，依次检查当前选择的是自带 Key 路线还是托管订阅、Key 是否有效、账户是否有余额、模型与入口是否匹配。不要把含 Key 的截图交给陌生人排错。</p>
-<p>2026-09-16 的项目记录包含界面配置和既有使用经验；它不等于本轮在当前版本完成了一次付费请求。网页对话和插件翻译都能满足任务时，继续使用熟悉的入口即可。</p>
+<p>操作依据：<a href="https://chatboxai.app/zh/guide/byok/deepseek">Chatbox 的 DeepSeek 配置</a>。BYOK 表示“自带 API Key”，与 Chatbox AI 托管订阅服务是两条路线。</p>
+<div id="路线-adeepseek-api-沉浸式翻译">
+
+</div>
 </section>
-<section id="路线-bbyok-客户端" class="level2">
-<h2 class="anchored" data-anchor-id="路线-bbyok-客户端">路线 B：BYOK 客户端</h2>
-<p>BYOK 是“自带 API Key”。在客户端的设置中选择服务商，填入该服务商的 Key，再选择其支持的模型。<a href="https://chatboxai.app/zh/guide/byok">Chatbox 官方 BYOK 文档</a>介绍这一关系和各服务商配置入口；本文不要求你额外安装它。</p>
-<p>客户端、API 服务商和模型是三个不同对象。直连 API 也不能自动证明某项研究数据适合上传；正式材料仍需按机构规则判断。</p>
+<section id="路线-bdeepseek-沉浸式翻译" class="level2">
+<h2 class="anchored" data-anchor-id="路线-bdeepseek-沉浸式翻译">路线 B：DeepSeek → 沉浸式翻译</h2>
+<p>从<a href="https://immersivetranslate.com/zh-TW/docs/installation/">官方安装入口</a>安装浏览器扩展。在服务设置中按<a href="https://immersivetranslate.com/zh-TW/docs/services/deepseek/">DeepSeek 配置说明</a>选择自带 Key 路线，填入凭证；模型名按<a href="https://api-docs.deepseek.com/zh-cn/quick_start/pricing/">当前官方模型页</a>选择。</p>
+<p>先翻译一小段公开英文摘要。对照原文检查术语、否定词与比较对象，再去 API 用量页查看请求。工具内订阅模型与自带 Key 的计费位置不同，先确认自己选的是哪条路线。</p>
 </section>
-<section id="路线-c直接进入批处理" class="level2">
-<h2 class="anchored" data-anchor-id="路线-c直接进入批处理">路线 C：直接进入批处理</h2>
-<p>已有重复处理需求，可直接进入<a href="../chapters/09-api-research-script.html">两条合成文本起步的批处理教程</a>，不必先装翻译插件或客户端。</p>
-<p>Key 相当于能产生费用的凭证：不放进聊天、截图或代码；练习结束后可在控制台撤销。费用如何估算见<a href="../chapters/08-api-costs.html">按量计费</a>。</p>
+<section id="配置失败时按什么顺序检查" class="level2">
+<h2 class="anchored" data-anchor-id="配置失败时按什么顺序检查">配置失败时按什么顺序检查</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>提示或现象</th>
+<th>优先检查</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Key 验证失败</td>
+<td>是否为 DeepSeek 开放平台 Key，是否复制完整、已撤销或填错服务商</td>
+</tr>
+<tr class="even">
+<td>余额/额度不足</td>
+<td>查 API 余额，不是网页聊天会员状态</td>
+</tr>
+<tr class="odd">
+<td>模型不存在</td>
+<td>刷新列表，与服务商当前模型名核对</td>
+</tr>
+<tr class="even">
+<td>连接超时</td>
+<td>查网络与官方服务状态，避免反复启动大任务</td>
+</tr>
+<tr class="odd">
+<td>能聊天但某种工具功能失败</td>
+<td>分开检查客户端版本、接口格式与工具调用支持</td>
+</tr>
+</tbody>
+</table>
+<div id="路线-c直接进入批处理">
+
+</div>
+<p>需要程序重复处理材料时，继续<a href="../chapters/09-api-research-script.html">两条文本起步的批处理</a>。费用计算见<a href="../chapters/08-api-costs.html">API 价格表怎么读</a>。本页依据官方配置文档编写，未发起新的付费请求；统一核查说明见<a href="../docs/versioning.html">版本页</a>。</p>
 
 
 </section>

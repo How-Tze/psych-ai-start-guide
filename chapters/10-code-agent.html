@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>第一次让代码代理完成一个可检查的小任务 – 心理学研究者的 AI Start Guide</title>
+<title>代码助手入门：从打开文件夹到运行与恢复 – 心理学研究者的 AI Start Guide</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -36,8 +36,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../chapters/06-api-basics.html" rel="next">
-<link href="../chapters/03-project-workspace.html" rel="prev">
+<link href="../chapters/vibe-coding.html" rel="next">
+<link href="../chapters/qualitative-research.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -134,7 +134,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="展开或折叠侧边栏导航" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/10-code-agent.html">代码、API 与多步任务（按需）</a></li><li class="breadcrumb-item"><a href="../chapters/10-code-agent.html">第一次让代码代理完成一个可检查的小任务</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/10-code-agent.html">代码、API 与多步任务（按需）</a></li><li class="breadcrumb-item"><a href="../chapters/10-code-agent.html">代码助手入门：从打开文件夹到运行与恢复</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="展开或折叠侧边栏导航" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="搜索" onclick="window.quartoOpenSearch();">
@@ -178,13 +178,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/budget.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">免费、每月约 20 美元和更高预算怎么选</span></a>
+ <span class="menu-text">免费、人民币订阅与每月约 20 美元：怎样选择预算</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/00-start-now.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">现在就开始：30 分钟不要学完 AI，只完成一件事</span></a>
+ <span class="menu-text">现在就开始：30 分钟完成一个小任务</span></a>
   </div>
 </li>
       </ul>
@@ -207,25 +207,31 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/02-chat-first-task.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">第一次使用普通聊天</span></a>
+ <span class="menu-text">第一次普通对话：让回答变成可用的修改</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/method-learning.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">30 分钟学懂一个方法：个体内与个体间</span></a>
+ <span class="menu-text">用 AI 学一个方法：从六行数据到自己的解释</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/04-reading-papers.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">三篇论文的比较阅读：从总结到原文</span></a>
+ <span class="menu-text">三篇论文怎么一起读：从上传到文献笔记</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/05-deep-research.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Deep Research：做一轮有方向的文献探索</span></a>
+ <span class="menu-text">深度研究：围绕一个缺口找文献</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/research-design.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">把研究问题变成可以试做的材料</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -237,13 +243,19 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/academic-writing.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">从结果表到一段学术文字</span></a>
+ <span class="menu-text">从结果表写出两轮报告</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/03-project-workspace.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">建立持续研究空间：让明天接得上今天</span></a>
+ <span class="menu-text">让明天接得上今天：保存材料、决定和下一步</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/qualitative-research.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">和 AI 一起读访谈：定位原话、比较解释、寻找反例</span></a>
   </div>
 </li>
       </ul>
@@ -260,7 +272,19 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/10-code-agent.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">第一次让代码代理完成一个可检查的小任务</span></a>
+ <span class="menu-text">代码助手入门：从打开文件夹到运行与恢复</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/vibe-coding.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">用自然语言做一个研究小工具：vibe coding 入门</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/tool-connections.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">把资料和工具接进 AI：附件、连接器、API 与 Skill</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -272,7 +296,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/07-api-first-setup.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">第一次配置自己的 API：不写代码也能开始</span></a>
+ <span class="menu-text">第一次配置自己的 API：接进 Chatbox 或翻译工具</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -290,13 +314,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/11-work-agent.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">工作 Agent：把一个文件任务做完</span></a>
+ <span class="menu-text">第一次用工作 Agent：交给它一组文件，拿回一份报告</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../appendices/api-tools.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">附录：把自己的 API 接进常用工具</span></a>
+ <span class="menu-text">附录：把自己的模型接到常用工具</span></a>
   </div>
 </li>
       </ul>
@@ -313,13 +337,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/12-privacy.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">上传之前：数据、隐私与未公开研究</span></a>
+ <span class="menu-text">选好资料与设置：让 AI 在合适的范围内工作</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/13-checklist.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">30 分钟 Start Checklist</span></a>
+ <span class="menu-text">做完以后：检查结果，再选下一步</span></a>
   </div>
 </li>
       </ul>
@@ -336,55 +360,73 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../products/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">产品速查</span></a>
+ <span class="menu-text">产品速查：按要做的事选入口</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../products/chatgpt.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">ChatGPT</span></a>
+ <span class="menu-text">ChatGPT、Work 与 Codex：从对话到文件任务</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../products/claude.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Claude</span></a>
+ <span class="menu-text">Claude：文本、项目、Cowork 与代码</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../products/gemini.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Gemini / Gemini Notebook</span></a>
+ <span class="menu-text">Gemini 与 Gemini Notebook：讨论问题和围绕来源阅读</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../products/deepseek.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">DeepSeek</span></a>
+ <span class="menu-text">DeepSeek：聊天、桌面文件工作与 API</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../products/kimi.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Kimi</span></a>
+ <span class="menu-text">Kimi：读材料、深度研究与文件交付</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../products/qwen.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Qwen / 通义千问</span></a>
+ <span class="menu-text">千问、千问办公与 Qwen Code</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../products/doubao.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">豆包：从熟悉的聊天开始做研究练习</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../products/glm.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">GLM / 智谱</span></a>
+ <span class="menu-text">GLM：把模型接到已有代码或工作工具中</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../products/workbuddy.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">腾讯 WorkBuddy</span></a>
+ <span class="menu-text">腾讯 WorkBuddy：从一份文件开始交付任务</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../products/cursor.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cursor：在文件旁边和代码助手一起修改</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../products/research-tools.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">论文阅读的工具组合：Zotero、笔记本与翻译</span></a>
   </div>
 </li>
       </ul>
@@ -405,19 +447,20 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">该页面内容</h2>
    
   <ul>
-  <li><a href="#准备一个教学文件夹" id="toc-准备一个教学文件夹" class="nav-link active" data-scroll-target="#准备一个教学文件夹">准备一个教学文件夹</a></li>
-  <li><a href="#第-1-步让它确认输入和任务" id="toc-第-1-步让它确认输入和任务" class="nav-link" data-scroll-target="#第-1-步让它确认输入和任务">第 1 步：让它确认输入和任务</a></li>
-  <li><a href="#第-2-步完成一个小改动" id="toc-第-2-步完成一个小改动" class="nav-link" data-scroll-target="#第-2-步完成一个小改动">第 2 步：完成一个小改动</a></li>
-  <li><a href="#第-3-步亲自检查交付" id="toc-第-3-步亲自检查交付" class="nav-link" data-scroll-target="#第-3-步亲自检查交付">第 3 步：亲自检查交付</a></li>
+  <li><a href="#路线-acodex打开目录后直接说任务" id="toc-路线-acodex打开目录后直接说任务" class="nav-link active" data-scroll-target="#路线-acodex打开目录后直接说任务">路线 A：Codex，打开目录后直接说任务</a></li>
+  <li><a href="#路线-bqwen-code在终端中操作教学文件夹" id="toc-路线-bqwen-code在终端中操作教学文件夹" class="nav-link" data-scroll-target="#路线-bqwen-code在终端中操作教学文件夹">路线 B：Qwen Code，在终端中操作教学文件夹</a></li>
+  <li><a href="#第一个任务两轮报告" id="toc-第一个任务两轮报告" class="nav-link" data-scroll-target="#第一个任务两轮报告">第一个任务：两轮报告</a></li>
+  <li><a href="#再进一步让它写一个很小的脚本" id="toc-再进一步让它写一个很小的脚本" class="nav-link" data-scroll-target="#再进一步让它写一个很小的脚本">再进一步：让它写一个很小的脚本</a></li>
+  <li><a href="#做一次恢复看看运行成功之外还要查什么" id="toc-做一次恢复看看运行成功之外还要查什么" class="nav-link" data-scroll-target="#做一次恢复看看运行成功之外还要查什么">做一次恢复，看看“运行成功”之外还要查什么</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/10-code-agent.html">代码、API 与多步任务（按需）</a></li><li class="breadcrumb-item"><a href="../chapters/10-code-agent.html">第一次让代码代理完成一个可检查的小任务</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/10-code-agent.html">代码、API 与多步任务（按需）</a></li><li class="breadcrumb-item"><a href="../chapters/10-code-agent.html">代码助手入门：从打开文件夹到运行与恢复</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">第一次让代码代理完成一个可检查的小任务</h1>
+<h1 class="title">代码助手入门：从打开文件夹到运行与恢复</h1>
 </div>
 
 
@@ -434,31 +477,63 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>代码代理能在授权的项目目录里查看、修改和运行文件。普通聊天产品也可能支持文件上传和沙箱计算；真正需要比较的是当前任务能访问哪些文件、能否持续维护项目，以及改动和运行结果能否检查。</p>
-<section id="准备一个教学文件夹" class="level2">
-<h2 class="anchored" data-anchor-id="准备一个教学文件夹">准备一个教学文件夹</h2>
-<p>完成<a href="../chapters/data-analysis.html">数据练习</a>后，把六行 CSV 及参考汇总表放进一个新文件夹。不要从唯一的正式研究目录开始。</p>
-<p>以 Codex 为例，从<a href="https://developers.openai.com/codex/quickstart/">官方快速开始</a>选择适合操作系统的入口，登录后选择该教学目录。安装、登录和可用环境依据官方文档，核查于 2026-10-13；实际系统和账号支持以当前文档为准。已有其他代码代理也可以使用同一练习。</p>
+<p><strong>Coding Agent（代码助手）</strong>能读取项目里的文件、编写或修改程序、运行命令，并根据报错继续修正。对研究者而言，它可以整理数据、重画图、批量生成报告，也可以制作一个小工具。这里先用现成脚本练习，便于看清输入和结果的关系。</p>
+<p>入口核查日期：<strong>2026-10-17</strong>。本页提供 Codex 图形界面和 Qwen Code 两条路线，任选其一。安装软件本身与购买模型用量是两件事，费用见<a href="../chapters/budget.html">预算页</a>。</p>
+<section id="路线-acodex打开目录后直接说任务" class="level2">
+<h2 class="anchored" data-anchor-id="路线-acodex打开目录后直接说任务">路线 A：Codex，打开目录后直接说任务</h2>
+<ol type="1">
+<li>从<a href="https://learn.chatgpt.com/docs/quickstart">官方快速开始</a>进入桌面端下载，选择自己的系统，安装后用 ChatGPT 账号登录。</li>
+<li>在产品选择处选 Codex，打开专门的教学文件夹。界面里的项目就是一组相关文件。</li>
+<li>先发：“列出本目录的文件，说明输入和已有脚本在哪里。”确认它看到的是本次练习。</li>
+<li>使用下文的运行任务，查看它产生的文件改动和执行结果。</li>
+</ol>
+<p>账号登录可使用方案内额度；API Key 登录走另一套计费。当前官方说明 Free/Go 的桌面端能力受开放进度影响，Plus/Pro 有相应方案用量；Work 与 Codex 共享用量。具体范围见<a href="https://learn.chatgpt.com/docs/pricing">官方定价</a>。</p>
 </section>
-<section id="第-1-步让它确认输入和任务" class="level2">
-<h2 class="anchored" data-anchor-id="第-1-步让它确认输入和任务">第 1 步：让它确认输入和任务</h2>
+<section id="路线-bqwen-code在终端中操作教学文件夹" class="level2">
+<h2 class="anchored" data-anchor-id="路线-bqwen-code在终端中操作教学文件夹">路线 B：Qwen Code，在终端中操作教学文件夹</h2>
+<p>终端是输入命令的窗口。Windows 可打开 PowerShell；macOS 可打开“终端”。从<a href="https://qwenlm.github.io/qwen-code-docs/zh/users/overview/">Qwen Code 官方安装页</a>选择对应系统的安装方法；安装后重新开一个终端，输入 <code>qwen --version</code> 检查是否找到程序。官方安装器优先使用独立程序包，回退到 npm 时需要 Node.js 22 或以上。</p>
+<p>进入教学目录，再启动：</p>
+<pre class="text"><code>cd "你的教学目录路径"
+qwen</code></pre>
+<p>第一次启动会选择模型服务。可选 Alibaba ModelStudio 的 Token Plan 或 Standard API Key；也有 DeepSeek、Kimi、Z.AI 等第三方提供商入口。选自己已开通的服务，按对应页面填写凭证。<strong>千问聊天账号、阿里云套餐和第三方 API Key 各自有不同的使用条件。</strong></p>
+<p>先输入“只列出当前文件夹中的文件”，确认目录无误，再运行下方任务。认证失败时回查所选服务商、Key 类型和套餐入口；将密钥填在官方配置界面，不粘到对话里。<a href="https://qwenlm.github.io/qwen-code-docs/zh/users/configuration/auth/">官方认证说明</a>。</p>
+<div id="准备一个教学文件夹">
+
+</div>
+<div id="第-1-步让它确认输入和任务">
+
+</div>
+</section>
+<section id="第一个任务两轮报告" class="level2">
+<h2 class="anchored" data-anchor-id="第一个任务两轮报告">第一个任务：两轮报告</h2>
+<p>下载<a href="https://github.com/How-Tze/psych-ai-research-handbook/releases/download/v1.3/psych-ai-research-handbook_v1.3_materials.zip">主手册 v1.3 教学包</a>，解压并找到 <code>workflow/build_report.py</code>。需要 Python 3.10 或以上；可先让助手检查 <code>python --version</code>，Windows 也可能使用 <code>py</code>。没有 Python 时按 <a href="https://www.python.org/downloads/">Python 官方下载页</a>安装对应版本，再重新打开终端。</p>
 <blockquote class="blockquote">
-<p>查看这个教学文件夹。报告 CSV 的列、行数与参考输出。今天的任务是按 id 计算两列均值，生成 summary.csv；不要修改输入。先说明将读取和创建哪些文件，以及如何核对结果。</p>
+<p>先读 workflow/README.md。确认 Python 可用后，在 workflow 目录按下列命令生成两份报告。保留输入和已有参考稿，核对输出数字，告诉我实际运行了什么。</p>
 </blockquote>
-<p>应识别 6 行、A/B 各 3 行。输入缺失或无法运行环境时，先让它说明具体问题，不把生成代码说成已运行。</p>
+<pre class="text"><code>python build_report.py --source ../reference/survey-sensitivity.csv --mode main --output my-run/round-1.md
+python build_report.py --source ../reference/survey-sensitivity.csv --mode compare --output my-run/round-2.md</code></pre>
+<p>第一份只有主规则，第二份加入比较规则。打开文件：主规则为 21 条记录，系数 0.364、0.343；比较规则为 15 条，系数 1.081、0.720。这次程序整理的是已有数字，不重新拟合分析。</p>
+<p>脚本拒绝覆盖已有输出。再次练习时换一个新文件名，例如 <code>round-2-again.md</code>。如果路径报错，先确认终端当前位于 <code>workflow</code>；<code>../reference</code> 表示上一级目录中的 reference 文件夹。</p>
+<div id="第-2-步完成一个小改动">
+
+</div>
 </section>
-<section id="第-2-步完成一个小改动" class="level2">
-<h2 class="anchored" data-anchor-id="第-2-步完成一个小改动">第 2 步：完成一个小改动</h2>
+<section id="再进一步让它写一个很小的脚本" class="level2">
+<h2 class="anchored" data-anchor-id="再进一步让它写一个很小的脚本">再进一步：让它写一个很小的脚本</h2>
+<p>新建另一个文件夹，放入<a href="../examples/learning/within-between.csv">六行 CSV</a>与<a href="../examples/learning/expected-means.csv">参考均值</a>。给助手这项任务：</p>
 <blockquote class="blockquote">
-<p>在当前教学目录创建一个只使用现有环境的计算脚本并运行。输出 summary.csv；检查 A 的均值为 2、3，B 为 5、6。报告实际运行命令、结果和改动文件；不安装新依赖，不修改原 CSV。</p>
+<p>用 Python 标准库编写 summary.py，读取 within-between.csv，按 id 计算 stress 和 sleep_difficulty 的均值，输出 summary.csv。先检查列名、行数和缺失情况。运行后对照 expected-means.csv；不修改输入。</p>
 </blockquote>
-<p>这个任务可由 Python 标准库完成。读者的重点是能说明结果来自哪里，不需要先掌握全部语法。</p>
+<div id="第-3-步亲自检查交付">
+
+</div>
+<p>应得到 A 的均值 2、3，B 的均值 5、6。打开脚本和结果，让助手解释“哪些行读取文件、哪些行计算均值、哪些行写出结果”。这能帮助你以后发现分组变量或列名用错，而不必先从头学完整门编程课。</p>
 </section>
-<section id="第-3-步亲自检查交付" class="level2">
-<h2 class="anchored" data-anchor-id="第-3-步亲自检查交付">第 3 步：亲自检查交付</h2>
-<p>打开 summary.csv，与参考表比较；查看新增脚本与输入是否被改动。再运行一次应得到相同汇总。失败时保留原 CSV，依据具体错误修复环境或脚本；若工具没有执行能力，让它交付候选脚本并标明“未运行”。</p>
-<p>正式研究中，把参考数字替换成研究者确认的分析规格。纳排、反向计分和模型改变都属于研究影响，不能只凭“测试通过”采用。<a href="https://How-Tze.github.io/psych-ai-research-handbook/chapters/07-data-code.html">主手册数据与代码章</a>进一步说明这些区别。</p>
-<p>反复完成相同任务后，可以固定成脚本；多步文件任务见<a href="../chapters/11-work-agent.html">工作 Agent</a>，并不需要先学习 API 才能使用代码代理。</p>
+<section id="做一次恢复看看运行成功之外还要查什么" class="level2">
+<h2 class="anchored" data-anchor-id="做一次恢复看看运行成功之外还要查什么">做一次恢复，看看“运行成功”之外还要查什么</h2>
+<p>回到报告目录，让助手依据 <code>workflow/recovery-exercise.md</code> 建立错误副本：只把主规则的 <code>n</code> 改成 15，运行报告，再用原表在新位置重做。比较两份产物，正确恢复后主规则为 21，比较规则仍为 15。</p>
+<p>这次错误能通过格式检查，所以核对来源很有用。若助手修改了错误的文件，先停止后续操作，保留原始教学包，重新从正确副本开始；恢复的具体步骤见<a href="https://How-Tze.github.io/psych-ai-research-handbook/chapters/11-safety-recovery.html#recovery">主手册恢复节</a>。</p>
+<p>想体验从一个想法做出界面，继续<a href="../chapters/vibe-coding.html">用自然语言制作研究小工具</a>。想把已有材料交给助手整理成文档，进入<a href="../chapters/11-work-agent.html">工作 Agent</a>。</p>
 
 
 </section>
@@ -871,13 +946,13 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../chapters/03-project-workspace.html" class="pagination-link" aria-label="建立持续研究空间：让明天接得上今天">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">建立持续研究空间：让明天接得上今天</span>
+      <a href="../chapters/qualitative-research.html" class="pagination-link" aria-label="和 AI 一起读访谈：定位原话、比较解释、寻找反例">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">和 AI 一起读访谈：定位原话、比较解释、寻找反例</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../chapters/06-api-basics.html" class="pagination-link" aria-label="API 是什么：从‘我使用 AI’到‘我的工具调用 AI’">
-        <span class="nav-page-text">API 是什么：从‘我使用 AI’到‘我的工具调用 AI’</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../chapters/vibe-coding.html" class="pagination-link" aria-label="用自然语言做一个研究小工具：vibe coding 入门">
+        <span class="nav-page-text">用自然语言做一个研究小工具：vibe coding 入门</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
