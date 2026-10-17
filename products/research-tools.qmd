@@ -1,0 +1,23 @@
+---
+title: "论文阅读的工具组合：Zotero、笔记本与翻译"
+---
+
+最后核查：**2026-10-17**。一套够用的文献工作环境，可以由 Zotero 保存来源、AI 协助比较、文字或笔记文件保存研究者判断组成。
+
+## Zotero：把来源保存好
+
+从[官网安装页](https://www.zotero.org/download/)取得 Zotero 与对应浏览器的 Connector。新建一个分类，在论文出版商页面点击 Connector 保存条目；也可用“通过标识符添加”输入 DOI。检查作者、年份与题名，再附上自己有权使用的全文。
+
+每篇附一条笔记：当前问题、关键结果、原文位置、下一步。写作时用 Zotero 的文字处理插件插入引用。基础软件可免费使用，附件同步存储有独立方案。[官方快速开始](https://www.zotero.org/support/quick_start_guide)。
+
+## Gemini Notebook 或 Kimi：帮助比较材料
+
+把选定论文加入笔记本或文件对话，先单篇核查，再横向比较。Gemini Notebook 可以按来源选择与引用定位；Kimi 可以读入文件并围绕材料讨论。完整路线见[三篇论文比较](../chapters/04-reading-papers.qmd)。
+
+将核对后的比较结果回存 Zotero 笔记或项目文件。这样既能保留原论文，也能知道哪句话是自己的解释。
+
+## 沉浸式翻译：减少英文阅读阻力
+
+从[官方安装页](https://immersivetranslate.com/zh-TW/docs/installation/)安装对应浏览器扩展。先试一段公开英文摘要，比较原文和译文中的术语、否定词和比较对象。已有工具内服务可直接选择；想使用自己的 DeepSeek API，则按[接入教程](../chapters/07-api-first-setup.qmd)配置。
+
+先手动传递三篇材料，了解哪些步骤最耗时，再考虑用连接器或插件减少重复操作，见[工具接入](../chapters/tool-connections.qmd)。

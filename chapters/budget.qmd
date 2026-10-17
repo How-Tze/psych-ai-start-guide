@@ -1,54 +1,75 @@
 ---
-title: "免费、每月约 20 美元和更高预算怎么选"
+title: "免费、人民币订阅与每月约 20 美元：怎样选择预算"
 ---
 
-核查日期：**2026-10-13**。以下是个人方案的美元网页标价参考；Google 使用美国页面。未计当地税费、汇率、应用商店差异或短期优惠，购买时以账号结算页为准。这里只列与科研起步直接相关的方案，并非全套餐目录。
+核查日期：**2026-10-17**。先确定要完成的任务，再看哪个产品的功能与额度合适。下列为官方网页方案参考，币种、地区和计费周期分别注明；税费、应用商店差异与账号优惠以结算页为准。
 
-## 先分清四件事
+## 先分清四笔不同的费用
 
-**产品**是你打开的应用；**模型**是其中执行任务的系统；**订阅**决定可用功能和额度；**API**是程序调用入口。付费提升的是访问条件或用量，不能保证每个结论正确。
+产品是你打开的软件，模型在其中处理任务。订阅通常提供一段时间的功能与用量；API 则供软件或程序调用，常按实际用量收费。一个客户端还可能有自己的会员费。因此，付了工具会员，不一定已购买相应 API 用量。
 
-## 当前选购参考
+普通文本练习先用现有免费额度。想读几篇论文、改一段结果，通常先试任务比先买高档套餐更容易判断值不值。
 
-窄屏可横向滚动下表。
+## 人民币方案：聊天、文件与代码分别看
 
 ::: {.wide-table}
 
-| 产品 | 免费起点 | 日常付费 | 高频使用 |
-|---|---|---|---|
-| ChatGPT | 可做对话、搜索、文件与数据任务，工具有各自额度 | Plus：$20/月 | Pro 100 / 200 / 500：分别 $100 / $200 / $500/月；额度与部分功能不同 |
-| Claude | 可对话、搜索、创建文件和运行代码，有用量限制 | Pro：$20/月；年付 $200 一次支付 | Max 5x：$100/月；Max 20x：$200/月 |
-| Google AI / Gemini | 免费账号有 Gemini 与 Gemini Notebook 的基础访问 | AI Plus：$4.99/月；AI Pro：$19.99/月 | Ultra：$99.99/月（5x）或 $199.99/月（20x），对比基准为 AI Pro |
+| 产品与地区 | 当前价格参考 | 对科研任务有用的区别 |
+|---|---|---|
+| 千问办公国内个人版 | 免费版 ¥0；标准版月付 ¥98、连续包月 ¥78、年付 ¥823；高级版月付 ¥198、连续包月 ¥158、年付 ¥1,663 | 标准/高级每月套餐积分为 2,000/4,000；免费版无固定月度套餐积分，赠送与登录奖励属限时规则 |
+| Kimi 国内新会员 | Go/Plus/Pro/Max 连续包月分别 ¥49/99/199/699；连续包年总额分别 ¥468/948/1,908/6,708 | Go 含文档、深度研究等，不含 Kimi Code；Plus 及以上含 Code。功能共享月度额度 |
+| WorkBuddy / CodeBuddy 国内个人版 | 体验版免费；标准/高级/旗舰月付 ¥99/199/999；连续包月 ¥70/140/700 | 同一账号共享积分；基础月积分为 500/2,000/4,000/20,000，限时赠送另计 |
+| DeepSeek API | 按 tokens 与所用接口计费，见[算例](08-api-costs.qmd) | 给 Chatbox、翻译或脚本调用；与官网聊天分开 |
 
 :::
 
-官方依据：[ChatGPT Free](https://help.openai.com/en/articles/9275245-chatgpt-free-tier-faq)、[Plus](https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus)、[Pro 档位](https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers)、[Claude 定价](https://claude.com/pricing)、[Claude Max](https://support.claude.com/en/articles/11049741-what-is-the-max-plan)、[Google 美国方案](https://gemini.google/us/subscriptions/?hl=en)。
+依据：[千问办公个人权益](https://help.aliyun.com/zh/qwenwork/personal-benefits)、[Kimi 当前价格](https://www.kimi.com/help/membership/membership-pricing)、[WorkBuddy/CodeBuddy 定价](https://www.codebuddy.cn/docs/ide/Account/pricing)。千问普通聊天与千问办公是不同入口，不能把办公价格套到聊天产品上。
 
-各家的倍数、额度窗口与工具限制不可横向相乘比较。达到限制时先看账号提示的重置时间，不要把“升级”理解为所有功能无限使用。
+Kimi 旧套餐 Andante 等名称仍可能出现在老账号中。官方明确保留旧套餐规则：旧套餐的 Code 有滚动 5 小时及周限额；新套餐 Plus 及以上保留 5 小时窗口、取消周限额，仍受共享月度额度约束。购买时先确认自己看到的是哪套方案。
 
-## 把预算花在已经遇到的问题上
+## 美元网页方案：约 20、100 美元与更高用量
 
-- **免费开始**：每周几个小任务，正在学习提问与判断输出。先做本站六类练习。
-- **每月约 $20**：已经常用，文件或高级功能限制反复打断工作。选一个最贴近自己任务的产品试一个月。
-- **每月约 $100**：日常付费额度仍经常不够，或特定功能能明显缩短工作时间。先记录一周任务、限制和耗时，再决定。
-- **更高预算**：密集研究/代码任务确有稳定需求时再评估。团队管理、机构数据要求与个人高额度是不同采购问题。
+以下是个人方案美元标价，Google 使用美国页面。
 
-价格高低不能代替在同一批材料上的比较。可以用同一篇已获许可的论文、同一张合成结果表试用，比较遗漏、改正成本与保存产物的便利程度。
+::: {.wide-table}
 
-## API 是否另外付费
+| 产品 | 免费起点 | 日常付费 | 高频方案 |
+|---|---|---|---|
+| ChatGPT | 基础对话及有额度限制的工具；Work/Codex 开放范围看账号 | Go $8/月；Plus $20/月 | Pro $100、$200 或 $500/月 |
+| Claude | 免费对话及方案列出的基础功能 | Pro $20/月；年付一次 $200 | Max 5x $100/月；Max 20x $200/月 |
+| Google AI / Gemini | Gemini 与 Gemini Notebook 基础访问 | AI Plus $4.99/月；AI Pro $19.99/月 | Ultra $99.99/月（相对 Pro 5x）或 $199.99/月（20x） |
 
-OpenAI 的 ChatGPT 与 API 分开管理账单，Plus/Pro 不是 API 余额。[官方账单说明](https://help.openai.com/en/articles/9039756-managing-billing-for-chatgpt-and-the-api-platform)。
+:::
 
-Claude 需要单独说明：当前 Max 5x / 20x 分别附带每月 $100 / $200 API credits，需订阅满至少 7 天后按指引领取到关联的 Console 组织；每个账期到期，未用不累积。这不是交互式 Claude Code 或订阅额外用量的通用余额。资格、领取和适用范围见[官方 API credits 说明](https://support.claude.com/en/articles/17154008-monthly-api-credits-for-max-and-team-plans)。
+依据：[ChatGPT / Codex 定价](https://learn.chatgpt.com/docs/pricing)、[Claude 定价](https://claude.com/pricing)、[Google 美国方案](https://gemini.google/us/subscriptions/?hl=en)。各家的“倍数”与限额窗口不能横向直接比较。ChatGPT Work 与 Codex 共享用量；Free/Go 的桌面能力受开放进度影响。
 
-其他产品同样要查看具体条款，不能推定“会员包含 API”或“会员永远不含 API”。API 成本估算见[按量计费](08-api-costs.qmd)。
+## 怎样花第一笔钱
 
-## 续费、取消与退款
+- **先用免费额度**：完成一项文本任务，再试一次文件任务，看看实际卡在哪里。
+- **日常订阅或约 $20/月**：每周反复使用，文件、较强模型或用量限制经常打断工作。优先选一个产品试一个月。
+- **约 $100/月**：较低档位已持续不够用，或某项高用量任务确实值得。记录一周完成的工作与耗时，再比较升级收益。
+- **更高预算**：适合需求稳定的密集任务。团队权限、机构数据规则和个人用量是不同的购买理由，先核对实际需求。
 
-购买时记下账号、购买渠道、月付/年付、下一次扣款日和金额。月付与“按月折算的年付价”不同；后者可能一次收取全年费用。
+想学 vibe coding，可先用已有 Codex 或 Qwen Code 入口。Cursor 的[当前方案页](https://cursor.com/pricing)另列其订阅与第三方模型收费，不应按其他工具的 $20 档推定。第一次的单文件网页可以离线运行，运行它本身不消耗模型额度。
 
-取消应在原购买渠道办理：网页购买查账号账单设置，应用内购买查 Apple / Google Play 的订阅管理。**卸载应用不等于取消订阅；取消也不等于退款。**
+## 订阅是否包含 API
 
-具体步骤：[ChatGPT](https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers)、[Claude](https://support.claude.com/en/articles/8325617-cancel-your-pro-or-max-subscription)、[Google One](https://support.google.com/googleone/answer/9056360?hl=en)。Claude 要求至少提前 24 小时取消以避免下一次扣款；Google 方案降级还应检查云存储用量。取消后保留确认记录，并确认页面显示的到期日。
+ChatGPT 订阅与 OpenAI API 账单分开；用 ChatGPT 登录 Codex 的方案额度也不同于 API 余额。[官方定价说明](https://learn.chatgpt.com/docs/pricing)。
 
-还没有账号，回到[注册与地区](accounts.qmd)；已能对话，直接开始[免费文本练习](method-learning.qmd)。
+Claude Max 5x/20x 当前分别附带每月 $100/$200 API credits，需符合资格、订阅满七天并关联 Console 组织领取，当期未用不结转；这与交互式订阅额度的使用范围不同。[领取与适用范围](https://support.claude.com/en/articles/17154008-monthly-api-credits-for-max-and-team-plans)。
+
+GLM Coding Plan、阿里云 Token Plan 等面向指定调用环境，不能当作所有程序通用的 API 包月。具体配置见[代码助手](10-code-agent.qmd)与[GLM 页](../products/glm.qmd)。
+
+## 自动续费、取消与退款
+
+月付、连续包月和“年付折合每月”分别看。年付可能一次扣除全年金额。购买时记下账号、原购买渠道和下一次扣款日。
+
+| 产品 | 取消入口 |
+|---|---|
+| ChatGPT | 按[官方取消说明](https://help.openai.com/en/articles/7232927-canceling-your-chatgpt-subscription)在网页订阅设置或原应用商店办理 |
+| Claude | 按[官方说明](https://support.claude.com/en/articles/8325617-cancel-your-pro-or-max-subscription)在原渠道办理，至少提前 24 小时避免下次扣款 |
+| Google One / AI | 按[取消会员说明](https://support.google.com/googleone/answer/9056360?hl=en)办理，降级时同时检查云存储使用量 |
+| Kimi | 设置 → 订阅管理；也可按原扣费渠道管理，见[取消自动续费](https://www.kimi.com/help/membership/membership-cancel-subscription) |
+| 千问办公、WorkBuddy | 从账号用量/订阅页找到原订单与续费设置；按结算所示支付渠道管理，保留关闭续费的确认 |
+
+卸载应用不会取消订阅；取消续费与申请退款是两件事。办理后查看到期日期，再决定是否继续使用当前周期额度。

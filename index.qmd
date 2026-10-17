@@ -1,37 +1,39 @@
 ---
 title: "心理学研究者的 AI Start Guide"
-subtitle: "开通一个合适的工具，完成一项真实研究任务"
+subtitle: "选好工具，跟着材料，把一项研究工作做完"
 ---
 
-这是《心理学研究的 AI 进阶手册》的动态配套指南。适合刚开始系统使用 AI、没有 API 或编程基础的心理学与社会科学研究者。
+你也许已经用豆包改过句子、问过 DeepSeek，或请千问解释过概念。往前再走一步，AI 还能陪你读一组论文、检查实验题目、整理结果、生成报告，甚至做一个可以点击的小工具。
 
-## 还没开始使用：先选入口和预算
+这份指南把这些工作拆成可以跟做的步骤：**打开哪个产品，交给它什么材料，怎样检查结果，以及下一轮从哪里继续。** 无需先掌握编程或 API。
 
-从 [注册、地区与设备](chapters/accounts.qmd) 开始，再看 [免费与付费怎么选](chapters/budget.qmd)。已有账号就直接做下面的练习。
+## 还没选好工具：从账号与预算开始
 
-**第一周只需要一个可用的 AI 账号、一个本地文件夹，以及你已有的文献管理和统计工具。**
+[注册、地区与设备](chapters/accounts.qmd)介绍国内与国际产品的官方入口；[免费与付费怎么选](chapters/budget.qmd)比较人民币方案、约 20 美元及更高预算。已有账号，就从下面选一项工作。
 
-## 已有账号：按今天的任务开始
+## 先做一个短练习
 
-| 今天想完成什么 | 本站练习 | 完成后留下什么 |
+| 今天想试什么 | 打开教程 | 完成后留下什么 |
 |---|---|---|
-| 学懂一个研究方法 | [30 分钟理解个体内与个体间](chapters/method-learning.qmd) | 六行数据、自己的解释、一题迁移练习 |
-| 读懂手里的论文 | [三篇论文的比较阅读](chapters/04-reading-papers.qmd) | 带原文位置的比较表 |
-| 探索陌生领域 | [Deep Research 与文献探索](chapters/05-deep-research.qmd) | 三篇核实过的文献和下一轮问题 |
-| 处理数据、制作图表 | [从 CSV 到可检查结果](chapters/data-analysis.qmd) | 汇总表、图、计算步骤 |
-| 写一段可信的结果 | [从结果表到学术文字](chapters/academic-writing.qmd) | 可逐句回到证据的文字 |
-| 明天接着做同一项目 | [建立持续研究空间](chapters/03-project-workspace.qmd) | 一页当前状态和下一步 |
+| 让 AI 陪我学方法 | [六行数据与一次迁移练习](chapters/method-learning.qmd) | 自己能解释的例子 |
+| 把一张表变成文字 | [两轮结果报告](chapters/academic-writing.qmd) | 数字段、比较段与采用决定 |
+| 看看 AI 怎样帮忙读访谈 | [六段文字的不同读法](chapters/qualitative-research.qmd) | 原话依据、修改后的解释 |
+| 做出一个能点的小工具 | [vibe coding 入门](chapters/vibe-coding.qmd) | 可在电脑本地打开的网页 |
 
-[普通对话怎么提问](chapters/02-chat-first-task.qmd) · [完整任务选择表](chapters/01-task-map.qmd)
+## 把几个环节接起来
 
-## 需要代码或批量处理时再打开
+**从文献走到设计。** [三篇论文比较](chapters/04-reading-papers.qmd) → [围绕缺口继续检索](chapters/05-deep-research.qmd) → [检查短文、题目和条件列表](chapters/research-design.qmd)。每一步都带着上一项产物继续。
 
-[代码代理](chapters/10-code-agent.qmd)可以从一个教学文件夹开始；[API 批处理](chapters/09-api-research-script.qmd)适合重复调用和保存运行记录；[工作 Agent](chapters/11-work-agent.qmd)适合有明确输入与产物的多步任务。这些都是可直接进入的选项。
+**从结果走到持续工作。** [两轮报告](chapters/academic-writing.qmd) → [保存当前状态、换对话继续](chapters/03-project-workspace.qmd) → [让 Agent 生成实际文件](chapters/11-work-agent.qmd) → [运行与恢复](chapters/10-code-agent.qmd)。同一张确认结果表贯穿整条路线。
 
-## 产品和方法分别去哪找
+**从访谈原话走到解释。** [定位片段、比较读法、寻找反例、修改解释](chapters/qualitative-research.qmd)，最后保留研究者自己的阅读记录与后续问题。
 
-[产品速查](products/index.qmd)提供当前入口和适用任务。价格集中在[预算页](chapters/budget.qmd)，每条动态信息以所在页面的核查日期为准。
+## 需要具体产品、接入和下载
 
-方法选择、研究判断和长期工作流见[主手册 v1.2](https://How-Tze.github.io/psych-ai-research-handbook/)。本站教学数据均为合成数据；真实研究材料先按[隐私页](chapters/12-privacy.qmd)判断是否可以上传。
+[产品速查](products/index.qmd)包括千问、DeepSeek、Kimi、豆包、ChatGPT、Claude、Gemini、WorkBuddy、Cursor，以及文献工具组合。[接入教程](chapters/tool-connections.qmd)说明附件、网盘连接、API 与 Skill 分别怎么用。
 
-当前版本：**v0.11（2026-10-13）**。新增教程、核查方式与未实测项见[版本说明](docs/versioning.qmd)。
+先试[六行 CSV](examples/learning/within-between.csv)或[可直接打开的小工具](examples/vibe-coding/data-viewer.html){target="_blank"}。完整研究案例使用[主手册 v1.3 固定教学包](https://github.com/How-Tze/psych-ai-research-handbook/releases/download/v1.3/psych-ai-research-handbook_v1.3_materials.zip)，各教程会说明本次打开哪些文件。
+
+研究方法、判断依据与长期工作流见[主手册 v1.3](https://How-Tze.github.io/psych-ai-research-handbook/)。本站负责当前产品与实际操作，产品事实按页面日期核查；真实研究材料的使用先查看[资料与设置](chapters/12-privacy.qmd)。
+
+本地预览：**v0.12 完整候选（2026-10-17）**。当前公开版仍为 v0.11；本轮新增内容、核查方式和未实测范围见[版本说明](docs/versioning.qmd)。

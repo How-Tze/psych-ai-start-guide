@@ -16,6 +16,9 @@ project:
     - /examples/api-batch/input_responses.csv
     - /examples/api-batch/requirements.txt
     - /examples/api-batch/README.md
+    - /examples/vibe-coding/data-viewer.html
+    - /examples/vibe-coding/research-viewer.zip
+    - /examples/vibe-coding/README.md
 website:
   title: "心理学研究者的 AI Start Guide"
   description: "开通与选购、科研任务教程，以及按需使用的 API 和代码代理。"
@@ -56,12 +59,16 @@ website:
             - chapters/method-learning.qmd
             - chapters/04-reading-papers.qmd
             - chapters/05-deep-research.qmd
+            - chapters/research-design.qmd
             - chapters/data-analysis.qmd
             - chapters/academic-writing.qmd
             - chapters/03-project-workspace.qmd
+            - chapters/qualitative-research.qmd
         - section: "代码、API 与多步任务（按需）"
           contents:
             - chapters/10-code-agent.qmd
+            - chapters/vibe-coding.qmd
+            - chapters/tool-connections.qmd
             - chapters/06-api-basics.qmd
             - chapters/07-api-first-setup.qmd
             - chapters/08-api-costs.qmd
@@ -81,8 +88,11 @@ website:
             - products/deepseek.qmd
             - products/kimi.qmd
             - products/qwen.qmd
+            - products/doubao.qmd
             - products/glm.qmd
             - products/workbuddy.qmd
+            - products/cursor.qmd
+            - products/research-tools.qmd
         - docs/versioning.qmd
 format:
   html:

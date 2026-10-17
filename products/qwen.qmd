@@ -1,44 +1,23 @@
 ---
-title: "Qwen / 通义千问"
+title: "千问、千问办公与 Qwen Code"
 ---
 
-<span class="last-checked">最后核查：2026-09-16 · 第一轮官方资料审计</span>
+最后核查：**2026-10-17**。普通聊天、办公和代码工具各有入口，可按任务选择。
 
-## 它是什么
+## 先用千问做一次文本任务
 
-国内通用模型、Deep Research、API 与开源 Qwen Code 生态。
+打开[千问](https://www.qianwen.com/)，完成登录，在新对话中粘贴[六行数据](../examples/learning/within-between.csv)，请它按人整理压力和睡眠困难的变化。然后自己解释，再请它指出遗漏。完整问法见[方法学习](../chapters/method-learning.qmd)。
 
-## 什么时候值得打开
+同一个聊天入口也适合比较设计方案、逐段阅读合成访谈、修改结果文字。需要具体材料时，直接使用[研究设计](../chapters/research-design.qmd)或[质性练习](../chapters/qualitative-research.qmd)。
 
-- 国内环境下使用通用对话和 Deep Research；
-- 使用阿里云 Model Studio / DashScope API；
-- 想尝试开源 Code Agent / Harness；
-- 需要理解普通 API 与 Coding Plan 的差别。
+## 要交付文件：千问办公（QwenWork）
 
-## 它和 API / Harness 的关系
+国内网页版为 [qwenwork.cn/signin](https://qwenwork.cn/signin)，使用钉钉账号登录；也可从电脑端钉钉左侧的千问办公进入，或从官网下载桌面客户端。[国内快速开始](https://help.aliyun.com/zh/qwenwork/quickstart/)。国际版使用 [qwenwork.ai/signin](https://qwenwork.ai/signin)，登录与账号关联按[国际版指南](https://www.alibabacloud.com/help/zh/qwenwork/qwenwork-intro)办理。两套账号与订阅条件分别查看。
 
-Qwen 模型/API 是模型服务；Qwen Code 是 Agent/Harness。二者可以组合，Qwen Code 也可接其他 Provider。
+第一次可以上传一张确认结果表，要求生成组会报告；在交付物卡片中预览、下载，再继续要求修改。[文件、网盘与交付物](https://www.alibabacloud.com/help/zh/qwenwork/documents-web-trays-and-deliverables)解释这些入口；本站[工作 Agent 教程](../chapters/11-work-agent.qmd)提供完整任务。先查看账户当前可用额度，再安排较长的文件任务。
 
-| 能力 | 本册当前判断 |
-|---|---|
-| 普通对话 | ✓ |
-| Deep Research | ✓ |
-| API | ✓ |
-| Code Agent | ✓ Qwen Code |
-| 中国大陆直接可用性 | ✓ |
-| 普通 API / Coding Plan | 属于不同使用与计费路径，不能混为一谈 |
+## 要写程序：Qwen Code
 
-## 第一次推荐任务
+Qwen Code 是在终端或编辑器中工作的代码助手。安装后选择模型服务，打开教学目录，就可以要求它读文件、写脚本和运行检查。它可以连接阿里云，也可以使用文档列出的第三方提供商。
 
-如果你准备使用 Qwen Code，先只完成认证和环境诊断，弄清“普通 API Key、Coding Plan Key、Provider”分别是什么，再进入真实项目。
-
-## 最重要的限制
-
-不要默认“一个 Qwen Key 到处都能用”。普通 API 与 Coding Plan 的接口、用途和计费可能不同，具体以当时官方文档为准。
-
-## 官方来源
-
-- [Qwen](https://qwen.ai/)
-- [Qwen Code](https://github.com/QwenLM/qwen-code)
-- [Qwen Code on Model Studio](https://help.aliyun.com/zh/model-studio/qwen-code)
-- [DashScope API](https://help.aliyun.com/en/model-studio/qwen-api-via-dashscope)
+按[官方概述](https://qwenlm.github.io/qwen-code-docs/zh/users/overview/)安装，按[认证说明](https://qwenlm.github.io/qwen-code-docs/zh/users/configuration/auth/)选择 Token Plan、标准 API Key 或其他服务商。聊天会员与这些调用入口分别计费。具体起步见[Qwen Code 路线](../chapters/10-code-agent.qmd)。

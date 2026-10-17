@@ -2,18 +2,21 @@
 title: "按任务选择：今天该打开什么"
 ---
 
-直接选择当前任务，不需要按顺序学习所有工具。
+从要完成的工作进入，再看产品步骤。你可以只做一个短练习，也可以把几个环节连起来。
 
-| 任务 | 最小入口 | 何时增加工具 |
+| 今天的任务 | 教程与材料 | 可以接着做什么 |
 |---|---|---|
-| 学一个概念 | [普通对话与方法练习](method-learning.qmd) | 需要反复模拟或运行计算时，用数据工具 |
-| 读手中论文 | [文件对话与阅读表](04-reading-papers.qmd) | 来源多、要反复定位时，使用来源型阅读环境 |
-| 找新文献 | [搜索或 Deep Research](05-deep-research.qmd) | 形成正式综述时另做检索方案、数据库检索与筛选记录 |
-| 数据汇总与图表 | [CSV 练习](data-analysis.qmd) | 多文件、重复运行时用本地脚本或代码代理 |
-| 学术写作 | [结果表与原段落](academic-writing.qmd) | 长项目需要当前材料和修改记录 |
-| 持续推进项目 | [一页项目状态](03-project-workspace.qmd) | 反复搬运文件时再建产品项目空间 |
-| 修订代码 | [代码代理](10-code-agent.qmd) | 允许读写、运行之前确认输入与产物 |
-| 重复处理很多条文本 | [API 批处理](09-api-research-script.qmd) | 先以两条输入验证格式和费用 |
-| 多步跨文件工作 | [工作 Agent](11-work-agent.qmd) | 用明确交付物与停止条件约束范围 |
+| 学会解释一个方法 | [六行数据](method-learning.qmd)，普通文本对话 | [生成汇总表与图](data-analysis.qmd) |
+| 读懂几篇论文 | [三篇背景音乐论文](04-reading-papers.qmd) | [找缺少的证据](05-deep-research.qmd) |
+| 把问题变成设计材料 | [八段短文与条件列表](research-design.qmd) | 材料修改、试做与记录 |
+| 写清已有结果 | [同表两轮报告](academic-writing.qmd) | [项目续接](03-project-workspace.qmd) |
+| 发展质性解释 | [两人六段合成访谈](qualitative-research.qmd) | 寻找反例、修订阅读记录 |
+| 让 AI 直接生成文件 | [工作 Agent](11-work-agent.qmd) | 修改第二版、保存状态 |
+| 写脚本、重复运行与恢复 | [Codex / Qwen Code](10-code-agent.qmd) | 检查输入、重做报告 |
+| 做一个研究小工具 | [vibe coding](vibe-coding.qmd) | 本地打开、点击检查、再改一轮 |
+| 连接网盘或工具 | [附件、连接器、API、Skill](tool-connections.qmd) | 先读一份教学文档 |
+| 批量处理文本 | [两条起步的 API 脚本](09-api-research-script.qmd) | 保存响应、检查、继续运行 |
 
-产品入口和付费选择见[开通](accounts.qmd)、[预算](budget.qmd)与[产品速查](../products/index.qmd)。模型、产品、订阅和执行环境会共同影响结果，没有单一“最强工具”可以替代任务判断。
+只想选产品，查看[速查表](../products/index.qmd)；需要注册与付费信息，查看[账号](accounts.qmd)和[预算](budget.qmd)。
+
+三条连续练习的关系是：文献比较帮助确定缺口，缺口带出设计问题；确认结果进入报告，报告与决定进入项目说明；访谈解释在原话和反例之间修改。工具跟着这些任务变化。

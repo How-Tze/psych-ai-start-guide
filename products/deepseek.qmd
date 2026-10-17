@@ -1,19 +1,25 @@
 ---
-title: "DeepSeek"
+title: "DeepSeek：聊天、桌面文件工作与 API"
 ---
 
-最后官方核查：**2026-10-13**。历史控制台实测日期：**2026-09-16**；两者不混为当前付费实测。
+最后核查：**2026-10-17**。从 [DeepSeek 官网](https://www.deepseek.com/)可以进入聊天、App、API 与 Harness。
 
-从 [DeepSeek 官网](https://www.deepseek.com/)进入网页对话或官方 App。第一次直接粘贴[方法练习](../chapters/method-learning.qmd)的六行数据；熟悉后再决定是否需要 API。
+## 先用聊天完成一项研究任务
 
-## API 是另一条入口
+进入官方网页对话，登录后新建会话，把[六段合成访谈](../chapters/qualitative-research.qmd)粘进去。先请它保留编号逐段阅读，再让它找一段不符合你初步解释的文字。保存阅读记录，下次从这份记录继续。
 
-当前官方文档给出 Base URL 为 https://api.deepseek.com，模型别名 deepseek-flash 当前对应 DeepSeek-V4.1-Flash。费用示例见[按量计费](../chapters/08-api-costs.qmd)，完整教学文件见[批处理练习](../chapters/09-api-research-script.qmd)。
+这个任务适合体验 AI 怎样帮助你改变思路。也可以用[研究设计练习](../chapters/research-design.qmd)检查一道题的答案依据，无须先配置 API。
 
-## 账户操作的历史经验
+## 想让它操作文件：DeepSeek Harness（预览版）
 
-2026-09-16 的项目实测记录确认了创建 Key、控制台用量查看、支付宝/微信支付/对公汇款及自定义充值金额。当时预设从 ¥10 起，不能据此推断绝对最低充值额。**这些是有日期的历史观察，当前支付方式仍需登录官方控制台确认。**
+[官方下载页](https://www.deepseek.com/harness/)提供 Windows 64 位和 macOS Apple 芯片版本。Harness 在这里指把模型与文件、命令、插件连接起来的工作软件；它能开展多步文件任务，目前标记为预览版。
 
-本站本轮没有重新开户、充值或调用付费 API，也未将未经复核的文件/项目功能列为稳定能力。
+第一次先建立一个教学目录。官方[Web UI 快速开始](https://deepseek-harness.github.io/deepseek-harness/guide/quickstart)说明：在设置 → 模型中配置 DeepSeek API Key，再选择工作区后开始会话。这份指南针对 Web UI；桌面端安装从下载页开始，遇到不同界面时以相应版本说明为准。
 
-官方依据：[官网](https://www.deepseek.com/)、[模型与价格](https://api-docs.deepseek.com/zh-cn/quick_start/pricing/)。
+配置好后先让它列出教学目录，再执行[两轮报告任务](../chapters/10-code-agent.qmd)。检查实际文件和数字，再让它修改第二版。需要确认 API 余额、调用费用和目录授权；聊天登录本身不提供 API 余额。
+
+## 已经有工具，想接入 DeepSeek
+
+可以在 [Chatbox](../chapters/07-api-first-setup.qmd)中选择 DeepSeek，填入自己的 API Key；也可以让沉浸式翻译使用该 API 处理英文材料。费用由开放平台记录，用小段公开文本做一次验证即可。
+
+当前 API 文档将 `deepseek-flash` 指向 DeepSeek-V4.1-Flash-1017。模型别名可能更新，批处理研究应记录调用日期、请求模型和返回信息。价格及 Search/Fetch 生效日期见[费用页](../chapters/08-api-costs.qmd)与[官方价格表](https://api-docs.deepseek.com/zh-cn/quick_start/pricing/)。

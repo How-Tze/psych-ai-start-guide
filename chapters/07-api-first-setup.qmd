@@ -1,31 +1,39 @@
 ---
-title: "第一次配置自己的 API：不写代码也能开始"
+title: "第一次配置自己的 API：接进 Chatbox 或翻译工具"
 ---
 
-**目标：** 用自己的 API Key 接入一个现有工具，并知道请求在哪里计费。核查日期：2026-10-13，依据官方文档；本轮没有重新充值或发起付费翻译。
+核查日期：**2026-10-17**。API Key 是软件调用模型服务的凭证。本页用 DeepSeek 做两条小练习：在 Chatbox 对话，或在沉浸式翻译中读一小段英文。先确认开放平台余额与费用，调用可能产生收费。
 
-## 路线 A：DeepSeek API → 沉浸式翻译
+## 先取得服务商的凭证
 
-准备官方 DeepSeek 账号、可用 API 余额与官方沉浸式翻译扩展。客户端或插件组织请求，DeepSeek API 执行模型调用；软件订阅与模型 API 费用需分别确认。
+从 [DeepSeek 官网](https://www.deepseek.com/)进入 API 开放平台，用自己的账号登录，在 Key 管理中创建本次练习专用 Key，保存到密码管理器或工具的密钥栏。检查 API 余额与用量入口。
 
-1. 从 [DeepSeek 官网](https://www.deepseek.com/)进入官方开放平台，在 Key 管理中创建专用于本练习的 Key。
-2. 从[沉浸式翻译官方安装入口](https://immersivetranslate.com/zh-TW/docs/installation/)取得扩展。
-3. 按[官方 DeepSeek 配置说明](https://immersivetranslate.com/zh-TW/docs/services/deepseek/)在服务设置中填写自己的 Key；如需选择模型，以 [DeepSeek 当前模型文档](https://api-docs.deepseek.com/zh-cn/quick_start/pricing/)为准。
-4. 只翻译一小段允许处理的公开英文材料，检查输出是否保留术语和否定表达。
-5. 回到官方 API 用量页确认请求与消费；若无法确认调用是否记在自己的 API 账户，先停止扩大使用量。
+网页聊天、客户端会员和 API 账户余额分别管理。Key 不放进研究稿件、普通聊天或截图；不再使用时可以在控制台撤销。
 
-如果设置失败，依次检查当前选择的是自带 Key 路线还是托管订阅、Key 是否有效、账户是否有余额、模型与入口是否匹配。不要把含 Key 的截图交给陌生人排错。
+## 路线 A：Chatbox → DeepSeek
 
-2026-09-16 的项目记录包含界面配置和既有使用经验；它不等于本轮在当前版本完成了一次付费请求。网页对话和插件翻译都能满足任务时，继续使用熟悉的入口即可。
+1. 从 [Chatbox 官方指南](https://chatboxai.app/zh/guide/byok)进入下载安装，打开设置。
+2. 在“模型提供方”中选 DeepSeek，将自己的 Key 填入 API Key 栏。
+3. 点击“检查”，连接成功后在模型列表选择当前可用模型。
+4. 新建对话，发一句：“请把‘个体内变化’解释给第一次做日记研究的同学，给一个例子。”
+5. 查看返回结果，再到 DeepSeek 用量页确认这次调用；开始大批量使用前先估算费用。
 
-## 路线 B：BYOK 客户端
+操作依据：[Chatbox 的 DeepSeek 配置](https://chatboxai.app/zh/guide/byok/deepseek)。BYOK 表示“自带 API Key”，与 Chatbox AI 托管订阅服务是两条路线。
 
-BYOK 是“自带 API Key”。在客户端的设置中选择服务商，填入该服务商的 Key，再选择其支持的模型。[Chatbox 官方 BYOK 文档](https://chatboxai.app/zh/guide/byok)介绍这一关系和各服务商配置入口；本文不要求你额外安装它。
+## 路线 B：DeepSeek → 沉浸式翻译
 
-客户端、API 服务商和模型是三个不同对象。直连 API 也不能自动证明某项研究数据适合上传；正式材料仍需按机构规则判断。
+从[官方安装入口](https://immersivetranslate.com/zh-TW/docs/installation/)安装浏览器扩展。在服务设置中按[DeepSeek 配置说明](https://immersivetranslate.com/zh-TW/docs/services/deepseek/)选择自带 Key 路线，填入凭证；模型名按[当前官方模型页](https://api-docs.deepseek.com/zh-cn/quick_start/pricing/)选择。
 
-## 路线 C：直接进入批处理
+先翻译一小段公开英文摘要。对照原文检查术语、否定词与比较对象，再去 API 用量页查看请求。工具内订阅模型与自带 Key 的计费位置不同，先确认自己选的是哪条路线。
 
-已有重复处理需求，可直接进入[两条合成文本起步的批处理教程](09-api-research-script.qmd)，不必先装翻译插件或客户端。
+## 配置失败时按什么顺序检查
 
-Key 相当于能产生费用的凭证：不放进聊天、截图或代码；练习结束后可在控制台撤销。费用如何估算见[按量计费](08-api-costs.qmd)。
+| 提示或现象 | 优先检查 |
+|---|---|
+| Key 验证失败 | 是否为 DeepSeek 开放平台 Key，是否复制完整、已撤销或填错服务商 |
+| 余额/额度不足 | 查 API 余额，不是网页聊天会员状态 |
+| 模型不存在 | 刷新列表，与服务商当前模型名核对 |
+| 连接超时 | 查网络与官方服务状态，避免反复启动大任务 |
+| 能聊天但某种工具功能失败 | 分开检查客户端版本、接口格式与工具调用支持 |
+
+需要程序重复处理材料时，继续[两条文本起步的批处理](09-api-research-script.qmd)。费用计算见[API 价格表怎么读](08-api-costs.qmd)。本页依据官方配置文档编写，未发起新的付费请求；统一核查说明见[版本页](../docs/versioning.qmd)。

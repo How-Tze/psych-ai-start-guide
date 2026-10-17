@@ -1,13 +1,19 @@
 ---
-title: "ChatGPT"
+title: "ChatGPT、Work 与 Codex：从对话到文件任务"
 ---
 
-最后核查：**2026-10-13 · 官方文档**。
+最后核查：**2026-10-17**。先检查[所在地与账号条件](../chapters/accounts.qmd)，再从 [ChatGPT](https://chatgpt.com/)登录。
 
-从 [ChatGPT](https://chatgpt.com/)开始。第一次可以做[方法练习](../chapters/method-learning.qmd)，已有论文则做[比较阅读](../chapters/04-reading-papers.qmd)。需要主动查找资料时进入[Deep Research 教程](../chapters/05-deep-research.qmd)。
+## 先做一项短任务
 
-免费文件与分析功能有独立用量限制；付费选择集中见[预算页](../chapters/budget.qmd)。订阅和 OpenAI API 账单分开。
+选择 Chat，粘贴教学结果表，请它起草主分析数字段，再加入比较结果。按[两轮报告教程](../chapters/academic-writing.qmd)核对并保存。已有文件上传能力时，可以直接附上表格和规格。
 
-地区资格与注册见[开通页](../chapters/accounts.qmd)。代码项目另见[代码代理](../chapters/10-code-agent.qmd)。
+## 要得到完整文件：Work
 
-依据：[官方 Free 说明](https://help.openai.com/en/articles/9275245-chatgpt-free-tier-faq)、[账单区别](https://help.openai.com/en/articles/9039756-managing-billing-for-chatgpt-and-the-api-platform)。未做本轮账号开户实测。
+在新任务切换到 Work，描述最后需要的文件，附上输入材料。网页端可以在云端处理任务；桌面端在账号允许时还能选择本地工作目录。生成报告后打开检查，在同一任务中提出第二轮修改。[官方使用说明](https://learn.chatgpt.com/docs/use-chatgpt)、[Work 入门](https://learn.chatgpt.com/docs/get-started-with-work)。
+
+## 要写脚本或小工具：Codex
+
+按[官方快速开始](https://learn.chatgpt.com/docs/quickstart)安装桌面端，登录后在产品选择处切换 Codex，再打开教学文件夹。本站[代码助手](../chapters/10-code-agent.qmd)教你运行已有报告脚本，[小工具教程](../chapters/vibe-coding.qmd)教你从空白做一个网页。
+
+Work 与 Codex 共享方案用量；API Key 调用另按 API 规则计费。Free/Go 的部分桌面能力仍受开放进度影响，具体方案见[官方定价](https://learn.chatgpt.com/docs/pricing)和本站[预算页](../chapters/budget.qmd)。选择入口后先检查账号显示的模型与剩余额度，再安排较长任务。

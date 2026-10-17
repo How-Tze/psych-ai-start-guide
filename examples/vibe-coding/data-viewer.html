@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; connect-src 'none'; img-src 'none'; base-uri 'none'; form-action 'none'">
+<title>六行数据查看器 · AI 研究练习</title>
+<style>
+:root{font-family:system-ui,"Microsoft YaHei",sans-serif;color:#20343d;background:#eef3f2;line-height:1.65}
+*{box-sizing:border-box}body{margin:0}main{max-width:960px;margin:auto;padding:40px 24px 70px}
+.eyebrow{color:#476b68;font-size:.82rem;letter-spacing:.12em}h1{font-size:clamp(1.7rem,4vw,2.6rem);line-height:1.3;margin:12px 0}h2{font-size:1.12rem;margin:0 0 12px}p{margin:10px 0 20px}.muted{color:#52636b}
+.controls{display:flex;flex-wrap:wrap;gap:10px;margin:24px 0}button{font:inherit;padding:9px 18px;border:1px solid #a9bdb9;border-radius:8px;background:white;color:#24423e;cursor:pointer}button[aria-pressed="true"]{background:#205d53;color:white;border-color:#205d53}button:hover{box-shadow:0 0 0 2px #b9d4cc}button:focus-visible,textarea:focus-visible{outline:3px solid #bf690c;outline-offset:3px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px;margin:16px 0 24px}.card,section{background:white;border:1px solid #d9e3df;border-radius:12px;padding:22px}.card h2{color:#205d53}.metrics{display:grid;grid-template-columns:1fr 1fr;gap:16px}.value{display:block;font-size:2rem;font-weight:650}.label{font-size:.9rem;color:#52636b}.table-wrap{overflow-x:auto}table{border-collapse:collapse;width:100%;text-align:left;white-space:nowrap}caption{text-align:left;margin:0 0 10px;font-weight:600}th,td{padding:11px 12px;border-bottom:1px solid #e1e8e5}th{font-weight:600;background:#f2f6f4}td.num{font-variant-numeric:tabular-nums}.copy{margin-top:20px}#message{min-height:1.6em;font-size:.9rem;color:#435d56}textarea{width:100%;font:inherit;padding:12px;border:1px solid #a9bdb9;border-radius:8px;min-height:160px}.note{margin-top:24px;font-size:.9rem}footer{font-size:.82rem;color:#52636b;margin-top:24px}
+@media(max-width:480px){main{padding:24px 16px 40px}.card,section{padding:16px}th,td{padding:9px 8px}.controls button{flex:1;padding:8px 10px}}
+</style>
+</head>
+<body><main>
+<div class="eyebrow">AI START GUIDE / 动手练习</div>
+<h1>把六行数据看清楚</h1>
+<p class="muted">切换一个人或两个人，看看原始记录与均值怎样对应。数据是合成教学示例。</p>
+<div class="controls" role="group" aria-label="选择记录">
+<button type="button" data-person="all" aria-pressed="true">全部</button>
+<button type="button" data-person="A" aria-pressed="false">只看 A</button>
+<button type="button" data-person="B" aria-pressed="false">只看 B</button>
+</div>
+<p id="count" role="status" aria-live="polite"></p>
+<div id="cards" class="cards"></div>
+<section aria-labelledby="table-heading"><h2 id="table-heading">回到每一天的记录</h2>
+<div class="table-wrap"><table><caption>压力与睡眠困难原始值</caption><thead><tr><th scope="col">编号</th><th scope="col">天数</th><th scope="col">压力</th><th scope="col">睡眠困难</th></tr></thead><tbody id="rows"></tbody></table></div>
+<button class="copy" id="copy" type="button">复制当前摘要</button>
+<p id="message" role="status" aria-live="polite"></p>
+<label for="summary">当前摘要（也可手动选择复制）</label><textarea id="summary" readonly></textarea>
+</section>
+<p class="note">每个人的三次记录里，压力上升时睡眠困难分数下降；两人的均值比较中，B 的两项均值都较高。解释时先说清楚比较的是谁、哪几次记录。</p>
+<footer>示范 v1 · 2026-10-17 · 固定六行教学数据 · 无联网请求 · 可双击本地 HTML 打开<br>由《心理学研究者的 AI Start Guide》编写。可修改源码并按教程核对。</footer>
+</main>
+<script>
+'use strict';
+const data=[
+{id:'A',day:1,stress:1,sleep_difficulty:4},
+{id:'A',day:2,stress:2,sleep_difficulty:3},
+{id:'A',day:3,stress:3,sleep_difficulty:2},
+{id:'B',day:1,stress:4,sleep_difficulty:7},
+{id:'B',day:2,stress:5,sleep_difficulty:6},
+{id:'B',day:3,stress:6,sleep_difficulty:5}
+];
+function summarize(rows){
+ return [...new Set(rows.map(r=>r.id))].map(id=>{
+  const group=rows.filter(r=>r.id===id);
+  return {id,n:group.length,stress:group.reduce((a,r)=>a+r.stress,0)/group.length,sleep:group.reduce((a,r)=>a+r.sleep_difficulty,0)/group.length};
+ });
+}
+function render(person){
+ const rows=person==='all'?data:data.filter(r=>r.id===person);
+ const groups=summarize(rows);
+ const label=person==='all'?'全部':`只看 ${person}`;
+ document.querySelectorAll('[data-person]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.person===person)));
+ document.getElementById('count').textContent=`${label} · ${rows.length} 条记录 · ${groups.length} 人`;
+ document.getElementById('cards').replaceChildren(...groups.map(g=>{
+  const card=document.createElement('div');card.className='card';
+  const heading=document.createElement('h2');heading.textContent=`${g.id} 的 ${g.n} 天均值`;
+  const metrics=document.createElement('div');metrics.className='metrics';
+  for(const [label,value] of [['压力',g.stress],['睡眠困难',g.sleep]]){
+   const item=document.createElement('div'),name=document.createElement('span'),number=document.createElement('span');
+   name.className='label';name.textContent=label;number.className='value';number.textContent=value.toFixed(1);item.append(name,number);metrics.append(item);
+  }card.append(heading,metrics);return card;
+ }));
+ document.getElementById('rows').replaceChildren(...rows.map(r=>{
+  const tr=document.createElement('tr');
+  for(const value of [r.id,r.day,r.stress,r.sleep_difficulty]){const td=document.createElement('td');td.className='num';td.textContent=String(value);tr.append(td);}return tr;
+ }));
+ document.getElementById('summary').value=`合成教学数据｜${label}｜${rows.length} 条记录\n`+groups.map(g=>`${g.id}：${g.n} 条，压力均值 ${g.stress.toFixed(1)}，睡眠困难均值 ${g.sleep.toFixed(1)}`).join('\n');
+ document.getElementById('message').textContent='';
+}
+document.querySelectorAll('[data-person]').forEach(b=>b.addEventListener('click',()=>render(b.dataset.person)));
+document.getElementById('copy').addEventListener('click',async()=>{
+ const box=document.getElementById('summary'),message=document.getElementById('message');
+ try{if(!navigator.clipboard)throw new Error('Clipboard unavailable');await navigator.clipboard.writeText(box.value);message.textContent='已复制，可粘贴到笔记中。';}
+ catch{box.focus();box.select();message.textContent='请手动复制下方已选中的摘要。';}
+});
+render('all');
+</script></body></html>

@@ -16,7 +16,7 @@ title: "API 批处理：先用两条合成文本跑通"
 - [离线测试 test_batch_label.py](../examples/api-batch/test_batch_label.py)
 - [操作与恢复说明 README](../examples/api-batch/README.md)
 
-也可以从[仓库](https://github.com/How-Tze/psych-ai-start-guide)选择 Code → Download ZIP，解压后进入 examples/api-batch。候选版尚未发布时，以本预览页的文件为准。
+也可以从[仓库](https://github.com/How-Tze/psych-ai-start-guide)选择 Code → Download ZIP，解压后进入 examples/api-batch。
 
 ## 第 2 步：先离线检查
 
@@ -46,7 +46,7 @@ python batch_label.py --max-calls 2
 Remove-Item Env:DEEPSEEK_API_KEY
 ```
 
-不要把 Key 粘进聊天或保存进脚本。命令至多发两次请求，没有自动重试；这只是数量上限，不是金额封顶。模型默认 deepseek-flash，入口来自 [DeepSeek 官方文档](https://api-docs.deepseek.com/zh-cn/quick_start/pricing/)，核查于 2026-10-13。
+不要把 Key 粘进聊天或保存进脚本。命令至多发两次请求，没有自动重试；这只是数量上限，不是金额封顶。模型默认 deepseek-flash，入口来自 [DeepSeek 官方文档](https://api-docs.deepseek.com/zh-cn/quick_start/pricing/)，核查于 2026-10-17。该别名当前指向 DeepSeek-V4.1-Flash-1017；服务商更新别名后，同一请求模型名也可能得到不同版本的服务，研究运行记录应同时保留日期与返回信息。
 
 ## 第 4 步：查看结果，而不是只看“成功”
 

@@ -1,0 +1,21 @@
+---
+title: "Cursor：在文件旁边和代码助手一起修改"
+---
+
+最后核查：**2026-10-17**。Cursor 是带 AI 助手的代码编辑器。你可以同时看到文件、对话和修改，适合希望慢慢了解程序结构的研究者。
+
+## 从空文件夹做一个小工具
+
+1. 从[官方快速开始](https://cursor.com/docs/get-started/quickstart)下载安装并登录。
+2. 打开一个空文件夹 `research-viewer`，放入本站六行 CSV。
+3. 用 Windows/Linux `Ctrl+I`、macOS `Cmd+I` 打开 Agent 面板。
+4. 提交[vibe coding 教程](../chapters/vibe-coding.qmd)的单文件网页要求。
+5. 在改动视图中查看新增文件，双击 HTML 打开，再根据实际点击结果提出第二轮修改。
+
+需要较大修改时可先切换 Plan Mode，让它说明将改哪些部分。已经知道要改什么，也可以直接给清楚的功能要求。[Agent 概述](https://cursor.com/docs/agent/overview)。
+
+## 运行权限与费用
+
+设置中的 Agents → Approvals & Execution 管理命令和工具执行方式；第一次使用可保留 Auto-review，由界面在需要时请求确认。文件修改要看，命令请求也要读清楚。[运行模式说明](https://cursor.com/docs/agent/security/run-modes)。
+
+当前[定价页](https://cursor.com/pricing)区分免费有限用量、订阅额度和第三方模型按量费用。选择模型时同时检查计费提示，不沿用旧教程中的套餐名称或默认“所有模型都包含”。本页练习生成的网页本身可以离线运行。

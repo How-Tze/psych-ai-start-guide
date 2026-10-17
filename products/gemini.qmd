@@ -1,13 +1,19 @@
 ---
-title: "Gemini / Gemini Notebook"
+title: "Gemini 与 Gemini Notebook：讨论问题和围绕来源阅读"
 ---
 
-最后核查：**2026-10-13 · 官方文档**。
+最后核查：**2026-10-17**。打开 [Gemini](https://gemini.google.com/)，使用符合地区与账号条件的 Google 账号。学校或工作账号还受管理员设置影响，见[账号页](../chapters/accounts.qmd)。
 
-从 [Gemini](https://gemini.google.com/)开始。已有材料时可尝试 [Gemini Notebook](https://support.google.com/gemininotebook/answer/16164461) 的来源阅读；不需要先把材料搬进复杂项目。
+## Gemini：讨论当前任务
 
-第一次建议完成[三篇论文的比较阅读](../chapters/04-reading-papers.qmd)，检验能否回到具体原文。寻找新来源则按[文献探索](../chapters/05-deep-research.qmd)的计划和核实步骤进行。
+在新对话中提供一段研究计划，请它先复述问题、比较两种设计、指出还缺什么信息。最好同时提供一小段具体材料，按[设计教程](../chapters/research-design.qmd)修改一道题，留下可检查的产物。
 
-免费、AI Plus、AI Pro 与 Ultra 的选择见[预算页](../chapters/budget.qmd)；[账号与地区](../chapters/accounts.qmd)区分个人和学校/工作账号。
+## Gemini Notebook：把来源放在一起读
 
-依据：[美国个人方案页](https://gemini.google/us/subscriptions/?hl=en)、[订阅条件与额度](https://support.google.com/gemini/answer/16275805?hl=en-CA)。本站未逐档账号实测。
+Google 当前文档使用 Gemini Notebook 名称，部分旧链接仍使用 NotebookLM。通过[官方来源指南](https://support.google.com/gemininotebook/answer/16215270?hl=en)进入笔记本，新建后添加三篇论文，选择要回答问题的来源。检查引用位置，将有用回答保存为笔记，再导出或复制到自己的项目。[完整比较阅读练习](../chapters/04-reading-papers.qmd)。
+
+在来源搜索处，也可以选择 Web 和 Deep Research，围绕一个问题寻找新材料，再挑选需要导入的来源。导入前看题名与来源，避免把检索报告和原论文混在一起当成同一层证据。
+
+## 什么时候考虑付费
+
+先用免费访问完成一个小笔记本。如果来源数量、文件处理或深度研究额度经常中断任务，再比较 Google AI 方案。美国网页价格与当地购买资格分别见[预算页](../chapters/budget.qmd)和[官方方案](https://gemini.google/us/subscriptions/?hl=en)。连接 Drive 等资料，进入[工具接入教程](../chapters/tool-connections.qmd)。
