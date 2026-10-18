@@ -1,4 +1,7 @@
 lang: zh-CN
+author-workbench-project: guide
+filters:
+  - assets/author-entry/author-entry.lua
 project:
   type: website
   output-dir: _site

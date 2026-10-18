@@ -1,9 +1,15 @@
 # PROJECT STATUS
 
 - 当前公开版本：**v0.12，2026-10-17**；[在线阅读](https://How-Tze.github.io/psych-ai-start-guide/)、[冻结源码与 Release](https://github.com/How-Tze/psych-ai-start-guide/releases/tag/v0.12)。
-- 当前阶段：v0.12 已发布，**DONE**。用户批准的完整候选已通过最终检查、合并、部署与线上验收，见 tasks/RELEASE-v0.12.md。
-- 任务与验收范围：[tasks/ITERATION-v0.12.md](tasks/ITERATION-v0.12.md)。
-- 检查结论：[docs/v0.12-candidate-review.md](docs/v0.12-candidate-review.md)。
+- 当前阶段：**作者模式入口功能发布，IN_PROGRESS（2026-10-18）**。工作台已验收，0.1.1 已更新安装；正文版本保持 v0.12。
+- v0.12 任务与验收范围：[tasks/ITERATION-v0.12.md](tasks/ITERATION-v0.12.md)。
+- v0.12 候选检查结论：[docs/v0.12-candidate-review.md](docs/v0.12-candidate-review.md)。
+
+## 当前作者工作台任务
+
+用户验收 TASK-016，批准主手册 TASK-017 / AW-07：两站公共作者入口、章/节/段落定位、来源识别、隐私检查与修复、安装更新、合并和部署。本指南仅增加 `_quarto.yml` 展示配置及 `assets/author-entry/`，正文与历史资产保持。
+
+共享工具与使用/隐私说明在主手册 `tools/author-workbench/`。38 页入口标识与正文一致性通过，50 份受保护文件无变化，3,092 处本地引用有效。两库入口资源须保持一致；当前准备完成发布验收，最终证据同步到本文件与主手册 TASK-017。
 
 ## v0.12 内容
 

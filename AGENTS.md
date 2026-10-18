@@ -16,6 +16,16 @@ Distinguish products, models, subscriptions, APIs and execution environments whe
 
 The completed v0.12 scope is recorded in PROJECT_STATUS.md and tasks/ITERATION-v0.12.md. On 2026-10-17 the human approved full candidate writing, practical product coverage/integration, basic Agent/vibe coding tutorials, and the subsequent release. Release evidence is in tasks/RELEASE-v0.12.md. Preserve the published v0.12 snapshot, all earlier releases and the separate handbook v1.3; future substantive work requires its own approved scope.
 
+## Private author workbench — public entry, 2026-10-18
+
+The human accepted the private workbench and approved TASK-017 in the handbook repository: AW-07 public entry, chapter/position handoff, necessary privacy fixes, local package update, final QA, main merge and deployment of this feature. Personal edits remain pending drafts for the next authorized iteration. Preserve formal prose, v0.12, the handbook v1.3 and all historical assets. Public comments, cloud sync and content publication remain excluded.
+
+The single design is in the companion handbook repository, `docs/author-workbench-design.md`; the synthesis is `docs/iteration-lessons-2026-10.md`, under TASK-015. Both repositories use `codex/author-workbench` for this release. The shared implementation and usage instructions are in the handbook `tools/author-workbench/`; current status is tracked in TASK-017. Only the small public entry assets are mirrored here; keep those identical across sites. Do not duplicate the installed tool in this repository.
+
+Preserve exact author replacements when integrating them into a later approved task. Distinguish requests from ideas saved for later; notes do not expand task authority. Record integration only with candidate-source evidence, and distinguish it from publication. Private notes, source snapshots and backups stay outside public Git/site output and disposable QA directories.
+
+Begin each authorized content iteration by reading pending records and selecting those within scope before drafting. Preserve unselected ideas and newer revisions; do not require the author to repeat saved feedback in chat.
+
 ## What to optimize for
 
 - A new psychology researcher can decide what to use next.
@@ -188,6 +198,8 @@ Prefer:
 Avoid repetitive rhetorical contrasts, hype language, and excessive English terminology when a stable Chinese term works.
 
 For technical English terms that matter (API, Agent, Harness, BYOK), define once and then use consistently.
+
+Carry forward the v1.3/v0.12 editorial lessons: start with a recognizable research task and concrete product action before introducing terminology; keep detailed examples while showing how materials and outputs connect across steps and revisions. API and Agent remain optional. Give domestic and international products task-based consideration without mechanically repeating or rotating brands. Use Humanizer-zh when available and applicable to remove editorial self-defence and redundant disclaimers while preserving facts and scientific conditions. Keep official-source verification, offline tests and actual account use distinct. Reuse frozen handbook teaching materials and check page paths, heading anchors and downloads when updating.
 
 ## Internal vs public material
 
