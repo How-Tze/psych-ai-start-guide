@@ -16,11 +16,11 @@ Distinguish products, models, subscriptions, APIs and execution environments whe
 
 The completed v0.12 scope is recorded in PROJECT_STATUS.md and tasks/ITERATION-v0.12.md. On 2026-10-17 the human approved full candidate writing, practical product coverage/integration, basic Agent/vibe coding tutorials, and the subsequent release. Release evidence is in tasks/RELEASE-v0.12.md. Preserve the published v0.12 snapshot, all earlier releases and the separate handbook v1.3; future substantive work requires its own approved scope.
 
-## Private author workbench — local trial, 2026-10-18
+## Private author workbench — public entry, 2026-10-18
 
-The human requested a complete technical route and a synthesis of iteration lessons, with necessary governance updates. Personal edits are saved for the next authorized iteration, not live publication. Convenient desktop/page entry is a core requirement. Public comments are excluded. The human subsequently approved TASK-016 in the handbook repository: implementation, installation and local trial of AW-01–06 are authorized. Formal content edits, main merge and deployment remain excluded.
+The human accepted the private workbench and approved TASK-017 in the handbook repository: AW-07 public entry, chapter/position handoff, necessary privacy fixes, local package update, final QA, main merge and deployment of this feature. Personal edits remain pending drafts for the next authorized iteration. Preserve formal prose, v0.12, the handbook v1.3 and all historical assets. Public comments, cloud sync and content publication remain excluded.
 
-The single design is in the companion handbook repository, `docs/author-workbench-design.md`; the synthesis is `docs/iteration-lessons-2026-10.md`, under TASK-015. Both repositories use `codex/author-workbench`. The shared implementation and usage instructions are in the handbook `tools/author-workbench/`; implementation status is tracked in TASK-016. Do not duplicate the tool in this repository.
+The single design is in the companion handbook repository, `docs/author-workbench-design.md`; the synthesis is `docs/iteration-lessons-2026-10.md`, under TASK-015. Both repositories use `codex/author-workbench` for this release. The shared implementation and usage instructions are in the handbook `tools/author-workbench/`; current status is tracked in TASK-017. Only the small public entry assets are mirrored here; keep those identical across sites. Do not duplicate the installed tool in this repository.
 
 Preserve exact author replacements when integrating them into a later approved task. Distinguish requests from ideas saved for later; notes do not expand task authority. Record integration only with candidate-source evidence, and distinguish it from publication. Private notes, source snapshots and backups stay outside public Git/site output and disposable QA directories.
 

@@ -1,17 +1,15 @@
 # PROJECT STATUS
 
 - 当前公开版本：**v0.12，2026-10-17**；[在线阅读](https://How-Tze.github.io/psych-ai-start-guide/)、[冻结源码与 Release](https://github.com/How-Tze/psych-ai-start-guide/releases/tag/v0.12)。
-- 当前阶段：**私人作者工作台本地试用，REVIEW（2026-10-18）**。0.1.0 已实现并安装；正文与公开网站保持 v0.12。
+- 当前阶段：**作者模式入口功能发布，IN_PROGRESS（2026-10-18）**。工作台已验收，0.1.1 已更新安装；正文版本保持 v0.12。
 - v0.12 任务与验收范围：[tasks/ITERATION-v0.12.md](tasks/ITERATION-v0.12.md)。
 - v0.12 候选检查结论：[docs/v0.12-candidate-review.md](docs/v0.12-candidate-review.md)。
 
 ## 当前作者工作台任务
 
-用户批准主手册 TASK-016，授权 AW-01 至 AW-06 实现、安装和本地试用，不含 main 合并或公开部署。两库分支为 `codex/author-workbench`。
+用户验收 TASK-016，批准主手册 TASK-017 / AW-07：两站公共作者入口、章/节/段落定位、来源识别、隐私检查与修复、安装更新、合并和部署。本指南仅增加 `_quarto.yml` 展示配置及 `assets/author-entry/`，正文与历史资产保持。
 
-共享实现与使用说明在主手册 `tools/author-workbench/`；交付检查见其 `docs/author-workbench-trial.md`。桌面入口打开两站私人阅读副本，保存为待合并草稿。批注、随手记、修订恢复、备份和下一轮批次接口已实现；不复制完整工具到本仓库。
-
-本指南 38 页隔离渲染、444 个可编辑段落、3,016 处本地引用检查通过；正文可见文本及本轮保护的 51 份正式文件无变化。历史锚点和公开入口仍随冻结 v0.12 保持。本轮未发布。具体试用边界在共享检查记录中。
+共享工具与使用/隐私说明在主手册 `tools/author-workbench/`。38 页入口标识与正文一致性通过，50 份受保护文件无变化，3,092 处本地引用有效。两库入口资源须保持一致；当前准备完成发布验收，最终证据同步到本文件与主手册 TASK-017。
 
 ## v0.12 内容
 
