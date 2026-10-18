@@ -1,7 +1,7 @@
 # PROJECT STATUS
 
 - 当前公开版本：**v0.12，2026-10-17**；[在线阅读](https://How-Tze.github.io/psych-ai-start-guide/)、[冻结源码与 Release](https://github.com/How-Tze/psych-ai-start-guide/releases/tag/v0.12)。
-- 当前阶段：**作者模式入口功能发布，IN_PROGRESS（2026-10-18）**。工作台已验收，0.1.1 已更新安装；正文版本保持 v0.12。
+- 当前阶段：**作者模式入口功能发布，DONE（2026-10-18）**。两站入口已上线，工作台 0.1.1 已更新安装；正文版本保持 v0.12。
 - v0.12 任务与验收范围：[tasks/ITERATION-v0.12.md](tasks/ITERATION-v0.12.md)。
 - v0.12 候选检查结论：[docs/v0.12-candidate-review.md](docs/v0.12-candidate-review.md)。
 
@@ -9,7 +9,11 @@
 
 用户验收 TASK-016，批准主手册 TASK-017 / AW-07：两站公共作者入口、章/节/段落定位、来源识别、隐私检查与修复、安装更新、合并和部署。本指南仅增加 `_quarto.yml` 展示配置及 `assets/author-entry/`，正文与历史资产保持。
 
-共享工具与使用/隐私说明在主手册 `tools/author-workbench/`。38 页入口标识与正文一致性通过，50 份受保护文件无变化，3,092 处本地引用有效。两库入口资源须保持一致；当前准备完成发布验收，最终证据同步到本文件与主手册 TASK-017。
+共享工具与使用/隐私说明在主手册 `tools/author-workbench/`。38 页入口标识与正文一致性通过，50 份受保护文件无变化，3,092 处本地引用有效。两库入口资源保持一致。
+
+本指南 [PR #5](https://github.com/How-Tze/psych-ai-start-guide/pull/5) 合并为 `09efb7092887731c33eb0032b5139298768ad855`，gh-pages `4edda02905127d6cc5a52e45734dd524113b5dae`，[Pages 运行 39095576252](https://github.com/How-Tze/psych-ai-start-guide/actions/runs/39095576252) 成功。线上 51 个页面与资源均 HTTP 200，并与验收构建一致；两站合计 114 个地址。标签集合、2 个历史 Release 及其附件元数据未变；没有创建新正文版本。
+
+共用工作台 18 项自动化测试通过。安装版启动与定位、桌面入口和 390px 备用弹窗分别验收；自动浏览器访问正式网页发生超时，启动本机应用被浏览器工具策略禁止，未绕过。因此完整网页到应用点击链未完成自动验收。可用正常浏览器确认打开应用，或从“?”复制当前位置后在桌面工作台粘贴。完整检查范围与限制见主手册 TASK-017。
 
 ## v0.12 内容
 
