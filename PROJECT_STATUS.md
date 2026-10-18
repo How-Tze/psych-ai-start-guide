@@ -1,9 +1,17 @@
 # PROJECT STATUS
 
 - 当前公开版本：**v0.12，2026-10-17**；[在线阅读](https://How-Tze.github.io/psych-ai-start-guide/)、[冻结源码与 Release](https://github.com/How-Tze/psych-ai-start-guide/releases/tag/v0.12)。
-- 当前阶段：v0.12 已发布，**DONE**。用户批准的完整候选已通过最终检查、合并、部署与线上验收，见 tasks/RELEASE-v0.12.md。
-- 任务与验收范围：[tasks/ITERATION-v0.12.md](tasks/ITERATION-v0.12.md)。
-- 检查结论：[docs/v0.12-candidate-review.md](docs/v0.12-candidate-review.md)。
+- 当前阶段：**私人作者工作台设计与经验整理，REVIEW（2026-10-18）**。本轮只更新设计与治理，未实施功能或发布。已完成的 v0.12 发布阶段仍为 DONE，见 tasks/RELEASE-v0.12.md。
+- v0.12 任务与验收范围：[tasks/ITERATION-v0.12.md](tasks/ITERATION-v0.12.md)。
+- v0.12 候选检查结论：[docs/v0.12-candidate-review.md](docs/v0.12-candidate-review.md)。
+
+## 当前设计任务
+
+用户确认私人编辑随时保存，进入下一轮集中整合；要求方便的桌面/阅读页入口，暂不考虑公开评论。本轮授权为完整技术路线、经验总结和必要治理更新，不包含实现、安装、main 合并或部署。
+
+共用方案维护在主手册仓库 `docs/author-workbench-design.md`，经验总结为 `docs/iteration-lessons-2026-10.md`，当前任务为 `tasks/TASK-015-author-workbench-design.md`。两库分支均为 `codex/author-workbench-design`。指南只同步适用规则与状态，避免复制完整设计；后续批准实施时沿该设计的 AW-01 至 AW-07 建立执行任务。
+
+当前交付应能说明入口冷启动、可靠保存、私人预览、批注、随手记、下一轮批次整合与冲突恢复。源码映射和启动集成仍待实现验证，不能报告为已有能力。v0.12 正文、页面配置、下载和历史快照保持不变。
 
 ## v0.12 内容
 
